@@ -37,7 +37,7 @@ Owners of the currencies in a liquidity pool on Curve can add liquidity to the p
 
 3CRV is one of the most liquid stablecoin pools in DeFi, consisting of USDC, USDT and DAI. The centralized organizations that control USDC and USDT cannot blacklist 3CRV without destroying the value proposition of their own stablecoins. DAI is a network-native exogenous value convertible stablecoin that is primarily backed by centralized stablecoins.
 
-In practice, Beanstalk never calculates the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates the liquidity and time weighted average shortage or excess of Beans in the BEAN:3CRV pool over the previous Season (i.e., deltaB).
+In practice, Beanstalk never calculates the price of 1 Bean. Instead, at the beginning of each Season, Beanstalk calculates the liquidity and time weighted average shortage or excess of Beans in the BEAN:3CRV pool over the previous Season (i.e., deltaB).
 
 ### **Debt Level**
 
