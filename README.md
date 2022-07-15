@@ -19,4 +19,4 @@ You can find an overview of Beanstalk here:
 
 If you still have questions after browsing the Farmers' Almanac,[ join our Discord](https://discord.gg/beanstalk)! If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [whitepaper](https://bean.money/docs/beanstalk.pdf).
 
-Please share any feedback on the Farmers' Almanac in the **#docs-feedback** channel in Discord and stay tuned for updates in **#docs-updates**. You can submit a pull request to the Farmer’s Almanac yourself **here**.
+Please share any feedback on the Farmers' Almanac in the **#docs-feedback** channel in Discord and stay tuned for updates in **#docs-updates**. You can submit a pull request to the Farmer’s Almanac yourself [**here**](https://github.com/BeanstalkFarms/Farmers-Almanac).
