@@ -48,9 +48,9 @@ The percentage of Ripe assets that can be claimed by Chopping a pro rata portion
 
 Chopped Unripe assets are burned. Beans and BEAN:3CRV LP received for Chopping are distributed from the set of Ripe Beans and Ripe BEAN:3CRV LP, respectively.
 
-> For example, if 1M Sprouts have been Fertilized and there are 10M total Sprouts, then a Farmer who Chops 100 Unripe Beans will get 10 Beans in exchange.
+> For example, if 1M Sprouts have been Fertilized and there are 10M total Sprouts, then a Farmer who Chops 100 Unripe Beans that correspond to 50 Ripe Beans, they will get 5 Beans in exchange.
 
-Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:3CRV LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity to Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:3CRV LP to Unripe Beans in the Silo.
+Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:3CRV LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity to Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:3CRV LP to Unripe Beans in the Silo, while the converse is true of Conversions from Unripe Beans to Unripe BEAN:3CRV LP.
 
 > For example, say there’s 50M Available Fertilizer and a Farmer Chops 2M Unripe BEAN:3CRV LP in exchange for 1M BEAN:3CRV LP. If non-Beans make up 50% of the BEAN:3CRV pool, then 500k less Fertilizer needs to be sold, resulting in 49.5M Available Fertilizer.
 
@@ -58,5 +58,4 @@ Because Available Fertilizer is a function of how much non-Bean liquidity still 
 
 Upon Replant, Silo Members in the block prior to the exploit receive a portion of their Stalk and Seeds based on the percentage of Fertilizer sold prior to Replant. As the percentage of Fertilizer sold increases, additional Stalk and Seeds become Revitalized and can be Enrooted. Revitalized Stalk and Seeds start earning Bean seigniorage and Grown Stalk, respectively, upon being Enrooted.
 
-> For example, if 20% of total Fertilizer has sold before Replant, a Silo Member receives 20% of their Stalk and Seed balances at the time of the Replant. Once 50% of total Fertilizer has been sold, the additional 30% is in the form of Revitalized Stalk and Seeds. Once Enrooted, a Silo Member brings their balances to 50% of their pre-exploit Stalk and Seed balances, independent of any Stalk or Seeds they may have earned since Replant.
-
+> For example, if 20% of total Fertilizer has sold before Replant, a Silo Member receives 20% of their Stalk, Seed and Plantable Seed balances at the time of the Replant. Once 50% of total Fertilizer has been sold, the additional 30% is in the form of Revitalized Stalk and Seeds. Once Enrooted, a Silo Member brings their balances to 50% of their pre-exploit Stalk and Seed balances, independent of any Stalk or Seeds they may have earned since Replant.
