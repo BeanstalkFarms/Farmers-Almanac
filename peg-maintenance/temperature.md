@@ -14,7 +14,7 @@ When the deltaB over the previous Season is > 0, debt is paid back. Therefore, i
 
 When the deltaB over the previous Season is < 0, debt can only increase or remain constant. Therefore, if there is more debt than optimal, Beanstalk is moving away from ideal equilibrium. If there is less debt than optimal, Beanstalk is moving toward ideal equilibrium.
 
-![](<../.gitbook/assets/image (4).png>)
+![](../.gitbook/assets/direction.png)
 
 ### **Demand for Soil**
 
@@ -43,7 +43,7 @@ The current state of Beanstalk with respect to ideal equilibrium is in part dete
 
 The acceleration of Beanstalk affects the magnitude of Temperature changes and is considered decelerating, steady or accelerating based on the price over the previous Season and the demand for Soil.
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/demand-for-soil.png)
 
 ### **Current and Optimal State**
 
@@ -62,7 +62,7 @@ When the debt level is excessively high or low, an optimal state is accelerating
 
 Considering the current state and the debt level, Beanstalk adjusts the Temperature to move toward the optimal state:
 
-![](<../.gitbook/assets/image (6).png>)
+![](../.gitbook/assets/temperature-changes.png)
 
 The [Temperature Flow Chart](https://www.figma.com/file/Q4PL7xPdAFr7uoxnaWLLxh/Temperature-Flow-Chart?node-id=0%3A1) contains a graphical representation of each possible state and an explanation for each Temperature adjustment.
 

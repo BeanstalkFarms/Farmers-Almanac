@@ -4,21 +4,21 @@ Check out [Asset States](asset-states.md) page for definitions on each of these 
 
 ### Silo
 
-![](<../.gitbook/assets/silo (1).png>)
+![](../.gitbook/assets/silo.png)
 
 ### Stalk
 
-![](../.gitbook/assets/stalk3.png)
+![](../.gitbook/assets/stalk.png)
 
 ### Seeds
 
-![](<../.gitbook/assets/seeds (1).png>)
+![](../.gitbook/assets/seeds.png)
 
 ### Field
 
-![](<../.gitbook/assets/field (1).png>)
+![](../.gitbook/assets/field.png)
 
 ### Barn
 
-![](<../.gitbook/assets/barn (1).png>)
+![](../.gitbook/assets/barn.png)
 

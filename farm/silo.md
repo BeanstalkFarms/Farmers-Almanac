@@ -70,7 +70,7 @@ See [Governance](../governance/beanstalk/) section.
 
 **Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See the [Barn](barn.md) section for more info on Revitalized Stalk.
 
-![](<../.gitbook/assets/stalk (2).png>)
+![](../.gitbook/assets/stalk.png)
 
 **Plantable Seeds** are Seeds earned from Earned Beans. Plantable Seeds must be Planted in order to grow Stalk.
 
