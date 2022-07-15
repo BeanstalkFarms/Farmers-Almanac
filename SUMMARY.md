@@ -3,7 +3,7 @@
 * [Farmers' Almanac](README.md)
 * [Whitepaper](https://bean.money/docs/beanstalk.pdf)
 
-## introduction
+## Introduction
 
 * [Why Beanstalk](introduction/why-beanstalk.md)
 * [How Beanstalk Works](introduction/how-beanstalk-works.md)
