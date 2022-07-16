@@ -1,6 +1,6 @@
 # Asset States
 
-Understanding the various states that Beanstalk assets can be in can help Farmers understand their balances on the Beanstalk UI at Replant.
+Understanding the various states that Beanstalk assets can be in can help Farmers understand their balances on the Beanstalk UI.
 
 ### Bean states
 
@@ -48,7 +48,7 @@ Beans Deposited in the Silo.
 
 **Earned Beans**
 
-Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Earned Beans are automatically Deposited into the Silo and do not require any action to claim them.
+Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Earned Beans are automatically Deposited into the Silo and do not require any action to claim them. However, Plantable Seeds received in association with Earned Beans must be Planted to grow Stalk.
 
 **Ripe Beans**
 
@@ -60,8 +60,8 @@ LP Tokens can be in the following states, which are identical to the equivalent 
 
 * Farm
 * Claimable
-* Farmable
 * Circulating
+* Farmable
 * Unused
 * Withdrawn
 * Deposited
@@ -73,8 +73,8 @@ Unripe assets can be in the following states, which are identical to the equival
 
 * Farm
 * Claimable
-* Farmable
 * Circulating
+* Farmable
 * Unused
 * Withdrawn
 * Deposited
@@ -85,10 +85,11 @@ Unripe assets can be in the following states, which are identical to the equival
 
 **Grown Stalk** is the Stalk earned from Seeds. Grown Stalk does not contribute to Stalk ownership until it is Mown. Mow can be called on its own, and it is also called at the beginning of any Silo interaction (Depositing, Withdrawing, Converting, etc.).
 
-**Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See the [Barn](../farm/barn.md) section for more info on Revitalized Stalk.
+**Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See [**Barn**](../farm/barn.md) **** section for more info on Revitalized Stalk.
 
 ### **Seed states**
 
 **Plantable Seeds** are Seeds earned in conjunction with Earned Beans. Plantable Seeds must be Planted in order to grow Stalk.
 
-**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Seeds must be Enrooted in order to grow Stalk. See the **** [Barn](../farm/barn.md) section for more info on Revitalized Seeds.
+**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Seeds must be Enrooted in order to grow Stalk. See the [**Barn**](../farm/barn.md) **** section for more info on Revitalized Seeds.
+

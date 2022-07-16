@@ -18,10 +18,6 @@ The value of an asset denominated in Beans. Used to calculate how many Stalk and
 
 A Beanstalk accelerator program to facilitate development on and around Beanstalk in a decentralized fashion.
 
-### **Bean Sprout Multisig (BSM)**
-
-The multisig that custodies the Bean Sprout budget funds.
-
 ### **Bean Sprout Proposal (BSP)**
 
 A Snapshot proposal to use funds from the Bean Sprout budget.
@@ -41,10 +37,6 @@ The multisig that will custody ownership of the Beanstalk contract until on-chai
 ### **Beanstalk Farms**
 
 A decentralized team of core contributors to Beanstalk, operating across the stack on technical and non-technical problems.
-
-### **Beanstalk Farms Multisig (BFM)**
-
-The multisig that custodies the Beanstalk Farms budget funds.
 
 ### **Beanstalk Farms Proposal (BFP)**
 
@@ -172,7 +164,7 @@ The interest rate on Fertilizer purchases.
 
 ### **Market**
 
-The component of the Farm that offers zero-fee trading to anyone on the Ethereum network.
+The Market offers zero-fee trading to anyone on the Ethereum network.
 
 ### **Mow**
 
@@ -220,7 +212,7 @@ An offer to sell Pods on the Pod Market.
 
 ### **Pod Market**
 
-The decentralized, trustless market that Pods can be bought and sold on.
+Pods can be bought and sold in a decentralized, trustless fashion on the Pod Market.
 
 ### **Pod Order**
 
@@ -242,6 +234,14 @@ The pseudonym of Beanstalk’s founders.
 
 A Season where Beans are minted per the peg maintenance mechanism.
 
+### **Ripe Assets**
+
+Assets that are minted as Fertilizer is sold. Unripe assets represent a pro rata share of underlying Ripe assets.
+
+### Ripen
+
+When Pods passively turn into Harvestable Pods, they Ripen.
+
 ### **Replant**
 
 The relaunch of Beanstalk post-exploit.
@@ -260,15 +260,7 @@ Sprouts that are redeemable for 1 Bean each. Rinsable Sprouts must be Rinsed in 
 
 ### **Rinse**
 
-Redeem Rinsable Sprouts for 1 Bean each.
-
-### **Ripe Assets**
-
-Assets that are minted as Fertilizer is sold and debt is repaid to Fertilizer. Unripe assets represent a pro rata share of underlying Ripe assets.
-
-### Ripen
-
-When Pods passively turn into Harvestable Pods, they Ripen.
+To redeem Beans from Rinsable Sprouts.
 
 ### **Season**
 

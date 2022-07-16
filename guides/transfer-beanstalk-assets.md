@@ -4,3 +4,4 @@ The Beanstalk Farms design and engineering teams are hard at work building out n
 
 * Sending Plots
 * Sending Deposits
+* Sending Fertilizer

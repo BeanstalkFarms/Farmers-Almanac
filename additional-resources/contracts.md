@@ -34,16 +34,16 @@ The following facets are part of the [diamond functionality](https://github.com/
 
 ## Multisigs
 
-| Contract                                                                         | Address                                                                                                                      |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [Beanstalk Farms Multisig (BFM)](../governance/beanstalk-farms/bfm-dashboard.md) | [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://gnosis-safe.io/app/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/home) |
-| [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)         | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home) |
-| [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)   | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home) |
+| Contract                                                                 | Address                                                                                                                      |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| [Beanstalk Farms Budget](../governance/beanstalk-farms/bfm-dashboard.md) | [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://gnosis-safe.io/app/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/home) |
+| [Bean Sprout Budget](../governance/bean-sprout/bsm-dashboard.md)         | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home) |
+| [Beanstalk Community Multisig](../governance/beanstalk/bcm-dashboard.md) | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home) |
 
 ## Exploited token + pools
 
 {% hint style="danger" %}
-The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. When Beanstalk is Replanted, a new Bean token will be issued.
+The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. When Beanstalk is Replanted, a new Bean token will be issued.&#x20;
 {% endhint %}
 
 | Contract                                                                                                 | Address                                                                                                               |

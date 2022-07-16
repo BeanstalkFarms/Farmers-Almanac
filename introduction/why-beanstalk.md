@@ -8,7 +8,7 @@ Today’s predominant stablecoins suffer from one or more fundamental issues, pr
 
 Centralized stablecoins are currently the most widely used stablecoins by market capitalization. The businesses that issue these stablecoins are subject to external oversight and governmental coercion, and have the unilateral power to freeze their stablecoins.
 
-Beanstalk, on the other hand, is governed by a DAO and uses an on-chain price oracle to determine the price of a dollar. The yield-bearing governance token, known as Stalk, becomes more distributed over time. Beanstalk is highly resistant to censorship by design such that anyone, anywhere can access stable assets in a fully permissionless manner.
+Beanstalk, on the other hand, is governed by a DAO and uses an on-chain price oracle to determine the price of a dollar. The yield-bearing governance token, known as Stalk, becomes more distributed over time. Beanstalk is highly resistant to censorship by design such that anyone, anywhere can access low-volatility assets in a fully permissionless manner.
 
 ### **Carry Costs**
 

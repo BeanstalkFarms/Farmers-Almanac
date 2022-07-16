@@ -8,7 +8,7 @@ You can review previous and outstanding BIPs by visiting [GitHub](https://github
 
 1. Navigate to the [Beanstalk DAO Snapshot page](https://snapshot.org/#/beanstalkdao.eth).
 2. Click on the active BIP you wish to vote for.
-3. Under the “Cast your vote” section, click the “For” choice.
+3. Under the “Cast your vote” section, click the “Vote For” choice.
 4. Click “Vote” and then click “Vote” again in the modal.
 5. Click "Sign" on the message when prompted by MetaMask.
 6. If your MetaMask is connected to a hardware wallet, sign the message on your hardware wallet.

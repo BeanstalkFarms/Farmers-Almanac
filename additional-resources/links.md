@@ -14,9 +14,7 @@
 
 [Farmer's Almanac](https://docs.bean.money/) (GitBook)
 
-[Dune ](https://dune.xyz/tbiq/Beanstalk)(pre-exploit analytics)
-
-[Dune Barn Raise Analytics](https://dune.com/tbiq/beanstalk-barn-raise)
+[Dune Analytics](https://dune.xyz/tbiq/Beanstalk)
 
 ### Governance
 
@@ -26,7 +24,7 @@
 
 [Commonwealth](https://commonwealth.im/beanstalk/)
 
-### Recordings and Meeting Notes
+### Recordings
 
 [Beanstalk Learning Center](https://bean.money/learning-center)
 
@@ -44,9 +42,9 @@
 
 [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
 
-[Beanstalk Farms YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
+[YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
 
-[Telegram](https://t.me/beanstalkusd)
+[Telegram](https://t.me/joinchat/OdWoJSyPVsRhYzgx)
 
 ### OpenSea
 
