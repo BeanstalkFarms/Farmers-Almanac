@@ -22,21 +22,21 @@ Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertiliz
 
 The Humidity is the interest rate on Fertilizer purchases. At 200% Humidity, each Fertilizer purchased comes with 3 Sprouts.
 
-The Humidity is constant each Season. The Humidity is 500% prior to the start of the first Season after Replant, after which it drops to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
+The Humidity is constant each [Season](sun.md). The Humidity is 500% prior to the start of the first Season after Replant, after which it drops to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
 
 ### Barn Process
 
 ![](../.gitbook/assets/barn.png)
 
 1. Fertilizer is bought with USDC. Active Fertilizer comes with Sprouts.
-2. Sprouts are Fertilized by Fertilizer into Rinsable Sprouts on a parri passu basis when Beanstalk mints new Beans according to the peg maintenance mechanism.
+2. Sprouts are Fertilized by Fertilizer into Rinsable Sprouts on a parri passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.
 3. Rinsable Sprouts can be Rinsed to be redeemed for Beans.
 
 ### **Unripe Assets**
 
 Beanstalk uses the proceeds from the Fertilizer sales to recapitalize liquidity stolen from Silo Members in the April 17th, 2022 governance exploit. Beanstalk will sell enough Fertilizer to fully recapitalize all non-Bean liquidity stolen from Silo Members.
 
-Upon Replant, Farmers who held Beans in the block prior to the exploit receive 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP tokens in the block prior to the exploit receive 1 Unripe BEAN:3CRV LP for every 1 BDV of each pre-exploit whitelisted LP token.
+Upon Replant, Farmers who held Beans in the block prior to the exploit receive 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP tokens in the block prior to the exploit receive 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP token.
 
 Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter. More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that are Fertilized increases.
 

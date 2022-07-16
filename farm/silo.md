@@ -13,7 +13,7 @@ To be Deposited into the Silo, an ERC-20 standard token must be on the Silo Whit
 * Unripe Bean
 * Unripe BEAN:3CRV LP
 
-Additional tokens may be added to the Whitelist via Beanstalk governance. In order for a token to be added to the Whitelist, Beanstalk requires:
+Additional tokens may be added to the Whitelist via [Beanstalk governance](broken-reference). In order for a token to be added to the Whitelist, Beanstalk requires:
 
 1. The token address;
 2. A function to calculate the Bean denominated value (BDV) of the token; and
@@ -32,7 +32,7 @@ Additional tokens may be added to the Whitelist via Beanstalk governance. In ord
 
 ### **The Stalk System**
 
-When whitelisted assets are Deposited into the Silo, Beanstalk rewards the Depositor with Stalk and Seeds. Seeds yield 1/10000 new Stalk every Season.
+When whitelisted assets are Deposited into the Silo, Beanstalk rewards the Depositor with Stalk and Seeds. Seeds yield 1/10000 new Stalk every [Season](sun.md).
 
 Stalkholders are entitled to participate in Beanstalk governance and earn a portion of Bean mints. Governance power and distribution of Bean mints are proportional to each Stalkholder’s Stalk balance relative to total outstanding Stalk.
 

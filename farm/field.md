@@ -10,7 +10,7 @@ Anytime Beanstalk is willing to issue debt, there is Soil in the Field. Soil rep
 
 When Beans are Sown, Beanstalk burns them, permanently removing the Sown Beans from the Bean supply. For example, if there’s 10 Soil available and 10 Beans are Sown, the Soil supply becomes 0 and 10 Beans are removed from the Bean supply. If the market is in some sort of equilibrium, Beans are bought to be Sown, which drives the Bean price upward towards its value peg.
 
-Beanstalk [sets the Soil supply](../peg-maintenance/overview.md#soil-supply) at the beginning of each Season according to the peg maintenance mechanism.
+Beanstalk [sets the Soil supply](../peg-maintenance/overview.md#soil-supply) at the beginning of each [Season](sun.md) according to the peg maintenance mechanism.
 
 ### **Pods**
 

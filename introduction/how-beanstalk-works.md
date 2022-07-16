@@ -9,8 +9,8 @@ Beanstalk relies on three native assets and three interconnected facilities to r
 Beanstalk issues 3 tokens:
 
 1. Beans — Beanstalk ERC-20 fiat stablecoins;
-2. Stalk — illiquid yield-generating governance tokens; and
-3. Seeds — illiquid tokens which yield 1/10000 Stalk each Season.
+2. [Stalk](../farm/silo.md#the-stalk-system) — illiquid yield-generating governance tokens; and
+3. [Seeds](../farm/silo.md#the-stalk-system) — illiquid tokens which yield 1/10000 Stalk each Season.
 
 ### **Primary Facilities**
 
@@ -22,23 +22,23 @@ The Sun leverages the 3CRV pool on Curve as the Beanstalk oracle price source fo
 
 In practice, Beanstalk never calculates the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates deltaB, the liquidity and time weighted average shortage or excess of Beans in the BEAN:3CRV pool over the previous Season.
 
-The Sun uses deltaB to determine how to change the Bean supply and Soil supply.
+The Sun uses deltaB to determine how to change the Bean supply and [Soil](../farm/field.md#soil) supply.
 
 #### **2. The Silo**
 
 Beanstalk uses [the Silo](../farm/silo.md), the Beanstalk DAO, to create a robust decentralized governance mechanism. Farmers can earn yield from passive participation in Beanstalk governance by Depositing whitelisted assets in the Silo to receive Stalk and Seeds.
 
-Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs) and collect a portion of Bean supply increases. A diverse community of Stalkholders creates decentralization.
+Stalkholders can submit and vote on [Beanstalk Improvement Proposals](broken-reference) (BIPs) and collect a portion of Bean supply increases. A diverse community of Stalkholders creates decentralization.
 
 To encourage consistent security:
 
 * Seeds yield Stalk every Season.
 * The associated amount of Stalk and Seeds from a given Deposit must be forfeited when it is Withdrawn from the Silo.
-*   Deposits can be Withdrawn from the Silo at any time but are Frozen for 4 full Seasons after Withdrawal.
+* Deposits can be Withdrawn from the Silo at any time but are Frozen for 4 full Seasons after Withdrawal.
 
-    Deep and consistent liquidity in liquidity pools Beans trade in improves stability. Liquidity providers to liquidity pools whose LP Tokens are whitelisted can also Deposit their LP Tokens in the Silo to earn Stalk and Seeds. LP Token Deposits earn more Seeds than Bean Deposits.
+Deep and consistent liquidity in liquidity pools Beans trade in improves stability. Liquidity providers to liquidity pools whose LP Tokens are whitelisted can also Deposit their LP Tokens in the Silo to earn Stalk and Seeds. LP Token Deposits earn more Seeds than Bean Deposits.
 
-    Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance.
+Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance.
 
 #### **3. The Field**
 

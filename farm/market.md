@@ -6,7 +6,7 @@ The Market will house various DEXs for zero fee trading. For now, there is only 
 
 ## **The Pod Market**
 
-Pods can be bought and sold in a decentralized, trustless fashion on the Pod Market. The Pod Market creates liquidity for Pods through an on-chain order book.
+[Pods](field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Pod Market. The Pod Market creates liquidity for Pods through an on-chain order book.
 
 On the Pod Market, sellers can List Pods for sale or Fill open Pod Orders placed by buyers. Buyers can purchase Pods Listed by sellers or place Pod Orders.
 
