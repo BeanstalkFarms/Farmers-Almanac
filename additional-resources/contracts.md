@@ -1,12 +1,15 @@
 # Contracts
 
-## Contracts
+### Contracts
 
 | Contract                                                                                                                              | Address                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Beanstalk                                                                                                                             | [0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5](https://etherscan.io/address/0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5) |
 | Beanstalk Contract Owner (ownership of Beanstalk has not yet been transferred to [the BCM](../governance/beanstalk/bcm-dashboard.md)) | [0xefd0E9ff0C4E1Bee55Db53FDD1FAD6F6950CeD0b](https://etherscan.io/address/0xefd0E9ff0C4E1Bee55Db53FDD1FAD6F6950CeD0b) |
 | Fertilizer ERC-1155 token                                                                                                             | [0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6](https://etherscan.io/address/0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6) |
+| Fertilizer Admin                                                                                                                      | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
+| Fertilizer Implementation (will change at Replant)                                                                                    | [0xb151eA73053386B8D0367c401Ee58a06e07EA680](https://etherscan.io/address/0xb151eA73053386B8D0367c401Ee58a06e07EA680) |
+| Beanstalk Price Contract (will change at Replant)                                                                                     | [0xcB64964117ae6dc6FaB049531Ed63dF949dCf6aF](https://etherscan.io/address/0xcB64964117ae6dc6FaB049531Ed63dF949dCf6aF) |
 
 The following are the different facets Beanstalk uses:
 
@@ -32,7 +35,7 @@ The following facets are part of the [diamond functionality](https://github.com/
 | DiamondLoupeFacet | [0xB51D5C699B749E0382e257244610039dDB272Da0](https://etherscan.io/address/0xB51D5C699B749E0382e257244610039dDB272Da0) |
 | OwnershipFacet    | [0x0176D95fd451353F3543A4542e667C62b673621a](https://etherscan.io/address/0x0176D95fd451353F3543A4542e667C62b673621a) |
 
-## Multisigs
+### Multisigs
 
 | Contract                                                                         | Address                                                                                                                      |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -40,7 +43,7 @@ The following facets are part of the [diamond functionality](https://github.com/
 | [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)         | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home) |
 | [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)   | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home) |
 
-## Exploited token + pools
+### Exploited token + pools
 
 {% hint style="danger" %}
 The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. When Beanstalk is Replanted, a new Bean token will be issued.
@@ -53,7 +56,7 @@ The addresses below refer to the exploited Bean token (0xDC59). Do not buy these
 | [BEAN:3CRV Metapool](https://curve.fi/factory/81)                                                        | [0x3a70DfA7d2262988064A2D051dd47521E43c9BdD](https://etherscan.io/address/0x3a70DfA7d2262988064A2D051dd47521E43c9BdD) |
 | [BEAN:LUSD Plain Pool](https://curve.fi/factory/103)                                                     | [0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D](https://etherscan.io/address/0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D) |
 
-## Miscellaneous addresses
+### Miscellaneous addresses
 
 | Contract                                                                                                                | Address                                                                                                               |
 | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
