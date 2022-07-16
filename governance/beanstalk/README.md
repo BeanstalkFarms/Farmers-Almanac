@@ -12,13 +12,13 @@ The BCM has been formed, but ownership of Beanstalk has not yet been transferred
 
 ### **Participation**
 
-Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk. A Stalkholder’s voting power is proportional to their total Stalk ownership relative to the total Stalk supply. Any Stalkholder can vote for or abstain from BIPs. In all instances, 1 Stalk equals 1 vote, and abstaining is equivalent to voting against the proposal.
+Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk. A Stalkholder’s voting power is proportional to their Stalk balance relative to the total Stalk supply. Any Stalkholder can vote for or abstain from BIPs. In all instances, 1 Stalk equals 1 vote, and abstaining is equivalent to voting against the proposal.
 
 Any Stalkholder that owns more than 0.1% of total outstanding Stalk can submit a BIP per the [#proposing-a-bip](bcm-process.md#proposing-a-bip "mention") process.
 
 ### **Voting Period**
 
-Voting for BIPs will take place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. The Voting Period opens when a BIP is submitted to Snapshot and closes after \~7 days or when it is committed with a supermajority.
+Voting for BIPs takes place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. The Voting Period opens when a BIP is submitted to Snapshot and closes after \~7 days or when it is committed with a supermajority.
 
 If at the end of the Voting Period:
 
@@ -36,9 +36,3 @@ When Paused, Beanstalk does not accept a sunrise() function call. Once Unpaused,
 ### **Commit**
 
 At Replant, the Beanstalk Community Multisig (BCM) address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, we expect a BIP will revoke these abilities from the BCM and reimplement on-chain governance. You can read more about the BCM [here](bcm-process.md).
-
-****
-
-**BIPs folder on GitHub (before BIP-20):**
-
-{% embed url="https://github.com/BeanstalkFarms/Beanstalk/tree/master/bips" %}

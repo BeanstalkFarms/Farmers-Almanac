@@ -6,4 +6,4 @@ To send an approval for the transaction in question:
 
 1. Click the "Approve" button.
 2. Click "Confirm" on the transaction when prompted by MetaMask.
-3. If your MetaMask is connected to a hardware wallet, confirm the transaction on your hardware wallet.\
+3. If your MetaMask is connected to a hardware wallet, confirm the transaction on your hardware wallet.
