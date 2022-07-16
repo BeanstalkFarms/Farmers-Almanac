@@ -1,14 +1,14 @@
 # BFM Dashboard
 
-Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or BFM. The BFM is deployed using Gnosis Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet. This means any use of the budget funds must be approved by at least 4 signers of the 7 signers in total.
+Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or BFM. The BFM is deployed using Gnosis Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet. This means any use of the budget funds must be approved by at least 4 signers of the 7 signers in total.&#x20;
 
 **Beanstalk Farms Multisig Gnosis address:** [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://etherscan.io/address/0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7)
 
 {% embed url="https://gnosis-safe.io/app/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/home" %}
 
-### **BFM Members**
+## **BFM Members**
 
-Publius currently holds 3 of the 7 keys on the Beanstalk Farms on the BFM.
+&#x20;**** Publius currently holds 3 of the 7 keys on the Beanstalk Farms on the BFM.
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |

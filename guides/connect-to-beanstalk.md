@@ -2,7 +2,7 @@
 
 In addition to an internet connection, interacting with Beanstalk requires:
 
-* An Ethereum wallet with an ETH balance (MetaMask, WalletConnect, or Coinbase Wallet).
+* An Ethereum wallet with an ETH balance (MetaMask, WalletConnect or Coinbase Wallet).
 * Connecting your Ethereum wallet to Beanstalk.
 
 ### **Connect to Beanstalk with MetaMask**
@@ -11,7 +11,7 @@ In addition to an internet connection, interacting with Beanstalk requires:
 
 MetaMask is an Ethereum wallet that facilitates interaction with the Beanstalk website.
 
-1. Visit metamask.io/download.
+1. Visit [metamask.io/download](https://metamask.io/download/).
 2. Click "Install MetaMask For \[your browser]".
 3. Click "Add to \[your browser]".
 4. Click "Add Extension".
@@ -39,7 +39,7 @@ This step may be unnecessary if you performed step 2.
 **4. Connect Your MetaMask Wallet to Beanstalk**
 
 1. Visit [app.bean.money](https://app.bean.money/).
-2. When prompted, select “MetaMask” (you may need to first click “Connect Wallet” in the top right of the page.
+2. When prompted, select “MetaMask” (you may need to first click “Connect Wallet” in the top right of the page).
 3. Click "Connect".
 4. Click the MetaMask icon and confirm that you are on the Ethereum Mainnet. If not, click the down arrow at the top of the widget and click "Ethereum Mainnet".
 5. Congratulations, you are now connected to Beanstalk. Double check that your wallet address in the top right of the website is the same as your MetaMask wallet address.

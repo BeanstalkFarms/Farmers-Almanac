@@ -2,7 +2,7 @@
 
 Current DEXs are unable to attract liquidity without offering protocol-native emissions. The value of these emissions derives primarily from AMM trading fees. Beanstalk’s ability to attract liquidity without fee-based emissions allows it to offer DEXs without trading fees.
 
-The Market will house various DEXs for zero fee trading. For now, there is only the Pod Market, but in the future there may be a Deposit Market, an NFT Market, an ERC-20 Market, etc.
+The Market houses various DEXs for zero fee trading. For now, there is only the Pod Market, but in the future there may be a Deposit Market, an NFT Market, an ERC-20 Market, etc.
 
 ## **The Pod Market**
 

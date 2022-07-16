@@ -1,5 +1,7 @@
 # How Beanstalk Works
 
+Beanstalk is a decentralized fiat stablecoin protocol built on Ethereum.
+
 Beanstalk does not have any collateral requirements. Beanstalk uses credit instead of collateral to create Bean price stability relative to its value peg of $1. The practicality of using DeFi is currently limited by the lack of decentralized low-volatility assets with competitive carrying costs. Borrowing rates on USD stablecoins have historically been higher than borrowing rates on USD, even when supply increases rapidly. Non-competitive carry costs are due to collateral requirements.
 
 Beanstalk relies on three native assets and three interconnected facilities to regularly oscillate the price of Bean across its value peg:
@@ -16,7 +18,7 @@ Beanstalk issues 3 tokens:
 
 #### **1. The Sun**
 
-Beanstalk uses [the Sun](../farm/sun.md) to create a cost-efficient and protocol-native timekeeping mechanism. The Sun keeps time on the Farm in Seasons. Each Season is \~1 hour long. Beanstalk adjusts itself to return the Bean price to its value peg at the beginning of every Season.
+Beanstalk uses the Sun to create a cost-efficient and protocol-native timekeeping mechanism. The Sun keeps time on the Farm in Seasons. Each Season is \~1 hour long. Beanstalk adjusts itself to return the Bean price to its value peg at the beginning of every Season.
 
 The Sun leverages the 3CRV pool on Curve as the Beanstalk oracle price source for $1.
 
@@ -26,7 +28,7 @@ The Sun uses deltaB to determine how to change the Bean supply and Soil supply.
 
 #### **2. The Silo**
 
-Beanstalk uses [the Silo](../farm/silo.md), the Beanstalk DAO, to create a robust decentralized governance mechanism. Farmers can earn yield from passive participation in Beanstalk governance by Depositing whitelisted assets in the Silo to receive Stalk and Seeds.
+Beanstalk uses the Silo, the Beanstalk DAO, to create a robust decentralized governance mechanism. Farmers can earn yield from passive participation in Beanstalk governance by Depositing whitelisted assets in the Silo to receive Stalk and Seeds.
 
 Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs) and collect a portion of Bean supply increases. A diverse community of Stalkholders creates decentralization.
 
@@ -36,23 +38,23 @@ To encourage consistent security:
 * The associated amount of Stalk and Seeds from a given Deposit must be forfeited when it is Withdrawn from the Silo.
 *   Deposits can be Withdrawn from the Silo at any time but are Frozen for 4 full Seasons after Withdrawal.
 
-    Deep and consistent liquidity in liquidity pools Beans trade in improves stability. Liquidity providers to liquidity pools whose LP Tokens are whitelisted can also Deposit their LP Tokens in the Silo to earn Stalk and Seeds. LP Token Deposits earn more Seeds than Bean Deposits.
+    Deep and consistent liquidity in liquidity pools Beans trade in improves stability. Liquidity providers to liquidity pools whose LP Token are whitelisted can also Deposit their LP Tokens in the Silo to earn Stalk and Seeds. LP Token Deposits earn more Seeds than Bean Deposits.
 
     Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance.
 
 #### **3. The Field**
 
-[The Field](../farm/field.md) is Beanstalk’s decentralized credit facility. Anytime the Bean price is too low, Beanstalk uses the Field to attract lenders who can lend their Beans to Beanstalk, which are subsequently burnt in exchange for Pods, Beanstalk’s native debt asset. Pods are paid out on a First In, First Out (FIFO) basis when new Beans are minted.
+The Field is Beanstalk’s decentralized credit facility. Anytime the Bean price is too low, Beanstalk uses the Field to attract lenders, who can lend their Beans to Beanstalk, which are subsequently burnt, in exchange for Pods, Beanstalk’s native debt asset. Pods are paid out on a First In, First Out (FIFO) basis when new Beans are minted.
 
 Soil is the number of Beans that can be lent to Beanstalk at any given time. Any time Beanstalk is willing to issue debt, there is Soil available in the Field. Any Beans not in the Silo can be Sown (lent) to Beanstalk in exchange for Pods.
 
-Pods have a fixed interest rate and unknown maturity date. The number of Pods that grow from 1 Sown Bean is determined by the [Temperature](../peg-maintenance/temperature.md)— the Beanstalk-native interest rate — at the time of Sowing. Pods Ripen and become Harvestable (redeemable) for 1 Bean on a First In, First Out (FIFO) basis when new Beans are minted.
+Pods have a fixed interest rate and unknown maturity date.The number of Pods that grow from 1 Sown Bean is determined by the Temperature— the Beanstalk-native interest rate — at the time of Sowing. Pods ripen and become Harvestable (redeemable) for 1 Bean on a First In, First Out (FIFO) basis when new Beans are minted.
 
 ### **Creating Stability**
 
 Beanstalk requires a diverse set of participants, including Silo Members (people who Deposit assets in the Silo), Sowers (people who lend Beans to Beanstalk), and arbitrageurs. Beanstalk aligns the incentives of every individual participant to maximize price stability and create a diverse, decentralized economy. Beanstalk-native financial incentives consistently increase censorship resistance, stability and liquidity over time.
 
-At the beginning of each Season, the Sun calculates deltaB (the time and liquidity weighted average shortage or excess Beans in the BEAN:3CRV liquidity pool), Beanstalk’s debt level, and the change in demand for Soil over the previous 2 Seasons, and dynamically adjusts the Bean supply, Soil supply and Temperature to bring the price back towards the peg.
+At the beginning of each Season, the Sun calculates deltaB, Beanstalk’s debt level, and the change in demand for Soil over the previous 2 Seasons, and dynamically adjusts the Bean supply, Soil supply and Temperature to bring the price back towards the peg.
 
 When the price of Bean is too low (_i.e._, deltaB is negative), Beanstalk:
 
@@ -68,6 +70,6 @@ When the Bean price is too high (_i.e._, deltaB is positive), Beanstalk:
 
 By increasing the Bean supply and lowering the Temperature, Beanstalk can bring the price of Bean back down to its peg.
 
-To align the interests of Stalkholders and Sowers, 1/3 of Bean supply increases are distributed to Stalkholders and 1/3 go to Pod Harvests. The other 1/3 are distributed to Active Fertilizer holders as part of Beanstalk’s recapitalization plan after the April 2022 governance exploit (see [Barn](../farm/barn.md) section).
+To align the interests of Stalkholders and Sowers, 1/3 of Bean supply increases are distributed to Stalkholders and 1/3 go to Pod Harvests. The other 1/3 are distributed to Active Fertilizer holders as part of Beanstalk’s recapitalization plan after the April 2022 governance exploit (see [**Barn**](../farm/barn.md) section).
 
-In order to prevent inorganic growth, if the Bean price is too high and the debt level is excessively low for 4 consecutive Seasons, Beanstalk sells Beans directly on Curve to return the price to $1 (see [Flood](../peg-maintenance/flood.md) section).
+In order to prevent inorganic growth, if the Bean price is too high and the debt level is excessively low for 4 consecutive Seasons, Beanstalk sells Beans directly on Curve to return the price to $1 (see [**Flood**](../peg-maintenance/flood.md) section).

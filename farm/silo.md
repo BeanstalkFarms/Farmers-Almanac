@@ -28,15 +28,15 @@ Additional tokens may be added to the Whitelist via Beanstalk governance. In ord
 | Unripe Bean\*         | 1                 | 2                 |
 | Unripe BEAN:3CRV LP\* | 1                 | 4                 |
 
-\*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
+\*See the [Barn](barn.md) section for info on Unripe assets.
 
 ### **The Stalk System**
 
 When whitelisted assets are Deposited into the Silo, Beanstalk rewards the Depositor with Stalk and Seeds. Seeds yield 1/10000 new Stalk every Season.
 
-Stalkholders are entitled to participate in Beanstalk governance and earn a portion of Bean mints. Governance power and distribution of Bean mints are proportional to each Stalkholder’s Stalk balance relative to total outstanding Stalk.
+Stalkholders are entitled to participate in Beanstalk governance and earn a portion of Bean mints. Governance power and distribution of Bean mints are proportional to each Stalkholder’s Stalk ownership relative to total outstanding Stalk.
 
-Older Deposits have their Stalk ownership diluted by newer Deposits upon Deposit. Stalk ownership, and each Stalkholder’s share of Beanstalk governance voting power, decentralizes over time. Therefore, newly minted Beans are more widely distributed over time. A design that lowers the Gini coefficient of Beans and Stalk is essential to censorship resistance.
+Stalk ownership, and each Stalkholder’s share of Beanstalk governance voting power, further decentralizes over time. Older Deposits have their Stalk ownership diluted by newer Deposits upon Deposit and over time. Therefore, newly minted Beans are more widely distributed over time. A design that lowers the Gini coefficient of Beans and Stalk is essential to censorship resistance.
 
 Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs). Stalkholders receive 1/3 of new Bean mints while Sprouts remain Unfertilized (Sprouts are issued by the [Barn](barn.md)). If there are no Unfertilized Sprouts, Stalkholders receive 1/2 of new Bean mints.
 
@@ -52,9 +52,9 @@ Partial Withdrawals are placed on a Last In, First Out (LIFO) basis by the Beans
 
 When the Bean price is above peg (_i.e._, deltaB is positive), Deposited Beans may be converted to Deposited LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to sell Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is arbitraged back towards peg.
 
-When the Bean price is below peg (_i.e._, deltaB is negative), Deposited LP may be converted to Deposited Beans while retaining grown Stalk from Seeds and without forfeiting any Stalk due to LP impermanent loss. This conversion allows Silo Members to remove excess Beans from liquidity pools and arbitrage the price back towards peg without leaving the Silo, minimizing debt issuance.
+When the Bean price is below peg (_i.e._, deltaB is negative), Deposited LP may be converted to Deposited Beans while retaining grown Stalk from Seeds and without forfeiting any Stalk due to LP impermanent loss. This conversion allows Silo Members to remove excess Beans from liquidity pools and arbitrage the price back towards peg in the process without leaving the Silo, minimizing debt issuance.
 
-Unripe Beans are also convertible to Unripe BEAN:3CRV LP and vice versa in a similar fashion. \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
+Unripe Beans are also convertible to Unripe BEAN:3CRV LP and vice versa in a similar fashion. See the [Barn](barn.md) section for more info on Unripe assets.
 
 ### **Governance**
 
@@ -66,15 +66,15 @@ See [Governance](../governance/beanstalk/) section.
 
 **Earned Stalk** are Stalk earned from Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.
 
-**Grown Stalk** is the Stalk earned from Seeds. Grown Stalk does not contribute to Stalk ownership until it is Mown. Mow can be called on its own, and it is also called at the beginning of any Silo interaction (Depositing, Withdrawing, Converting, Planting, etc.).
+**Grown Stalk** is the Stalk earned from Seeds. Grown Stalk does not contribute to Stalk ownership until it is Mown. Mow can be called on its own, and it is also called at the beginning of any Silo interaction (Depositing, Withdrawing, Converting, etc.).
 
-**Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
+**Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See the [Barn](barn.md) section for more info on Revitalized Stalk.
 
 ![](../.gitbook/assets/stalk.png)
 
-**Plantable Seeds** are Seeds earned in conjunction with Earned Beans. Plantable Seeds must be Planted in order to grow Stalk.
+**Plantable Seeds** are Seeds earned from Earned Beans. Plantable Seeds must be Planted in order to grow Stalk.
 
-**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Seeds must be Enrooted in order to grow Stalk. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
+**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Seeds must be Enrooted in order to grow Stalk. See the [Barn](barn.md) section for more info on Revitalized Seeds.
 
 ![](../.gitbook/assets/seeds.png)
 

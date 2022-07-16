@@ -1,6 +1,6 @@
 # Beanstalk Learning Center
 
-The Beanstalk Learning Center is the repository of all Beanstalk classes, AMAs, Twitter Spaces, podcasts, and DAO meetings. Farmers can search through notes on various discussion topics, and skip straight to specific questions in the YouTube recordings with timestamps.&#x20;
+The Beanstalk Learning Center is the repository of all Beanstalk University classes, AMAs, Twitter Spaces, podcasts, and DAO meetings. Farmers can search through notes on various discussion topics, and skip straight to specific questions in the YouTube recordings with timestamps.
 
 {% embed url="https://bean.money/learning-center" %}
 
@@ -12,12 +12,9 @@ The Beanstalk Learning Center is the repository of all Beanstalk classes, AMAs, 
 
 ### Community authored content
 
-* [Beanstalk FAQ](https://beanmerchant.substack.com/p/updated-beanstalk-faq-)&#x20;
-* [Beanstalk vs. Every Other Stablecoin](https://beanmerchant.substack.com/p/beanstalk-vs-every-other-stablcoin)
 * [The anti-reflexive mechanisms of Beanstalk](https://mirror.xyz/astn.eth/-FgCVHv5fKBDTwwMPRfXG2bMLzXekW1PH0dVDbsSArI)
-* [Zero to Beanstalk: A Comprehensive Guide](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8)&#x20;
+* [Zero to Beanstalk: A Comprehensive Guide](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8)
+* [Beanstalk FAQ](https://beanmerchant.substack.com/p/updated-beanstalk-faq-)
+* [Beanstalk vs. Every Other Stablecoin](https://beanmerchant.substack.com/p/beanstalk-vs-every-other-stablcoin)
 * [BEAN vs. ESD Tweet thread](https://twitter.com/doctor\_parth/status/1488941756448382976)
 * [NASJAQ podcast with Publius](https://open.spotify.com/episode/4zSBdnYs56Mlw5RrStZsfk?si=cc15759b547d4ea3)
-
-###
-

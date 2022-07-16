@@ -20,22 +20,22 @@ When the deltaB over the previous Season is < 0, debt can only increase or remai
 
 Demand for Soil is a factor in the acceleration of Beanstalk with respect to ideal equilibrium, which affects Temperature changes. Demand for Soil is considered decreasing, steady or increasing.
 
-* The change in Soil is calculated for each of the prior two Seasons ($$\Delta S$$).&#x20;
-* The ratio of the change in Soil over the prior two Seasons ($$\frac{\partial \Delta S}{\partial t}$$) is calculated as the change in Soil in the previous Season ($$\Delta S_{t-1}$$) divided by the change in Soil two Seasons ago ($$\Delta S_{t-2}$$).
+1. The change in Soil is calculated for each of the prior two Seasons ($$\Delta S$$).
+2. The ratio of the change in Soil over the prior two Seasons is calculated as the change in Soil in the previous Season ($$\Delta S_{t-1}$$) divided by the change in Soil two Seasons ago ($$\Delta S_{t-2}$$).
 
-Based on this ratio of the change in Soil over the prior two Seasons:
+If the ratio ($$\frac{\partial \Delta S}{\partial t}$$) is:
 
-* If $$\frac{\partial \Delta S}{\partial t}$$ < 95%, demand for Soil is decreasing.
-* If 95% ≤ $$\frac{\partial \Delta S}{\partial t}$$ < 105%, demand for Soil is steady.
-* If 105% ≤ $$\frac{\partial \Delta S}{\partial t}$$, demand for Soil is increasing.
+* $$\frac{\partial \Delta S}{\partial t}$$ < 95% → demand for Soil is decreasing.
+* 95% ≤ $$\frac{\partial \Delta S}{\partial t}$$ < 105% → demand for Soil is steady.
+* 105% ≤ $$\frac{\partial \Delta S}{\partial t}$$ → demand for Soil is increasing.
 
 However, when there is between 0 and 1 Soil remaining at the end of any Season, the ratio is not used. Instead, Beanstalk checks the following conditions to determine the current demand for Soil:
 
 * After one or more Seasons in which there was > 1 Soil remaining, if there is between 0 and 1 Soil remaining at the end of the latest Season, demand for Soil is increasing.
 * When there is at most 1 Soil remaining in consecutive Seasons, the difference in time it takes for the excess Soil (S > 1) to be Sown over the previous two Seasons can provide a more accurate measurement.
-  * If S > 1 was Sown in the first five minutes of the previous Season, demand for Soil is increasing.
-  * If S > 1 was not Sown in the first five minutes of the previous Season, Beanstalk compares the time it took for all S > 1 to be Sown in the previous two Seasons ($$\Delta S_{t-1}$$ and $$\Delta S_{t-2}$$).
-  * If it took less than one minute longer for all S > 1 to be Sown in $$\Delta S_{t-2}$$ than $$\Delta S_{t-1}$$, demand for Soil is decreasing. If it took longer than one minute, demand for Soil is increasing. Otherwise, demand for Soil is steady.
+* If S > 1 was Sown in the first five minutes of the previous Season, demand for Soil is increasing.
+* If S > 1 was not Sown in the first five minutes of the previous Season, Beanstalk compares the time it took for all S > 1 to be Sown in the previous two Seasons ($$\Delta S_{t-1}$$ and $$\Delta S_{t-2}$$).
+* If it took less than one minute longer for all S > 1 to be Sown in $$\Delta S_{t-2}$$ than $$\Delta S_{t-1}$$, demand for Soil is decreasing. If it took longer than one minute, demand for Soil is increasing. Otherwise, demand for Soil is steady.
 
 ### **Acceleration**
 

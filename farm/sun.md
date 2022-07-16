@@ -12,7 +12,7 @@ Upon acceptance of the sunrise() call, the Sun:
 
 1. Increments the Season number;
 2. Calculates deltaB, the time and liquidity weighted average shortage or excess Beans in the BEAN:3CRV liquidity pool;
-3. [Changes the Temperature](../peg-maintenance/temperature.md) if necessary and checks for [Flood](../peg-maintenance/flood.md);
-4. Sets the [new Soil supply](../peg-maintenance/overview.md#soil-supply);
-5. [Mints Beans](../peg-maintenance/overview.md#bean-supply) if necessary; and
+3. Changes the Temperature if necessary and checks for Flood;
+4. Sets the new Soil supply;
+5. Mints Beans if necessary; and
 6. Awards Beans to the address that successfully called the sunrise() function.
