@@ -6,7 +6,7 @@ Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The 
 
 {% embed url="https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home" %}
 
-## **BSM Members**
+### **BSM Members**
 
 Publius currently holds 3 of the 7 keys on the BSM.
 

@@ -4,10 +4,10 @@ Beanstalk faces the fundamental limitation that it cannot fix the Bean price at 
 
 Beanstalk has four peg maintenance tools available:
 
-1. Increase the Bean supply;
-2. Change the Soil supply;
-3. Change the Temperature; and
-4. Sell Beans (Flood).
+1. Increase the [Bean supply](overview.md#bean-supply);
+2. Change the [Soil supply](overview.md#soil-supply);
+3. Change the [Temperature](temperature.md); and
+4. Sell Beans ([Flood](flood.md)).
 
 At the beginning of every Season, Beanstalk evaluates its position (i.e., price and debt level) and current state (i.e., direction and acceleration) with respect to ideal equilibrium, and dynamically adjusts the Bean supply, Soil supply and Temperature to move closer to ideal equilibrium.
 
@@ -53,14 +53,14 @@ Beanstalk defines a handful of Pod Rate ranges that it uses as an input to deter
 
 ### **Bean Supply**
 
-At the beginning of each Season, Beanstalk increases the Bean supply if there was a liquidity and time weighted average shortage of Beans in the BEAN:3CRV pool over the previous Season by deltaB. Essentially, Beanstalk will mint the number of Beans that need to be sold to return the Bean price in the BEAN:3CRV pool to a dollar.
+At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a liquidity and time weighted average shortage of Beans in the BEAN:3CRV pool over the previous Season. Essentially, Beanstalk will mint the number of Beans that need to be sold to return the Bean price in the BEAN:3CRV pool to a dollar.
 
-Stalkholders, Pod holders, and Active Fertilizer holders receive 1/3 of new Bean mints each while there are Sprouts outstanding. If there is no Active Fertilizer, Stalkholders and Pod holders receive 1/2 of new Bean mints each. If there are neither Pods nor Active Fertilizer, Stalkholders receive 100% of new Bean mints.
+Stalkholders, Pod holders, and Active Fertilizer holders receive 1/3 of new Bean mints each while there are Unfertilized Sprouts outstanding. If there is no Active Fertilizer, Stalkholders and Pod holders receive 1/2 of new Bean mints each. If there are neither Pods nor Active Fertilizer, Stalkholders receive 100% of new Bean mints.
 
 ### **Soil Supply**
 
 At the beginning of each Season, Beanstalk sets the Soil supply.
 
-When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to the liquidity and time weighted average excess of Beans in the BEAN:3CRV liquidity pool over the previous Season (_i.e._, deltaB).
+When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the liquidity and time weighted average excess of Beans in the BEAN:3CRV liquidity pool over the previous Season.
 
-When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for Soil. The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature, and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt levels decrease the Soil supply.
+When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for Soil. The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature, and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt level decrease the Soil supply.
