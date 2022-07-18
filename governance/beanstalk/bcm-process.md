@@ -120,7 +120,7 @@ A Signer shall lose their role (by action of the remaining Signers removing them
 
 The BCM’s role is to 1) enact on-chain the decisions Stalkholders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented. However, if a situation arises in the future like the April 17, 2022 exploit, it is of critical importance that the BCM take swift action to protect Beanstalk.
 
-Bugs or security vulnerabilities qualify as emergencies. Emergency action will never be taken for any reason related to the economic health of Beanstalk (like a bank run, for example).
+Bugs or security vulnerabilities qualify as emergencies. Emergency action will not be taken for any reason related to the economic health of Beanstalk (like a bank run, for example).
 
 **Depending on the severity of a given emergency, BCM members shall swiftly decide the best course of action:**
 
@@ -153,7 +153,7 @@ Once Signers have verified the transaction, they shall submit and sign a [verifi
 
 **Problems During Verification**
 
-The BCM will never submit a transaction that was misrepresented on Snapshot.
+The BCM will not submit a transaction that was misrepresented on Snapshot.
 
 In the case that any Signer during the verification process determines that a MR does not accurately represent the BIP, that Signer will submit a verified etherscan message indicating as such with context on the issue. At that point, the BCM will not submit the transaction unless it is determined that the Signer is "rogue" and is attempting to censor the BIP. In the case the other Signers determine that one or more Signers is rogue, they will submit a verified etherscan message indicating as such. At that point all present key holders shall submit a new verified etherscan message to cancel the original transaction.
 
