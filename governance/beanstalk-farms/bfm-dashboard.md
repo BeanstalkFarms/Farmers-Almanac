@@ -8,7 +8,7 @@ Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or B
 
 ### **BFM Members**
 
-Publius currently holds 3 of the 7 keys on the Beanstalk Farms on the BFM.
+Publius currently holds 3 of the 7 keys on the BFM.
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
