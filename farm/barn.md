@@ -22,7 +22,7 @@ Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertiliz
 
 The Humidity is the interest rate on Fertilizer purchases. At 200% Humidity, each Fertilizer purchased comes with 3 Sprouts.
 
-The Humidity is constant each [Season](sun.md). The Humidity is 500% prior to the start of the first Season after Replant, after which it drops to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
+The Humidity is constant each [Season](sun.md). The Humidity is 500% prior to Replant, after which it drops to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
 
 ### Barn Process
 
