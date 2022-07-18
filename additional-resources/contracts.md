@@ -58,9 +58,10 @@ The addresses below refer to the exploited Bean token (0xDC59). Do not buy these
 
 ### Miscellaneous addresses
 
-| Contract                                                                                                                | Address                                                                                                               |
-| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [BeaNFT Genesis](https://opensea.io/collection/beanft-genesis)                                                          | [0xa755A670Aaf1FeCeF2bea56115E65e03F7722A79](https://etherscan.io/address/0xa755A670Aaf1FeCeF2bea56115E65e03F7722A79) |
-| [BeaNFT Winter](https://opensea.io/collection/beanft-collection)                                                        | [0x459895483556dad32526efa461f75e33e458d9e9](https://etherscan.io/address/0x459895483556dad32526efa461f75e33e458d9e9) |
-| [Development Budget 1](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-1.md#budget-structural-details) | [0x83A758a6a24FE27312C1f8BDa7F3277993b64783](https://etherscan.io/address/0x83A758a6a24FE27312C1f8BDa7F3277993b64783) |
-| [Marketing Budget 1](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-1.md#budget-structural-details)   | [0xAA420e97534aB55637957e868b658193b112A551](https://etherscan.io/address/0xAA420e97534aB55637957e868b658193b112A551) |
+| Contract                                                                                                                      | Address                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [BeaNFT Genesis](https://opensea.io/collection/beanft-genesis)                                                                | [0xa755A670Aaf1FeCeF2bea56115E65e03F7722A79](https://etherscan.io/address/0xa755A670Aaf1FeCeF2bea56115E65e03F7722A79) |
+| [BeaNFT Winter](https://opensea.io/collection/beanft-collection)                                                              | [0x459895483556dad32526efa461f75e33e458d9e9](https://etherscan.io/address/0x459895483556dad32526efa461f75e33e458d9e9) |
+| [Q4 2021 Budget Contract](https://github.com/BeanstalkFarms/Beanstalk-Budget)                                                 | [0xbE9130192E4461696288f974F9Fd66F28EC6BbA1](https://etherscan.io/address/0xbE9130192E4461696288f974F9Fd66F28EC6BbA1) |
+| [Q4 2021 Development Budget](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-1.md#budget-structural-details) | [0x83A758a6a24FE27312C1f8BDa7F3277993b64783](https://etherscan.io/address/0x83A758a6a24FE27312C1f8BDa7F3277993b64783) |
+| [Q4 2021 Marketing Budget](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-1.md#budget-structural-details)   | [0xAA420e97534aB55637957e868b658193b112A551](https://etherscan.io/address/0xAA420e97534aB55637957e868b658193b112A551) |
