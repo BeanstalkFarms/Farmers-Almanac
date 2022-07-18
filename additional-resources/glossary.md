@@ -10,21 +10,21 @@ The Beanstalk recapitalization facility being used to Replant Beanstalk.
 
 A fundraiser to restore $77M in non-Bean liquidity stolen from the Silo in the April 2022 governance exploit. Participants in the Barn Raise receive Fertilizer and Sprouts.
 
-### **Bean Denominated Value (BDV)**
+### **Bean Denominated Value**
 
-The value of an asset denominated in Beans. Used to calculate how many Stalk and Seeds are rewarded to Depositors of a whitelisted asset.
+The value of an asset denominated in Beans. Used to calculate how many Stalk and Seeds are rewarded to Depositors of a whitelisted asset. Abbreviated as BDV.&#x20;
 
 ### **Bean Sprout**
 
 A Beanstalk accelerator program to facilitate development on and around Beanstalk in a decentralized fashion.
 
-### **Bean Sprout Multisig (BSM)**
+### **Bean Sprout Multisig**
 
-The multisig that custodies the Bean Sprout budget funds.
+The multisig that custodies the Bean Sprout budget funds. Abbreviated as BSM.&#x20;
 
-### **Bean Sprout Proposal (BSP)**
+### **Bean Sprout Proposal**
 
-A Snapshot proposal to use funds from the Bean Sprout budget.
+A Snapshot proposal to use funds from the Bean Sprout budget. Abbreviated as BSP.
 
 ### **Bean**
 
@@ -34,25 +34,25 @@ The ERC-20 fiat stablecoin issued by Beanstalk.
 
 The Ethereum-native, decentralized fiat stablecoin protocol that issues Beans.
 
-### **Beanstalk Community Multisig (BCM)**
+### **Beanstalk Community Multisig**
 
-The multisig that will custody ownership of the Beanstalk contract until on-chain governance can be reimplemented. The BCM will be able to propose and execute upgrades to Beanstalk.
+The multisig that will custody ownership of the Beanstalk contract until on-chain governance can be reimplemented. The BCM will be able to propose and execute upgrades to Beanstalk. Abbreviated as BCM.
 
 ### **Beanstalk Farms**
 
 A decentralized team of core contributors to Beanstalk, operating across the stack on technical and non-technical problems.
 
-### **Beanstalk Farms Multisig (BFM)**
+### **Beanstalk Farms Multisig**
 
-The multisig that custodies the Beanstalk Farms budget funds.
+The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM.
 
-### **Beanstalk Farms Proposal (BFP)**
+### **Beanstalk Farms Proposal**
 
-A Snapshot proposal to use the Beanstalk Farms budget. During the period post-exploit, BFPs were also used to vote on the Barn Raise structure, among other process changes.
+A Snapshot proposal to use the Beanstalk Farms budget. During the period post-exploit, BFPs were also used to vote on the Barn Raise structure, among other process changes. Abbreviated as BFP.
 
-### **Beanstalk Improvement Proposal (BIP)**
+### **Beanstalk Improvement Proposal**
 
-A proposal to change Beanstalk.
+A proposal to change Beanstalk. Abbreviated as BIP.
 
 ### **Cancel**
 
