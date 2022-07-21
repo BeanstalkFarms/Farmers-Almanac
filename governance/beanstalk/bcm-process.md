@@ -198,4 +198,4 @@ In the event that counsel publishes the list, anyone could verify that it’s th
 
 This document outlines the process for voting on and committing BIPs after the ownership of Beanstalk has been transferred to the BCM. Beanstalk Farms shall propose transferring ownership of the Beanstalk contract to the BCM in a future BIP.
 
-[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4). BIP-20 proposes the series of transactions necessary to perform the migration of balances. This will be the sole instance where multiple BCM transactions are approved in a single BIP.
+[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4). BIP-20 proposes the series of transactions necessary to perform the migration of balances. This will be the sole instance where multiple BCM transactions are approved in a single BIP unless otherwise specified.
