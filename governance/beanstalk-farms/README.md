@@ -1,7 +1,5 @@
 # Beanstalk Farms
 
-The Beanstalk DAO is responsible for the formation of two independent, symbiotic organizations with distinct mandates: Beanstalk Farms and [Bean Sprout](../bean-sprout/) (a Beanstalk accelerator program).
-
 Beanstalk Farms is a decentralized development organization of core contributors working on Beanstalk, operating across the stack on technical and non-technical problems.
 
 Neither Beanstalk Farms nor Beanstalk have a treasury. Beanstalk Farms has historically been funded by the Beanstalk DAO. Beanstalk Farms proposes quarterly budget BIPs that mint Beans to cover operating expenses and compensate contributors. Budget funds are custodied by the [Beanstalk Farms Multisig (BFM)](bfm-dashboard.md). Larger payments in non-Bean assets like audits have typically been paid for via [Fundraiser](../../farm/fundraiser.md).
