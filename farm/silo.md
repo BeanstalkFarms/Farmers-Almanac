@@ -50,7 +50,7 @@ Partial Withdrawals are placed on a Last In, First Out (LIFO) basis by the Beans
 
 ### **Convert**
 
-When the Bean price is above peg (_i.e._, deltaB is positive), Deposited Beans may be converted to Deposited LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to sell Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is arbitraged back towards peg.
+When the Bean price is above peg (_i.e._, [deltaB](../additional-resources/glossary.md#deltab) is positive), Deposited Beans may be converted to Deposited LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to sell Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is arbitraged back towards peg.
 
 When the Bean price is below peg (_i.e._, deltaB is negative), Deposited LP may be converted to Deposited Beans while retaining grown Stalk from Seeds and without forfeiting any Stalk due to LP impermanent loss. This conversion allows Silo Members to remove excess Beans from liquidity pools and arbitrage the price back towards peg without leaving the Silo, minimizing debt issuance.
 

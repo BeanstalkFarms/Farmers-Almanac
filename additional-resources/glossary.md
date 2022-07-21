@@ -306,6 +306,10 @@ The Beanstalk governance token. Stalk entitles the holder to a pro rata share of
 
 Holders of the Stalk token. Stalkholders participate in governance and earn Bean seigniorage.
 
+### Sun
+
+The Sun keeps time on the Farm in Seasons and incentivizes cost-efficient and timely calling of the sunrise() function.
+
 ### **Sunrise**
 
 Beanstalk accepts one sunrise() function call every Season. Upon the sunrise() call, Beanstalk Ripens Pods, Fertilizes Sprouts, distributes Beans to Stalkholders, adjusts the Temperature, etc.
