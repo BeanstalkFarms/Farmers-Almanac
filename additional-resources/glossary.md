@@ -308,7 +308,7 @@ Holders of the Stalk token. Stalkholders participate in governance and earn Bean
 
 ### Sun
 
-The Sun keeps time on the Farm in Seasons and incentivizes cost-efficient and timely calling of the sunrise() function.
+The component of the Farm that keeps time in Seasons and incentivizes cost-efficient and timely calling of the sunrise() function.
 
 ### **Sunrise**
 
