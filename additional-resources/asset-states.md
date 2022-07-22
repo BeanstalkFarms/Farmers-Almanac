@@ -20,7 +20,7 @@ Sprouts that are redeemable for 1 Bean each. Rinsable Sprouts must be Rinsed in 
 
 **Claimable Beans**
 
-Withdrawn Beans become Claimable Beans after the 4 Season Withdrawal freeze has elapsed. Claimable Beans must be Claimed in order to use them.
+Withdrawn Beans become Claimable Beans after the end of the current Season. Claimable Beans must be Claimed in order to use them.
 
 **Circulating Beans**
 
@@ -36,7 +36,7 @@ The superset of Beans that can be used in transactions on the Farm. Includes Cir
 
 **Withdrawn Beans**
 
-Beans Withdrawn from the Silo before they are unfrozen. Withdrawn Beans are frozen for 4 full Seasons upon Withdrawal.
+Beans Withdrawn from the Silo before they are unfrozen. Withdrawn Beans are Frozen until the end of the current Season.
 
 **Ordered Beans**
 

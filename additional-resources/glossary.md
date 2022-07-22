@@ -68,7 +68,7 @@ Beans in Farmers' wallets.
 
 ### **Claimable Assets**
 
-Withdrawn Assets become Claimable Assets after the 4 Season Withdrawal timer has elapsed. Claimable Assets must be Claimed in order to use them.
+Withdrawn Assets become Claimable Assets after the end of the current Season. Claimable Assets must be Claimed in order to use them.
 
 ### **Convert**
 
@@ -144,7 +144,7 @@ Match a Pod Listing with an overlapping Pod Order.
 
 ### **Flood**
 
-If the Farm is Oversaturated for 4 consecutive Seasons, each Season in which it continues to be Oversaturated, it Floods. At the beginning of a Season where it Floods, Beanstalk mints additional Beans and sells them directly on Curve.
+If the Farm is Oversaturated for a Season, each Season in which it continues to be Oversaturated, it Floods. At the beginning of a Season where it Floods, Beanstalk mints additional Beans and sells them directly on Curve.
 
 ### **Fundraiser**
 
@@ -340,4 +340,4 @@ Deposited assets can be Withdrawn from the Silo at any time. The number of Stalk
 
 ### **Withdrawn Assets**
 
-Assets Withdrawn from the Silo before they are unfrozen. Withdrawn assets are frozen for 4 full Seasons.
+Assets Withdrawn from the Silo before they are unfrozen. Withdrawn assets are Frozen until the end of the current Season.

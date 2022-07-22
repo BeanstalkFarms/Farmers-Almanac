@@ -34,7 +34,7 @@ To encourage consistent security:
 
 * Seeds yield Stalk every Season.
 * The associated amount of Stalk and Seeds from a given Deposit must be forfeited when it is Withdrawn from the Silo.
-* Deposits can be Withdrawn from the Silo at any time but are Frozen for 4 full Seasons after Withdrawal.
+* Deposits can be Withdrawn from the Silo at any time but are Frozen until the end of the current Season.
 
 Deep and consistent liquidity in liquidity pools Beans trade in improves stability. Liquidity providers to liquidity pools whose LP Tokens are whitelisted can also Deposit their LP Tokens in the Silo to earn Stalk and Seeds. LP Token Deposits earn more Seeds than Bean Deposits.
 
@@ -70,4 +70,4 @@ By increasing the Bean supply and lowering the Temperature, Beanstalk can bring 
 
 To align the interests of Stalkholders and Sowers, 1/3 of Bean supply increases are distributed to Stalkholders and 1/3 go to Pod Harvests. The other 1/3 are distributed to Active Fertilizer holders as part of Beanstalk’s recapitalization plan after the April 2022 governance exploit (see [Barn](../farm/barn.md) section).
 
-In order to prevent inorganic growth, if the Bean price is too high and the debt level is excessively low for 4 consecutive Seasons, Beanstalk sells Beans directly on Curve to return the price to $1 (see [Flood](../peg-maintenance/flood.md) section).
+In order to prevent inorganic growth, if the Bean price is too high and the debt level is excessively low for a Season, Beanstalk sells Beans directly on Curve to return the price to $1 (see [Flood](../peg-maintenance/flood.md) section).
