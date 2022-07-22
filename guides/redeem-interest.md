@@ -9,3 +9,4 @@ The Beanstalk Farms design and engineering teams are hard at work building out n
 * Mow Grown Stalk
 * Plant Plantable Seeds
 * Enroot Revitalized Stalk and Seeds
+* Claim all Silo Rewards
