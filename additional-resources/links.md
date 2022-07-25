@@ -24,8 +24,6 @@
 
 [Beanstalk DAO Snapshot](https://snapshot.org/#/beanstalkdao.eth)
 
-[Commonwealth](https://commonwealth.im/beanstalk/)
-
 ### Recordings and Meeting Notes
 
 [Beanstalk Learning Center](https://bean.money/learning-center)
@@ -59,6 +57,8 @@
 ### Inactive
 
 [Medium](https://medium.com/beanstalkfarms/) (see [Blog](https://bean.money/blog) instead)
+
+[Commonwealth](https://commonwealth.im/beanstalk/)
 
 [Reddit](https://www.reddit.com/r/BeanstalkProtocol/)
 
