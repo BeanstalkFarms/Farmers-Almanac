@@ -49,12 +49,12 @@ The following facets are part of the [diamond functionality](https://github.com/
 The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. When Beanstalk is Replanted, a new Bean token will be issued.
 {% endhint %}
 
-| Contract                                                                                                 | Address                                                                                                               |
-| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [Bean ERC-20 Token](https://etherscan.io/address/0xDC59ac4FeFa32293A95889Dc396682858d52e5Db)             | [0xDC59ac4FeFa32293A95889Dc396682858d52e5Db](https://etherscan.io/address/0xDC59ac4FeFa32293A95889Dc396682858d52e5Db) |
-| [BEAN:ETH Uniswap V2 Pair](https://v2.info.uniswap.org/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) | [0x87898263B6C5BABe34b4ec53F22d98430b91e371](https://etherscan.io/address/0x87898263B6C5BABe34b4ec53F22d98430b91e371) |
-| [BEAN:3CRV Metapool](https://curve.fi/factory/81)                                                        | [0x3a70DfA7d2262988064A2D051dd47521E43c9BdD](https://etherscan.io/address/0x3a70DfA7d2262988064A2D051dd47521E43c9BdD) |
-| [BEAN:LUSD Plain Pool](https://curve.fi/factory/103)                                                     | [0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D](https://etherscan.io/address/0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D) |
+| Contract                                                                                                     | Address                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [Old Bean ERC-20 Token](https://etherscan.io/address/0xDC59ac4FeFa32293A95889Dc396682858d52e5Db)             | [0xDC59ac4FeFa32293A95889Dc396682858d52e5Db](https://etherscan.io/address/0xDC59ac4FeFa32293A95889Dc396682858d52e5Db) |
+| [Old BEAN:ETH Uniswap V2 Pair](https://v2.info.uniswap.org/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) | [0x87898263B6C5BABe34b4ec53F22d98430b91e371](https://etherscan.io/address/0x87898263B6C5BABe34b4ec53F22d98430b91e371) |
+| [Old BEAN:3CRV Metapool](https://curve.fi/factory/81)                                                        | [0x3a70DfA7d2262988064A2D051dd47521E43c9BdD](https://etherscan.io/address/0x3a70DfA7d2262988064A2D051dd47521E43c9BdD) |
+| [Old BEAN:LUSD Plain Pool](https://curve.fi/factory/103)                                                     | [0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D](https://etherscan.io/address/0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D) |
 
 ### Miscellaneous addresses
 
