@@ -1,6 +1,6 @@
 # BeaNFTs
 
-BeaNFTs were the first project built on top of Beanstalk. BeaNFTs have historically been awarded to Farmers for interacting with Beanstalk during certain Seasons.
+BeaNFTs were the first project built on top of Beanstalk. BeaNFTs have historically been awarded to Farmers for interacting with Beanstalk during certain time periods.
 
 You can read more about them here:
 
