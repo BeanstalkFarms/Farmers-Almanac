@@ -21,7 +21,7 @@ The mechanism for upgrading a Diamond is by calling [`diamondCut()`](https://eip
 
 Upgrades should only be executed after a Snapshot has passed and Signers have manually reviewed the code changes. However, in the case of an emergency (like a serious bug or exploit), the BCM may execute transactions to protect the Beanstalk contract. The best practices for emergency response handling are outlined in the [#emergency-response-procedures](bcm-process.md#emergency-response-procedures "mention") section.
 
-If a community member wants to propose a BIP, they can submit a merge request to the [Beanstalk Github repo](https://github.com/BeanstalkFarms/Beanstalk) and begin a formal process with the BCM outlined in the [#proposing-a-bip](bcm-process.md#proposing-a-bip "mention") section.
+If a community member wants to propose a BIP, they can submit a pull request to the [Beanstalk Github repo](https://github.com/BeanstalkFarms/Beanstalk) and begin a formal process with the BCM outlined in the [#proposing-a-bip](bcm-process.md#proposing-a-bip "mention") section.
 
 In addition to `diamondCut()`, the following functions are also only callable from the owner address:
 
@@ -51,16 +51,16 @@ The BCM shall not execute transactions until an associated Snapshot successfully
 
 ### Proposing a BIP
 
-Beanstalk's governance is designed to be as censorship resistant as possible. In an effort to promote a permissionless process, any community member may submit BIPs after Beanstalk is Replanted. If a community member wishes to propose a BIP, they will need to complete a public proposal process on Discord and submit a Github merge request before the BCM will submit a Snapshot on their behalf.
+Beanstalk's governance is designed to be as censorship resistant as possible. In an effort to promote a permissionless process, any community member may submit BIPs after Beanstalk is Replanted. If a community member wishes to propose a BIP, they will need to complete a public proposal process on Discord and submit a Github pull request before the BCM will submit a Snapshot on their behalf.
 
 **BIP Proposal Process**
 
-BIPs consist of two things: a merge request on the public Beanstalk Github repo, and a written explanation of the changes that would be implemented by the merge request.
+BIPs consist of two things: a pull request on the public Beanstalk Github repo, and a written explanation of the changes that would be implemented by the pull request.
 
 The following are the processes in place for community members to submit a BIP and coordinate with the BCM to submit a Snapshot proposal:
 
 1. A proposer must own 0.1% of the total Stalk supply in order to propose a BIP. The proposer shall verify that they meet the Stalk ownership threshold by creating and verifying a signature on etherscan. The steps to create and verify a signature on etherscan can be found [here](https://info.etherscan.com/verify-signature-tool/). The proposer will then reach out to the Mods on Discord and from there, the BCM will verify that the address that signed the message has sufficient Stalk.
-2. The proposer will submit a merge request on the public Beanstalk Github repo and publish the written proposal in a dedicated channel in the Beanstalk Discord. For assistance creating a channel on Discord, contact the Mods on Discord.
+2. The proposer will submit a pull request on the public Beanstalk Github repo and publish the written proposal in a dedicated channel in the Beanstalk Discord. For assistance creating a channel on Discord, contact the Mods on Discord.
 3. The written proposal shall be discussed in the Discord channel for a sufficient amount of time. What constitutes sufficient will be at the sole discretion of the BCM, but the BCM must formally propose the BIP on-chain within 2 weeks of the creation of the dedicated Discord channel, unless the proposer decides to withdraw their proposal.
 4. BCM key holders shall verify that they have access to their wallets.
 5. The BCM will submit a Snapshot of the written proposal and a corresponding on-chain transaction to formally begin the Voting Period.
@@ -146,7 +146,7 @@ The following should be used as a guide for the minimum review criteria:
 * Check init address and calldata are correct
 * Test BIP on mainnet fork or testnet as necessary
 * Review conceptual changes involved in BIP
-* Review Github MR change log (naming or other small nits)
+* Review Github PR change log (naming or other small nits)
 * Review constants (contract addresses, numbers) in new contracts
 
 Once Signers have verified the transaction, they shall submit and sign a [verified etherscan message](https://info.etherscan.com/verify-signature-tool/) and distribute the public verification link to the BCM.
@@ -155,9 +155,9 @@ Once Signers have verified the transaction, they shall submit and sign a [verifi
 
 The BCM will not submit a transaction that was misrepresented on Snapshot.
 
-In the case that any Signer during the verification process determines that a MR does not accurately represent the BIP, that Signer will submit a verified etherscan message indicating as such with context on the issue. At that point, the BCM will not submit the transaction unless it is determined that the Signer is "rogue" and is attempting to censor the BIP. In the case the other Signers determine that one or more Signers is rogue, they will submit a verified etherscan message indicating as such. At that point all present key holders shall submit a new verified etherscan message to cancel the original transaction.
+In the case that any Signer during the verification process determines that a GitHub PR does not accurately represent the BIP, that Signer will submit a verified etherscan message indicating as such with context on the issue. At that point, the BCM will not submit the transaction unless it is determined that the Signer is "rogue" and is attempting to censor the BIP. In the case the other Signers determine that one or more Signers is rogue, they will submit a verified etherscan message indicating as such. At that point all present key holders shall submit a new verified etherscan message to cancel the original transaction.
 
-The BCM will notify the community via Discord and work with the proposer to resolve the issue in the MR. Once resolved, a new BIP will be proposed on Snapshot with its associated transaction.
+The BCM will notify the community via Discord and work with the proposer to resolve the issue in the GitHub PR. Once resolved, a new BIP will be proposed on Snapshot with its associated transaction.
 
 ### Rotating Holders In / Out
 
