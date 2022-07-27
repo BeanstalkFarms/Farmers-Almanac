@@ -7,6 +7,7 @@ You can read more about them here:
 * [Announcing the BeaNFT Genesis Collection](https://bean.money/blog/announcing-beanft-genesis-collection)
 * [BeaNFT Genesis: Utility, Structure and Rarity](https://bean.money/blog/beanft-genesis-utility-structure-rarity)
 * [The BeaNFT Winter Collection](https://bean.money/blog/beanft-winter-collection)
+* [The BeaNFT Barn Raise Collection](https://bean.money/blog/beanft-barn-raise-collection)
 
 OpenSea:
 
