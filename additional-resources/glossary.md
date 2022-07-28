@@ -272,7 +272,7 @@ When Pods passively turn into Harvestable Pods, they Ripen.
 
 ### **Root**
 
-A **** zero-fee, positive-carry generalized marketplace protocol built on Beanstalk accounting for transactions in Bean-Denominated Value (BDV).
+A **** zero-fee, positive carry generalized marketplace protocol built on Beanstalk.
 
 ### **Season**
 
