@@ -49,11 +49,10 @@
 ## Additional Resources
 
 * [Asset States](additional-resources/asset-states.md)
-* [Asset State Cycles](additional-resources/asset-state-cycles.md)
+* [Glossary](additional-resources/glossary.md)
 * [Audits](additional-resources/audits.md)
 * [BeaNFTs](additional-resources/beanfts.md)
 * [Root](additional-resources/root.md)
 * [Beanstalk Learning Center](additional-resources/beanstalk-learning-center.md)
 * [Contracts](additional-resources/contracts.md)
-* [Glossary](additional-resources/glossary.md)
 * [Links](additional-resources/links.md)
