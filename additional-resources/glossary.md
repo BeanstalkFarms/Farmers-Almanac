@@ -270,6 +270,10 @@ Assets that are minted as Fertilizer is sold. Unripe assets represent a pro rata
 
 When Pods passively turn into Harvestable Pods, they Ripen.
 
+### **Root**
+
+A **** zero-fee, positive-carry generalized marketplace protocol built on Beanstalk accounting for transactions in Bean-Denominated Value (BDV).
+
 ### **Season**
 
 Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the sunrise() function is successfully called on Ethereum.

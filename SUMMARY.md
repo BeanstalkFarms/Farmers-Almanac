@@ -50,9 +50,10 @@
 
 * [Asset States](additional-resources/asset-states.md)
 * [Asset State Cycles](additional-resources/asset-state-cycles.md)
-* [Glossary](additional-resources/glossary.md)
-* [BeaNFTs](additional-resources/beanfts.md)
 * [Audits](additional-resources/audits.md)
+* [BeaNFTs](additional-resources/beanfts.md)
 * [Beanstalk Learning Center](additional-resources/beanstalk-learning-center.md)
 * [Contracts](additional-resources/contracts.md)
+* [Glossary](additional-resources/glossary.md)
 * [Links](additional-resources/links.md)
+* [Root](additional-resources/root.md)
