@@ -264,7 +264,7 @@ Redeem Rinsable Sprouts for 1 Bean each.
 
 ### **Ripe Assets**
 
-Assets that are minted as Fertilizer is sold and debt is repaid to Fertilizer. Unripe assets represent a pro rata share of underlying Ripe assets.
+Assets that are minted as Fertilizer is sold. Unripe assets represent a pro rata share of underlying Ripe assets.
 
 ### Ripen
 

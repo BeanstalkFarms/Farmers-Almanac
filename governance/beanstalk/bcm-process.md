@@ -194,8 +194,12 @@ In order to mitigate this attack vector, the BCM will institute the following pr
 
 In the event that counsel publishes the list, anyone could verify that it’s the correct list by hashing it and comparing it with the hash on-chain. This creates accountability for the anonymous Signers.
 
-### BIP-20: Migration of Balances
+### Effective
 
-This document outlines the process for voting on and committing BIPs after the ownership of Beanstalk has been transferred to the BCM. Beanstalk Farms shall propose transferring ownership of the Beanstalk contract to the BCM in a future BIP.
+This document outlines the BCM processes for voting on and committing BIPs after the BIP that transfers ownership of Beanstalk to the BCM. Beanstalk Farms shall propose transferring ownership of the Beanstalk contract to the BCM in a future BIP.
 
-[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4). BIP-20 proposes the series of transactions necessary to perform the migration of balances. This will be the sole instance where multiple BCM transactions are approved in a single BIP unless otherwise specified.
+[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4). BIP-20 proposes the series of transactions necessary to perform the migration of Bean and LP balances post-exploit.&#x20;
+
+BIP-21 will propose to execute the series of transactions necessary to Replant Beanstalk, execute several upgrades, transfer ownership of Beanstalk to the BCM and Unpause Beanstalk.
+
+These will be the sole instances where multiple BCM transactions are approved in a single BIP.
