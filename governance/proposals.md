@@ -119,7 +119,7 @@ Beanstalk Farms often sends funds to reimburse contributors for various software
 
 Bean Sprout proposals, or BSPs, are proposals to spend the Bean Sprout budget.
 
-Anyone with 0.1% of the Stalk supply or [BSM](bean-sprout/bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and have two voting choices: For and Against. BSPs are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which a majority vote Against is required in order to veto. This allows those that are pleased with the actions of Bean Sprout to remain passive, unless there is a quorum voting Against a particular proposal.
+Anyone with 0.1% of the Stalk supply or [BSM](bean-sprout/bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and have two voting choices: For and Against. The voting period for BSPs is 5 days. BSPs are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which a majority vote Against is required in order to veto. This allows those that are pleased with the actions of Bean Sprout to remain passive, unless there is a quorum voting Against a particular proposal.
 
 A BSP is not required for Bean Sprout to send transactions valued at under 4000 Beans. Bean Sprout hiring proposals can either be proposed as part of a BIP, BOP or BSP.
 
