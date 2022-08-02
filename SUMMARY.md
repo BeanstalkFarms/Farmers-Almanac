@@ -17,7 +17,6 @@
 * [Barn](farm/barn.md)
 * [Market](farm/market.md)
 * [Depot](farm/depot.md)
-* [Fundraiser](farm/fundraiser.md)
 
 ## Peg Maintenance
 
@@ -52,6 +51,7 @@
 * [Asset States](additional-resources/asset-states.md)
 * [Glossary](additional-resources/glossary.md)
 * [Audits](additional-resources/audits.md)
+* [Fundraiser](additional-resources/fundraiser.md)
 * [BeaNFTs](additional-resources/beanfts.md)
 * [Root](additional-resources/root.md)
 * [Beanstalk Learning Center](additional-resources/beanstalk-learning-center.md)
