@@ -1,8 +1,6 @@
 # Proposals
 
-It's important to codify the governance structures for Beanstalk, Beanstalk Farms and Bean Sprout in full and make it such that significantly changing them requires a significant amount of Stalk to vote For.
-
-This page is a comprehensive overview of all proposals type as it pertains to governance of Beanstalk, Beanstalk Farms and Bean Sprout.
+This page is a comprehensive overview of all proposals types as it pertains to governance of Beanstalk, Beanstalk Farms and Bean Sprout.
 
 ![The Beanstalk DAO governs the BFC and Bean Sprout. The BFC has discretion over the Beanstalk Farms budget.](../.gitbook/assets/proposals.png)
 
