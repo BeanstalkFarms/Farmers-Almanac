@@ -12,13 +12,13 @@ The BCM has been formed, but ownership of Beanstalk has not yet been transferred
 
 ### **Participation**
 
-Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk. A Stalkholder’s voting power is proportional to their Stalk balance relative to the total Stalk supply. Any Stalkholder can vote for or abstain from BIPs. In all instances, 1 Stalk equals 1 vote, and abstaining is equivalent to voting against the proposal.
+Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk. A Stalkholder’s voting power is proportional to their Stalk balance relative to the total Stalk supply. Any Stalkholder can vote For or Abstain. In all instances, 1 Stalk equals 1 vote, and voting Abstain is equivalent to voting against the proposal.
 
 Any Stalkholder that owns more than 0.1% of total outstanding Stalk can submit a BIP per the [#proposing-a-bip](bcm-process.md#proposing-a-bip "mention") process.
 
 ### **Voting Period**
 
-Voting for BIPs takes place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. The Voting Period opens when a BIP is submitted to Snapshot and closes after \~7 days or when it is committed with a supermajority.
+Voting for BIPs takes place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. The Voting Period opens when a BIP is submitted to Snapshot and closes after 7 days or when it is committed with a supermajority.
 
 If at the end of the Voting Period:
 

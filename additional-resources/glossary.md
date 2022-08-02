@@ -42,17 +42,29 @@ The multisig that will custody ownership of the Beanstalk contract until on-chai
 
 A decentralized team of core contributors to Beanstalk, operating across the stack on technical and non-technical problems.
 
+### **Beanstalk Farms Budget Proposal**
+
+A proposal related to the use of the Beanstalk Farms budget. Read more about Beanstalk Farms Budget Proposals [here](../governance/proposals.md#bfbp). Abbreviated as BFBP.
+
+### Beanstalk Farms Committee
+
+The group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. The Beanstalk Farms Committee hires and dismisses contributors at Beanstalk Farms. Abbreviated as BFC.
+
+### **Beanstalk Farms Committee Proposal**
+
+A proposal related to the Beanstalk Farms Committee. Read more about Beanstalk Farms Committee Proposals [here](../governance/proposals.md#bfcp). Abbreviated as BFCP.
+
 ### **Beanstalk Farms Multisig**
 
 The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM.
 
-### **Beanstalk Farms Proposal**
-
-A Snapshot proposal to use the Beanstalk Farms budget. During the period post-exploit, BFPs were also used to vote on the Barn Raise structure, among other process changes. Abbreviated as BFP.
-
 ### **Beanstalk Improvement Proposal**
 
 A proposal to change Beanstalk. Abbreviated as BIP.
+
+### **Beanstalk Operations Proposal**
+
+A proposal for having the Beanstalk DAO vote on things other than protocol changes. Read more about Beanstalk Operations Proposals [here](../governance/proposals.md#bop). Abbreviated as BOP.&#x20;
 
 ### **Cancel**
 
@@ -110,9 +122,9 @@ Adds Revitalized Stalk and Seeds to your Stalk and Seed balances, respectively.
 
 The Beanstalk ecosystem. The Farm has five primary components: the Sun, Silo, Field, Market, and Depot.
 
-### **Farm Beans**
+### **Farm Assets**
 
-Beans stored in Beanstalk. Farm Beans can be used in transactions on the Farm.
+Assets stored in Beanstalk. Farm Assets can be used in transactions on the Farm.
 
 ### **Farmable Beans**
 

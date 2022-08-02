@@ -34,6 +34,7 @@
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
 * [Bean Sprout](governance/bean-sprout/README.md)
   * [BSM Dashboard](governance/bean-sprout/bsm-dashboard.md)
+* [Proposals](governance/proposals.md)
 
 ## Guides
 

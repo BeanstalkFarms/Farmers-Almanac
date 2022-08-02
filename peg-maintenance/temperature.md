@@ -21,13 +21,13 @@ When the deltaB over the previous Season is < 0, debt can only increase or remai
 Demand for Soil is a factor in the acceleration of Beanstalk with respect to ideal equilibrium, which affects Temperature changes. Demand for Soil is considered decreasing, steady or increasing.
 
 * The change in Soil is calculated for each of the prior two Seasons ($$\Delta S$$).&#x20;
-* The ratio of the change in Soil over the prior two Seasons ($$\frac{\partial \Delta S}{\partial t}$$) is calculated as the change in Soil in the previous Season ($$\Delta S_{t-1}$$) divided by the change in Soil two Seasons ago ($$\Delta S_{t-2}$$).
+* The ratio of the change in Soil over the prior two Seasons (Delta Demand) is calculated as the change in Soil in the previous Season ($$\Delta S_{t-1}$$) divided by the change in Soil two Seasons ago ($$\Delta S_{t-2}$$).
 
-Based on this ratio of the change in Soil over the prior two Seasons:
+Based on this ratio of the change in Soil over the prior two Seasons, or Delta Demand:
 
-* If $$\frac{\partial \Delta S}{\partial t}$$ < 95%, demand for Soil is decreasing.
-* If 95% ≤ $$\frac{\partial \Delta S}{\partial t}$$ < 105%, demand for Soil is steady.
-* If 105% ≤ $$\frac{\partial \Delta S}{\partial t}$$, demand for Soil is increasing.
+* If Delta Demand < 95%, demand for Soil is decreasing.
+* If 95% ≤ Delta Demand < 105%, demand for Soil is steady.
+* If 105% ≤ Delta Demand, demand for Soil is increasing.
 
 However, when there is between 0 and 1 Soil remaining at the end of any Season, the ratio is not used. Instead, Beanstalk checks the following conditions to determine the current demand for Soil:
 

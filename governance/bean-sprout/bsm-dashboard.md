@@ -8,7 +8,7 @@ Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The 
 
 ### **BSM Members**
 
-Publius currently holds 3 of the 7 keys on the BSM.
+Publius currently holds 3 of the 7 keys on the BSM. Rotating BSM signers requires a BIP or BOP. A BIP/BOP is not required if a signer voluntarily leaves the BSM (nor for rotating in a backup signer in the event of a voluntary departure).
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
