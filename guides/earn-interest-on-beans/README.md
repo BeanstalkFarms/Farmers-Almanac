@@ -1,6 +1,6 @@
 # Earn Interest on Beans
 
-The Beanstalk Farms design and engineering teams are hard at work building out new interfaces for the full suite of Beanstalk functionality. As the Replant approaches, look forward to future guides on earning interest in Beanstalk like:
+Look forward to future guides on earning interest in Beanstalk like:
 
 * Deposit in the Silo
 * Convert in the Silo

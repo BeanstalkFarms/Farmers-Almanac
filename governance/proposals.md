@@ -49,7 +49,7 @@ BOPs are proposed on the **Beanstalk DAO Snapshot** page:
 
 ### BFCP
 
-Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [BFC](beanstalk-farms/#beanstalk-farms-committee). The BFC is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. Stalkholders vote to add members to the BFC via BFCP-As, remove members from the BFC via BFCP-Bs, and extend the terms of existing BFC members via BFCP-Cs.
+Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [BFC](beanstalk-farms/#beanstalk-farms-committee). The BFC is the group of [Beanstalk Farms](beanstalk-farms/) contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. Stalkholders vote to add members to the BFC via BFCP-As, remove members from the BFC via BFCP-Bs, and extend the terms of existing BFC members via BFCP-Cs.
 
 Stalkholders vote on BFCPs. All BFCPs have a voting period of 7 days and are proposed on the **Beanstalk Farms Snapshot** page:
 
@@ -81,7 +81,7 @@ BFC members have the option to update their previous hiring proposal terms in a 
 
 ### BFBP
 
-Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. Only BFC members can propose and vote on BFBPs. BFBPs have two voting choices: For and Against.
+Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. Only [BFC](beanstalk-farms/#beanstalk-farms-committee) members can propose and vote on BFBPs. BFBPs have two voting choices: For and Against.
 
 BFC members vote to hire Beanstalk Farms contributors via BFBP-As, dismiss Beanstalk Farms contributors via BFBP-Bs, and otherwise use the Beanstalk Farms budget via BFBP-Cs.
 
@@ -115,7 +115,7 @@ Beanstalk Farms often sends funds to reimburse contributors for various software
 
 ### BSP
 
-Bean Sprout proposals, or BSPs, are proposals to spend the Bean Sprout budget.
+Bean Sprout proposals, or BSPs, are proposals to spend the [Bean Sprout](bean-sprout/) budget.
 
 Anyone with 0.1% of the Stalk supply or [BSM](bean-sprout/bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and have two voting choices: For and Against. The voting period for BSPs is 5 days. BSPs are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which a majority vote Against is required in order to veto. This allows those that are pleased with the actions of Bean Sprout to remain passive, unless there is a quorum voting Against a particular proposal.
 
