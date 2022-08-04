@@ -96,11 +96,11 @@ The shortage or excess of Beans in a liquidity pool Beans trade in.
 
 ### **Deposit**
 
-Whitelisted assets can be Deposited in the Silo at any time to earn Stalk and Seeds.
+Assets on the Deposit Whitelist can be Deposited in the Silo at any time to earn Stalk and Seeds.
 
 ### **Deposit Whitelist**
 
-The whitelist of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Silo Whitelist via governance. Beans are always whitelisted.
+The whitelist of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Deposit Whitelist via governance. Beans are always whitelisted.
 
 ### **Deposited Assets**
 
