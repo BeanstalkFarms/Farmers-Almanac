@@ -21,7 +21,7 @@ If you still have questions after browsing the Farmers' Almanac, [join our Disco
 
 Please share any feedback on the Farmers' Almanac in the **#docs-feedback** channel in Discord and stay tuned for updates in **#docs-updates**. You can submit a pull request to the Farmer’s Almanac yourself [here](https://github.com/BeanstalkFarms/Farmers-Almanac).
 
-#### Links
+### Links
 
 * [Introduction](introduction/why-beanstalk.md)
 * [Beanstalk mechanics](introduction/how-beanstalk-works.md)
