@@ -100,7 +100,7 @@ Whitelisted assets can be Deposited in the Silo at any time to earn Stalk and Se
 
 ### **Deposit Whitelist**
 
-The list of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Silo Whitelist via governance. Beans are always whitelisted.
+The whitelist of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Silo Whitelist via governance. Beans are always whitelisted.
 
 ### **Deposited Assets**
 
