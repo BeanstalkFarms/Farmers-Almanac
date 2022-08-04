@@ -148,7 +148,7 @@ The Beanstalk credit facility.
 
 ### **FIFO**
 
-First in, first out.
+First in, first out. Pods become Harvestable on a FIFO basis. This means that Pods closer to the front of the Pod Line become Harvestable before Pods farther back in the Pod Line.
 
 ### **Fill**
 
@@ -197,6 +197,10 @@ Beans stored in Pod Orders.
 ### **Oversaturation**
 
 The Farm is Oversaturated when there is a Rainy Season and the Pod Rate is less than 5%.
+
+### Pari passu
+
+Sprouts become Rinsable Sprouts on a _pari passu_ basis. This means that when Beans are minted per the peg maintenance mechanism, Sprouts are paid back equally and without preference. This is in contrast to the _first in, first out (FIFO)_ Harvest schedule of the Pod Line in the Field.
 
 ### **Pause**
 

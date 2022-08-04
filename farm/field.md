@@ -18,7 +18,7 @@ Beans are Sown in exchange for Pods, the Beanstalk-native debt asset. Loans to B
 
 The number of Pods received from 1 Sown Bean is determined by the Temperature at the time of Sowing. Newly issued Pods accumulate in the back of the Pod Line. The front of the Pod Line receives 1/3 of new Bean mints while Sprouts remain Unfertilized (Sprouts are issued by the [Barn](barn.md)). If there are no Unfertilized Sprouts, the front of the Pod Line receives 1/2 of new Bean mints.
 
-Pods Ripen into Harvestable Pods that can be Harvested (redeemed) for 1 Bean each on a First In, First Out (FIFO) basis. There is no penalty for waiting to Harvest Pods.
+Pods Ripen into Harvestable Pods that can be Harvested (redeemed) for 1 Bean each on a First In, First Out ([FIFO](../additional-resources/glossary.md#fifo)) basis. There is no penalty for waiting to Harvest Pods.
 
 Pods are tradeable on the [Pod Market](market.md#the-pod-market).
 

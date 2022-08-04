@@ -14,7 +14,7 @@ At the beginning of the Barn Raise, there was 77M Available Fertilizer. Availabl
 
 Active Fertilizer comes with an associated number of Sprouts. Sprouts represent the debt left to be repaid to Active Fertilizer holders. Fertilizer becomes Used after all of its associated Sprouts are Fertilized into Rinsable Sprouts that can be Rinsed (redeemed) for 1 Bean each.
 
-When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are allocated towards Fertilizing Sprouts on a parri passu basis. This is in contrast to the FIFO Harvest schedule of the Pod Line in the Field.
+When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are allocated towards Fertilizing Sprouts on a [pari passu](../additional-resources/glossary.md#pari-passu) basis. This is in contrast to the FIFO Harvest schedule of the Pod Line in the Field.
 
 Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertilizer).
 
@@ -29,7 +29,7 @@ The Humidity is constant each [Season](sun.md). The Humidity is 500% prior to Re
 ![](../.gitbook/assets/barn.png)
 
 1. Fertilizer is bought with USDC. Active Fertilizer comes with Sprouts.
-2. Sprouts are Fertilized by Fertilizer into Rinsable Sprouts on a parri passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.
+2. Sprouts are Fertilized by Fertilizer into Rinsable Sprouts on a pari passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.
 3. Rinsable Sprouts can be Rinsed to be redeemed for Beans.
 
 ### **Unripe Assets**
