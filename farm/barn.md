@@ -16,13 +16,19 @@ Active Fertilizer comes with an associated number of Sprouts. Sprouts represent 
 
 When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are allocated towards Fertilizing Sprouts on a [pari passu](../additional-resources/glossary.md#pari-passu) basis. This is in contrast to the FIFO Harvest schedule of the Pod Line in the Field.
 
+* If Fertilizer is not sold yet, it’s Available.
+* If Fertilizer still has Sprouts (is owed Bean mints), it’s Active.
+* If Fertilizer has no more Sprouts (is done earning Bean mints), it’s Used.
+
 Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertilizer).
+
+When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:3CRV pool at a ratio of 1:0.866616. Adding liquidity at this ratio causes the deltaB in the BEAN:3CRV pool to trend towards the pre-exploit deltaB. &#x20;
 
 ### **Humidity**
 
 The Humidity is the interest rate on Fertilizer purchases. At 200% Humidity, each Fertilizer purchased comes with 3 Sprouts.
 
-The Humidity is constant each [Season](sun.md). The Humidity is 500% prior to Replant, after which it drops to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
+The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to Replant, after which it dropped to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
 
 ### Barn Process
 
@@ -36,7 +42,7 @@ The Humidity is constant each [Season](sun.md). The Humidity is 500% prior to Re
 
 Beanstalk uses the proceeds from the Fertilizer sales to recapitalize liquidity stolen from Silo Members in the April 17th, 2022 governance exploit. Beanstalk will sell enough Fertilizer to fully recapitalize all non-Bean liquidity stolen from Silo Members.
 
-Upon Replant, Farmers who held Beans in the block prior to the exploit receive 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP tokens in the block prior to the exploit receive 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP token.
+Upon Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
 
 Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter. More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that are Fertilized increases.
 
@@ -56,6 +62,6 @@ Because Available Fertilizer is a function of how much non-Bean liquidity still 
 
 ### **Revitalized Assets**
 
-Upon Replant, Silo Members in the block prior to the exploit receive a portion of their Stalk and Seeds based on the percentage of Fertilizer sold prior to Replant. As the percentage of Fertilizer sold increases, additional Stalk and Seeds become Revitalized and can be Enrooted. Revitalized Stalk and Seeds start earning Bean seigniorage and Grown Stalk, respectively, upon being Enrooted.
+Upon Replant, Silo Members in the block prior to the exploit received a portion of their Stalk and Seeds based on the percentage of Fertilizer sold prior to Replant. As the percentage of Fertilizer sold increases, additional Stalk and Seeds become Revitalized and can be Enrooted. Revitalized Stalk and Seeds start earning Bean seigniorage and Grown Stalk, respectively, upon being Enrooted.
 
 > If 20% of total Fertilizer has sold before Replant, a Silo Member receives 20% of their Stalk, Seed and Plantable Seed balances at the time of the Replant. As an example, if an additional 5% of total Fertilizer gets sold, the additional 5% is distributed to the Silo Member in the form of Revitalized Stalk and Seeds. Once Enrooted, a Silo Member brings their balances to 25% of their pre-exploit Stalk and Seed balances, independent of any Stalk or Seeds they may have earned since Replant.

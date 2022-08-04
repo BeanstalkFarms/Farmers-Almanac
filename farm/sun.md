@@ -11,8 +11,17 @@ Beanstalk covers the cost of calling the sunrise() function by awarding the send
 Upon acceptance of the sunrise() call, the Sun:
 
 1. Increments the Season number;
-2. Calculates deltaB, the time and liquidity weighted average shortage or excess Beans in the BEAN:3CRV liquidity pool;
+2. Calculates deltaB, the sum of the time and liquidity weighted average shortage or excess Beans in the liquidity pools on the Oracle Whitelist;
 3. [Changes the Temperature](../peg-maintenance/temperature.md) if necessary and checks for [Flood](../peg-maintenance/flood.md);
 4. Sets the [new Soil supply](../peg-maintenance/overview.md#soil-supply);
 5. [Mints Beans](../peg-maintenance/overview.md#bean-supply) if necessary; and
 6. Awards Beans to the address that successfully called the sunrise() function.
+
+### Oracle Whitelist
+
+The following liquidity pools are whitelisted for inclusion in the calculation of [deltaB](../additional-resources/glossary.md#deltab):
+
+| LP Token Name | Pool address                                                                                                          |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- |
+| BEAN:3CRV LP  | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) |
+

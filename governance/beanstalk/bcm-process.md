@@ -30,8 +30,8 @@ In addition to `diamondCut()`, the following functions are also only callable fr
 * `transferOwnership()` — Transfer ownership permissions of the Beanstalk contract to a new address.
 * `diamondCut()` — Add/replace/remove any function(s) and/or execute an init function with a delegatecall.
 * `createFundraiser()` — Creates a Fundraiser.
-* `whitelistToken()` — Add a token to the Silo Whitelist.
-* `dewhitelistToken()` — Remove a token from the Silo Whitelist.
+* `whitelistToken()` — Add a token to the Deposit Whitelist.
+* `dewhitelistToken()` — Remove a token from the Deposit Whitelist.
 
 ### Snapshots
 

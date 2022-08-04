@@ -86,6 +86,10 @@ Withdrawn Assets become Claimable Assets after the end of the current Season. Cl
 
 Changing one Deposited asset for another within the Silo.
 
+### Convert Whitelist
+
+The generalized whitelist that determines which Conversions within the Silo are permitted under certain conditions.
+
 ### **deltaB**
 
 The shortage or excess of Beans in a liquidity pool Beans trade in.
@@ -93,6 +97,10 @@ The shortage or excess of Beans in a liquidity pool Beans trade in.
 ### **Deposit**
 
 Whitelisted assets can be Deposited in the Silo at any time to earn Stalk and Seeds.
+
+### **Deposit Whitelist**
+
+The list of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Silo Whitelist via governance. Beans are always whitelisted.
 
 ### **Deposited Assets**
 
@@ -189,6 +197,10 @@ The component of the Farm that offers zero-fee trading to anyone on the Ethereum
 ### **Mow**
 
 Mowing Grown Stalk adds it to your Stalk balance. Called upon any interaction with the Silo.
+
+### Oracle Whitelist
+
+The whitelist of liquidity pools whose deltaB’s are summed to calculate a cumulative deltaB.
 
 ### **Ordered Beans**
 
@@ -350,9 +362,7 @@ Unripe assets represent a pro rata share of Ripe assets minted as Fertilizer is 
 
 The time interval in which a BIP is considered by Stalkholders.
 
-### **Whitelist**
-
-The list of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Silo Whitelist via governance. Beans are always whitelisted.
+****
 
 ### **Withdraw**
 

@@ -4,29 +4,24 @@ The Silo is the Beanstalk DAO. The Silo uses the Stalk System to create protocol
 
 Anyone can become a Silo Member by Depositing whitelisted assets in the Silo to earn Stalk and Seeds. Neither Stalk nor Seeds are liquid.
 
-### **Silo Whitelist**
+### **Deposit Whitelist**
 
-To be Deposited into the Silo, an ERC-20 standard token must be on the Silo Whitelist. The Whitelist is currently:
+To be Deposited into the Silo, an ERC-20 standard token must be on the Deposit Whitelist.
 
-* Bean
-* BEAN:3CRV LP
-* Unripe Bean
-* Unripe BEAN:3CRV LP
-
-Additional tokens may be added to the Whitelist via [Beanstalk governance](broken-reference). In order for a token to be added to the Whitelist, Beanstalk requires:
+Additional tokens may be added to the Deposit Whitelist via [Beanstalk governance](broken-reference). In order for a token to be added to the Deposit Whitelist, Beanstalk requires:
 
 1. The token address;
-2. A function to calculate the Bean denominated value (BDV) of the token; and
-3. The number of Stalk and Seeds per BDV deposited.
+2. A function to calculate the Bean Denominated Value (BDV) of the token; and
+3. The number of Stalk and Seeds per BDV received upon Deposit.
 
-### **Current Silo Parameters**
+#### **Current Deposit Whitelist**
 
-| **Whitelisted asset** | **Stalk per BDV** | **Seeds per BDV** |
-| --------------------- | ----------------- | ----------------- |
-| Bean                  | 1                 | 2                 |
-| BEAN:3CRV LP          | 1                 | 4                 |
-| Unripe Bean\*         | 1                 | 2                 |
-| Unripe BEAN:3CRV LP\* | 1                 | 4                 |
+| **Whitelisted asset**                                                                            | **Stalk per BDV** | **Seeds per BDV** |
+| ------------------------------------------------------------------------------------------------ | ----------------- | ----------------- |
+| [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                  | 1                 | 2                 |
+| [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)          | 1                 | 4                 |
+| [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*         | 1                 | 2                 |
+| [Unripe BEAN:3CRV LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 4                 |
 
 \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
 
@@ -48,13 +43,31 @@ Partial Withdrawals are placed on a Last In, First Out (LIFO) basis by the Beans
 
 ![](../.gitbook/assets/silo.png)
 
-### **Convert**
+### **Convert Whitelist**
 
-When the Bean price is above peg (_i.e._, [deltaB](../additional-resources/glossary.md#deltab) is positive), Deposited Beans may be converted to Deposited LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to sell Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is arbitraged back towards peg.
+Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference).&#x20;
 
-When the Bean price is below peg (_i.e._, deltaB is negative), Deposited LP may be converted to Deposited Beans while retaining grown Stalk from Seeds and without forfeiting any Stalk due to LP impermanent loss. This conversion allows Silo Members to remove excess Beans from liquidity pools and arbitrage the price back towards peg without leaving the Silo, minimizing debt issuance.
+When the Bean price is above peg (_i.e._, [deltaB](../additional-resources/glossary.md#deltab) is positive), Deposited Beans may be converted to Deposited BEAN:3CRV LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to sell Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is arbitraged back towards peg.
 
-Unripe Beans are also convertible to Unripe BEAN:3CRV LP and vice versa in a similar fashion. \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
+When the Bean price is below peg (_i.e._, deltaB is negative), Deposited BEAN:3CRV LP may be converted to Deposited Beans while retaining grown Stalk from Seeds and without forfeiting any Stalk due to LP impermanent loss. This conversion allows Silo Members to remove excess Beans from liquidity pools and arbitrage the price back towards peg without leaving the Silo, minimizing debt issuance.
+
+Unripe Beans are also convertible to Unripe BEAN:3CRV LP and vice versa in a similar fashion. See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
+
+In order for a given Convert to be added to the Convert Whitelist, Beanstalk requires:
+
+1. The From token address;
+2. The To token address;
+3. Conditions under which the From token can be Converted to the To token; and
+4. A function to determine the number of To tokens received for Converting a given number of From tokens (see [Section 14.4 in the whitepaper](https://bean.money/docs/beanstalk.pdf) to see formulas).
+
+#### Current Convert Whitelist
+
+| From token          | To token            | Conditions                       |
+| ------------------- | ------------------- | -------------------------------- |
+| Bean                | BEAN:3CRV LP        | deltaB in the BEAN:3CRV pool > 0 |
+| BEAN:3CRV LP        | Bean                | deltaB in the BEAN:3CRV pool < 0 |
+| Unripe Bean         | Unripe BEAN:3CRV LP | deltaB in the BEAN:3CRV pool > 0 |
+| Unripe BEAN:3CRV LP | Unripe Bean         | deltaB in the BEAN:3CRV pool < 0 |
 
 ### **Governance**
 

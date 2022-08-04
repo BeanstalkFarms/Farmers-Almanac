@@ -37,7 +37,7 @@ Owners of the currencies in a liquidity pool on Curve can add liquidity to the p
 
 3CRV is one of the most liquid stablecoin pools in DeFi, consisting of USDC, USDT and DAI. The centralized organizations that control USDC and USDT cannot blacklist 3CRV without destroying the value proposition of their own stablecoins. DAI is a network-native exogenous value convertible stablecoin that is primarily backed by centralized stablecoins.
 
-In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of each Season, Beanstalk calculates the liquidity and time weighted average shortage or excess of Beans in the BEAN:3CRV pool over the previous Season (i.e., [deltaB](../additional-resources/glossary.md#deltab)).
+In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of each Season, Beanstalk calculates the sum of the liquidity and time weighted average shortage or excess of Beans across the liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season (i.e., [deltaB](../additional-resources/glossary.md#deltab)).
 
 ### **Debt Level**
 
@@ -53,7 +53,7 @@ Beanstalk defines a handful of Pod Rate ranges that it uses as an input to deter
 
 ### **Bean Supply**
 
-At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a liquidity and time weighted average shortage of Beans in the BEAN:3CRV pool over the previous Season. Essentially, Beanstalk will mint the number of Beans that need to be sold to return the Bean price in the BEAN:3CRV pool to a dollar.
+At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a liquidity and time weighted average shortage of Beans across the pools in the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season. Essentially, Beanstalk will mint the number of Beans that need to be sold in the pools on the Oracle Whitelist to return the Bean price to a dollar.
 
 [Stalkholders](../farm/silo.md#the-stalk-system), Pod holders, and [Active Fertilizer](../farm/barn.md#fertilizer) holders receive 1/3 of new Bean mints each while there are [Unfertilized Sprouts](../farm/barn.md#fertilizer) outstanding. If there is no Active Fertilizer, Stalkholders and Pod holders receive 1/2 of new Bean mints each. If there are neither Pods nor Active Fertilizer, Stalkholders receive 100% of new Bean mints.
 
@@ -61,6 +61,6 @@ At the beginning of each Season, Beanstalk increases the Bean supply by deltaB i
 
 At the beginning of each Season, Beanstalk sets the Soil supply.
 
-When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the liquidity and time weighted average excess of Beans in the BEAN:3CRV liquidity pool over the previous Season.
+When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the sum of the liquidity and time weighted average excess of Beans across the liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season.
 
-When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for [Soil](../farm/field.md#soil). The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature, and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt level decrease the Soil supply.
+When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for [Soil](../farm/field.md#soil). The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature, and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt level decrease the Soil supply. See [Section 8.11 in the whitepaper](https://bean.money/docs/beanstalk.pdf) for complete formulas.

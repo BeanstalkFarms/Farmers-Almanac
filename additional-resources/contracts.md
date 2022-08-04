@@ -6,10 +6,13 @@
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Beanstalk                                                                                                                             | [0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5](https://etherscan.io/address/0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5) |
 | Beanstalk Contract Owner (ownership of Beanstalk has not yet been transferred to [the BCM](../governance/beanstalk/bcm-dashboard.md)) | [0xefd0E9ff0C4E1Bee55Db53FDD1FAD6F6950CeD0b](https://etherscan.io/address/0xefd0E9ff0C4E1Bee55Db53FDD1FAD6F6950CeD0b) |
+| Bean ERC-20 token                                                                                                                     | [0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab) |
+| BEAN:3CRV LP token                                                                                                                    | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/token/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)   |
+| Unripe Bean ERC-20 token                                                                                                              | [0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449) |
+| Unripe BEAN:3CRV LP ERC-20 token                                                                                                      | [0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D) |
 | Fertilizer ERC-1155 token                                                                                                             | [0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6](https://etherscan.io/address/0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6) |
 | Fertilizer Admin                                                                                                                      | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
-| Fertilizer Implementation (will change at Replant)                                                                                    | [0xb151eA73053386B8D0367c401Ee58a06e07EA680](https://etherscan.io/address/0xb151eA73053386B8D0367c401Ee58a06e07EA680) |
-| Beanstalk Price Contract (will change at Replant)                                                                                     | [0xcB64964117ae6dc6FaB049531Ed63dF949dCf6aF](https://etherscan.io/address/0xcB64964117ae6dc6FaB049531Ed63dF949dCf6aF) |
+| Beanstalk Price Contract                                                                                                              | [0xA57289161FF18D67A68841922264B317170b0b81](https://etherscan.io/address/0xA57289161FF18D67A68841922264B317170b0b81) |
 
 The following are the different facets Beanstalk uses:
 
