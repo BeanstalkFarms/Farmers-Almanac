@@ -196,10 +196,10 @@ In the event that counsel publishes the list, anyone could verify that it’s th
 
 ### Effective
 
-This document outlines the BCM processes for voting on and committing BIPs after the BIP that transfers ownership of Beanstalk to the BCM. Beanstalk Farms shall propose transferring ownership of the Beanstalk contract to the BCM in a future BIP.
+This document outlines the processes for voting on and committing BIPs after the BIP that transfers ownership of Beanstalk to the BCM. Ownership of Beanstalk was transferred to the BCM per BIP-21.&#x20;
 
-[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4). BIP-20 proposes the series of transactions necessary to perform the migration of Bean and LP balances post-exploit.&#x20;
+[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4) and proposed the series of transactions necessary to perform the migration of Bean and LP balances post-exploit.&#x20;
 
-BIP-21 will propose to execute the series of transactions necessary to Replant Beanstalk, execute several upgrades, transfer ownership of Beanstalk to the BCM and Unpause Beanstalk.
+[BIP-21 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xbe30bc43d7185ef77cd6af0e5c85da7d7c06caad4c0de3a73493ed48eae32d71) and proposed to execute the series of transactions necessary to Replant Beanstalk, execute several upgrades, transfer ownership of Beanstalk to the BCM and Unpause Beanstalk.
 
 These will be the sole instances where multiple BCM transactions are approved in a single BIP.
