@@ -10,13 +10,27 @@
 
 [Discord](https://discord.gg/beanstalk)
 
-[GitHub](https://github.com/BeanstalkFarms/Beanstalk)
-
-[Farmer's Almanac](https://docs.bean.money/) (GitBook)
+[Farmers' Almanac](https://docs.bean.money/) (GitBook)
 
 [Dune ](https://dune.xyz/tbiq/Beanstalk)(pre-exploit analytics)
 
 [Dune Barn Raise Analytics](https://dune.com/tbiq/beanstalk-barn-raise)
+
+### GitHub
+
+[Beanstalk](https://github.com/BeanstalkFarms/Beanstalk)
+
+[Beanstalk Subgraph](https://github.com/BeanstalkFarms/Beanstalk-Subgraph)
+
+[Beanstalk Tooling](https://github.com/BeanstalkFarms/beanstalk-py)
+
+[Fertilizer Metadata](https://github.com/BeanstalkFarms/Fertilizer-Metadata)
+
+[Beanstalk Assets](https://github.com/BeanstalkFarms/Beanstalk-Assets)
+
+[Beanstalk Audits](https://github.com/BeanstalkFarms/Beanstalk-Audits)
+
+[Farmers' Almanac](https://github.com/BeanstalkFarms/Farmers-Almanac)
 
 ### Governance
 
@@ -63,6 +77,8 @@
 [Medium](https://medium.com/beanstalkfarms/) (see [Blog](https://bean.money/blog) instead)
 
 [Commonwealth](https://commonwealth.im/beanstalk/)
+
+[Beanstalk Q4 2021 Budget Contracts](https://github.com/BeanstalkFarms/Beanstalk-Budget)
 
 [Reddit](https://www.reddit.com/r/BeanstalkProtocol/)
 
