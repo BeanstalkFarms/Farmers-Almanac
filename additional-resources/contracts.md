@@ -46,7 +46,7 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 | [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)         | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home) |
 | [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)   | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home) |
 
-### Old token + pools
+### Old token
 
 {% hint style="danger" %}
 The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. A new Bean token was issued at Replant—you can find it at the top of this page..
