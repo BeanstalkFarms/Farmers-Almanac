@@ -1,8 +1,12 @@
 # Depot
 
-The Depot facilitates complex, gas-efficient transactions within Beanstalk and across the Ethereum network. Any protocol with a Pipeline to the Depot can be used via Beanstalk. Pipelines can be added to the Depot via Beanstalk governance.
+The Depot facilitates complex, gas-efficient transactions within Beanstalk and across the Ethereum network.&#x20;
 
 ### Pipelines
+
+Any protocol with a Pipeline to the Depot can be used via Beanstalk. Pipelines can be added to the Depot via Beanstalk governance.
+
+#### Curve Pipeline
 
 The Curve Pipeline allows anyone to call functions in any pool registered in any of the following Curve registries.
 

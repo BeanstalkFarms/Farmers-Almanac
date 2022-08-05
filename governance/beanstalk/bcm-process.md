@@ -11,13 +11,13 @@ BCM Signers are an [anonymous](bcm-process.md#anonymous-multisig-signers) and di
 * Reputable community members; and
 * Beanstalk core contributors.
 
-Fertilizer funds will be custodied in the BCM until the Replant.
+Fertilizer funds were be custodied in the BCM until the Replant.
 
 ### Multisig Powers
 
 Beanstalk implements the [EIP-2535 Diamond Standard](https://github.com/ethereum/EIPs/issues/2535), a new standard for fully-upgradeable smart contracts.
 
-The mechanism for upgrading a Diamond is by calling [`diamondCut()`](https://eips.ethereum.org/EIPS/eip-2535#the-diamondcut-function) , which takes arguments of functions to replace and which functions to replace them with. Upon Replant, the `diamondCut()` function will only be callable by the owner of Beanstalk, which will be the BCM.
+The mechanism for upgrading a Diamond is by calling [`diamondCut()`](https://eips.ethereum.org/EIPS/eip-2535#the-diamondcut-function) , which takes arguments of functions to replace and which functions to replace them with. The `diamondCut()` function will only be callable by the owner of Beanstalk, which will be the BCM.
 
 Upgrades should only be executed after a Snapshot has passed and Signers have manually reviewed the code changes. However, in the case of an emergency (like a serious bug or exploit), the BCM may execute transactions to protect the Beanstalk contract. The best practices for emergency response handling are outlined in the [#emergency-response-procedures](bcm-process.md#emergency-response-procedures "mention") section.
 
@@ -51,7 +51,7 @@ The BCM shall not execute transactions until an associated Snapshot successfully
 
 ### Proposing a BIP
 
-Beanstalk's governance is designed to be as censorship resistant as possible. In an effort to promote a permissionless process, any community member may submit BIPs after Beanstalk is Replanted. If a community member wishes to propose a BIP, they will need to complete a public proposal process on Discord and submit a Github pull request before the BCM will submit a Snapshot on their behalf.
+Beanstalk's governance is designed to be as censorship resistant as possible. Any community member may submit BIPs. If a community member wishes to propose a BIP, they will need to complete a public proposal process on Discord and submit a Github pull request before the BCM will submit a Snapshot on their behalf.
 
 **BIP Proposal Process**
 
@@ -108,7 +108,7 @@ Once a Snapshot is proposed, all Signers are expected to promptly review and ver
 
 Signers will sign the transaction to either execute the proposed transaction or cancel it as soon as possible following the conclusion of the Voting Period.
 
-Once sufficient signatures have been provided to execute the transaction, is it expected that one of the Signers execute the transaction. Upon Replant, Publius shall initially execute the transaction and pay for gas fees. After Beanstalk Replants and Signers are more comfortable, Publius or Beanstalk Farms shall distribute enough ETH to every Signer to execute a transaction in case of emergency. Signers are not expected to contribute capital to participate in the BCM.
+Once sufficient signatures have been provided to execute the transaction, is it expected that one of the Signers execute the transaction. After Replant, Publius shall initially execute the transaction and pay for gas fees. After Signers are more comfortable, Publius or Beanstalk Farms shall distribute enough ETH to every Signer to execute a transaction in case of emergency. Signers are not expected to contribute capital to participate in the BCM.
 
 A Signer shall lose their role (by action of the remaining Signers removing them) in case they:
 
@@ -135,7 +135,7 @@ Bugs or security vulnerabilities qualify as emergencies. Emergency action will n
 
 ### Reviewing and Signing off on Transactions
 
-Everyone on the BCM shall be expected to know how to verify diamondCut data and submit an etherscan transaction confirming they have checked the submitted transaction. Until Beanstalk is Replanted, Signers are not required to verify each transaction, but doing so is strongly encouraged.
+Everyone on the BCM shall be expected to know how to verify diamondCut data and submit an etherscan transaction confirming they have checked the submitted transaction. After Beanstalk is Replanted, Signers are required to verify each transaction.
 
 As a part of submitting BIPs, the proposer will be responsible for providing thorough documentation or supplementary video to the Beanstalk DAO and BCM for how to review/test all relevant code.
 
