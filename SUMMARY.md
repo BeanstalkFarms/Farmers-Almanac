@@ -45,6 +45,7 @@
 * [Transfer Beanstalk Assets](guides/transfer-beanstalk-assets.md)
 * [Participate in Governance](guides/participate-in-governance.md)
 * [Approve Contracts](guides/approve-contracts.md)
+* [Pick Unripe Assets](guides/pick-unripe-assets.md)
 
 ## Additional Resources
 
