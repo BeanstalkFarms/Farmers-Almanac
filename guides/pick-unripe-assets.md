@@ -2,6 +2,8 @@
 
 [Picking](../additional-resources/glossary.md#pick) Unripe assets is a one-time action that pre-exploit Farmers take to claim their non-Deposited Unripe assets.
 
+Upon Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
+
 More information about [Unripe assets](https://docs.bean.money/farm/barn#unripe-assets).
 
 1. Make sure you are on [https://app.bean.money/](https://app.bean.money/).
