@@ -41,6 +41,8 @@ The associated amount of Stalk, Seeds, and Stalk from Seeds from a given Deposit
 
 Partial Withdrawals are placed on a Last In, First Out (LIFO) basis by the Beanstalk UI, minimizing the amount of Stalk and Seeds forfeited. Deposited assets can be Withdrawn from the Silo at any time but are Frozen until the end of the current Season before they can be Claimed.
 
+Deposits can be Transferred to another address directly without the loss of Stalk, Seeds, and Stalk from Seeds.
+
 ![](../.gitbook/assets/silo.png)
 
 ### **Convert Whitelist**

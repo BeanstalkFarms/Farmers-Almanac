@@ -350,6 +350,10 @@ Beanstalk accepts one sunrise() function call every Season. Upon the sunrise() c
 
 The interest rate for Sowing Beans.
 
+### Transfer
+
+Moving Deposits or Plots from one address to another. Deposits can be Transferred without the loss of Stalk, Seeds, or Stalk from Seeds.
+
 ### **Unpause**
 
 Resume the acceptance of sunrise() function calls. When Beanstalk is Unpaused, the sunrise() function can be called at the beginning of the next hour.
@@ -361,8 +365,6 @@ Unripe assets represent a pro rata share of Ripe assets minted as Fertilizer is 
 ### **Voting Period**
 
 The time interval in which a BIP is considered by Stalkholders.
-
-****
 
 ### **Withdraw**
 
