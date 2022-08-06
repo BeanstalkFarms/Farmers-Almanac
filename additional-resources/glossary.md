@@ -350,6 +350,10 @@ Beanstalk accepts one sunrise() function call every Season. Upon the sunrise() c
 
 The interest rate for Sowing Beans.
 
+### Total Value Deposited
+
+The value of assets Deposited in the Silo. Abbreviated as TVD.
+
 ### Transfer
 
 Moving Deposits or Plots from one address to another. Deposits can be Transferred without the loss of Stalk, Seeds, or Stalk from Seeds.
