@@ -16,6 +16,10 @@
 
 [Dune Barn Raise Analytics](https://dune.com/tbiq/beanstalk-barn-raise)
 
+[WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
+
+[WIP Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
+
 ### GitHub
 
 [Beanstalk](https://github.com/BeanstalkFarms/Beanstalk)
@@ -63,6 +67,8 @@
 [Beanstalk Farms YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
 
 [Telegram](https://t.me/beanstalkusd)
+
+[Beanstalk Telegram Tracker](https://t.me/+TwWLsuWSEttlODZh)
 
 ### OpenSea
 
