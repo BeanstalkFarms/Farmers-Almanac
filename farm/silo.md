@@ -83,13 +83,15 @@ See [Governance](../governance/beanstalk/) section.
 
 **Grown Stalk** is the Stalk earned from Seeds. Grown Stalk does not contribute to Stalk ownership until it is Mown. Mow can be called on its own, and it is also called at the beginning of any Silo interaction (Depositing, Withdrawing, Converting, Planting, etc.).
 
-**Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
+**Revitalized Stalk** is Stalk that have vested for pre-exploit Silo Members as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Stalk do not contribute to Stalk ownership until Enrooted. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
 
 ![](../.gitbook/assets/stalk.png)
 
 **Plantable Seeds** are Seeds earned in conjunction with Earned Beans. Plantable Seeds must be Planted in order to grow Stalk.
 
-**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as Fertilizer is sold. Revitalized Seeds must be Enrooted in order to grow Stalk. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
+**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Seeds must be Enrooted in order to grow Stalk. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
+
+![](../.gitbook/assets/stalk.png)
 
 ![](../.gitbook/assets/seeds.png)
 
