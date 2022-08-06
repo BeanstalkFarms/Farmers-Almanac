@@ -276,11 +276,11 @@ The relaunch of Beanstalk post-exploit.
 
 ### **Revitalized Stalk**
 
-Stalk that have vested for pre-exploit Silo Members as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Stalk does not contribute to Stalk ownership until Enrooted.
+Stalk that have vested for pre-exploit Silo Members. Revitalized Stalk are minted as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Stalk does not contribute to Stalk ownership until Enrooted.
 
 ### **Revitalized Seeds**
 
-Seeds that have vested for pre-exploit Silo Members as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Seeds do not generate Stalk until Enrooted.
+Seeds that have vested for pre-exploit Silo Members. Revitalized Seeds are minted as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Seeds do not generate Stalk until Enrooted.
 
 ### **Rinsable Sprouts**
 
