@@ -116,7 +116,7 @@ A Season where no Beans are minted per the peg maintenance mechanism.
 
 ### **Earned Beans**
 
-Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Earned Beans are automatically Deposited into the Silo and do not require any action to claim them.
+Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Upon Plant, Earned Beans are Deposited in the current Season.
 
 ### **Earned Stalk**
 

@@ -77,7 +77,7 @@ See [Governance](../governance/beanstalk/) section.
 
 ### **Silo Rewards**
 
-**Earned Beans** are Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds (defined below). Earned Beans are automatically Deposited into the Silo and do not require any action to claim them.
+**Earned Beans** are Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds (defined below). Upon Plant, Earned Beans are Deposited in the current Season.
 
 **Earned Stalk** are Stalk earned from Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.
 
