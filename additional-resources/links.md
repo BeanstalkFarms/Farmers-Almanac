@@ -12,13 +12,19 @@
 
 [Farmers' Almanac](https://docs.bean.money/) (GitBook)
 
-[Dune ](https://dune.xyz/tbiq/Beanstalk)(pre-exploit analytics)
-
-[Dune Barn Raise Analytics](https://dune.com/tbiq/beanstalk-barn-raise)
-
 [WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
 
-[WIP Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
+### Analytics
+
+[Beanstalk UI Analytics Page](https://app.bean.money/#/analytics)
+
+[Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
+
+[Pre-Exploit Dune Dashboard](https://dune.com/tbiq/Beanstalk)
+
+[Barn Raise Dune Dashboard](https://dune.com/tbiq/beanstalk-barn-raise)
+
+[DeFi Llama Dashboard](https://defillama.com/stablecoin/bean)
 
 ### GitHub
 
