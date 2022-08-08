@@ -35,7 +35,7 @@ The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to R
 ![](../.gitbook/assets/barn.png)
 
 1. Fertilizer is bought with USDC. Active Fertilizer comes with Sprouts.
-2. Sprouts are Fertilized by Fertilizer into Rinsable Sprouts on a pari passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.
+2. Sprouts become Rinsable on a pari passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.
 3. Rinsable Sprouts can be Rinsed to be redeemed for Beans.
 
 ### **Unripe Assets**
@@ -44,17 +44,17 @@ Beanstalk uses the proceeds from the Fertilizer sales to recapitalize liquidity 
 
 Upon Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
 
-Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter. More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that are Fertilized increases.
+Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter. More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that have become Rinsable increases.
 
-> For example, if 20% of Fertilizer is sold before Replant, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit will receive 1000 Unripe Beans and 2000 Unripe BEAN:3CRV LP. As Fertilizer is sold and the percentage of Sprouts that are Fertilized increases, Beanstalk mints Ripe BEAN:3CRV LP and Ripe Beans.
+> For example, if 20% of Fertilizer is sold before Replant, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit will receive 1000 Unripe Beans and 2000 Unripe BEAN:3CRV LP. As Fertilizer is sold and the percentage of Sprouts that have become Rinsable increases, Beanstalk mints Ripe BEAN:3CRV LP and Ripe Beans.
 
 ### **Chopping**
 
-The percentage of Ripe assets that can be claimed by Chopping a pro rata portion of Unripe assets is a function of the percentage of total Sprouts Fertilized out of all total Sprouts.
+The percentage of Ripe assets that can be claimed by Chopping a pro rata portion of Unripe assets is a function of the percentage of Sprouts that have become Rinsable.
 
 Chopped Unripe assets are burned. Beans and BEAN:3CRV LP received for Chopping are distributed from the set of Ripe Beans and Ripe BEAN:3CRV LP, respectively.
 
-> For example, if 1M Sprouts have been Fertilized and there are 10M total Sprouts, then a Farmer who Chops 100 Unripe Beans that correspond to 50 Ripe Beans will get 5 Beans in exchange.
+> For example, if 1M Sprouts have been become Rinsable and there are 10M total Sprouts, then a Farmer who Chops 100 Unripe Beans that correspond to 50 Ripe Beans will get 5 Beans in exchange.
 
 Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:3CRV LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity to Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:3CRV LP to Unripe Beans in the Silo, while the converse is true of Conversions from Unripe Beans to Unripe BEAN:3CRV LP.
 
