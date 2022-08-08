@@ -11,7 +11,7 @@ Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum.
 
 Beanstalk is the basis of an Ethereum-native, rent-free economy facilitated by the positive carry of its native fiat currency, a stablecoin called Bean.
 
-A stablecoin that (1) prioritizes decentralization, (2) does not require collateral, and (3) organically trends toward more liquidity and stability over time, will unlock the potential of DeFi. Beanstalk’s primary objective is to incentivize independent market participants to regularly cross the price of 1 Bean over its dollar peg in a sustainable fashion.
+A stablecoin that does not compromise on decentralization nor require collateral, has competitive carrying costs, and trends toward more stability and liquidity, will unlock the potential of DeFi. Beanstalk’s primary objective is to incentivize independent market participants to regularly cross the price of 1 Bean over its dollar peg in a sustainable fashion.
 
 You can find an overview of Beanstalk here:
 
