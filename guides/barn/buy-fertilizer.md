@@ -11,7 +11,7 @@ After Beanstalk is Replanted, Active Fertilizer holders will receive a pro rata 
 
 **With USDC**
 
-1. [Approve the Fertilizer contract](../approve-contracts.md) to use your USDC.
+1. [Approve the Fertilizer contract](../getting-started/approve-contracts.md) to use your USDC.
 2. Enter the desired amount of USDC to buy Fertilizer with.
 3. Click “Buy X Fertilizer”.
 4. Click "Confirm" on the transaction when prompted by MetaMask.
