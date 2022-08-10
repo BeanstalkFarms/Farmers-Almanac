@@ -2,24 +2,18 @@
 
 Beanstalk is hosting the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo. The Barn Raise started on **June 6, 2022**.
 
-After Beanstalk is Replanted, Active Fertilizer holders will receive a pro rata share of one-third of new Bean mints. See the [Barn](../../farm/barn.md) page for more info.
+After Beanstalk is Replanted, Active Fertilizer holders receive Sprouts Sprouts become redeemable for Beans on a [pari passu](https://docs.bean.money/additional-resources/glossary#pari-passu) basis. See the [Barn](../../farm/barn.md) page for more info.
 
-### **How to Buy Fertilizer**
-
-1. Navigate to the "Buy Fertilizer" module on the "Barn Raise" page.
-2. In the "Buy Fertilizer" module, select either USDC or ETH.
-
-**With USDC**
-
-1. [Approve the Fertilizer contract](../getting-started/approve-contracts.md) to use your USDC.
-2. Enter the desired amount of USDC to buy Fertilizer with.
-3. Click “Buy X Fertilizer”.
-4. Click "Confirm" on the transaction when prompted by MetaMask.
-5. If your MetaMask is connected to a hardware wallet, confirm the transaction on your hardware wallet.
-
-**With ETH**
-
-1. Enter the desired amount of ETH to buy Fertilizer with.
-2. Click “Buy X Fertilizer”.
-3. Click "Confirm" on the transaction when prompted by MetaMask.
-4. If your MetaMask is connected to a hardware wallet, confirm the transaction on your hardware wallet.
+1. Make sure you are on [app.bean.money](https://app.bean.money/).
+2. Navigate to the “Barn” page.
+3. The Available Fertilizer is displayed in the "Barn Conditions" component. Available Fertilizer is a function of how much Unripe BEAN:3CRV LP is left to be recapitalized. See [Fertilizer](../../farm/barn.md#fertilizer) for additional information.
+4. In the “Buy” tab, there is a dropdown menu to select the token you would like to use to buy Fertilizer.
+5. Enter the amount of the selected token you want to use to buy Fertilizer.
+   * The amount of Fertilizer received rounds down to the nearest USDC.
+6. A transaction preview will appear below the inputs. Select the “Transaction Details” dropdown to review each step of the transaction.
+7. You may select a slippage tolerance by selecting the gear icon. The default slippage tolerance is 0.1%.
+8. If you are buying Fertilizer with ETH, skip to Step 10. For all other assets, select “Approve \[Token]”. This allows the Beanstalk contract to spend the asset, but does not use it to buy and Sow Beans yet.
+9. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+10. Select “Buy”.
+11. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+12. After the transaction has been confirmed by the network, your Fertilizer and associated Sprouts will appear in the “Fertilizer” component at the bottom of the “Barn” page.

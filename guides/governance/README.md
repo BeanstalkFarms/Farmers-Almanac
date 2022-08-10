@@ -1,3 +1,5 @@
 # Governance
 
-[Participate in Governance](participate-in-governance.md)
+Guides on participating in [Beanstalk governance](../../governance/beanstalk/).
+
+* [Vote on BIPs](vote-on-bips.md)

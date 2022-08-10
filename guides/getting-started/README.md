@@ -1,5 +1,6 @@
 # Getting Started
 
-[Connect to Beanstalk](connect-to-beanstalk.md)
+Introductory guides on connecting to and interacting with Beanstalk.
 
-[Approve Contracts](approve-contracts.md)
+* [Connect to Beanstalk](connect-wallet.md)
+* [Approve Contracts](approvals.md)

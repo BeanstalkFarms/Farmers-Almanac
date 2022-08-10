@@ -1,7 +1,7 @@
 # Field
 
-[Sow Beans](sow-beans.md)
+Guides on interacting with [the Field](../../farm/field.md).
 
-[Transfer Pods](transfer-pods.md)
-
-[Harvest Pods](harvest-pods.md)
+* [Sow Beans](sow.md)
+* [Transfer Pods](transfer.md)
+* [Harvest Pods](harvest.md)

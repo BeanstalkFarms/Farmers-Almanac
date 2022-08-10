@@ -1,13 +1,10 @@
 # Silo
 
-[Deposit in the Silo](deposit-in-the-silo.md)
+Guides on interacting with [the Silo](../../farm/silo.md).
 
-[Convert in the Silo](convert-in-the-silo.md)
-
-[Transfer Deposits](transfer-deposits.md)
-
-[Withdraw from the Silo](withdraw-from-the-silo.md)
-
-[Claim Assets](claim-assets.md)
-
-[Claim Silo Rewards](claim-silo-rewards.md)
+* [Deposit in the Silo](deposit.md)
+* [Convert in the Silo](convert.md)
+* [Transfer Deposits](transfer.md)
+* [Withdraw from the Silo](withdraw.md)
+* [Claim Assets](claim-assets.md)
+* [Claim Silo Rewards](claim-rewards.md)

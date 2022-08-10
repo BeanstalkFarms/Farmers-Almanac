@@ -1,16 +1,22 @@
 # Claim Silo Rewards
 
+### &#x20;<a href="#_vxj14a5yuf7m" id="_vxj14a5yuf7m"></a>
+
+Assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist) can be Deposited in [the Silo](../../farm/silo.md) to earn Stalk and Seeds. You can find more information about Depositing in the Silo [here](../../farm/silo.md#deposit-whitelist).
+
+1.
+
 ### Silo Rewards <a href="#_vxj14a5yuf7m" id="_vxj14a5yuf7m"></a>
 
-[Mow Grown Stalk](claim-silo-rewards.md#\_vxj14a5yuf7m)
+[Mow Grown Stalk](claim-rewards.md#\_vxj14a5yuf7m)
 
-[Plant Plantable Seeds](claim-silo-rewards.md#\_weq0q0ul9mn7)
+[Plant Plantable Seeds](claim-rewards.md#\_weq0q0ul9mn7)
 
-[Enroot Revitalized Stalk and Seeds](claim-silo-rewards.md#\_qzlmq5gzs0t)
+[Enroot Revitalized Stalk and Seeds](claim-rewards.md#\_qzlmq5gzs0t)
 
-[Claim all Silo Rewards](claim-silo-rewards.md#\_wpv4vra8kyz7)
+[Claim all Silo Rewards](claim-rewards.md#\_wpv4vra8kyz7)
 
-### Mow Grown Stalk <a href="#_vxj14a5yuf7m" id="_vxj14a5yuf7m"></a>
+### Mow <a href="#_vxj14a5yuf7m" id="_vxj14a5yuf7m"></a>
 
 More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards), [Grown Stalk](https://docs.bean.money/additional-resources/glossary#grown-stalk) and [Mow](https://docs.bean.money/additional-resources/glossary#mow).
 
@@ -25,7 +31,7 @@ Note: The “Mow” function is called anytime a Farmer interacts with the Silo.
 5. At the bottom of the modal select the green “Mow” button.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should [verify](https://docs.bean.money/additional-resources/contracts) that the transaction is interacting with the correct contract before signing it.
 
-### Plant Plantable Seeds <a href="#_weq0q0ul9mn7" id="_weq0q0ul9mn7"></a>
+### Plant <a href="#_weq0q0ul9mn7" id="_weq0q0ul9mn7"></a>
 
 More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards), [Plantable Seeds](https://docs.bean.money/additional-resources/glossary#plantable-seeds), and [Plant](https://docs.bean.money/additional-resources/glossary#plant).
 
@@ -38,7 +44,7 @@ More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rew
 5. At the bottom of the modal select the green “Plant” button.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should [verify](https://docs.bean.money/additional-resources/contracts) that the transaction is interacting with the correct contract before signing it.
 
-### Enroot Revitalized Stalk and Seeds <a href="#_qzlmq5gzs0t" id="_qzlmq5gzs0t"></a>
+### Enroot <a href="#_qzlmq5gzs0t" id="_qzlmq5gzs0t"></a>
 
 More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards), [Revitalized Stalk](https://docs.bean.money/additional-resources/glossary#revitalized-stalk), [Revitalized Seeds](https://docs.bean.money/additional-resources/glossary#revitalized-seeds), and [Enroot](https://docs.bean.money/additional-resources/glossary#enroot).
 
@@ -53,7 +59,7 @@ More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rew
 
 ### Claim all Silo Rewards <a href="#_wpv4vra8kyz7" id="_wpv4vra8kyz7"></a>
 
-More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards). Includes [Mow](https://docs.bean.money/additional-resources/glossary#mow), [Plant](https://docs.bean.money/additional-resources/glossary#plant), and [Enroot](https://docs.bean.money/additional-resources/glossary#enroot).
+More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards). Claiming all Silo Rewards calls [Mow](https://docs.bean.money/additional-resources/glossary#mow), [Plant](https://docs.bean.money/additional-resources/glossary#plant), and [Enroot](https://docs.bean.money/additional-resources/glossary#enroot).
 
 1. Make sure you are on [https://app.bean.money/](https://app.bean.money/).
 2. Navigate to the “Silo” page.

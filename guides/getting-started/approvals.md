@@ -4,6 +4,5 @@ Certain transactions require approving certain smart contracts to process your t
 
 To send an approval for the transaction in question:
 
-1. Click the "Approve" button.
-2. Click "Confirm" on the transaction when prompted by MetaMask.
-3. If your MetaMask is connected to a hardware wallet, confirm the transaction on your hardware wallet.
+1. Select "Approve \[Token]".
+2. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.

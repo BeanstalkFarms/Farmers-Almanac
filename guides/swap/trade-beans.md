@@ -1,0 +1,3 @@
+# Trade Beans
+
+**Coming soon!** 🌱

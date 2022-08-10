@@ -1,5 +1,6 @@
 # Barn
 
-[Buy Fertilizer](buy-fertilizer.md)
+Guides on interacting with [the Barn](../../farm/barn.md).
 
-[Rinse Sprouts](rinse-sprouts.md)
+* [Buy Fertilizer](buy-fertilizer.md)
+* [Rinse Sprouts](rinse.md)

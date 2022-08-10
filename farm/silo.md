@@ -91,8 +91,6 @@ See [Governance](../governance/beanstalk/) section.
 
 **Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members as the BDV of Unripe Deposits exceed their haircut BDV at the time of Deposit. Revitalized Seeds must be Enrooted in order to grow Stalk. See the [Revitalized Assets](barn.md#revitalized-assets) section of the [Barn](barn.md) page for more info.
 
-![](../.gitbook/assets/stalk.png)
-
 ![](../.gitbook/assets/seeds.png)
 
 ### **Example**
