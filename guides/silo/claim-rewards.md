@@ -49,7 +49,7 @@ Make sure you are on [app.bean.money](https://app.bean.money/).
 4. At the bottom of the modal select the green “Enroot” button.
 5. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 
-### Claim all Silo Rewards
+### Claim all Silo Rewards <a href="#claim-all" id="claim-all"></a>
 
 Claiming all Silo Rewards calls [Mow](claim-rewards.md#mow), [Plant](claim-rewards.md#plant) and [Enroot](claim-rewards.md#enroot) in one transaction.
 
