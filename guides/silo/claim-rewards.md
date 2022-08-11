@@ -37,17 +37,16 @@ Planting [Plantable Seeds](../../additional-resources/glossary.md#plantable-seed
 
 ### Enroot
 
+[Enrooting](../../additional-resources/glossary.md#enroot) adds [Revitalized Stalk and Seeds](../../farm/barn.md#revitalized-assets) to your Stalk and Seed balances, respectively.
 
-
-Make sure you are on [app.bean.money](https://app.bean.money/).
-
-1. Navigate to the “Silo” page.
-2. Select the green “Claim Rewards” button.
+1. Make sure you are on [app.bean.money](https://app.bean.money/).
+2. Navigate to the “Silo” page.
+3. Select the green “Claim Rewards” button.
    * Note: You must have Revitalized Stalk and Seeds in order to Enroot.
-3. Select “Enroot” in the modal.
+4. Select “Enroot” in the modal.
    * To the right of “Enroot” there will be an estimated transaction fee based on current gas prices on Ethereum.
-4. At the bottom of the modal select the green “Enroot” button.
-5. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+5. At the bottom of the modal select the green “Enroot” button.
+6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 
 ### Claim all Silo Rewards <a href="#claim-all" id="claim-all"></a>
 
