@@ -1,62 +1,63 @@
 # Claim Silo Rewards
 
-Assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist) can be Deposited in [the Silo](../../farm/silo.md) to earn Stalk and Seeds. You can find more information about Depositing in the Silo [here](../../farm/silo.md#deposit-whitelist).
+Assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist) can be Deposited in [the Silo](../../farm/silo.md) to earn Stalk and Seeds. You can find more information about Silo Rewards [here](../../farm/silo.md#silo-rewards).
 
-* [Mow Grown Stalk](claim-rewards.md#\_vxj14a5yuf7m)
-* [Plant Plantable Seeds](claim-rewards.md#\_weq0q0ul9mn7)
-* [Enroot Revitalized Stalk and Seeds](claim-rewards.md#\_qzlmq5gzs0t)
-* [Claim all Silo Rewards](claim-rewards.md#\_wpv4vra8kyz7)
+* [Mow Grown Stalk](claim-rewards.md#mow)
+* [Plant Plantable Seeds](claim-rewards.md#plant)
+* [Enroot Revitalized Stalk and Seeds](claim-rewards.md#enroot)
+* [Claim all Silo Rewards](claim-rewards.md#undefined)
 
-### Mow <a href="#_vxj14a5yuf7m" id="_vxj14a5yuf7m"></a>
+### Mow
 
-More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards), [Grown Stalk](https://docs.bean.money/additional-resources/glossary#grown-stalk) and [Mow](https://docs.bean.money/additional-resources/glossary#mow).
+Mowing [Grown Stalk](../../additional-resources/glossary.md#grown-stalk) adds the Grown Stalk to your Stalk balance, which determines your governance power and portion of Bean seigniorage earned.
 
 Note: The “Mow” function is called anytime a Farmer interacts with the Silo.
 
-1. Make sure you are on [https://app.bean.money/](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards” button.
    * Note: You must have Grown Stalk in order to Mow.
 4. Select “Mow” in the modal.
    * To the right of “Mow” there will be an estimated transaction fee based on current gas prices on Ethereum.
 5. At the bottom of the modal select the green “Mow” button.
-6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should [verify](https://docs.bean.money/additional-resources/contracts) that the transaction is interacting with the correct contract before signing it.
+6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 
-### Plant <a href="#_weq0q0ul9mn7" id="_weq0q0ul9mn7"></a>
+### Plant
 
-More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards), [Plantable Seeds](https://docs.bean.money/additional-resources/glossary#plantable-seeds), and [Plant](https://docs.bean.money/additional-resources/glossary#plant).
+Planting [Plantable Seeds](../../additional-resources/glossary.md#plantable-seeds) adds them to your Seed balance, which determines how many Grown Stalk you receive each Season. Planting also Deposits your [Earned Beans](../../additional-resources/glossary.md#earned-beans) in the current Season. [Earned Stalk](../../additional-resources/glossary.md#earned-stalk) already contributes to your Stalk ownership and does not need to be claimed, but is claimed upon Plant.
 
-1. Make sure you are on [https://app.bean.money/](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards" button.
    * Note: You must have Plantable Seeds in order to “Plant”.
 4. Select “Plant” in the modal.
    * To the right of “Plant” there will be an estimated transaction fee based on current gas prices on Ethereum.
 5. At the bottom of the modal select the green “Plant” button.
-6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should [verify](https://docs.bean.money/additional-resources/contracts) that the transaction is interacting with the correct contract before signing it.
+6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 
-### Enroot <a href="#_qzlmq5gzs0t" id="_qzlmq5gzs0t"></a>
+### Enroot
 
-More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards), [Revitalized Stalk](https://docs.bean.money/additional-resources/glossary#revitalized-stalk), [Revitalized Seeds](https://docs.bean.money/additional-resources/glossary#revitalized-seeds), and [Enroot](https://docs.bean.money/additional-resources/glossary#enroot).
 
-1. Make sure you are on [https://app.bean.money/](https://app.bean.money/).
-2. Navigate to the “Silo” page.
-3. Select the green “Claim Rewards” button.
+
+Make sure you are on [app.bean.money](https://app.bean.money/).
+
+1. Navigate to the “Silo” page.
+2. Select the green “Claim Rewards” button.
    * Note: You must have Revitalized Stalk and Seeds in order to Enroot.
-4. Select “Enroot” in the modal.
+3. Select “Enroot” in the modal.
    * To the right of “Enroot” there will be an estimated transaction fee based on current gas prices on Ethereum.
-5. At the bottom of the modal select the green “Enroot” button.
-6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should [verify](https://docs.bean.money/additional-resources/contracts) that the transaction is interacting with the correct contract before signing it.
+4. At the bottom of the modal select the green “Enroot” button.
+5. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 
-### Claim all Silo Rewards <a href="#_wpv4vra8kyz7" id="_wpv4vra8kyz7"></a>
+### Claim all Silo Rewards
 
-More information about [Silo Rewards](https://docs.bean.money/farm/silo#silo-rewards). Claiming all Silo Rewards calls [Mow](https://docs.bean.money/additional-resources/glossary#mow), [Plant](https://docs.bean.money/additional-resources/glossary#plant), and [Enroot](https://docs.bean.money/additional-resources/glossary#enroot).
+Claiming all Silo Rewards calls [Mow](claim-rewards.md#mow), [Plant](claim-rewards.md#plant) and [Enroot](claim-rewards.md#enroot) in one transaction.
 
-1. Make sure you are on [https://app.bean.money/](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards” button.
-   * Note: You must have Claimable Silo Rewards.
-4. Select “Claim all Silo Rewards” in the modal to [Mow](https://docs.bean.money/additional-resources/glossary#mow), [Plant](https://docs.bean.money/additional-resources/glossary#plant), and [Enroot](https://docs.bean.money/additional-resources/glossary#enroot).
+   * Note: You must have claimable Silo Rewards.
+4. Select “Claim all Silo Rewards” in the modal to Mow, Plant and Enroot.
    * To the right of “Claim all Silo Rewards” there will be an estimated transaction fee based on current gas prices on Ethereum.
 5. At the bottom of this modal select the green “Claim all Silo Rewards” button.
-6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should [verify](https://docs.bean.money/additional-resources/contracts) that the transaction is interacting with the correct contract before signing it.
+6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
