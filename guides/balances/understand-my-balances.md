@@ -12,7 +12,9 @@ The top of the Balances page displays your total Beanstalk-related balance denom
 * Farm Balances - Assets stored in Beanstalk. [Farm assets](../../additional-resources/glossary.md#farm-assets) can be used in transactions on the Farm.
 * Circulating Balances - Beanstalk assets in your wallet.
 
-Note that Unripe Bean and Unripe BEAN:3CRV LP balances are based on the amount received as if they were [Chopped](../../additional-resources/glossary.md#chop) for [Ripe assets](../../additional-resources/glossary.md#ripe-assets), after the [Chop Penalty](../../additional-resources/glossary.md#chop-penalty).
+See [Asset States](../../additional-resources/asset-states.md) for more info on the different states Beanstalk assets can be in.
+
+Note that Unripe Bean and Unripe BEAN:3CRV LP balances are based on the amount received as if they were [Chopped](../../additional-resources/glossary.md#chop) for [Ripe assets](../../additional-resources/glossary.md#ripe-assets), after accounting for the [Chop Penalty](../../additional-resources/glossary.md#chop-penalty).
 
 These holdings listed on the Balances page are not included in the USD balance calculation:
 

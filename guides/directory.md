@@ -11,7 +11,6 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 * [Connect to Beanstalk](getting-started/connect-wallet.md)
 * [Approve Contracts](getting-started/approvals.md)
-* [Add Bean to MetaMask](getting-started/add-bean-to-metamask.md)
 
 ### Sun
 
@@ -40,12 +39,12 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Market
 
-* [Buy Pods](market/buy-pods.md)
-* [Sell Pods](market/sell-pods.md)
+* [Buy Pods](market/buy-pods.md) (coming soon)
+* [Sell Pods](market/sell-pods.md) (coming soon)
 
 ### Swap
 
-* [Trade Beans](swap/trade-beans.md)
+* [Trade Beans](swap/trade-beans.md) (coming soon)
 * [Transfer Farm Balance](swap/transfer-farm-balance.md) (coming soon)
 
 ### Governance
@@ -54,7 +53,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Balances
 
-* [Understand My Balances](balances/understand-my-balances.md)
+* [Understand My Balances](balances/understand-balances.md) (coming soon)
 * [Understand My Transaction History](balances/understand-transactions.md) (coming soon)
 
 ### Unripe Assets
