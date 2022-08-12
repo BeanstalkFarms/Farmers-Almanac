@@ -5,7 +5,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
 * [List Pods](sell-pods.md#\_f0v6b16fz4gt)
 * [Fill Pod Order](sell-pods.md#\_ypbvhjlyyqna)
 
-### List Pods <a href="#_f0v6b16fz4gt" id="_f0v6b16fz4gt"></a>
+### List Pods <a href="#list-pods" id="list-pods"></a>
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/).
 2. Navigate to the “Market” page.
@@ -23,7 +23,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
    * If “Circulating Balance” was selected, the Beans will be in your wallet. Your Circulating Balance is also shown on the [Balances](https://app.bean.money/#/balances) page.
    * If “Farm Balance” was selected, the Beans will be shown on the [Balances](https://app.bean.money/#/balances) page.
 
-### Fill Pod Order <a href="#_ypbvhjlyyqna" id="_ypbvhjlyyqna"></a>
+### Fill Pod Order <a href="#fill-pod-order" id="fill-pod-order"></a>
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/).
 2. Navigate to the “Market” page.

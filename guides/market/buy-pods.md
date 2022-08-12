@@ -5,7 +5,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
 * [Fill Pod Listing](buy-pods.md#\_h7wv7iarhbgk)
 * [Order Pods](buy-pods.md#\_714q89jrln2n)
 
-### Fill Pod Listing <a href="#_h7wv7iarhbgk" id="_h7wv7iarhbgk"></a>
+### Fill Pod Listing <a href="#fill-pod-listing" id="fill-pod-listing"></a>
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/)
 2. Navigate to the “Market” page.
@@ -26,7 +26,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
 11. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 12. After the transaction has been confirmed by the network, your Pods will appear in the “Pod Balance” table at the bottom of the “Field” page.
 
-### Order Pods <a href="#_714q89jrln2n" id="_714q89jrln2n"></a>
+### Order Pods <a href="#order-pods" id="order-pods"></a>
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/).
 2. Navigate to the “Market” page.
