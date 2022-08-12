@@ -4,6 +4,8 @@ Current DEXs are unable to attract liquidity without offering protocol-native em
 
 The Market will house various DEXs for zero fee trading. For now, there is only the Pod Market, but in the future there may be a Deposit Market, an NFT Market, an ERC-20 Market, etc.
 
+For guides on interacting with the Market through the Beanstalk UI, go [here](../guides/market/).
+
 ## **The Pod Market**
 
 [Pods](field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Pod Market. The Pod Market creates liquidity for Pods through an on-chain order book.

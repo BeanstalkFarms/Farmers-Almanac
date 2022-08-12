@@ -4,6 +4,8 @@ The Field is Beanstalk's credit facility. Beanstalk relies on a decentralized se
 
 Farmers who Sow (lend) Beans to Beanstalk are known as Sowers.
 
+For guides on interacting with the Field through the Beanstalk UI, go [here](../guides/field/).
+
 ### **Soil**
 
 Anytime Beanstalk is willing to issue debt, there is Soil in the Field. Soil represents the number of Beans that Beanstalk is currently willing to borrow.

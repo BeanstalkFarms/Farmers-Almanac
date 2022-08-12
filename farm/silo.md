@@ -4,6 +4,8 @@ The Silo is the Beanstalk DAO. The Silo uses the Stalk System to create protocol
 
 Anyone can become a Silo Member by Depositing whitelisted assets in the Silo to earn Stalk and Seeds. Neither Stalk nor Seeds are liquid.
 
+For guides on interacting with the Silo through the Beanstalk UI, go [here](../guides/silo/).
+
 ### **Deposit Whitelist**
 
 To be Deposited into the Silo, an ERC-20 standard token must be on the Deposit Whitelist.

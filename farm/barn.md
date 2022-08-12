@@ -6,6 +6,8 @@ Upon exploit, Beanstalk was Paused and the on-chain governance mechanism was rem
 
 The Barn is the Beanstalk recapitalization facility being used to Replant Beanstalk. The Barn Raise started on June 6, 2022 while the protocol was offline.
 
+For guides on interacting with the Barn through the Beanstalk UI, go [here](../guides/barn/).
+
 ### **Fertilizer**
 
 Fertilizer is a semi-fungible limited debt issuance to recapitalize $77M in stolen liquidity.
