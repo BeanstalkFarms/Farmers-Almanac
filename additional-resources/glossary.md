@@ -72,7 +72,11 @@ Remove a Pod Order or Pod Listing from the Pod Market.
 
 ### **Chop**
 
-Burning Unripe assets in exchange for underlying Ripe assets.
+Burning Unripe assets in exchange for underlying Ripe assets. Read more [here](../farm/barn.md#chopping).
+
+### Chop Penalty
+
+The percentage claim to future Ripe assets forfeited by Chopping.
 
 ### **Circulating Beans**
 
