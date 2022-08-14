@@ -3,12 +3,12 @@
 * [Farmers' Almanac](README.md)
 * [Whitepaper](https://bean.money/docs/beanstalk.pdf)
 
-## Introduction
+## 🌱 Introduction
 
 * [Why Beanstalk](introduction/why-beanstalk.md)
 * [How Beanstalk Works](introduction/how-beanstalk-works.md)
 
-## Farm
+## 🧑🌾 Farm
 
 * [Overview](farm/overview.md)
 * [Sun](farm/sun.md)
@@ -18,13 +18,13 @@
 * [Market](farm/market.md)
 * [Depot](farm/depot.md)
 
-## Peg Maintenance
+## ⚖ Peg Maintenance
 
 * [Overview](peg-maintenance/overview.md)
 * [Temperature](peg-maintenance/temperature.md)
 * [Flood](peg-maintenance/flood.md)
 
-## Governance
+## 🏛 Governance
 
 * [Beanstalk](governance/beanstalk/README.md)
   * [BCM Process](governance/beanstalk/bcm-process.md)
@@ -35,7 +35,7 @@
   * [BSM Dashboard](governance/bean-sprout/bsm-dashboard.md)
 * [Proposals](governance/proposals.md)
 
-## Guides
+## 🗺 Guides
 
 * [Directory](guides/directory.md)
 * [Getting Started](guides/getting-started/README.md)
@@ -74,7 +74,7 @@
   * [Pick Unripe Assets](guides/unripe-assets/pick-unripe-assets.md)
   * [Chop Unripe Assets](guides/unripe-assets/chop-unripe-assets.md)
 
-## Additional Resources
+## 📖 Additional Resources
 
 * [Asset States](additional-resources/asset-states.md)
 * [Glossary](additional-resources/glossary.md)
