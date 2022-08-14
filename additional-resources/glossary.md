@@ -72,7 +72,11 @@ Remove a Pod Order or Pod Listing from the Pod Market.
 
 ### **Chop**
 
-Burning Unripe assets in exchange for underlying Ripe assets.
+Burning Unripe assets in exchange for underlying Ripe assets. Read more [here](../farm/barn.md#chopping).
+
+### Chop Penalty
+
+The percentage claim to future Ripe assets forfeited by Chopping.
 
 ### **Circulating Beans**
 
@@ -93,6 +97,10 @@ The generalized whitelist that determines which Conversions within the Silo are 
 ### **deltaB**
 
 The shortage or excess of Beans in a liquidity pool Beans trade in.
+
+### Delta Demand
+
+The ratio of the change in Soil over the prior two Seasons. Used to measure [Demand for Soil](../peg-maintenance/temperature.md#demand-for-soil).
 
 ### **Deposit**
 
@@ -317,6 +325,10 @@ The Beanstalk DAO.
 ### **Silo Members**
 
 Depositors in the Silo.
+
+### **Silo Rewards**
+
+Rewards earned by Silo Members in the form of Earned Beans, Earned Stalk, Grown Stalk, Revitalized Stalk, Plantable Seeds, and Revitalized Seeds. Read more [here](../farm/silo.md#silo-rewards).
 
 ### **Soil**
 
