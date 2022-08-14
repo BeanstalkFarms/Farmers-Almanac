@@ -24,7 +24,7 @@
 * [Temperature](peg-maintenance/temperature.md)
 * [Flood](peg-maintenance/flood.md)
 
-## 🏛 Governance
+## 🏦 Governance
 
 * [Beanstalk](governance/beanstalk/README.md)
   * [BCM Process](governance/beanstalk/bcm-process.md)
