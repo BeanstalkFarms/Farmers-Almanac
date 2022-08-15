@@ -4,14 +4,14 @@ Beanstalk uses credit instead of collateral to create Bean price stability relat
 
 You can view the current Bean price in US dollars at the upper left corner of [app.bean.money](https://app.bean.money/).
 
-![](<../../.gitbook/assets/image (1).png>)
-
-Selecting the Bean price displays more detail on each of the Bean liquidity pools on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist).
-
 ![](../../.gitbook/assets/image.png)
 
-Currently, the only liquidity pool is BEAN:3CRV LP on Curve. The detail view shows the:
+Selecting the Bean price displays more detail of the liquidity pools that Beans trade in.
 
-* USD denominated price of Bean in the liquidity pool,
-* USD denominated total liquidity in the liquidity pool, including non-Bean assets, and
+![](<../../.gitbook/assets/image (2).png>)
+
+Currently, the only liquidity pool is the BEAN:3CRV metapool on Curve. The detail view shows the:
+
+* USD denominated price of Bean in the liquidity pool;
+* USD denominated total liquidity in the liquidity pool, including non-Bean assets; and
 * deltaB, the shortage or excess of Beans in the liquidity pool. Read more about how deltaB impacts the [Bean supply](../../peg-maintenance/overview.md#bean-supply) and [Soil supply](../../peg-maintenance/overview.md#soil-supply).

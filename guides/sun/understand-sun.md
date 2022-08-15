@@ -2,11 +2,11 @@
 
 The Sun keeps time on the Farm in [Seasons](../../additional-resources/glossary.md#season) and incentivizes cost-efficient and timely calling of the [sunrise()](../../additional-resources/glossary.md#sunrise) function.
 
-You can view the Sun at the upper left corner of [app.bean.money](https://app.bean.money/).
+You can view [the Sun](../../farm/sun.md) at the upper left corner of [app.bean.money](https://app.bean.money/).
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (1).png>)
 
-The Sun displays the current Season, which is the number of Seasons completed since sunrise() was called for the first time. If [Beans were minted](../../peg-maintenance/overview.md#bean-supply) during the current Season based on the [peg maintenance mechanism](../../peg-maintenance/overview.md), the Sun will show that it is a [Rainy Season](../../additional-resources/glossary.md#rainy-season).
+The Sun displays the current Season, which is the number of Seasons completed since sunrise() was called for the first time. If [Beans were minted](../../peg-maintenance/overview.md#bean-supply) during the current Season based on the [peg maintenance mechanism](../../peg-maintenance/overview.md), the Sun will appear as a rain cloud icon.
 
 Selecting the Sun displays more detail on historical Seasons and a forecast for the next Season. The following information is shown for each Season:
 
