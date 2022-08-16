@@ -15,8 +15,8 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Sun
 
-* [Understand the Bean Price](sun/understand-price.md) (coming soon)
-* [Understand the Sun](sun/understand-sun.md) (coming soon)
+* [Understand the Bean Price](sun/understand-price.md)
+* [Understand the Sun](sun/understand-sun.md)
 
 ### Silo
 
