@@ -8,6 +8,7 @@ This page is a comprehensive overview of all proposals types as it pertains to g
 
 * In all cases where Stalkholders vote on a proposal or a proposal requires a minimum Stalk threshold to propose, if the Stalk supply is compromised in a flash loan or other governance attack at the time of proposal, the proposal is void.
 * In all cases where a proposal requires a minimum Stalk threshold to propose, the minimum Stalk threshold must be met at the time of proposal.
+* In all cases where Stalkholders vote on a proposal, quorum is based on the total outstanding Stalk at the time the proposal was submitted to Snapshot that still exists.
 
 ### BIP
 
@@ -15,12 +16,12 @@ Beanstalk Improvement Proposals, or BIPs, are proposals to change the Beanstalk 
 
 Voting for BIPs takes place on Snapshot, using Stalk ownership at the time of proposal. The Voting Period opens when a BIP is submitted to Snapshot and closes after 7 days or when it is committed with a supermajority.
 
-If at the end of the Voting Period:
+If at the end of the Voting Period:&#x20;
 
-* Less than or equal to half of the total outstanding Stalk at the time of proposal on Snapshot votes in favor of the BIP, the BIP fails; or
-* More than half of the total outstanding Stalk at the time of proposal on Snapshot votes in favor of the BIP, the BIP passes.
+* Less than or equal to half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it fails, or&#x20;
+* More than half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it passes.&#x20;
 
-Any time 24 hours or more after the opening and before the closing of the Voting Period that more than two-thirds of the total outstanding Stalk votes in favor of a BIP, the [BCM](beanstalk/bcm-process.md) can execute the BIP on-chain.
+If at any time before the end of the Voting Period more than two-thirds of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, the BCM can execute the BIP on-chain.
 
 Beanstalk governance is designed to move slow and steady. When trying to become an issuer of money, the potential for rapid monetary policy changes is unattractive. By requiring more than 50% of Stalk to vote in favor of a BIP for it to pass, it is quite difficult for a BIP to pass. Therefore, unless the proposed change is _significantly preferred_ by Stalk holders, it is unlikely to pass.
 

@@ -22,10 +22,10 @@ Voting for BIPs takes place on Snapshot, using Stalk ownership at the time of pr
 
 If at the end of the Voting Period:
 
-* Less than or equal to half of the total outstanding Stalk at the time of proposal on Snapshot votes in favor of the BIP, the BIP fails; or
-* More than half of the total outstanding Stalk at the time of proposal on Snapshot votes in favor of the BIP, the BIP passes.
+* Less than or equal to half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it fails, or
+* More than half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it passes.
 
-Any time 24 hours or more after the opening and before the closing of the Voting Period that more than two-thirds of the total outstanding Stalk votes in favor of a BIP, the BCM can execute the BIP on-chain.
+If at any time before the end of the Voting Period more than two-thirds of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, the BCM can execute the BIP on-chain.
 
 ### **Pause**
 
