@@ -9,6 +9,7 @@ Like Beanstalk Farms, Bean Sprout does not have a treasury and has historically 
 Past BIPs that funded Beanstalk Sprout:
 
 * [BIP-8: Beanstalk Q1 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-8.md) (included Beanstalk Farms and Bean Sprout)
+* [BIP-23: Bean Sprout Q3 2022 Budget](https://snapshot.org/#/beanstalkdao.eth/proposal/0x3b2a7808f01960ff993b7aec4df9ef6a3434d0ef0843828ea6c6bce4e768e6a9)
 
 ### Spending
 

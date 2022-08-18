@@ -13,8 +13,8 @@ Publius currently holds 3 of the 7 keys on the BFM. Rotating BFM signers require
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
 | [0x0caAd4cf13a07366471E27c360EAAF8d9F98D783](https://etherscan.io/address/0x0caAd4cf13a07366471E27c360EAAF8d9F98D783) |
-| [0x445a7A75e1c9111E27A129c9EDE696E1f1654F93](https://etherscan.io/address/0x445a7A75e1c9111E27A129c9EDE696E1f1654F93) |
-| [0x50adC6589BB3103bc512e3a5Fc57fFB4323B842F](https://etherscan.io/address/0x50adC6589BB3103bc512e3a5Fc57fFB4323B842F) |
+| [0x0703B2b27Ee333B3f5249f7C96ad1445D4A09A17](https://etherscan.io/address/0x0703B2b27Ee333B3f5249f7C96ad1445D4A09A17) |
+| [0x6D1E1EC2891EdC25fdB3E3D0f7E02F469Cc1Bcbb](https://etherscan.io/address/0x6D1E1EC2891EdC25fdB3E3D0f7E02F469Cc1Bcbb) |
 | [0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1](https://etherscan.io/address/0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1) |
 | [0xcFDC487C7a347aA7B275221c2A663e1004f656b8](https://etherscan.io/address/0xcFDC487C7a347aA7B275221c2A663e1004f656b8) |
 | [0xd216472bcc3e6080Fc28BC95D0565128ffE16De9](https://etherscan.io/address/0xd216472bcc3e6080Fc28BC95D0565128ffE16De9) |

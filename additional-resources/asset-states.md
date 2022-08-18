@@ -2,6 +2,28 @@
 
 Understanding the various states that Beanstalk assets can be in can help Farmers understand their balances on the Beanstalk UI.
 
+### Balances
+
+**Deposited Balances**
+
+Assets that are Deposited in the Silo.
+
+**Withdrawn Balances**
+
+Assets being Withdrawn from the Silo. At the end of the current Season, Withdrawn assets become Claimable.
+
+**Claimable Balances**
+
+Assets that can be Claimed after a Withdrawal.
+
+**Farm Balances**
+
+Assets stored in Beanstalk. Farm assets can be used in transactions on the Farm.
+
+**Circulating Balances**
+
+Beanstalk assets in your wallet.
+
 ### Bean states
 
 **Deposited Beans**
