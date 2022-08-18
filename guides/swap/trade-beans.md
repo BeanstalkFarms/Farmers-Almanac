@@ -1,12 +1,24 @@
 # Trade Beans
 
-Beans currently trade solely in the [BEAN:3CRV metapool](https://curve.fi/factory/152) on Curve.
+Beans can be bought and sold on the [Swap](https://app.bean.money/#/swap) page. To transfer between Farm and Circulating balances, see [Transfer Farm Balance](transfer-farm-balance.md).
 
-1. Go to the [BEAN:3CRV pool on Curve](https://curve.fi/factory/152) or from [curve.fi](https://curve.fi/) under “Curve pools” select “See All Pools” and “Bean”.
-2. Connect your wallet to Curve by selecting “Connect wallet”.
-3. The BEAN:3CRV metapool facilitates trades between Bean, DAI, USDC, and USDT. Select the asset you want to sell in the “From” input and the asset you want to buy in the “To” input, and enter the amount to trade.
-4. Verify the amount you will receive under the “To” output. The effective “Exchange rate” is listed below.
-5. You may select a slippage tolerance and a gas priority fee under “Advanced options”.
-6. Select “Sell”.
-7. There will be two transactions to confirm in your wallet and your hardware wallet, if applicable. The first transaction is an approval transaction to allow the metapool to spend the asset you are selling. The second transaction completes the trade. You should verify that the transactions are interacting with the [correct contract](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) before signing it.
-8. If you bought Beans, they may not appear in your wallet until you add the Bean ERC-20 contract. See [Add Bean to MetaMask](../getting-started/add-bean-to-metamask.md) for instructions. Your [Circulating Balance](../../additional-resources/asset-states.md) is also shown on [app.bean.money](https://app.bean.money/) on the [Balances](https://app.bean.money/#/balances) page.
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
+2. Select “More” then “Swap” to navigate to the [Swap](https://app.bean.money/#/swap) page.
+3. In the first field select the input token, or the asset you would like to sell. The dropdown menu will show each available input token and your total [Farm Balance](../../additional-resources/glossary.md#farm-assets) and [Circulating Balance](../../additional-resources/glossary.md#circulating-beans).
+   * Farm Balance is the balance stored in Beanstalk, which can save gas fees in future transactions.
+   * Circulating Balance is the balance in your wallet, separate from Beanstalk.
+4. In the second field, select the output token, or the asset you would like to buy.
+   * Note: Swap must be used to buy or sell Beans, or to wrap or unwrap ETH. Trading between other pairs is not currently supported.
+5. Enter the amount of the input token to sell, up to the amount held in your Farm or Circulating balances.
+   * Note: The Beanstalk UI first spends the balance that is most gas-efficient based on the specified amount.
+6. Verify the amount of the output token you will receive in the output field.
+7. Under “Destination”, select “Farm Balance” or “Circulating Balance”.
+8. A transaction preview will appear below the inputs. Select the “Transaction Details” dropdown to review each step of the transaction.
+9. You may select a slippage tolerance by selecting the gear icon. The default slippage tolerance is 0.1%.
+10. If you are trading ETH or have previously approved the token being spent, skip to Step 12. For all other tokens, select “Approve \[Token]”. This allows the Beanstalk contract to spend the token, but does not execute the trade yet.
+11. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+12. Select “Swap”.
+13. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+14. After the transaction has been confirmed by the network, the location of your tokens will depend on the option selected in Step 7:
+    * If “Farm Balance” was selected, the tokens will be shown on the [Balances](https://app.bean.money/#/balances) page.
+    * If “Circulating Balance” was selected, the tokens will be in your wallet. Your Circulating Balance is also shown on the [Balances](https://app.bean.money/#/balances) page.

@@ -140,7 +140,7 @@ The Beanstalk ecosystem. The Farm has five primary components: the Sun, Silo, Fi
 
 ### **Farm Assets**
 
-Assets stored in Beanstalk. Farm Assets can be used in transactions on the Farm.
+Assets stored in Beanstalk. Farm Assets can be used in transactions on the Farm and may be more gas efficient than Circulating Assets. Read more about [Asset States](asset-states.md).
 
 ### **Farmable Beans**
 
