@@ -2,7 +2,7 @@
 
 The associated amount of Stalk, Seeds, and Stalk from Seeds from a given Deposit must be forfeited when the Deposit is Withdrawn from the Silo. You can find more information about Withdrawals [here](../../farm/silo.md#withdraw).
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. At the bottom of the page, there is a table showing the various assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist).
 4. Select the asset you want to Withdraw. You must already have a Deposit of this asset in order to Withdraw.

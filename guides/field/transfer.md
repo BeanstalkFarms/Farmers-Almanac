@@ -2,7 +2,7 @@
 
 Pods can be [Transferred](../../additional-resources/glossary.md#transfer) from one address to another directly. Note that Pods can be exchanged in a trustless fashion on [the Pod Market](../../farm/market.md#the-pod-market).
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Field” page.
 3. In the “Transfer” tab, there is a dropdown menu to select the Plot you would like to transfer. The menu lists all Plots ordered by place in the [Pod Line](../../additional-resources/glossary.md#pod-line).
 4. Enter the number of Pods you want to Transfer, up to the “Plot Size” shown below the input box.

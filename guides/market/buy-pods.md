@@ -7,7 +7,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
 
 ### Fill Pod Listing <a href="#fill-pod-listing" id="fill-pod-listing"></a>
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/)
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Market” page.
 3. Open Pod Listings appear below the “Buy Now” tab. This view displays all the Pod Listings, sorted by ascending [Place in Line](../../additional-resources/glossary.md#pod-line).
    * You may customize the sorting, display, or filtering of any column by selecting it.
@@ -28,7 +28,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
 
 ### Order Pods <a href="#order-pods" id="order-pods"></a>
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Market” page.
 3. Select “Create New”. “Order” is selected by default, allowing you to create a Pod Order.
    * “Max Place in Line” is the maximum [Place in Line](../../additional-resources/glossary.md#pod-line) at which you are willing to buy Pods at the specified price. Any Pods at a lower Place in Line than the maximum Place in Line will be eligible to Fill the Pod Order.
@@ -36,7 +36,7 @@ Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Ma
    * “Order using” specifies the amount and the asset to be used to buy Pods. This amount will be locked in the Pod Order to allow for instant settlement. Pod Orders may be partially filled.
 4. A transaction preview will appear below the inputs. Select the “Transaction Details” dropdown to review each step of the transaction.
 5. You may select a slippage tolerance by selecting the gear icon. The default slippage tolerance is 0.1%.
-6. If you are buying Pods with ETH, skip to Step 8. For all other assets, select “Approve \[Token]”. This allows the Beanstalk contract to spend the asset, but does not create the Pod Order yet.
+6. If you are buying Pods with ETH or have previously approved the asset being spent, skip to Step 8. For all other assets, select “Approve \[Token]”. This allows the Beanstalk contract to spend the asset, but does not create the Pod Order yet.
 7. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
 8. Select “Order”.
 9. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.

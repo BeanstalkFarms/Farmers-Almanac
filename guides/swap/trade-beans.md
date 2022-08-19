@@ -5,7 +5,7 @@ Beans can be bought and sold on the [Swap](https://app.bean.money/#/swap) page. 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Select “More” then “Swap” to navigate to the [Swap](https://app.bean.money/#/swap) page.
 3. In the first field select the input token, or the asset you would like to sell. The dropdown menu will show each available input token and your total [Farm Balance](../../additional-resources/glossary.md#farm-assets) and [Circulating Balance](../../additional-resources/glossary.md#circulating-beans).
-   * Farm Balance is the balance stored in Beanstalk, which can save gas fees in future transactions.
+   * Farm Balance is the balance stored in Beanstalk, which can save gas fees in future transactions. See [Asset States](../../additional-resources/asset-states.md) for more information.
    * Circulating Balance is the balance in your wallet, separate from Beanstalk.
 4. In the second field, select the output token, or the asset you would like to buy.
    * Note: Swap must be used to buy or sell Beans, or to wrap or unwrap ETH. Trading between other pairs is not currently supported.

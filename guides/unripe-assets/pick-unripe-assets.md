@@ -6,7 +6,7 @@ Upon Replant, Farmers who held Beans in the block prior to the exploit received 
 
 You can find more information about Unripe assets [here](../../farm/barn.md#unripe-assets).
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Select your wallet address on the top right of the page and in the dropdown menu select “Pick Unripe Assets”.
 3. The modal that appears will break down all of your non-Deposited Unripe assets (Unripe Beans and Unripe BEAN:3CRV LP).&#x20;
    * Deposited Unripe assets were Deposited in the Silo automatically upon Replant and do not need to be Picked.

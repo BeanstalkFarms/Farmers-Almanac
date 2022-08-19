@@ -13,7 +13,7 @@ Mowing [Grown Stalk](../../additional-resources/glossary.md#grown-stalk) adds th
 
 Note: The “Mow” function is called anytime a Farmer interacts with the Silo.
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards” button.
    * Note: You must have Grown Stalk in order to Mow.
@@ -27,7 +27,7 @@ Note: The “Mow” function is called anytime a Farmer interacts with the Silo.
 
 Planting [Plantable Seeds](../../additional-resources/glossary.md#plantable-seeds) adds them to your Seed balance, which determines how many Grown Stalk you receive each Season. Planting also Deposits your [Earned Beans](../../additional-resources/glossary.md#earned-beans) in the current Season. [Earned Stalk](../../additional-resources/glossary.md#earned-stalk) already contributes to your Stalk ownership and does not need to be claimed, but is claimed upon Plant.
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards" button.
    * Note: You must have Plantable Seeds in order to “Plant”.
@@ -41,7 +41,7 @@ Planting [Plantable Seeds](../../additional-resources/glossary.md#plantable-seed
 
 [Enrooting](../../additional-resources/glossary.md#enroot) adds [Revitalized Stalk and Seeds](../../farm/barn.md#revitalized-assets) to your Stalk and Seed balances, respectively.
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards” button.
    * Note: You must have Revitalized Stalk and Seeds in order to Enroot.
@@ -55,7 +55,7 @@ Planting [Plantable Seeds](../../additional-resources/glossary.md#plantable-seed
 
 Claiming all Silo Rewards calls [Mow](claim-rewards.md#mow), [Plant](claim-rewards.md#plant) and [Enroot](claim-rewards.md#enroot) in one transaction.
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. Select the green “Claim Rewards” button.
    * Note: You must have claimable Silo Rewards.

@@ -2,7 +2,7 @@
 
 Deposits can be [Transferred](../../additional-resources/glossary.md#transfer) from one address to another without the loss of Stalk and Seeds.
 
-1. Make sure you are on [app.bean.money](https://app.bean.money/).
+1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. At the bottom of the page, there is a table showing the various assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist).
 4. Select the Deposited asset you want to Transfer.
