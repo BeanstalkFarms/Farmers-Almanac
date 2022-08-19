@@ -8,7 +8,6 @@ This page is a comprehensive overview of all proposals types as it pertains to g
 
 * In all cases where Stalkholders vote on a proposal or a proposal requires a minimum Stalk threshold to propose, if the Stalk supply is compromised in a flash loan or other governance attack at the time of proposal, the proposal is void.
 * In all cases where a proposal requires a minimum Stalk threshold to propose, the minimum Stalk threshold must be met at the time of proposal.
-* In all cases where Stalkholders vote on a proposal, quorum is based on the total outstanding Stalk at the time the proposal was submitted to Snapshot that still exists.
 
 ### BIP
 
