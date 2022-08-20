@@ -25,6 +25,7 @@ Please share any feedback on the Farmers' Almanac in the **#docs-feedback** chan
 
 * [Introduction](introduction/why-beanstalk.md)
 * [Beanstalk mechanics](introduction/how-beanstalk-works.md)
+* [Guides to using Beanstalk](guides/directory.md)
 * [Peg maintenance](broken-reference)
 * [Governance](governance/beanstalk/)
 * [Glossary](additional-resources/glossary.md)
