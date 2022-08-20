@@ -13,7 +13,7 @@ Past BIPs that funded Beanstalk Sprout:
 
 ### Spending
 
-Bean Sprout proposals, or BSPs, are proposals to use the Bean Sprout budget.
+Bean Sprout Proposals, or BSPs, are proposals to use the Bean Sprout budget.
 
 Anyone with 0.1% of the Stalk supply or [BSM](bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which the majority vote determines the outcome of the vote.
 
