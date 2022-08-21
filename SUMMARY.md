@@ -66,7 +66,7 @@
   * [Trade Beans](guides/swap/trade-beans.md)
   * [Transfer Farm Balance](guides/swap/transfer-farm-balance.md)
 * [Governance](guides/governance/README.md)
-  * [Vote on BIPs](guides/governance/vote-on-bips.md)
+  * [Vote on Governance Proposals](guides/governance/vote-on-bips.md)
 * [Balances](guides/balances/README.md)
   * [Understand My Balances](guides/balances/understand-my-balances.md)
   * [Understand My Transaction History](guides/balances/understand-transactions.md)

@@ -50,7 +50,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Governance
 
-* [Vote on BIPs](governance/vote-on-bips.md)
+* [Vote on Governance Proposals](governance/vote-on-bips.md)
 
 ### Balances
 
