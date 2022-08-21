@@ -12,7 +12,7 @@ The Beanstalk contract is guarded by a 5/9 multisig. This means any changes to t
 
 **Next expected rotation:** 10/06/2022
 
-**Historical BIPs:**
+**Past BIPs:**
 
 {% embed url="https://github.com/BeanstalkFarms/Beanstalk/tree/master/bips" %}
 

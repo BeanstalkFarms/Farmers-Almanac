@@ -7,6 +7,8 @@
 * [Discord](https://discord.gg/beanstalk)
 * [Farmers' Almanac](https://docs.bean.money/)
 * [WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
+* [CoinGecko](https://www.coingecko.com/en/coins/bean) (incorrect price calculation)
+* [CoinMarketCap](https://coinmarketcap.com/currencies/beanstalk/) (incorrect price calculation)
 
 ### Analytics
 
@@ -26,9 +28,11 @@
 * [Beanstalk Assets](https://github.com/BeanstalkFarms/Beanstalk-Assets)
 * [Beanstalk Audits](https://github.com/BeanstalkFarms/Beanstalk-Audits)
 * [Farmers' Almanac](https://github.com/BeanstalkFarms/Farmers-Almanac)
+* [Beanstalk Governance Proposals](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/)
 
 ### Governance
 
+* [Beanstalk UI Governance Page](https://app.bean.money/#/governance)
 * [Beanstalk DAO Snapshot](https://snapshot.org/#/beanstalkdao.eth)
 * [Beanstalk Farms Snapshot](https://snapshot.org/#/beanstalkfarms.eth)
 * [Beanstalk Farms Budget Snapshot](https://snapshot.org/#/beanstalkfarmsbudget.eth)
@@ -65,5 +69,3 @@
 * [Instagram](https://www.instagram.com/beanstalkprotocol/)
 * [TikTok](https://www.tiktok.com/@beanstalkprotocol)
 * [Layer3](https://beta.layer3.xyz/communities/beanstalk)
-* [CoinGecko](https://www.coingecko.com/en/coins/bean) (exploited Bean token)
-* [CoinMarketCap](https://coinmarketcap.com/currencies/beanstalk/) (exploited Bean token)

@@ -6,9 +6,7 @@ Prior to Beanstalk’s April 17 exploit, Beanstalk Improvement Proposals (BIPs) 
 
 The BCM has been formed, but ownership of Beanstalk has not yet been transferred to the BCM. Publius, the founders of Beanstalk, currently custody ownership of the Beanstalk contract. The transfer of ownership to the BCM will be proposed in the BIP to Replant Beanstalk.
 
-**Beanstalk DAO Snapshot page:**
-
-{% embed url="https://snapshot.org/#/beanstalkfarms.eth" %}
+BIPs are proposed on the [Beanstalk DAO Snapshot page](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BIPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/).
 
 ### **Participation**
 

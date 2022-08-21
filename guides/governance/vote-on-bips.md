@@ -2,6 +2,8 @@
 
 Beanstalk is [governed](../../governance/beanstalk/) by Stalkholders. Anyone with Stalk can vote for [Beanstalk Improvement Proposals](../../governance/proposals.md#bip) (BIPs), [Beanstalk Operations Proposals](../../governance/proposals.md#bop) (BOPs), [Beanstalk Farms Committee Proposals](../../governance/proposals.md#bfcp) (BFCPs) and [Bean Sprout Proposals](../../governance/proposals.md#bsp) (BSPs).&#x20;
 
+View past governance proposals [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/).
+
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Select “More” then “Governance” to navigate to the [Governance](https://app.bean.money/#/governance) page.
 3. Your voting power in Stalk is listed under "Stalkholder".&#x20;
