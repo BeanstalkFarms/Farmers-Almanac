@@ -69,3 +69,5 @@
 * [Instagram](https://www.instagram.com/beanstalkprotocol/)
 * [TikTok](https://www.tiktok.com/@beanstalkprotocol)
 * [Layer3](https://beta.layer3.xyz/communities/beanstalk)
+* [BeaNFT Twitter](https://twitter.com/beanstalknfts)
+* [BeaNFT Snapshot](https://snapshot.org/#/beanft.eth)
