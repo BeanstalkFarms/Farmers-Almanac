@@ -127,6 +127,8 @@ Bugs or security vulnerabilities qualify as emergencies. Emergency action will n
 * If an emergency is severe and requires significant code changes to fix, the BCM will Pause Beanstalk and take any necessary extra action to mitigate further damage; or
 * If an emergency is minor and does not require significant code changes, an emergency hotfix may be implemented by an emergency vote of the BCM.
 
+Any changes made to Beanstalk in this manner are known as [EBIPs](../../additional-resources/glossary.md#emergency-beanstalk-improvement-proposal), or Emergency BIPs.
+
 **After emergency action is taken, the BCM shall swiftly issue a summarized report to the community detailing:**
 
 1. The administrative permissions that were used (e.g. Pausing Beanstalk or turning off certain functions);

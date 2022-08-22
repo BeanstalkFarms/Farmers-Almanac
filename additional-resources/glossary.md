@@ -130,6 +130,10 @@ Beans that have been paid to a [Silo Member](glossary.md#silo-members) since the
 
 [Stalk](glossary.md#stalk) earned from Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.
 
+### **Emergency Beanstalk Improvement Proposal**
+
+An emergency proposal to change Beanstalk that is decided on and committed by the [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-process.md). Abbreviated as EBIP. Read more [here](../governance/beanstalk/bcm-process.md#emergency-response-procedures).
+
 ### **Enroot**
 
 Adds [Revitalized Stalk](glossary.md#revitalized-stalk) and [Seeds](glossary.md#revitalized-seeds) to your [Stalk](glossary.md#stalk) and [Seed](glossary.md#seeds) balances, respectively.
