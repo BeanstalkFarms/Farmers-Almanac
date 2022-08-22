@@ -8,7 +8,7 @@ Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or B
 
 ### **BFM Members**
 
-Publius currently holds 3 of the 7 keys on the BFM. Rotating BFM signers requires a BIP or BOP. A BIP/BOP is not required if a signer voluntarily leaves the BFM (nor for rotating in a backup signer in the event of a voluntary departure).
+Publius currently holds 2 of the 7 keys on the BFM. Rotating BFM signers requires a BIP or BOP. A BIP/BOP is not required if a signer voluntarily leaves the BFM (nor for rotating in a backup signer in the event of a voluntary departure).
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
