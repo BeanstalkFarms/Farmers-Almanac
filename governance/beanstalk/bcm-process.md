@@ -1,6 +1,6 @@
 # BCM Process
 
-**This document can be found on Arweave** [**here**](https://arweave.net/upe2rEGeEDQ3F7rF9jVAP8FgAkbgniBgz2puvE6CKxs)**.**
+**This document can be found on Arweave** [**here**](https://arweave.net/U5P-YaIfmgQ8mpZfBfPnpIcCv82bHK1IeWNi04l4PA0)**.**
 
 **The Beanstalk Community Multisig, or BCM, is not intended to have decision making power.** Its role is to 1) enact on-chain the decisions Stalkholders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
