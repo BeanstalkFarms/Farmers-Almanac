@@ -12,7 +12,7 @@ View past governance proposals [here](https://github.com/BeanstalkFarms/Beanstal
 6. Under the “Results” section select the choice you want to vote for.
    * Note: Selecting the “Abstain” choice on a BIP or BOP is the same as not voting. It is not possible to remove a vote on Snapshot, so the “Abstain” choice exists on some proposals to allow Farmers to unvote after voting.
 7. Select “Vote”.
-8. Sign the message in your wallet and your hardware wallet, if applicable. You should verify the message before signing it. Snapshot votes are plain text messages. An example is shown [below](vote-on-bips.md#snapshot-vote-signature).
+8. Sign the message in your wallet and your hardware wallet, if applicable. You should verify the message before signing it. Snapshot votes are plain text messages. An example is shown [below](vote-on-proposals.md#snapshot-vote-signature).
 9. After signing, it may take some time for your vote to appear on the Beanstalk UI. Check Snapshot by selecting "View on Snapshot" for the latest results.&#x20;
 10. You may change your vote by repeating this process before the proposal is closed at the time specified in "Vote ends in". The exact time a proposal closes is viewable by selecting "View on Snapshot".
 
