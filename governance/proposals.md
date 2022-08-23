@@ -45,7 +45,7 @@ BOPs are proposed on the [Beanstalk DAO Snapshot page](https://snapshot.org/#/be
 
 ### BFCP
 
-Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [BFC](beanstalk-farms/#beanstalk-farms-committee). The BFC is the group of [Beanstalk Farms](beanstalk-farms/) contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. Stalkholders vote to add members to the BFC via BFCP-As, remove members from the BFC via BFCP-Bs, and extend the terms of existing BFC members via BFCP-Cs.
+Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [BFC](beanstalk-farms/#beanstalk-farms-committee). The BFC is the group of [Beanstalk Farms](beanstalk-farms/) contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. Stalkholders vote to add members to the BFC via BFCP-As, remove members from the BFC via BFCP-Bs, and extend the terms of existing BFC members via BFCP-Cs. The voting period for BFCPs is 7 days.
 
 BFCPs are proposed on the [Beanstalk Farms Snapshot page](https://snapshot.org/#/beanstalkfarms.eth). Stalkholders can vote on BFCPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=beanstalk-farms). Past BFCPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfcp).
 
@@ -83,7 +83,7 @@ BFBPs are proposed on the [Beanstalk Farms Budget Snapshot page](https://snapsho
 
 **BFBP-A**
 
-BFBP-As are proposed by a BFC member to hire a contributor to Beanstalk Farms. A BFBP-A passes if at the end of the voting period there are at last 3 votes For, but this can be vetoed by a majority of the BFC voting Against.
+BFBP-As are proposed by a BFC member to hire a contributor to Beanstalk Farms. A BFBP-A passes if at the end of the voting period there are at least 3 votes For, but this can be vetoed by a majority of the BFC voting Against.
 
 Once approved via BFBP-A, a contributor’s term length is indefinite unless otherwise specified (in general, grant work should go through [Bean Sprout](proposals.md#bsp)).
 
@@ -99,7 +99,7 @@ A BFBP-B will still be proposed in circumstances where a contributor is leaving 
 
 **BFBP-C**
 
-BFBP-Cs are proposed by a BFC member to use the Beanstalk Farms budget outside of hiring contributors.
+BFBP-Cs are proposed by a BFC member to use the Beanstalk Farms budget outside of hiring contributors. A majority of the BFC must vote For in order for a BFBP-C to pass.
 
 In practice, contributor pay has been and will likely continue to be the majority of Beanstalk Farms expenditures, but there are occasional other payments outside of that scope like paying for upgrades to the subgraph, paying an artist for art on the website, etc.&#x20;
 
