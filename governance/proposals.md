@@ -99,7 +99,7 @@ A BFBP-B will still be proposed in circumstances where a contributor is leaving 
 
 **BFBP-C**
 
-BFBP-Cs are proposed by a BFC member to use the Beanstalk Farms budget outside of hiring contributors. A majority of the BFC must vote For in order for a BFBP-C to pass.
+BFBP-Cs are proposed by a BFC member to use the Beanstalk Farms budget outside of hiring contributors. A BFBP-C passes if at the end of the voting period there are at least 3 votes For, but this can be vetoed by a majority of the BFC voting Against.
 
 In practice, contributor pay has been and will likely continue to be the majority of Beanstalk Farms expenditures, but there are occasional other payments outside of that scope like paying for upgrades to the subgraph, paying an artist for art on the website, etc.&#x20;
 
