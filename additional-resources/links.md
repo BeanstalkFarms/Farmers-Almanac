@@ -7,8 +7,8 @@
 * [Discord](https://discord.gg/beanstalk)
 * [Farmers' Almanac](https://docs.bean.money/)
 * [WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
-* [CoinGecko](https://www.coingecko.com/en/coins/bean) (incorrect price calculation)
-* [CoinMarketCap](https://coinmarketcap.com/currencies/beanstalk/) (incorrect price calculation)
+* [CoinGecko](https://www.coingecko.com/en/coins/bean)
+* [CoinMarketCap](https://coinmarketcap.com/currencies/beanstalk/)
 
 ### Analytics
 
