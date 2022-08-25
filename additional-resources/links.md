@@ -17,6 +17,7 @@
 * [Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
 * [Pre-Exploit Dune Dashboard](https://dune.com/tbiq/Beanstalk)
 * [Barn Raise Dune Dashboard](https://dune.com/tbiq/beanstalk-barn-raise)
+* [Silo APY Calculator Dune Dashboard](https://dune.xyz/tbiq/Beanstalk-Silo-APY-Calculator)
 * [DeFi Llama Dashboard](https://defillama.com/stablecoin/bean)
 
 ### GitHub
