@@ -1,6 +1,6 @@
 # BCM Dashboard
 
-The Beanstalk Community Multisig (BCM) will have ownership of the Beanstalk contract upon the passage of future BIP that transfers ownership from Publius to the BCM. The BCM will be able to propose, execute and upgrade Beanstalk.
+The Beanstalk Community Multisig (BCM) custodies ownership of the [Beanstalk contract](../../additional-resources/contracts.md). The BCM is able to propose, execute and upgrade Beanstalk.
 
 **Beanstalk Community Multisig Gnosis address:** [0xa9bA2C40b263843C04d344727b954A545c81D043](https://etherscan.io/address/0xa9bA2C40b263843C04d344727b954A545c81D043)
 
