@@ -8,13 +8,13 @@ Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The 
 
 ### **BSM Members**
 
-Publius currently holds 2 of the 7 keys on the BSM. Rotating BSM signers requires a BIP or BOP. A BIP/BOP is not required if a signer voluntarily leaves the BSM (nor for rotating in a backup signer in the event of a voluntary departure).
+Publius currently holds 2 of the 7 keys on the BSM. Rotating BSM signers requires a BIP or BOP unless a signer voluntarily leaves the BSM (nor for rotating in a backup signer in the event of a voluntary departure).
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
 | [0x0F53F811f603449293840DcE4CE981493569C262](https://etherscan.io/address/0x0F53F811f603449293840DcE4CE981493569C262) |
 | [0x3E5de69794E023757a4995Cfe97eAF399de7BbED](https://etherscan.io/address/0x3E5de69794E023757a4995Cfe97eAF399de7BbED) |
-| [0x52F1961405817556CF6D4456cC82A160C05a47ED](https://etherscan.io/address/0x52F1961405817556CF6D4456cC82A160C05a47ED) |
+| [0x336C5185B9f27b40fcD8E852d4B9e15A08084743](https://etherscan.io/address/0x336C5185B9f27b40fcD8E852d4B9e15A08084743) |
 | [0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1](https://etherscan.io/address/0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1) |
 | [0xF808adAAb2B3A2dfa1d658cB9E187fF3b74CC0aC](https://etherscan.io/address/0xF808adAAb2B3A2dfa1d658cB9E187fF3b74CC0aC) |
 | [0x063272862c4A2CA153123c7D31342E15053b9460](https://etherscan.io/address/0x063272862c4A2CA153123c7D31342E15053b9460) |
