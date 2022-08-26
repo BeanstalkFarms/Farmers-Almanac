@@ -63,7 +63,6 @@
 
 ### Inactive
 
-* [Medium](https://medium.com/beanstalkfarms/) (see [Blog](https://bean.money/blog) instead)
 * [Commonwealth](https://commonwealth.im/beanstalk/)
 * [Beanstalk Q4 2021 Budget Contracts](https://github.com/BeanstalkFarms/Beanstalk-Budget)
 * [Reddit](https://www.reddit.com/r/BeanstalkProtocol/)
