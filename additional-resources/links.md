@@ -1,7 +1,7 @@
 # Links
 
 * [Website](https://bean.money/)
-* [Beanstalk UI](https://bean.money/)
+* [Beanstalk UI](https://app.bean.money/)
 * [Blog](https://bean.money/blog)
 * [Whitepaper](https://bean.money/docs/beanstalk.pdf)
 * [Discord](https://discord.gg/beanstalk)
