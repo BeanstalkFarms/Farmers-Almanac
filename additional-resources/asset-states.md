@@ -52,7 +52,7 @@ Beans in Farmers’ wallets.
 
 **Ripe Beans**
 
-Beans that are minted as Fertilizer is sold or Ripe LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans.
+Beans that are minted as Fertilizer is sold or Ripe BEAN:3CRV LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans.
 
 **Ordered Beans**
 
