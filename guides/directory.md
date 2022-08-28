@@ -37,6 +37,8 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 * [Buy Fertilizer](barn/buy-fertilizer.md)
 * [Rinse Sprouts](barn/rinse.md)
+* [Transfer Fertilizer](barn/transfer-fertilizer.md)
+* [Trade Fertilizer](barn/trade-fertilizer.md)
 
 ### Market
 
