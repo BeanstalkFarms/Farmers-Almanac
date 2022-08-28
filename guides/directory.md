@@ -43,6 +43,14 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 * [Buy Pods](market/buy-pods.md)
 * [Sell Pods](market/sell-pods.md)
 
+### Balances
+
+* [Understand My Balances](balances/understand-my-balances.md)
+
+### BeaNFTs
+
+* [Mint BeaNFTs](beanfts/mint-beanfts.md)
+
 ### Swap
 
 * [Trade Beans](swap/trade-beans.md)
@@ -51,11 +59,6 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 ### Governance
 
 * [Vote on Governance Proposals](governance/vote-on-proposals.md)
-
-### Balances
-
-* [Understand My Balances](balances/understand-my-balances.md)
-* [Understand My Transaction History](balances/understand-transactions.md) (coming soon)
 
 ### Unripe Assets
 
