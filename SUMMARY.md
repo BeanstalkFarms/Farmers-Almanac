@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Farmers' Almanac](README.md)
+* [Disclosures](disclosures.md)
 * [Whitepaper](https://bean.money/docs/beanstalk.pdf)
 
 ## 🌱 Introduction
