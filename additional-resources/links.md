@@ -30,6 +30,7 @@
 * [Beanstalk Audits](https://github.com/BeanstalkFarms/Beanstalk-Audits)
 * [Farmers' Almanac](https://github.com/BeanstalkFarms/Farmers-Almanac)
 * [Beanstalk Governance Proposals](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/)
+* [Beanstalk Farms Operations](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations)
 
 ### Governance
 

@@ -15,6 +15,8 @@ Past BIPs that funded Beanstalk Farms:
 * [BIP-14: Beanstalk Farms Q2 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-14-bf-budget-q2-2022.md)
 * [BIP-22: Beanstalk Farms Q3 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-22-bf-budget-q3-2022.md)
 
+Monthly reports on how Beanstalk Farms is spending its budget can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations).
+
 ### Beanstalk Farms Committee
 
 The Beanstalk Farms Committee (BFC) is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. The BFC hires at and dismisses contributors from Beanstalk Farms.
