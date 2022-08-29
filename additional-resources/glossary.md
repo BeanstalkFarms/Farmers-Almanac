@@ -368,7 +368,7 @@ The value of assets Deposited in the [Silo](glossary.md#silo). Abbreviated as TV
 
 ### Transfer
 
-Moving [Deposits](glossary.md#deposit) or [Plots](glossary.md#plot) from one address to another. Deposits can be Transferred without the loss of [Stalk](glossary.md#stalk), [Seeds](glossary.md#seeds), or Stalk from Seeds.
+Moving [Deposits](glossary.md#deposit), [Plots](glossary.md#plot) or [Fertilizer](glossary.md#fertilizer) from one address to another. Deposits can be Transferred without the loss of [Stalk](glossary.md#stalk), [Seeds](glossary.md#seeds), or Stalk from Seeds. Assets can be transferred between [Farm Balances](glossary.md#farm-assets) and [Circulating Balances](glossary.md#circulating-beans).
 
 ### **Unpause**
 
