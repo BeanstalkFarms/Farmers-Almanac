@@ -46,7 +46,11 @@ Beanstalk uses the proceeds from the Fertilizer sales to recapitalize liquidity 
 
 Upon Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
 
-Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter. More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that have become Rinsable increases.
+Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter.&#x20;
+
+#### Ripe Assets <a href="#ripe" id="ripe"></a>
+
+More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that have become Rinsable increases.
 
 > For example, if 20% of Fertilizer is sold before Replant, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit will receive 1000 Unripe Beans and 2000 Unripe BEAN:3CRV LP. As Fertilizer is sold and the percentage of Sprouts that have become Rinsable increases, Beanstalk mints Ripe BEAN:3CRV LP and Ripe Beans.
 
