@@ -48,7 +48,7 @@ Upon Replant, Farmers who held Beans in the block prior to the exploit received 
 
 Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter.&#x20;
 
-#### Ripe Assets <a href="#ripe" id="ripe"></a>
+#### Ripe Assets <a href="#ripe-assets" id="ripe-assets"></a>
 
 More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets that increases as more Fertilizer is sold, and the percentage of Sprouts that have become Rinsable increases.
 
