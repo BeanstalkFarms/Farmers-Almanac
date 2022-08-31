@@ -2,7 +2,7 @@
 
 The [Balances](https://app.bean.money/#/balances) page is a dashboard for all Beanstalk-related holdings by wallet address.
 
-After [connecting a wallet](../getting-started/connect-wallet.md) on [app.bean.money](https://app.bean.money/), view the Balances page by selecting your wallet address and selecting “Balances” in the dropdown menu.
+After [connecting a wallet](../getting-started/connect-wallet.md) on [app.bean.money](https://app.bean.money/), navigate to the "Balances" page.
 
 The top of the Balances page displays your total Beanstalk-related balance denominated in US dollars. The total balance is the sum of:
 
