@@ -40,6 +40,7 @@
 
 * [Directory](guides/directory.md)
 * [Getting Started](guides/getting-started/README.md)
+  * [Where to Begin](guides/getting-started/where-to-begin.md)
   * [Connect to Beanstalk](guides/getting-started/connect-wallet.md)
   * [Approve Contracts](guides/getting-started/approvals.md)
   * [Add Bean to MetaMask](guides/getting-started/add-bean-to-metamask.md)
