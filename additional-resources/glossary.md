@@ -10,19 +10,19 @@ The Beanstalk recapitalization facility being used to [Replant](glossary.md#repl
 
 A fundraiser to restore $77M in non-Bean liquidity stolen from the [Silo](glossary.md#silo) in the April 2022 governance exploit. Participants in the Barn Raise receive [Fertilizer](glossary.md#fertilizer) and [Sprouts](glossary.md#sprouts).
 
-### **Bean Denominated Value**
+### **Bean Denominated Value (BDV)** <a href="#bean-denominated-value" id="bean-denominated-value"></a>
 
 The value of an asset denominated in Beans. Used to calculate how many [Stalk](glossary.md#stalk) and [Seeds](glossary.md#seeds) are rewarded to Depositors of a whitelisted asset. Abbreviated as BDV.&#x20;
 
-### **Bean Sprout**
+### **Bean Sprout (BS)** <a href="#bean-sprout" id="bean-sprout"></a>
 
 A Beanstalk accelerator program to facilitate development on and around Beanstalk in a decentralized fashion. Read more [here](../governance/bean-sprout/).
 
-### **Bean Sprout Multisig**
+### **Bean Sprout Multisig (BSM)** <a href="#bean-sprout-multisig" id="bean-sprout-multisig"></a>
 
 The multisig that custodies the Bean Sprout budget funds. Abbreviated as BSM. Read more [here](../governance/bean-sprout/bsm-dashboard.md).
 
-### **Bean Sprout Proposal**
+### **Bean Sprout Proposal (BSP)** <a href="#bean-sprout-proposal" id="bean-sprout-proposal"></a>
 
 A Snapshot proposal to use funds from the Bean Sprout budget. Abbreviated as BSP. Read more [here](../governance/proposals.md#bsp).
 
@@ -34,35 +34,35 @@ The ERC-20 fiat stablecoin issued by Beanstalk.
 
 The Ethereum-native, decentralized fiat stablecoin protocol that issues Beans.
 
-### **Beanstalk Community Multisig**
+### **Beanstalk Community Multisig (BCM)** <a href="#beanstalk-community-multisig" id="beanstalk-community-multisig"></a>
 
 The multisig that will custody ownership of the Beanstalk contract until on-chain governance can be reimplemented. The BCM will be able to propose and execute upgrades to Beanstalk. Abbreviated as BCM. Read more [here](../governance/beanstalk/bcm-process.md).
 
-### **Beanstalk Farms**
+### **Beanstalk Farms (BF)** <a href="#beanstalk-farms" id="beanstalk-farms"></a>
 
 A decentralized team of core contributors to Beanstalk, operating across the stack on technical and non-technical problems. Read more [here](../governance/beanstalk-farms/).
 
-### **Beanstalk Farms Budget Proposal**
+### **Beanstalk Farms Budget Proposal (BFBP)** <a href="#beanstalk-farms-budget-proposal" id="beanstalk-farms-budget-proposal"></a>
 
 A proposal related to the use of the Beanstalk Farms budget. Abbreviated as BFBP. Read more [here](../governance/proposals.md#bfbp).
 
-### Beanstalk Farms Committee
+### Beanstalk Farms Committee (BFC) <a href="#beanstalk-farms-committee" id="beanstalk-farms-committee"></a>
 
 The group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. The Beanstalk Farms Committee hires and dismisses contributors at Beanstalk Farms. Abbreviated as BFC. Read more [here](../governance/beanstalk-farms/#beanstalk-farms-committee).
 
-### **Beanstalk Farms Committee Proposal**
+### **Beanstalk Farms Committee Proposal (BFCP)** <a href="#beanstalk-farms-committee-proposal" id="beanstalk-farms-committee-proposal"></a>
 
 A proposal related to the Beanstalk Farms Committee. Abbreviated as BFCP. Read more [here](../governance/proposals.md#bfcp).
 
-### **Beanstalk Farms Multisig**
+### **Beanstalk Farms Multisig (BFM)** <a href="#beanstalk-farms-multisig" id="beanstalk-farms-multisig"></a>
 
 The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM. Read more [here](../governance/beanstalk-farms/bfm-dashboard.md).
 
-### **Beanstalk Improvement Proposal**
+### **Beanstalk Improvement Proposal (BIP)** <a href="#beanstalk-improvement-proposal" id="beanstalk-improvement-proposal"></a>
 
 A proposal to change Beanstalk. Abbreviated as BIP. Read more [here](../governance/proposals.md#bip).
 
-### **Beanstalk Operations Proposal**
+### **Beanstalk Operations Proposal (BOP)** <a href="#beanstalk-operations-proposal" id="beanstalk-operations-proposal"></a>
 
 A proposal for having the Beanstalk DAO vote on things other than protocol changes. Abbreviated as BOP. Read more [here](../governance/proposals.md#bop).
 
@@ -130,7 +130,7 @@ Beans that have been paid to a [Silo Member](glossary.md#silo-members) since the
 
 [Stalk](glossary.md#stalk) earned from Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.
 
-### **Emergency Beanstalk Improvement Proposal**
+### **Emergency Beanstalk Improvement Proposal (EBIP)** <a href="#emergency-beanstalk-improvement-proposal" id="emergency-beanstalk-improvement-proposal"></a>
 
 An emergency proposal to change Beanstalk that is decided on and committed by the [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-process.md). Abbreviated as EBIP. Read more [here](../governance/beanstalk/bcm-process.md#emergency-response-procedures).
 
@@ -362,7 +362,7 @@ Beanstalk accepts one sunrise() function call every [Season](glossary.md#season)
 
 The interest rate for [Sowing](glossary.md#sow) Beans. Read more [here](../farm/field.md#temperature).
 
-### Total Value Deposited
+### Total Value Deposited (TVD) <a href="#total-value-deposited" id="total-value-deposited"></a>
 
 The value of assets Deposited in the [Silo](glossary.md#silo). Abbreviated as TVD.
 
