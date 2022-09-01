@@ -378,6 +378,10 @@ Resume the acceptance of [sunrise()](glossary.md#sunrise) function calls. When B
 
 Unripe assets represent a pro rata share of [Ripe assets](glossary.md#ripe-assets) minted as [Fertilizer](glossary.md#fertilizer) is sold and debt is repaid to Fertilizer. Read more [here](../farm/barn.md#unripe-assets).
 
+### urBEAN
+
+Unripe Beans. See [Unripe Assets](glossary.md#unripe-assets).
+
 ### **Voting Period**
 
 The time interval in which a [Beanstalk Improvement Proposal](glossary.md#beanstalk-improvement-proposal) (BIP) is considered by [Stalkholders](glossary.md#stalkholders). Read more [here](../governance/beanstalk/#voting-period).
