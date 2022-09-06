@@ -14,17 +14,17 @@ Beanstalk issues 3 tokens:
 
 ### **Primary Facilities**
 
-#### **1. The Sun**
+#### **1. The Sun** <a href="#the-sun" id="the-sun"></a>
 
 Beanstalk uses [the Sun](../farm/sun.md) to create a cost-efficient and protocol-native timekeeping mechanism. The Sun keeps time on the Farm in Seasons. Each Season is \~1 hour long. Beanstalk adjusts itself to return the Bean price to its value peg at the beginning of every Season.
 
 The Sun leverages the 3CRV pool on Curve as the Beanstalk oracle price source for $1.
 
-In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates deltaB, the liquidity and time weighted average shortage or excess of Beans in the BEAN:3CRV pool over the previous Season.
+In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates [deltaB](../additional-resources/glossary.md#deltab), the sum of the time and liquidity weighted average shortage or excess Beans in the liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist);
 
 The Sun uses deltaB to determine how to change the Bean supply and [Soil](../farm/field.md#soil) supply.
 
-#### **2. The Silo**
+#### **2. The Silo** <a href="#the-silo" id="the-silo"></a>
 
 Beanstalk uses [the Silo](../farm/silo.md), the Beanstalk DAO, to create a robust decentralized governance mechanism. Farmers can earn yield from passive participation in Beanstalk governance by Depositing whitelisted assets in the Silo to receive Stalk and Seeds.
 
@@ -40,7 +40,7 @@ Deep and consistent liquidity in liquidity pools Beans trade in improves stabili
 
 Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance.
 
-#### **3. The Field**
+#### **3. The Field** <a href="#the-field" id="the-field"></a>
 
 [The Field](../farm/field.md) is Beanstalk’s decentralized credit facility. Anytime the Bean price is too low, Beanstalk uses the Field to attract lenders who can lend their Beans to Beanstalk, which are subsequently burnt in exchange for Pods, Beanstalk’s native debt asset. Pods are paid out on a First In, First Out (FIFO) basis when new Beans are minted.
 
