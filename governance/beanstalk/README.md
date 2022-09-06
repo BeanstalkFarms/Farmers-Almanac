@@ -4,8 +4,6 @@ A robust decentralized governance mechanism must balance the principles of decen
 
 Prior to Beanstalk’s April 17 exploit, Beanstalk Improvement Proposals (BIPs) were entirely on-chain and autonomous. However, after the exploit, Beanstalk was Paused and the ability to propose BIPs on-chain halted. Until a robust on-chain governance system is implemented, BIPs will be voted on off-chain via Snapshot and will be executed on-chain by the [Beanstalk Community Multisig (BCM)](bcm-process.md). Stalkholders are able to vote on BIPs via Snapshot.
 
-The BCM has been formed, but ownership of Beanstalk has not yet been transferred to the BCM. Publius, the founders of Beanstalk, currently custody ownership of the Beanstalk contract. The transfer of ownership to the BCM will be proposed in the BIP to Replant Beanstalk.
-
 BIPs are proposed on the [Beanstalk DAO Snapshot page](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BIPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/).
 
 ### **Participation**
