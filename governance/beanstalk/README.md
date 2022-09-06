@@ -25,10 +25,10 @@ If at any time before the end of the Voting Period more than two-thirds of the t
 
 ### **Pause**
 
-In case of a particularly dangerous vulnerability to Beanstalk, the BCM can Pause Beanstalk without a Snapshot. You can read more about which actions the BCM can take without a Snapshot proposal [here](bcm-process.md#snapshots). The Silo can also Pause Beanstalk via BIP.
+In case of a particularly dangerous vulnerability to Beanstalk, the BCM can Pause Beanstalk without a Snapshot. You can read more about which actions the BCM can take without a Snapshot proposal [here](bcm-process.md#snapshots). The Beanstalk DAO can also Pause Beanstalk via BIP.
 
 When Paused, Beanstalk does not accept a sunrise() function call. Once Unpaused, the sunrise() function can be called at the beginning of the next hour.
 
 ### **Commit**
 
-At Replant, the Beanstalk Community Multisig (BCM) address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, we expect a BIP will revoke these abilities from the BCM and reimplement on-chain governance. You can read more about the BCM [here](bcm-process.md).
+The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, we expect a BIP will revoke these abilities from the BCM and reimplement on-chain governance. You can read more about the BCM [here](bcm-process.md).
