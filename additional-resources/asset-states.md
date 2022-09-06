@@ -26,13 +26,13 @@ Beanstalk assets in your wallet.
 
 ### Bean states
 
+**Pooled Beans**
+
+Beans in all liquidity pools. The Beanstalk UI does not include Beans that make up Ripe BEAN:3CRV under this category.
+
 **Deposited Beans**
 
-Beans Deposited in the Silo.
-
-**Earned Beans**
-
-Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Upon Plant, Earned Beans are Deposited in the current Season.
+Beans Deposited in the Silo. Includes Earned Beans.
 
 **Withdrawn Beans**
 
@@ -50,13 +50,25 @@ Beans stored in Beanstalk. Farm Beans can be used in transactions on the Farm.
 
 Beans in Farmers’ wallets.
 
+**Budget Beans**
+
+Circulating Beans in the [BFM](../governance/beanstalk-farms/bfm-dashboard.md) and [BSM](../governance/bean-sprout/bsm-dashboard.md) wallets.
+
 **Ripe Beans**
 
-Beans that are minted as Fertilizer is sold or Ripe BEAN:3CRV LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans.
+Beans that are minted as Fertilizer is sold or Ripe BEAN:3CRV LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:3CRV under this category.
+
+**Ripe Pooled Beans**
+
+Pooled Beans that make up Ripe BEAN:3CRV.
 
 **Ordered Beans**
 
 Beans stored in Pod Orders.
+
+**Earned Beans**
+
+Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Upon Plant, Earned Beans are Deposited in the current Season.
 
 **Harvestable Pods**
 
