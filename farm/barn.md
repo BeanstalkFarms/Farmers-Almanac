@@ -30,7 +30,7 @@ When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:3CRV pool at a rat
 
 The Humidity is the interest rate on Fertilizer purchases. At 200% Humidity, each Fertilizer purchased comes with 3 Sprouts.
 
-The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to Replant, after which it dropped to 250% and then decreases by an additional 0.5% each Season until it reaches 20%. The Humidity will then remain at 20% until all Available Fertilizer is purchased.
+The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to Replant, after which it dropped to 250% and then decreased by an additional 0.5% each Season until it reached 20%. The Humidity will remain at 20% until all Available Fertilizer is purchased.
 
 ### Barn Process
 
