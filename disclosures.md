@@ -1,6 +1,6 @@
 # Disclosures
 
-**Before interacting with  Beanstalk, consider reading the following Disclosures** [**prepared by the DAO**](https://app.bean.money/#/governance/0x0d9e422bafaee7f87744c09afe9c2c68af590fc76d8afd13b12b9dfc9328e794)**. This document can be found on Arweave** [**here**](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg)**.**&#x20;
+**Before interacting with Beanstalk, consider reading the following Disclosures** [**prepared by the DAO**](https://app.bean.money/#/governance/0x0d9e422bafaee7f87744c09afe9c2c68af590fc76d8afd13b12b9dfc9328e794)**. This document can be found on Arweave** [**here**](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg)**.**&#x20;
 
 Interacting with Beanstalk involves many risks. Before interacting with Beanstalk, you should review the relevant documentation to make sure you understand how Beanstalk works, as well as information about the current state of Beanstalk. Beanstalk Farms has created this set of disclosures to assist in the educational process. These disclosures are not exhaustive. The [Beanstalk whitepaper](https://bean.money/docs/beanstalk.pdf), Farmers’ Almanac, [Dune dashboard](additional-resources/links.md#analytics), and other Beanstalk resources, as well as participating in the Beanstalk community, can help to understand the protocol. Before participating in the protocol, everyone should do their own research, investigation and analysis.
 
@@ -66,7 +66,7 @@ More information:
 
 #### **6. BEANSTALK-NATIVE DEBT DOES NOT HAVE A MATURITY DATE AND THEREFORE MAY NEVER BECOME REDEEMABLE FOR BEANS.** <a href="#6-debt-maturity-risk" id="6-debt-maturity-risk"></a>
 
-Beanstalk borrows from Beans from lenders in exchange for Pods and Sprouts. Bean loans have fixed interest rates but do not have fixed maturity dates.
+Beanstalk borrows Beans from lenders in exchange for Pods and Sprouts. Bean loans have fixed interest rates but do not have fixed maturity dates.
 
 Pods and Sprouts are repaid when the liquidity and time weighted average price of 1 Bean is greater than $1 over the previous Season, but there is no guarantee this will continue until all Pods and Sprouts become redeemable (see [#4](disclosures.md#no-lender-of-last-resort)). Governance may also arbitrarily modify the redeemability of Beanstalk debt (see [#7](disclosures.md#arbitrary-changes-through-governance)).
 
