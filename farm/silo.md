@@ -35,7 +35,7 @@ Stalkholders are entitled to participate in Beanstalk governance and earn a port
 
 Older Deposits have their Stalk ownership diluted by newer Deposits upon Deposit. Stalk ownership, and each Stalkholder’s share of Beanstalk governance voting power, decentralizes over time. Therefore, newly minted Beans are more widely distributed over time. A design that lowers the Gini coefficient of Beans and Stalk is essential to censorship resistance.
 
-Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs). Stalkholders receive 1/3 of new Bean mints while there are outstanding Sprouts (Sprouts are issued by the [Barn](barn.md)). If there are no outstanding Sprouts, Stalkholders receive 1/2 of new Bean mints.
+Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs). Stalkholders receive 1/3 of new Bean mints while there are more than zero Unfertilized Sprouts (Sprouts are issued by the [Barn](barn.md)). If there are no Unfertilized Sprouts, Stalkholders receive 1/2 of new Bean mints.
 
 ### **Withdraw**
 

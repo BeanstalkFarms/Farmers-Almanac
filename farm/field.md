@@ -18,7 +18,7 @@ Beanstalk [sets the Soil supply](../peg-maintenance/overview.md#soil-supply) at 
 
 Beans are Sown in exchange for Pods, the Beanstalk-native debt asset. Loans to Beanstalk are issued with a fixed interest rate, known as Temperature, and an unknown maturity date.
 
-The number of Pods received from 1 Sown Bean is determined by the Temperature at the time of Sowing. Newly issued Pods accumulate in the back of the Pod Line. The front of the Pod Line receives 1/3 of new Bean mints while there are outstanding Sprouts (Sprouts are issued by the [Barn](barn.md)). If there are no outstanding Sprouts, the front of the Pod Line receives 1/2 of new Bean mints.
+The number of Pods received from 1 Sown Bean is determined by the Temperature at the time of Sowing. Newly issued Pods accumulate in the back of the Pod Line. The front of the Pod Line receives 1/3 of new Bean mints when there are more than zero Unfertilized Sprouts (Sprouts are issued by the [Barn](barn.md)). If there are no Unfertilized Sprouts, the front of the Pod Line receives 1/2 of new Bean mints.
 
 Pods Ripen into Harvestable Pods that can be Harvested (redeemed) for 1 Bean each on a First In, First Out ([FIFO](../additional-resources/glossary.md#fifo)) basis. There is no penalty for waiting to Harvest Pods.
 
