@@ -48,6 +48,7 @@
   * [Understand the Bean Price](guides/sun/understand-price.md)
   * [Understand the Sun](guides/sun/understand-sun.md)
 * [Silo](guides/silo/README.md)
+  * [Understanding vAPYs](guides/silo/understanding-vapys.md)
   * [Deposit in the Silo](guides/silo/deposit.md)
   * [Convert in the Silo](guides/silo/convert.md)
   * [Transfer Deposits](guides/silo/transfer.md)
