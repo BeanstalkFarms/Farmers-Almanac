@@ -5,7 +5,7 @@ The Beanstalk UI displays vAPY (_variable_ APY_)_ statistics for each asset on t
 The APY calculation has two parts:
 
 1. Estimating the number of Beans that will be minted per Season using recent historical data.
-2. Estimating the number of Beans and Stalk that a Farmer will receive for Depositing in the Silo. This takes into account the Stalk supply and Seed supply and makes some [assumptions](understand-vapy.md#estimating-vapy-for-silo-deposits) about Stalkholder behavior.
+2. Estimating the number of Beans and Stalk that a Farmer will receive over time for Depositing their whitelisted assets in the Silo. This takes into account the Stalk supply and Seed supply and makes some [assumptions](understand-vapy.md#estimating-vapy-for-silo-deposits) about Stalkholder behavior.
 
 ### Bean vAPY vs Stalk vAPY
 
