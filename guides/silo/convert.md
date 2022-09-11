@@ -1,13 +1,13 @@
 # Convert in the Silo
 
-Silo Members can participate in peg maintenance by Converting certain Deposited assets to others within the Silo. You can find more information about Conversions [here](../../farm/silo.md#convert-whitelist).
+Silo Members can participate in peg maintenance by Converting certain Deposited assets to others within the Silo. You can find more information about Conversions [here](../../peg-maintenance/convert.md).
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
 3. At the bottom of the page, there is a table showing the various assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist).
-4. Select the asset you want to Convert from. For example, to Convert from Bean to another asset, select Bean. You must already have a Deposit of this asset in order to Convert from it. Assets may or may not be convertible at a given time based on [deltaB](../../additional-resources/glossary.md#deltab). See [Convert Whitelist](../../farm/silo.md#convert-whitelist) for additional information.
+4. Select the asset you want to Convert from. For example, to Convert from Bean to another asset, select Bean. You must already have a Deposit of this asset in order to Convert from it. Assets may or may not be convertible at a given time based on [deltaB](../../additional-resources/glossary.md#deltab). See [Convert Whitelist](../../peg-maintenance/convert.md#convert-whitelist) for additional information.
 5. Select “Convert” and enter the amount of the Deposited asset you would like to Convert.
-6. Below the input box, select the asset to “Convert to”. Available pairs are listed in the [Current Convert Whitelist](../../farm/silo.md#current-convert-whitelist).
+6. Below the input box, select the asset to “Convert to”. Available pairs are listed in the [Current Convert Whitelist](../../peg-maintenance/convert.md#convert-whitelist).
 7. A transaction preview will appear below the inputs showing the change in asset and change in [Stalk and Seeds](../../farm/silo.md#the-stalk-system). Select the “Transaction Details'' dropdown to review each step of the transaction.
 8. You may select a slippage tolerance by selecting the gear icon. The default slippage tolerance is 0.1%.
 9. Select “Convert”.
