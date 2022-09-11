@@ -2,7 +2,7 @@
 
 Beanstalk faces the fundamental limitation that it cannot fix the Bean price at its value peg, but instead must encourage widespread participation in peg maintenance through protocol-native financial incentives. Stability is a function of how regularly the price of a Bean oscillates across its peg and the magnitude of price deviations from it.
 
-Beanstalk has four peg maintenance tools available:
+Beanstalk has four direct peg maintenance tools available:
 
 1. Increase the [Bean supply](overview.md#bean-supply);
 2. Change the [Soil supply](overview.md#soil-supply);
@@ -10,6 +10,8 @@ Beanstalk has four peg maintenance tools available:
 4. Sell Beans ([Flood](flood.md)).
 
 At the beginning of every [Season](../farm/sun.md), Beanstalk evaluates its position (i.e., price and debt level) and current state (i.e., direction and acceleration) with respect to ideal equilibrium, and dynamically adjusts the Bean supply, Soil supply and Temperature to move closer to ideal equilibrium.
+
+[Conversions](convert.md) within the [Silo](../farm/silo.md) between Bean and LP Deposits serve a major role in peg maintenance.
 
 ### **Ideal Equilibrium**
 

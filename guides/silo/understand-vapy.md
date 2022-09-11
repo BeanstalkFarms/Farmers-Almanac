@@ -11,7 +11,7 @@ The APY calculation has two parts:
 
 Stalkholders earn Bean seignorage when [deltaB](../../additional-resources/glossary.md#deltab) is greater than 0 over the previous Season. Estimated annual Beans earned by a Stalkholder is called the **Bean vAPY**.
 
-Seeds grow Stalk each Season, regardless of deltaB. Estimated annual Stalk growth for a Stalkholder is called the **Stalk vAPY**.
+Seeds grow Stalk each Season, regardless of deltaB. Estimated annual Stalk growth for a given Stalkholder is called the **Stalk vAPY**.
 
 ### Estimating Earned Beans per Season
 

@@ -23,6 +23,7 @@
 
 * [Overview](peg-maintenance/overview.md)
 * [Temperature](peg-maintenance/temperature.md)
+* [Convert](peg-maintenance/convert.md)
 * [Flood](peg-maintenance/flood.md)
 
 ## 🏦 Governance
