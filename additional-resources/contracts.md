@@ -49,7 +49,7 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 ### Old token
 
 {% hint style="danger" %}
-The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. A new Bean token was issued at Replant—you can find it at the top of this page..
+The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. A new Bean token was issued at Replant—you can find it at the top of this page.
 {% endhint %}
 
 | Contract                                                                                                     | Address                                                                                                               |
