@@ -90,5 +90,6 @@
 * [BeaNFTs](additional-resources/beanfts.md)
 * [Root](additional-resources/root.md)
 * [Beanstalk Learning Center](additional-resources/beanstalk-learning-center.md)
+* [Community Grant Program](additional-resources/community-grant-program.md)
 * [Contracts](additional-resources/contracts.md)
 * [Links](additional-resources/links.md)
