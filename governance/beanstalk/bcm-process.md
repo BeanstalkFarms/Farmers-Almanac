@@ -11,7 +11,7 @@ BCM Signers are an [anonymous](bcm-process.md#anonymous-multisig-signers) and di
 * Reputable community members; and
 * Beanstalk core contributors.
 
-Fertilizer funds were be custodied in the BCM until the Replant.
+Fertilizer funds were custodied in the BCM until the Replant.
 
 ### Multisig Powers
 
