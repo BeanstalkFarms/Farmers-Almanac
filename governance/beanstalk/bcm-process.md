@@ -163,7 +163,7 @@ The BCM will notify the community via Discord and work with the proposer to reso
 
 ### Rotating Holders In / Out
 
-In the event that one or more Signers are compromised or vote against the results of any Snapshot, the BCM will rotate them out of the wallet and replace them with another Signer. In no instance shall more than 4 keys be held by Beanstalk Farms contributors, nor shall more than 1 key be held by Publius.
+In the event that one or more Signers are compromised or vote against the results of any Snapshot (or a Signer voluntarily chooses to be removed from the BCM), the BCM will rotate them out of the wallet and replace them with another Signer. In no instance shall more than 4 keys be held by Beanstalk Farms contributors, nor shall more than 1 key be held by Publius.
 
 Once a transaction is submitted on-chain, the BCM will adhere to the results of the Snapshot and each member shall verify the transaction on etherscan during the Voting Period.
 
