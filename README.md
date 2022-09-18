@@ -26,10 +26,10 @@ Please share any feedback on the Farmers' Almanac in the **#docs-feedback** chan
 ### Links
 
 * [Introduction](introduction/why-beanstalk.md)
-* [Beanstalk mechanics](introduction/how-beanstalk-works.md)
-* [Guides to using Beanstalk](guides/directory.md)
-* [Peg maintenance](broken-reference)
+* [Beanstalk Mechanics](introduction/how-beanstalk-works.md)
+* [Guides to Using Beanstalk](guides/directory.md)
+* [Peg Maintenance](broken-reference)
 * [Governance](governance/beanstalk/)
 * [Glossary](additional-resources/glossary.md)
 * [Contracts](additional-resources/contracts.md)
-* [Other links](additional-resources/links.md)
+* [Other Links](additional-resources/links.md)

@@ -7,8 +7,8 @@
 * [Discord](https://discord.gg/beanstalk)
 * [Farmers' Almanac](https://docs.bean.money/)
 * [WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
-* [CoinGecko](https://www.coingecko.com/en/coins/bean)
-* [CoinMarketCap](https://coinmarketcap.com/currencies/beanstalk/)
+* [CoinGecko](https://www.coingecko.com/en/coins/bean) (inaccurate as of 09/17/22)
+* [CoinMarketCap](https://coinmarketcap.com/currencies/beanstalk/) (inaccurate as of 09/17/22)
 
 ### Analytics
 
@@ -18,7 +18,8 @@
 * [Pre-Exploit Dune Dashboard](https://dune.com/tbiq/Beanstalk)
 * [Barn Raise Dune Dashboard](https://dune.com/tbiq/beanstalk-barn-raise)
 * [Silo APY Calculator Dune Dashboard](https://dune.xyz/tbiq/Beanstalk-Silo-APY-Calculator)
-* [DeFi Llama Dashboard](https://defillama.com/stablecoin/bean)
+* [DeFi Llama Bean Dashboard](https://defillama.com/stablecoin/bean)
+* [DeFi Llama Beanstalk Dashboard](https://defillama.com/protocol/beanstalk)
 
 ### GitHub
 
@@ -60,12 +61,12 @@
 
 * [BeaNFT Genesis Collection](https://opensea.io/collection/beanft-genesis)
 * [BeaNFT Winter Collection](https://opensea.io/collection/beanft-collection)
+* [BeaNFT Barn Raise Collection](https://opensea.io/collection/beanft-barnraise-collection)
 * [Fertilizer](https://opensea.io/collection/bean-fertilizer)
 
 ### Inactive
 
 * [Commonwealth](https://commonwealth.im/beanstalk/)
-* [Beanstalk Q4 2021 Budget Contracts](https://github.com/BeanstalkFarms/Beanstalk-Budget)
 * [Reddit](https://www.reddit.com/r/BeanstalkProtocol/)
 * [Instagram](https://www.instagram.com/beanstalkprotocol/)
 * [TikTok](https://www.tiktok.com/@beanstalkprotocol)
