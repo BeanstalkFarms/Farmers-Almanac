@@ -278,9 +278,9 @@ The pseudonym of Beanstalk’s founders.
 
 A [Season](glossary.md#season) where Beans are minted per the peg maintenance mechanism.
 
-### Real Rate of Return (RRoR) <a href="#real-rate-of-return" id="real-rate-of-return"></a>
+### Real Rate of Return
 
-The return for Sowing Beans, accounting for the Bean price. RRoR = (1 + Temperature) / TWAP.
+The return for Sowing Beans, accounting for the Bean price. Real Rate of Return = (1 + Temperature) / TWAP. Abbreviated as RRoR.
 
 ### **Replant**
 

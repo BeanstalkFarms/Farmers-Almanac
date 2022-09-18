@@ -26,6 +26,13 @@
 * [Convert](peg-maintenance/convert.md)
 * [Flood](peg-maintenance/flood.md)
 
+## 🔬 Advanced
+
+* [Stablecoin Overview](advanced/stablecoin-overview.md)
+* [Types of Stablecoins](advanced/types-of-stablecoins.md)
+* [Economics](advanced/economics.md)
+* [Bank Runs](advanced/bank-runs.md)
+
 ## 🏦 Governance
 
 * [Beanstalk](governance/beanstalk/README.md)
