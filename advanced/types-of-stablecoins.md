@@ -104,7 +104,7 @@ _Liquidity:_ Limited by available collateral
 
 #### Network-native exogenous value fractional reserve convertible stablecoin protocols
 
-_Examples:_ [Frax](https://frax.finance/)
+_Examples:_ [_Frax_](https://frax.finance/)__
 
 The use of fractional reserves by network-native exogenous value convertible stablecoin protocols has been used in an attempt to help remediate the negative effect on carrying costs of collateral requirements. However, the network-native nature of the system makes lowering the collateralization ratio difficult without spurring a bank run. While fractional reserve implementations of network-native exogenous value convertible stablecoins offer competitive carrying costs as compared to non-fractional reserve implementations, they do so at the cost of tail risk in volatility.
 
