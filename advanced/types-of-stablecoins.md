@@ -138,7 +138,7 @@ In theory, this would be like a private company issuing a stablecoin that is con
 
 _Trustlessness:_ Permissioned
 
-_Carrying Costs:_ Can be competitive as compared to the asset being pegged to, but the issuer must create more enough endogenous value to facilitate the carry
+_Carrying Costs:_ Can be competitive as compared to the asset being pegged to, but the issuer must create more than enough endogenous value to facilitate the carry
 
 _Volatility:_ Likely to maintain a tight peg due to convertibility, but exposed to collapse in the instance the issuer’s endogenous value source falters, or is expected to falter
 
@@ -152,7 +152,7 @@ To date, implementations of network-native endogenous value convertible stableco
 
 _Trustlessness:_ Permissionless
 
-_Carrying Costs:_ Can be competitive as compared to the asset being pegged to, but the issuer must create more enough endogenous value to facilitate the carrying
+_Carrying Costs:_ Can be competitive as compared to the asset being pegged to, but the issuer must create more than enough endogenous value to facilitate the carry
 
 _Volatility:_ Likely to maintain a tight peg due to convertibility, but exposed to collapse in the instance the issuer’s endogenous value source falters, or is expected to falter
 
