@@ -116,7 +116,7 @@ _Volatility:_ Low volatility when factoring in frictions around convertibility; 
 
 _Liquidity:_ Limited by available network-native collateral, particularly trustless network-native collateral
 
-#### Summary
+#### Summary <a href="#exogenous-value-stablecoins-summary" id="exogenous-value-stablecoins-summary"></a>
 
 Convertibility to exogenous value is the primary source of low price volatility, but it comes at the cost of competitive carrying costs and liquidity. In most implementations, trustlessness is sacrificed for deeper liquidity.
 
@@ -184,7 +184,7 @@ Credit-based network-native endogenous value non-convertible stablecoin protocol
 
 Credit-based network-native endogenous value non-convertible stablecoin protocols present an opportunity to achieve trustlessness, competitive carrying costs, low price volatility and deep liquidity. The use of network-native credit can eliminate the negative carrying costs and reduce the excess price volatility associated with rebasing stablecoin protocols.
 
-#### Summary
+#### Summary <a href="#endogenous-value-stablecoins-summary" id="endogenous-value-stablecoins-summary"></a>
 
 Convertibility to endogenous value prioritizes low price volatility at the expense of long term sustainability.
 
