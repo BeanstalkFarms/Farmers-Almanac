@@ -146,7 +146,7 @@ _Liquidity:_ Limited by the endogenous value of the issuer
 
 #### Network-native endogenous value convertible stablecoin protocols
 
-_Examples:_ [_Terra_](https://www.terra.money/)
+_Examples:_ [_Terra_](https://www.allcryptowhitepapers.com/terra-whitepaper/)__
 
 To date, implementations of network-native endogenous value convertible stablecoin protocols have failed to regularly cross their stablecoin price over their value peg. This is primarily due to the fluctuation in value of endogenous value. The convertibility to endogenous value typically correlates with decreases in endogenous value, which creates excess reflexivity. It is unclear whether network-native endogenous value convertible stablecoin protocols can succeed.
 
