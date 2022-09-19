@@ -240,7 +240,7 @@ Planting adds Plantable Seeds to your total [Seed](glossary.md#seeds) balance.
 
 ### **Plantable Seeds**
 
-[Seeds](glossary.md#seeds) earned in conjuction with [Earned Beans](glossary.md#earned-beans). Plantable Seeds must be Planted in order to grow [Stalk](glossary.md#stalk).
+[Seeds](glossary.md#seeds) earned in conjunction with [Earned Beans](glossary.md#earned-beans). Plantable Seeds must be Planted in order to grow [Stalk](glossary.md#stalk).
 
 ### **Plot**
 
@@ -278,9 +278,9 @@ The pseudonym of Beanstalk’s founders.
 
 A [Season](glossary.md#season) where Beans are minted per the peg maintenance mechanism.
 
-### Real Rate of Return
+### Real Rate of Return (RRoR) <a href="#real-rate-of-return" id="real-rate-of-return"></a>
 
-The return for Sowing Beans, accounting for the Bean price. Real Rate of Return = (1 + Temperature) / TWAP. Abbreviated as RRoR.
+The return for Sowing Beans, accounting for the Bean price. RRoR = (1 + Temperature) / TWAP.
 
 ### **Replant**
 
