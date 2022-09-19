@@ -190,6 +190,6 @@ Convertibility to endogenous value prioritizes low price volatility at the expen
 
 Rebasing tokens have shown some efficacy and peg maintenance, but not enough to create utility. The introduction of network-native credit can reduce volatility.
 
-The current financial system runs on credit-based non-network-native endogenous non-convertible stablecoin protocols.
+The current financial system runs on credit-based non-network-native endogenous value non-convertible stablecoin protocols.
 
-Implementations of network-native endogenous non-convertible stablecoin protocols present a viable option for the creation of trustless currency with competitive carrying costs, low price volatility and deep liquidity that can facilitate the competition between businesses built on decentralized primitives against businesses built on centralized ones.
+Implementations of network-native endogenous value non-convertible stablecoin protocols present a viable option for the creation of trustless currency with competitive carrying costs, low price volatility and deep liquidity that can facilitate the competition between businesses built on decentralized primitives against businesses built on centralized ones.
