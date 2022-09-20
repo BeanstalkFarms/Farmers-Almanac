@@ -58,6 +58,7 @@
 * [Silo](guides/silo/README.md)
   * [Understand vAPY](guides/silo/understand-vapy.md)
   * [Deposit in the Silo](guides/silo/deposit.md)
+  * [Understand Silo Deposit Performance](guides/silo/understand-silo-deposit-performance.md)
   * [Convert in the Silo](guides/silo/convert.md)
   * [Transfer Deposits](guides/silo/transfer.md)
   * [Withdraw from the Silo](guides/silo/withdraw.md)
