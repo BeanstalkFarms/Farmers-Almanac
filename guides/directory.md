@@ -23,6 +23,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 * [Understand vAPY](silo/understand-vapy.md)
 * [Deposit in the Silo](silo/deposit.md)
+* [Understand Silo Deposit Performance](silo/understand-silo-deposit-performance.md)
 * [Convert in the Silo](silo/convert.md)
 * [Transfer Deposits](silo/transfer.md)
 * [Withdraw from the Silo](silo/withdraw.md)
