@@ -22,7 +22,7 @@ The three axes in [the previous section](stablecoin-overview.md#stablecoin-featu
 Additionally, implementations of exogenous value convertible stablecoin protocols with fractional reserves are considered:
 
 * [Non-network-native exogenous value fractional reserve convertible stablecoin protocols](types-of-stablecoins.md#non-network-native-exogenous-value-fractional-reserve-convertible-stablecoin-protocols)
-  * _Examples: Bank Notes (not implemented on any decentralized networks to date)_
+  * _Examples: Bank Notes_
 * [Network-native exogenous value fractional reserve convertible stablecoin protocols](types-of-stablecoins.md#network-native-exogenous-value-fractional-reserve-convertible-stablecoin-protocols)
   * _Examples: Frax_
 
@@ -76,7 +76,7 @@ _Liquidity:_ Limited by opportunity cost of using off-chain collateral as capita
 
 #### Network-native exogenous value non-convertible stablecoin protocols
 
-_Examples:_ [_Olympus_](https://www.olympusdao.finance/)
+_Examples:_ [_Olympus_](https://www.olympusdao.finance/) _(convertible under certain market conditions)_
 
 Convertibility is the main source of low price volatility. The main benefit of collateralization is low price volatility, the majority of which is forfeited in the absence of convertibility. Therefore, it is unlikely that a network-native exogenous value non-convertible stablecoin protocol will find product market fit.
 
