@@ -2,7 +2,7 @@
 
 **This document can be found on Arweave** [**here**](https://arweave.net/U5P-YaIfmgQ8mpZfBfPnpIcCv82bHK1IeWNi04l4PA0)**.**
 
-**The Beanstalk Community Multisig, or BCM, is not intended to have decision making power.** Its role is to 1) enact on-chain the decisions Stalkholders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
+**The Beanstalk Community Multisig, or BCM, is not intended to have decision making power.** Its role is to (1) enact on-chain the decisions Stalkholders make via off-chain voting and (2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
 The BCM is deployed using [Gnosis Safe](https://gnosis-safe.io/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration will start as 5-of-9 on Ethereum mainnet. Parameters m and n are each ultimately defined by Stalkholders and may evolve in the future via Snapshot vote.
 
