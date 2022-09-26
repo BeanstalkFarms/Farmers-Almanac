@@ -12,7 +12,7 @@
 | Fertilizer ERC-1155 token                                       | [0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6](https://etherscan.io/address/0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6) |
 | Fertilizer Admin                                                | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
 | Fertilizer Implementation                                       | [0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD](https://etherscan.io/address/0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD) |
-| Beanstalk Price Contract                                        | [0xA57289161FF18D67A68841922264B317170b0b81](https://etherscan.io/address/0xA57289161FF18D67A68841922264B317170b0b81) |
+| Beanstalk Price Contract                                        | [0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530](https://etherscan.io/address/0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530) |
 
 ### Diamond
 
