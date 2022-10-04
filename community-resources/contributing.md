@@ -68,10 +68,10 @@ If you are interested in contributing to Beanstalk Farms or Bean Sprout, please 
 
 Engineering: @Silo Chad (YUNG MUSK#7303)
 
-Marketing: @mod323 (mod323#9967)&#x20;
+Marketing: @mod323#9967&#x20;
 
-Design: @sweetredbeans (sweetredbeans#2436)
+Design: @sweetredbeans#2436
 
 Operations: @austin (astn#6123)
 
-Business Development / Partnerships: (@mistermanifold#0548)
+Business Development / Partnerships: @mistermanifold#0548
