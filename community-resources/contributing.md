@@ -24,7 +24,7 @@ Beanstalk's [capital efficient model](../introduction/why-beanstalk.md) is desig
 
 Discuss business ideas in the [#💡・business-ideas channel](https://discord.com/channels/880413392916054098/1020031212233949224) on the Beanstalk Discord.
 
-[Bean Sprout](../governance/bean-sprout/) is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Join the [#🌱・bs-general channel](https://discord.com/channels/880413392916054098/1014191870290690079) on the Beanstalk Discord or DM [@WeAreBeanSprout](https://twitter.com/wearebeansprout) on Twitter to learn more.
+[Bean Sprout](../governance/bean-sprout/) is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Join the [#🌱・bean-sprout channel](https://discord.com/channels/880413392916054098/1014191870290690079) on the Beanstalk Discord or DM [@WeAreBeanSprout](https://twitter.com/wearebeansprout) on Twitter to learn more.
 
 ### Submitting improvements to the Beanstalk protocol
 
@@ -73,3 +73,5 @@ Marketing: @mod323 (mod323#9967)&#x20;
 Design: @sweetredbeans (sweetredbeans#2436)
 
 Operations: @austin (astn#6123)
+
+Business Development / Partnerships: (@mistermanifold#0548)
