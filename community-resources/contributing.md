@@ -75,3 +75,5 @@ Design: @sweetredbeans#2436
 Operations: @austin (astn#6123)
 
 Business Development / Partnerships: @mistermanifold#0548
+
+Hiring for Beanstalk Farms is performed by the [Beanstalk Farms Committee](../governance/beanstalk-farms/#beanstalk-farms-committee). You can join the Beanstalk Farms Committee yourself through a [BFCP-A proposal](../governance/proposals.md#bfcp) or propose to use the Bean Sprout budget with a [Bean Sprout Proposal](../governance/bean-sprout/).
