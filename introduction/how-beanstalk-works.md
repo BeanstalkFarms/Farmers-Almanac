@@ -20,7 +20,7 @@ Beanstalk uses [the Sun](../farm/sun.md) to create a cost-efficient and protocol
 
 The Sun leverages the 3CRV pool on Curve as the Beanstalk oracle price source for $1.
 
-In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates [deltaB](../additional-resources/glossary.md#deltab), the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist);
+In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates [deltaB](../protocol-resources/glossary.md#deltab), the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist);
 
 The Sun uses deltaB to determine how to change the Bean supply and [Soil](../farm/field.md#soil) supply.
 

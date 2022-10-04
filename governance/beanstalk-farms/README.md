@@ -6,7 +6,7 @@ Beanstalk Farms is a decentralized development organization of core contributors
 
 ### Funding
 
-Neither Beanstalk Farms nor Beanstalk have a treasury. Beanstalk Farms has historically been funded by the Beanstalk DAO. Beanstalk Farms proposes quarterly budget BIPs that mint Beans to cover operating expenses and compensate contributors. Budget funds are custodied by the [Beanstalk Farms Multisig (BFM)](bfm-dashboard.md). Larger payments in non-Bean assets like audits have typically been paid for via [Fundraiser](../../additional-resources/fundraiser.md).
+Neither Beanstalk Farms nor Beanstalk have a treasury. Beanstalk Farms has historically been funded by the Beanstalk DAO. Beanstalk Farms proposes quarterly budget BIPs that mint Beans to cover operating expenses and compensate contributors. Budget funds are custodied by the [Beanstalk Farms Multisig (BFM)](bfm-dashboard.md). Larger payments in non-Bean assets like audits have typically been paid for via [Fundraiser](../../protocol-resources/fundraiser.md).
 
 Past BIPs that funded Beanstalk Farms:
 

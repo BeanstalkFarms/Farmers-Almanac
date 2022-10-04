@@ -8,7 +8,7 @@ At the beginning of each [Season](../farm/sun.md), Beanstalk changes the Tempera
 
 The current state of Beanstalk is in part determined by the direction of change with respect to ideal equilibrium.
 
-The direction of change of Beanstalk with respect to ideal equilibrium is considered either toward or away from ideal equilibrium, based on the current debt level and the [deltaB](../additional-resources/glossary.md#deltab) over the previous Season.
+The direction of change of Beanstalk with respect to ideal equilibrium is considered either toward or away from ideal equilibrium, based on the current debt level and the [deltaB](../protocol-resources/glossary.md#deltab) over the previous Season.
 
 When the deltaB over the previous Season is > 0, debt is paid back. Therefore, if there is more debt than optimal, Beanstalk is moving toward the ideal equilibrium. If there is less debt than optimal, Beanstalk is moving away from the ideal equilibrium.
 

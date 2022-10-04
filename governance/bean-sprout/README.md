@@ -1,6 +1,6 @@
 # Bean Sprout
 
-Bean Sprout is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Bean Sprout is responsible for the incubation of [Root](../../additional-resources/root.md).
+Bean Sprout is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Bean Sprout is responsible for the incubation of [Root](../../ecosystem/root.md).
 
 ### Funding
 

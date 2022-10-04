@@ -4,7 +4,7 @@ Conversions within the [Silo](../farm/silo.md) between Bean and LP Deposits serv
 
 Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference).&#x20;
 
-When the Bean price is above peg (_i.e._, [deltaB](../additional-resources/glossary.md#deltab) is positive), Deposited Beans may be converted to Deposited BEAN:3CRV LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to add Beans to liquidity pools, which has the practical effect of selling Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is decreased back towards peg.
+When the Bean price is above peg (_i.e._, [deltaB](../protocol-resources/glossary.md#deltab) is positive), Deposited Beans may be converted to Deposited BEAN:3CRV LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to add Beans to liquidity pools, which has the practical effect of selling Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is decreased back towards peg.
 
 When the Bean price is below peg (_i.e._, deltaB is negative), Deposited BEAN:3CRV LP may be converted to Deposited Beans without forfeiting grown Stalk from Seeds or any Stalk due to LP impermanent loss. This conversion allows Silo Members to remove excess Beans from liquidity pools and increase the price back towards peg without leaving the Silo, minimizing debt issuance.
 

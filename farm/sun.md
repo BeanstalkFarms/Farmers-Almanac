@@ -19,9 +19,8 @@ Upon acceptance of the sunrise() call, the Sun:
 
 ### Oracle Whitelist
 
-The following liquidity pools are whitelisted for inclusion in the calculation of [deltaB](../additional-resources/glossary.md#deltab):
+The following liquidity pools are whitelisted for inclusion in the calculation of [deltaB](../protocol-resources/glossary.md#deltab):
 
 | Pool name                                      | Pool address                                                                                                          |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [BEAN:3CRV pool](https://curve.fi/factory/152) | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) |
-

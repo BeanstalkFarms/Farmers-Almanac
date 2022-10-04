@@ -13,7 +13,7 @@ Active Fertilizer holders receive Sprouts Sprouts become redeemable for Beans on
 6. A transaction preview will appear below the inputs. Select the “Transaction Details” dropdown to review each step of the transaction.
 7. You may select a slippage tolerance by selecting the gear icon. The default slippage tolerance is 0.1%.
 8. If you are buying Fertilizer with ETH or have previously approved the asset being spent, skip to Step 10. For all other assets, select “Approve \[Token]”. This allows the Beanstalk contract to spend the asset, but does not use it to buy and Sow Beans yet.
-9. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+9. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol-resources/contracts.md) before signing it.
 10. Select “Buy”.
-11. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../additional-resources/contracts.md) before signing it.
+11. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol-resources/contracts.md) before signing it.
 12. After the transaction has been confirmed by the network, your Fertilizer and associated Sprouts will appear in the “Fertilizer” component at the bottom of the “Barn” page.

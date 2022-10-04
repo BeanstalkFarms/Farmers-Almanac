@@ -1,6 +1,6 @@
 # Understand the Sun
 
-The Sun keeps time on the Farm in [Seasons](../../additional-resources/glossary.md#season) and incentivizes cost-efficient and timely calling of the [sunrise()](../../additional-resources/glossary.md#sunrise) function.
+The Sun keeps time on the Farm in [Seasons](../../protocol-resources/glossary.md#season) and incentivizes cost-efficient and timely calling of the [sunrise()](../../protocol-resources/glossary.md#sunrise) function.
 
 You can view [the Sun](../../farm/sun.md) at the upper left corner of [app.bean.money](https://app.bean.money/).
 
@@ -12,7 +12,7 @@ Selecting the Sun displays more detail on historical Seasons and a forecast for 
 
 * Number of new Beans minted,
 * [Soil](../../farm/field.md#soil) made available in the [Field](../../farm/field.md),
-* [Temperature](../../farm/field.md#temperature) for [Sowing Beans](../../additional-resources/glossary.md#sow),
-* [Pod Rate](../../additional-resources/glossary.md#pod-rate), and
-* [Delta Demand](../../additional-resources/glossary.md#delta-demand), if it was used to measure Demand for Soil. If there is between 0 and 1 Soil remaining at the end of any Season, [Delta Demand is not used](../../peg-maintenance/temperature.md#demand-for-soil).
+* [Temperature](../../farm/field.md#temperature) for [Sowing Beans](../../protocol-resources/glossary.md#sow),
+* [Pod Rate](../../protocol-resources/glossary.md#pod-rate), and
+* [Delta Demand](../../protocol-resources/glossary.md#delta-demand), if it was used to measure Demand for Soil. If there is between 0 and 1 Soil remaining at the end of any Season, [Delta Demand is not used](../../peg-maintenance/temperature.md#demand-for-soil).
 

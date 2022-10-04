@@ -9,7 +9,7 @@ The APY calculation has two parts:
 
 ### Bean vAPY vs Stalk vAPY
 
-Stalkholders earn Bean seignorage when [deltaB](../../additional-resources/glossary.md#deltab) is greater than 0 over the previous Season. Estimated annual Beans earned by a Stalkholder is called the **Bean vAPY**.
+Stalkholders earn Bean seignorage when [deltaB](../../protocol-resources/glossary.md#deltab) is greater than 0 over the previous Season. Estimated annual Beans earned by a Stalkholder is called the **Bean vAPY**.
 
 Seeds grow Stalk each Season, regardless of deltaB. Estimated annual Stalk growth for a Stalkholder is called the **Stalk vAPY**.
 
@@ -21,7 +21,7 @@ The current EMA value can be located on the Silo page by hovering over the **Bea
 
 ### Estimating vAPY for Silo Deposits
 
-The vAPY for Depositing a whitelisted asset in the Silo is determined by the value of 1 newly Deposited [BDV](../../additional-resources/glossary.md#bean-denominated-value) in 8760 Seasons (1 year).
+The vAPY for Depositing a whitelisted asset in the Silo is determined by the value of 1 newly Deposited [BDV](../../protocol-resources/glossary.md#bean-denominated-value) in 8760 Seasons (1 year).
 
 The vAPY calculations make the following assumptions:
 

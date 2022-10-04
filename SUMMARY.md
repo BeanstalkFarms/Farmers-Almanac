@@ -89,15 +89,22 @@
   * [Pick Unripe Assets](guides/unripe-assets/pick-unripe-assets.md)
   * [Chop Unripe Assets](guides/unripe-assets/chop-unripe-assets.md)
 
-## 📖 Additional Resources
+## 📖 Protocol Resources
 
-* [Asset States](additional-resources/asset-states.md)
-* [Glossary](additional-resources/glossary.md)
-* [Audits](additional-resources/audits.md)
-* [Fundraiser](additional-resources/fundraiser.md)
-* [BeaNFTs](additional-resources/beanfts.md)
-* [Root](additional-resources/root.md)
-* [Beanstalk Learning Center](additional-resources/beanstalk-learning-center.md)
-* [Community Grant Program](additional-resources/community-grant-program.md)
-* [Contracts](additional-resources/contracts.md)
-* [Links](additional-resources/links.md)
+* [Glossary](protocol-resources/glossary.md)
+* [Asset States](protocol-resources/asset-states.md)
+* [Contracts](protocol-resources/contracts.md)
+* [Audits](protocol-resources/audits.md)
+* [Fundraiser](protocol-resources/fundraiser.md)
+
+## Ecosystem
+
+* [BeaNFTs](ecosystem/beanfts.md)
+* [Root](ecosystem/root.md)
+
+## Community Resources
+
+* [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
+* [Contributing](community-resources/contributing.md)
+* [Community Grant Program](community-resources/community-grant-program.md)
+* [Links](community-resources/links.md)
