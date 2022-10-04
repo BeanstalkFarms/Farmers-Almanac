@@ -97,12 +97,12 @@
 * [Audits](protocol-resources/audits.md)
 * [Fundraiser](protocol-resources/fundraiser.md)
 
-## Ecosystem
+## 🌐 Ecosystem
 
 * [BeaNFTs](ecosystem/beanfts.md)
 * [Root](ecosystem/root.md)
 
-## Community Resources
+## 💭 Community Resources
 
 * [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
 * [Contributing](community-resources/contributing.md)
