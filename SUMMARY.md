@@ -104,6 +104,7 @@
 
 ## 💭 Community Resources
 
+* [Discord](https://discord.gg/beanstalk)
 * [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
 * [Contributing](community-resources/contributing.md)
 * [Community Grant Program](community-resources/community-grant-program.md)
