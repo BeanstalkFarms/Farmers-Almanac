@@ -38,8 +38,11 @@
 * [Beanstalk](governance/beanstalk/README.md)
   * [BCM Process](governance/beanstalk/bcm-process.md)
   * [BCM Dashboard](governance/beanstalk/bcm-dashboard.md)
+  * [BIC Process](governance/beanstalk/bic-process.md)
+  * [BIC Dashboard](governance/beanstalk/bic-dashboard.md)
 * [Beanstalk Farms](governance/beanstalk-farms/README.md)
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
+  * [BFC Dashboard](governance/beanstalk-farms/bfc-dashboard.md)
 * [Bean Sprout](governance/bean-sprout/README.md)
   * [BSM Dashboard](governance/bean-sprout/bsm-dashboard.md)
 * [Proposals](governance/proposals.md)
@@ -97,15 +100,15 @@
 * [Audits](protocol-resources/audits.md)
 * [Fundraiser](protocol-resources/fundraiser.md)
 
-## 🌐 Ecosystem
+## Ecosystem
 
 * [BeaNFTs](ecosystem/beanfts.md)
 * [Root](ecosystem/root.md)
 
-## 💭 Community Resources
+## Community Resources
 
 * [Discord](https://discord.gg/beanstalk)
 * [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
 * [Contributing](community-resources/contributing.md)
 * [Community Grant Program](community-resources/community-grant-program.md)
-* [Links](community-resources/links.md)
+* [Links](additional-resources/links.md)

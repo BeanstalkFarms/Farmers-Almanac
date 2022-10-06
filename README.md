@@ -32,4 +32,4 @@ Please share any feedback on the Farmers' Almanac in the **#docs-feedback** chan
 * [Governance](governance/beanstalk/)
 * [Glossary](protocol-resources/glossary.md)
 * [Contracts](protocol-resources/contracts.md)
-* [Other Links](community-resources/links.md)
+* [Other Links](additional-resources/links.md)

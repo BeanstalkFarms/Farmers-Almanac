@@ -8,14 +8,30 @@ Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or B
 
 ### **BFM Members**
 
-Publius currently holds 2 of the 7 keys on the BFM. Rotating BFM signers requires a BIP or BOP unless a signer voluntarily leaves the BFM (nor for rotating in a backup signer in the event of a voluntary departure).
+The current BFM signers are as follows, in no particular order:
+
+* Publius
+* Silo Chad
+* austin
+* sweetredbeans
+* mod323
+* aloceros
+* Cujo
+
+The following people serve as backup signers for the BFM, in no particular order:
+
+* Cool Bean
+* CanadianBennett
+* MrMochi
+
+Rotating BFM signers requires a BOP (or BIP) unless a signer voluntarily leaves the BFM or for rotating in a backup signer.
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
-| [0x0caAd4cf13a07366471E27c360EAAF8d9F98D783](https://etherscan.io/address/0x0caAd4cf13a07366471E27c360EAAF8d9F98D783) |
+| [0x696a43f4Bf353685E1666f700bB929b8042E5e1b](https://etherscan.io/address/0x696a43f4Bf353685E1666f700bB929b8042E5e1b) |
 | [0x0703B2b27Ee333B3f5249f7C96ad1445D4A09A17](https://etherscan.io/address/0x0703B2b27Ee333B3f5249f7C96ad1445D4A09A17) |
 | [0x6D1E1EC2891EdC25fdB3E3D0f7E02F469Cc1Bcbb](https://etherscan.io/address/0x6D1E1EC2891EdC25fdB3E3D0f7E02F469Cc1Bcbb) |
-| [0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1](https://etherscan.io/address/0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1) |
+| [0xABf65fD0D887235D45898B09D66a67871EC23d1a](https://etherscan.io/address/0xABf65fD0D887235D45898B09D66a67871EC23d1a) |
 | [0xcFDC487C7a347aA7B275221c2A663e1004f656b8](https://etherscan.io/address/0xcFDC487C7a347aA7B275221c2A663e1004f656b8) |
 | [0xd216472bcc3e6080Fc28BC95D0565128ffE16De9](https://etherscan.io/address/0xd216472bcc3e6080Fc28BC95D0565128ffE16De9) |
-| [0xf11866dD2E71D3A518cEFBD679F73584292C9e8C](https://etherscan.io/address/0xf11866dD2E71D3A518cEFBD679F73584292C9e8C) |
+| [0x2e4Ea01753f30B837813EF14CC547674AeA1fe88](https://etherscan.io/address/0x2e4Ea01753f30B837813EF14CC547674AeA1fe88) |

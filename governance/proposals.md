@@ -4,10 +4,22 @@ This page is a comprehensive overview of all proposals types as it pertains to g
 
 ![The Beanstalk DAO governs the BFC and Bean Sprout. The BFC has discretion over the Beanstalk Farms budget.](../.gitbook/assets/proposals.png)
 
+#### Table of Contents
+
+* [Beanstalk Improvement Proposal](proposals.md#bip) (BIP)
+* [Beanstalk Operations Proposal](proposals.md#bop) (BOP)
+* [Beanstalk Farms Committee Proposal](proposals.md#bfcp) (BFCP)
+* [Beanstalk Farms Budget Proposal](proposals.md#bfbp) (BFBP)
+* [Bean Sprout Proposal](proposals.md#bsp) (BSP)
+* [Beanstalk Immunefi Response](proposals.md#undefined) (BIR)\*
+
+\*BIRs are not quite governance proposals, but are included on this page for completion's sake.
+
 #### Notes
 
 * In all cases where Stalkholders vote on a proposal or a proposal requires a minimum Stalk threshold to propose, if the Stalk supply is compromised in a flash loan or other governance attack at the time of proposal, the proposal is void.
 * In all cases where a proposal requires a minimum Stalk threshold to propose, the minimum Stalk threshold must be met at the time of proposal.
+* All past governance proposals can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals).
 
 ### BIP
 
@@ -75,7 +87,7 @@ BFC members have the option to update their previous hiring proposal terms in a 
 
 ### BFBP
 
-Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. Only [BFC](beanstalk-farms/#beanstalk-farms-committee) members can propose and vote on BFBPs. BFBPs have two voting choices: For and Against. All BFBPs have a voting period of 5 days.
+Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. Only [BFC](beanstalk-farms/#beanstalk-farms-committee) members can propose and vote on BFBPs and each member has 1 vote. BFBPs have two voting choices: For and Against. All BFBPs have a voting period of 3 days.
 
 BFC members vote to hire Beanstalk Farms contributors via BFBP-As, dismiss Beanstalk Farms contributors via BFBP-Bs, and otherwise use the Beanstalk Farms budget via BFBP-Cs.
 
@@ -103,14 +115,29 @@ BFBP-Cs are proposed by a BFC member to use the Beanstalk Farms budget outside o
 
 In practice, contributor pay has been and will likely continue to be the majority of Beanstalk Farms expenditures, but there are occasional other payments outside of that scope like paying for upgrades to the subgraph, paying an artist for art on the website, etc.&#x20;
 
-Beanstalk Farms often sends funds to reimburse contributors for various software expenses. A BFBP-C is not required for transactions valued at under 4000 Beans or USDC.
+Beanstalk Farms often sends funds to reimburse contributors for various software expenses. A BFBP-C is not required for transactions valued at more than 10,000 Beans or USDC.
 
 ### BSP
 
 Bean Sprout Proposals, or BSPs, are proposals to spend the [Bean Sprout](bean-sprout/) budget.
 
-Anyone with 0.1% of the Stalk supply or [BSM](bean-sprout/bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and have two voting choices: For and Against. The voting period for BSPs is 5 days. BSPs are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which a majority vote Against is required in order to veto. This allows those that are pleased with the actions of Bean Sprout to remain passive, unless there is a quorum voting Against a particular proposal.
+Anyone with 0.1% of the Stalk supply or [BSM](bean-sprout/bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and have two voting choices: For and Against. The voting period for BSPs is 5 days.&#x20;
 
-A BSP is not required for Bean Sprout to send transactions valued at under 4000 Beans. Bean Sprout hiring proposals can either be proposed as part of a BIP, BOP or BSP.
+BSPs that propose to spend less than or equal to 25,000 Beans are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which the majority vote determines the outcome of the vote. BSPs that propose to spend more than 25,000 Beans must reach a quorum of 10% of the Stalk supply and a majority vote For in order to pass.
+
+A BSP is not required for Bean Sprout to send transactions valued at under 4000 Beans.
 
 BSPs are proposed on the [Bean Sprout Snapshot page](https://snapshot.org/#/wearebeansprout.eth). Stalkholders can vote on BSPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=bean-sprout). Past BSPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bsp).
+
+### BIR
+
+Beanstalk Immunefi Responses, or BIRs, are responses to bug reports on [Immunefi](https://immunefi.com/). Only [BIC](beanstalk/bic-dashboard.md) members can propose and vote on BIRs and each member has 1 vote. BIRs have two voting choices: For and Against, and a two-thirds majority of the BIC voting For is required to pass. All BIRs have a voting period of 3 days.
+
+The BIC's processes are outlined [here](beanstalk/bic-process.md), but a BIR contains:
+
+* What the potential practicable economic damage of the bug is;
+* Whether the submission qualifies for a Critical, High or Medium Impact bounty/reward;
+* What the appropriate bounty/reward should be within the Impact range; and
+* Whether the submitting party is entitled to a bug bounty/reward, and if so, the amount of such bounty/reward.
+
+BIRs are proposed on the [Beanstalk Bug Bounty Snapshot page](https://snapshot.org/#/beanstalkbugbounty.eth), which is where BIC members vote. Past BIRs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir).

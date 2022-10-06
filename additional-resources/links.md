@@ -39,6 +39,7 @@
 * [Beanstalk Farms Snapshot](https://snapshot.org/#/beanstalkfarms.eth)
 * [Beanstalk Farms Budget Snapshot](https://snapshot.org/#/beanstalkfarmsbudget.eth)
 * [Bean Sprout Snapshot](https://snapshot.org/#/wearebeansprout.eth)
+* [Beanstalk Bug Bounty Snapshot](https://snapshot.org/#/beanstalkbugbounty.eth)
 
 ### Recordings and Meeting Notes
 

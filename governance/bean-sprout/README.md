@@ -10,11 +10,14 @@ Past BIPs that funded Beanstalk Sprout:
 
 * [BIP-8: Beanstalk Q1 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-08-beanstalk-budget-q1-2022.md) (included Beanstalk Farms and Bean Sprout)
 * [BIP-23: Bean Sprout Q3 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-23-bs-budget-q3-2022.md)
+* [BIP-27: Bean Sprout Q4 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-27-bs-budget-q4-2022.md)
+
+Monthly reports on how Bean Sprout is spending its budget can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations/tree/main/bean-sprout).
 
 ### Spending
 
-Bean Sprout Proposals, or BSPs, are proposals to use the Bean Sprout budget.
+Bean Sprout Proposals, or BSPs, are proposals to use the Bean Sprout budget. Anyone with 0.1% of the Stalk supply or [BSM](bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders.&#x20;
 
-Anyone with 0.1% of the Stalk supply or [BSM](bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders and are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which the majority vote determines the outcome of the vote.
+BSPs that propose to spend less than or equal to 25,000 Beans are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which the majority vote determines the outcome of the vote. BSPs that propose to spend more than 25,000 Beans must reach a quorum of 10% of the Stalk supply and a majority vote For in order to pass.
 
-See [#bsp](../proposals.md#bsp "mention") for more info on BSPs. BSPs are proposed on the [Bean Sprout Snapshot page](https://snapshot.org/#/wearebeansprout.eth). Stalkholders can vote on BSPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=bean-sprout). Past BSPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bsp).
+* See [#bsp](../proposals.md#bsp "mention") for more info on BSPs. BSPs are proposed on the [Bean Sprout Snapshot page](https://snapshot.org/#/wearebeansprout.eth). Stalkholders can vote on BSPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=bean-sprout). Past BSPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bsp).

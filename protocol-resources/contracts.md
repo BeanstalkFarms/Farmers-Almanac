@@ -24,10 +24,10 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 | DiamondLoupeFacet | [0xB51D5C699B749E0382e257244610039dDB272Da0](https://etherscan.io/address/0xB51D5C699B749E0382e257244610039dDB272Da0) |
 | OwnershipFacet    | [0x5D45283Ff53aabDb93693095039b489Af8b18Cf7](https://etherscan.io/address/0x5D45283Ff53aabDb93693095039b489Af8b18Cf7) |
 | WhitelistFacet    | [0xAeA0e6e011106968ADc7943579C829E49EFddaD0](https://etherscan.io/address/0xAeA0e6e011106968ADc7943579C829E49EFddaD0) |
-| UnripeFacet       | [0xaF26527eFCbF5BA7ba5de57e7048BF605011cc39](https://etherscan.io/address/0xaF26527eFCbF5BA7ba5de57e7048BF605011cc39) |
+| UnripeFacet       | [0x261b3ae660504537fbfe15b6c1c664976344eb0a](https://etherscan.io/address/0x261b3ae660504537fbfe15b6c1c664976344eb0a) |
 | TokenFacet        | [0x146f86c2EF039f9176bc2434D3DA5919C19B87fC](https://etherscan.io/address/0x146f86c2EF039f9176bc2434D3DA5919C19B87fC) |
-| SiloFacet         | [0x5BB733654C75dCFdD68096ad1764b9Db9b33Fd35](https://etherscan.io/address/0x5BB733654C75dCFdD68096ad1764b9Db9b33Fd35) |
-| SeasonFacet       | [0xcee260AF23cD262a9921A16B3586948A465801da](https://etherscan.io/address/0xcee260AF23cD262a9921A16B3586948A465801da) |
+| SiloFacet         | [0xca0a5d1d2a8a15262d5081d2de9ad83995fd337c](https://etherscan.io/address/0xca0a5d1d2a8a15262d5081d2de9ad83995fd337c) |
+| SeasonFacet       | [0x83d6e6b446613c9bfaebc64260962bc4f828a3ac](https://etherscan.io/address/0x83d6e6b446613c9bfaebc64260962bc4f828a3ac) |
 | PauseFacet        | [0xeab4398f62194948cB25F45fEE4C46Fae2e91229](https://etherscan.io/address/0xeab4398f62194948cB25F45fEE4C46Fae2e91229) |
 | MarketplaceFacet  | [0xD870aAB97c2739b320a3eFAd370511452894F1b2](https://etherscan.io/address/0xD870aAB97c2739b320a3eFAd370511452894F1b2) |
 | FundraiserFacet   | [0x538C76976eF45b8cA5c12662a86034434bFC7a8E](https://etherscan.io/address/0x538C76976eF45b8cA5c12662a86034434bFC7a8E) |
@@ -36,7 +36,8 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 | FarmFacet         | [0x6039c602B730f44f418145454a2D954133CBD394](https://etherscan.io/address/0x6039c602B730f44f418145454a2D954133CBD394) |
 | BDVFacet          | [0xc17ED2e41242063DB6b939f5601bA01374b9D44a](https://etherscan.io/address/0xc17ED2e41242063DB6b939f5601bA01374b9D44a) |
 | CurveFacet        | [0xd231498144c5b53b65b782343CDFB366472c7bf7](https://etherscan.io/address/0xd231498144c5b53b65b782343CDFB366472c7bf7) |
-| ConvertFacet      | [0xc1A92D1fA36717bfC3C795d3A335f84784DC593d](https://etherscan.io/address/0xc1A92D1fA36717bfC3C795d3A335f84784DC593d) |
+| ConvertFacet      | [0xc2e90acba1dc5ec1b852592390f479012eb304c2](https://etherscan.io/address/0xc2e90acba1dc5ec1b852592390f479012eb304c2) |
+| SiloFacet         | [0x6530a76c77f11731bf7f1c799aa97e0c15d3fb26](https://etherscan.io/address/0x6530a76c77f11731bf7f1c799aa97e0c15d3fb26) |
 
 ### Multisigs
 

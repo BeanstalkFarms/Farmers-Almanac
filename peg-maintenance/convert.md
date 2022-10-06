@@ -19,12 +19,15 @@ In order for a given Conversion to be added to the Convert Whitelist, Beanstalk 
 
 #### Current Convert Whitelist <a href="#convert-whitelist" id="convert-whitelist"></a>
 
-| From token          | To token            | Conditions                       |
-| ------------------- | ------------------- | -------------------------------- |
-| Bean                | BEAN:3CRV LP        | deltaB in the BEAN:3CRV pool > 0 |
-| BEAN:3CRV LP        | Bean                | deltaB in the BEAN:3CRV pool < 0 |
-| Unripe Bean         | Unripe BEAN:3CRV LP | deltaB in the BEAN:3CRV pool > 0 |
-| Unripe BEAN:3CRV LP | Unripe Bean         | deltaB in the BEAN:3CRV pool < 0 |
+| From token          | To token                     | Conditions                       |
+| ------------------- | ---------------------------- | -------------------------------- |
+| Bean                | BEAN:3CRV LP                 | deltaB in the BEAN:3CRV pool > 0 |
+| BEAN:3CRV LP        | Bean                         | deltaB in the BEAN:3CRV pool < 0 |
+| Unripe Bean         | Unripe BEAN:3CRV LP          | deltaB in the BEAN:3CRV pool > 0 |
+| Unripe BEAN:3CRV LP | Unripe Bean                  | deltaB in the BEAN:3CRV pool < 0 |
+| Any token\*         | The same token as From token | Any time                         |
+
+\*Any token on the [Deposit Whitelist](../farm/silo.md#deposit-whitelist) can be Converted to the same token in order to allow Silo Members to updated the BDV of their LP tokens when their BDV increases due to impermanent loss.
 
 #### Performance
 
