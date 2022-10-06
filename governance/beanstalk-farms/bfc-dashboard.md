@@ -19,7 +19,9 @@ Past BFCP-Cs that have extended the terms of BFC members:
 
 Adding members to the BFC requires a BFCP-A and removing BFC members requires a BFCP-B. You can read more about BFCPs [here](../proposals.md#bfcp).
 
+{% hint style="warning" %}
 The following addresses do not custody any funds and are not signers on any multisig—they are simply used by BFC members to propose and vote on [BFBPs](../proposals.md#bfbp) on the [Beanstalk Farms Budget Snapshot](https://snapshot.org/#/beanstalkfarmsbudget.eth) page.
+{% endhint %}
 
 | Address                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------- |

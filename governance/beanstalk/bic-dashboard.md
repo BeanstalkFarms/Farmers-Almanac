@@ -23,7 +23,9 @@ The following people serve as backups for the BIC, in no particular order:
 
 Adding, removing or rotating members on the BIC requires a majority vote of the BIC on Snapshot (or a BOP/BIP).
 
+{% hint style="warning" %}
 The following addresses do not custody any funds and are not signers on any multisig—they are simply used by BIC members to propose and vote on [BIRs](../proposals.md#bir) on the [Beanstalk Bug Bounty Snapshot](https://snapshot.org/#/beanstalkbugbounty.eth) page.
+{% endhint %}
 
 | Address                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------- |
