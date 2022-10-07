@@ -1,19 +1,19 @@
 # Economics
 
-Beanstalk is designed from economic first principles to create a useful trustless fiat currency. Over time, trustlessness, stability and liquidity increase, while carrying costs decrease but remain competitive. The following principles inspire Beanstalk:&#x20;
+Beanstalk is designed from economic first principles to create a useful trustless fiat currency. Over time, trustlessness, stability and liquidity increase, while [carrying costs](../introduction/why-beanstalk.md#carrying-costs) decrease but remain competitive. The following principles inspire Beanstalk:&#x20;
 
 * [Low concentration of ownership](economics.md#ownership-concentration);
 * [Strong credit](economics.md#strong-credit);
 * [The marginal rate of substitution](economics.md#marginal-rate-of-substitution);
 * [Low friction](economics.md#low-friction);
 * [Equilibrium](economics.md#equilibrium);
-* [Incentive structures determine behaviors of financially motivated actors](economics.md#undefined).
+* [Incentive structures determine behaviors of financially motivated actors](economics.md#incentives).
 
 ### Ownership Concentration
 
 A design that lowers the [Gini coefficient](https://en.wikipedia.org/wiki/Gini\_coefficient) of Beans and Stalk over time is essential to censorship resistance.&#x20;
 
-Older Deposits have their Stalk from Seeds diluted relative to newer Deposits every Season. Therefore, newly minted Beans are more widely distributed over time.&#x20;
+Older [Deposits](../farm/silo.md) have their [Stalk from Seeds](../farm/silo.md#the-stalk-system) diluted relative to newer Deposits every [Season](../protocol-resources/glossary.md#season). Therefore, newly minted Beans are more widely distributed over time.&#x20;
 
 Beanstalk does not require a pre-mine. The first 100 Beans are created when the init() function is called to deploy Beanstalk.
 
@@ -21,7 +21,7 @@ Beanstalk does not require a pre-mine. The first 100 Beans are created when the 
 
 Beanstalk is credit based and only fails if it can no longer attract creditors. A reasonable level of debt, strong credit history and competitive interest rate attract creditors.&#x20;
 
-Beanstalk changes the Temperature to return the Pod Rate to the [optimal Pod Rate](../peg-maintenance/overview.md#debt-level) while regularly crossing the Bean price over its value peg. Beanstalk acts more aggressively when [the Pod Rate is excessively high or low](../peg-maintenance/overview.md#debt-level).&#x20;
+Beanstalk changes the [Temperature](../protocol-resources/glossary.md#temperature) to return the Pod Rate to the [optimal Pod Rate](../peg-maintenance/overview.md#debt-level) while regularly crossing the Bean price over its value peg. Beanstalk acts more aggressively when [the Pod Rate is excessively high or low](../peg-maintenance/overview.md#debt-level).&#x20;
 
 Beanstalk never defaults on debt and is willing to issue [Pods](../farm/field.md#pods) every Season.
 
@@ -33,7 +33,9 @@ There are a wide variety of opportunities Beanstalk has to compete with for cred
 
 Minimizing the cost of using Beans and barriers to the [Farm](broken-reference) maximizes utility for users and appeal to creditors. The [Depot](../farm/depot.md) realizes the full benefits of composability on Ethereum.&#x20;
 
-The FIFO Pod Harvest schedule allows smaller Sowers to participate in peg maintenance and decreases the benefit of large scale price manipulation. The combination of non-expiry, the FIFO Harvest schedule, transferability and a [liquid secondary market](../farm/market.md) enables Sowers to Sow Beans as efficiently as possible. By maximizing the efficiency of the Soil market, Beanstalk minimizes its cost to attract creditors, the durations and magnitudes of price deviations below its value peg, and excess Pod issuance.
+The [FIFO](../protocol-resources/glossary.md#fifo) Pod Harvest schedule allows smaller [Sowers](../farm/field.md) to participate in peg maintenance and decreases the benefit of large scale price manipulation. The combination of non-expiry, the FIFO Harvest schedule, transferability and a [liquid secondary market](../farm/market.md) enables Sowers to Sow Beans as efficiently as possible.&#x20;
+
+By maximizing the efficiency of the Soil market, Beanstalk minimizes its cost to attract creditors, the durations and magnitudes of price deviations below its value peg, and excess Pod issuance.
 
 ### Equilibrium
 
