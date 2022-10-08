@@ -58,6 +58,14 @@ A proposal related to the Beanstalk Farms Committee. Abbreviated as BFCP. Read m
 
 The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM. Read more [here](../governance/beanstalk-farms/bfm-dashboard.md).
 
+### Beanstalk Immunefi Committee (BIC)
+
+A committee to determine the categorization and payout of bug bounties in accordance with the bug bounty program. Read more [here](../governance/beanstalk/bic-process.md).
+
+### Beanstalk Immunefi Responses **(BIR)**
+
+Responses to bug reports on Immunefi in accordance with the bug bounty program. Read more [here](../governance/proposals.md#bir).
+
 ### **Beanstalk Improvement Proposal (BIP)** <a href="#beanstalk-improvement-proposal" id="beanstalk-improvement-proposal"></a>
 
 A proposal to change Beanstalk. Abbreviated as BIP. Read more [here](../governance/proposals.md#bip).
