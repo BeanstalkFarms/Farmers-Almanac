@@ -24,7 +24,7 @@ The following people serve as backup signers for the BFM, in no particular order
 * CanadianBennett
 * MrMochi
 
-Rotating BFM signers requires a BOP (or BIP) unless a signer voluntarily leaves the BFM or for rotating in a backup signer.
+Rotating BFM signers requires a [BOP](../proposals.md#bop) (or [BIP](../proposals.md#bip)) unless a signer voluntarily leaves the BFM or for rotating in a backup signer.
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
