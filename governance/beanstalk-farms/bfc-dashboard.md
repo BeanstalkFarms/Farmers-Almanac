@@ -4,9 +4,9 @@
 
 ### **BFC Members**
 
-The current BIC members are as follows, in no particular order:
+The current BFC members are as follows, in no particular order:
 
-| BFC Member    | End of term    | Original BFCP-A                                                                                                                   |
+| BFC member    | End of term    | Original BFCP-A                                                                                                                   |
 | ------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | austin        | September 2023 | [BFCP-A-1](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xbba13a2ee887f2367fdc5485b5412f7de2e41062f85acc0634d4edb428424496) |
 | mod323        | September 2023 | [BFCP-A-2](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x7983e55ec734bae90eae0f0eb8b3fb1ce8501ad33aef64d98033f7765c13c2fe) |

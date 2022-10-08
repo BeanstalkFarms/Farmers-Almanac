@@ -11,7 +11,7 @@ In summary:
 * The max bounty is 1,100,000 Beans;
 * Immunefi takes a 10% fee in Beans on top of any bounty;
 * Bugs are categorized as Critical, High or Medium severity;
-* The BIC (defined below) determines whether a submitting party is entitled to a bug bounty/reward, and if so, the amount of such bounty/reward according to the defined bug bounty program structure; and
+* The BIC determines whether a submitting party is entitled to a bug bounty/reward, and if so, the amount of such bounty/reward according to the defined bug bounty program structure; and
 * Immunefi serves as a mediator in cases where a submitting party disputes the BIC’s determination of whether the submitting party is entitled to any bug bounty/reward, or what the appropriate bounty/reward should be within each Impact range.
 
 Read more about the current BIC members [here](bic-dashboard.md).
@@ -56,7 +56,7 @@ Once a BIR passes, the BCM executes it by:
 * Transferring the Beans corresponding to the bounty to the submitting party’s address; and
 * Transferring the Beans corresponding to the 10% fee to Immunefi’s address.
 
-The BIC may extend the bug bounty program to account for new assets that are in-scope. For example, after the Beanstalk UI is audited it is appropriate to add it as in-scope for the bug bounty program. Any other changes to the bug bounty program structure require a BOP (or BIP).
+The BIC may extend the bug bounty program to account for new assets that are in-scope. For example, after the Beanstalk UI is audited it is appropriate to add it as in-scope for the bug bounty program. Any other changes to the bug bounty program structure require a [BOP](../proposals.md#bop) (or [BIP](../proposals.md#bip)).
 
 ### Rationale
 

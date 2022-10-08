@@ -11,7 +11,7 @@ This page is a comprehensive overview of all proposals types as it pertains to g
 * [Beanstalk Farms Committee Proposal](proposals.md#bfcp) (BFCP)
 * [Beanstalk Farms Budget Proposal](proposals.md#bfbp) (BFBP)
 * [Bean Sprout Proposal](proposals.md#bsp) (BSP)
-* [Beanstalk Immunefi Response](proposals.md#undefined) (BIR)\*
+* [Beanstalk Immunefi Response](proposals.md#bir) (BIR)\*
 
 \*BIRs are not quite governance proposals, but are included on this page for completion's sake.
 
