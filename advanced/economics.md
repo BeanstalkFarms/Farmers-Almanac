@@ -6,7 +6,7 @@ Beanstalk is designed from economic first principles to create a useful trustles
 * [Strong credit](economics.md#strong-credit);
 * [The marginal rate of substitution](economics.md#marginal-rate-of-substitution);
 * [Low friction](economics.md#low-friction);
-* [Equilibrium](economics.md#equilibrium);
+* [Equilibrium](economics.md#equilibrium); and
 * [Incentive structures determine behaviors of financially motivated actors](economics.md#incentives).
 
 ### Ownership Concentration
