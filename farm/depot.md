@@ -10,9 +10,9 @@ Any protocol with a Pipeline to the Depot can be used via Beanstalk. Pipelines c
 
 The Curve Pipeline allows anyone to call functions in any pool registered in any of the following Curve registries.
 
-* [0xB9fC157394Af804a3578134A6585C0dc9cc990d4](https://github.com/BeanstalkFarms/Beanstalk/pull/etherscan.io/address/0xB9fC157394Af804a3578134A6585C0dc9cc990d4#readContract)
-* [0x90E00ACe148ca3b23Ac1bC8C240C2a7Dd9c2d7f5](https://github.com/BeanstalkFarms/Beanstalk/pull/etherscan.io/address/0x90E00ACe148ca3b23Ac1bC8C240C2a7Dd9c2d7f5#readContract)
-* [0x8F942C20D02bEfc377D41445793068908E2250D0](https://github.com/BeanstalkFarms/Beanstalk/pull/etherscan.io/address/0x8F942C20D02bEfc377D41445793068908E2250D0#readContract)
+* [0xB9fC157394Af804a3578134A6585C0dc9cc990d4](https://etherscan.io/address/0xB9fC157394Af804a3578134A6585C0dc9cc990d4#readContract)
+* [0x90E00ACe148ca3b23Ac1bC8C240C2a7Dd9c2d7f5](https://etherscan.io/address/0x90E00ACe148ca3b23Ac1bC8C240C2a7Dd9c2d7f5#readContract)
+* [0x8F942C20D02bEfc377D41445793068908E2250D0](https://etherscan.io/address/0x8F942C20D02bEfc377D41445793068908E2250D0#readContract)
 
 The following functions to interact with Curve pools can be called through the Curve Pipeline:
 
