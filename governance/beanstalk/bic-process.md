@@ -2,9 +2,9 @@
 
 **The Beanstalk Immunefi Committee, or BIC, determines the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO in** [**BIP-26**](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-26-bug-bounty-program.md). The [Beanstalk Community Multisig](bcm-process.md) (BCM) executes the will of the BIC as determined by [BIRs](../proposals.md#bir), up to 3,000,000 Beans total.
 
-The bug bounty program is focused on the Beanstalk smart contracts and on preventing loss of user funds. The bug bounty program approved by the DAO can be found on Arweave here:
+The bug bounty program is focused on the Beanstalk smart contracts and on preventing loss of user funds.
 
-[https://arweave.net/IFdanx-jNv8VQ2FWRa8tVsvwrPH3coz60S2wAPPm\_Uw](https://arweave.net/IFdanx-jNv8VQ2FWRa8tVsvwrPH3coz60S2wAPPm\_Uw)
+You can find the bug bounty program and submit bug reports [here](https://immunefi.com/bounty/beanstalk). The program approved by the DAO in BIP-26 can be found [here](https://arweave.net/IFdanx-jNv8VQ2FWRa8tVsvwrPH3coz60S2wAPPm\_Uw).
 
 In summary:
 

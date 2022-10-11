@@ -98,6 +98,7 @@
 * [Asset States](protocol-resources/asset-states.md)
 * [Contracts](protocol-resources/contracts.md)
 * [Audits](protocol-resources/audits.md)
+* [Bug Bounty](protocol-resources/bug-bounty.md)
 * [Fundraiser](protocol-resources/fundraiser.md)
 
 ## Ecosystem
