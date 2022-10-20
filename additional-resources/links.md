@@ -8,6 +8,7 @@
 * [Farmers' Almanac](https://docs.bean.money/)
 * [WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
 * [CoinGecko](https://www.coingecko.com/en/coins/bean)
+* [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk)
 
 ### Analytics
 
@@ -72,4 +73,5 @@
 * [TikTok](https://www.tiktok.com/@beanstalkprotocol)
 * [Layer3](https://beta.layer3.xyz/communities/beanstalk)
 * [BeaNFT Twitter](https://twitter.com/beanstalknfts)
+* [BeaNFT Instagram](https://www.instagram.com/beanstalknfts/)
 * [BeaNFT Snapshot](https://snapshot.org/#/beanft.eth)
