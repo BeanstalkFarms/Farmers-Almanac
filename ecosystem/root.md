@@ -16,8 +16,8 @@ You can read more in their announcement: [Root Protocol: Rent-Free Markets on Be
 
 Website: [rootprotocol.com](http://rootprotocol.com/)
 
-Twitter: [https://twitter.com/root\_protocol](https://twitter.com/root\_protocol)
+Twitter: [https://twitter.com/rootmarkets](https://twitter.com/rootmarkets)
 
-Blog: [https://medium.com/@root\_protocol](https://medium.com/@root\_protocol)
+Blog: [https://medium.com/@rootmarkets](https://medium.com/@rootmarkets)
 
 Discord: [https://discord.gg/rootprotocol](https://discord.gg/rootprotocol)\
