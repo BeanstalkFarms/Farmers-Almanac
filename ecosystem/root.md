@@ -14,10 +14,10 @@ You can read more in their announcement: [Root Protocol: Rent-Free Markets on Be
 
 ### Links
 
-Website: [rootprotocol.com](http://rootprotocol.com/)
+Website: [https://www.roottoken.org/](https://www.roottoken.org/)
 
 Twitter: [https://twitter.com/rootmarkets](https://twitter.com/rootmarkets)
 
 Blog: [https://medium.com/@rootmarkets](https://medium.com/@rootmarkets)
 
-Discord: [https://discord.gg/rootprotocol](https://discord.gg/rootprotocol)\
+Discord: [https://discord.gg/rootmarkets](https://discord.gg/rootmarkets)\
