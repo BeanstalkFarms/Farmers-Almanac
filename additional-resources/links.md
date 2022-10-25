@@ -6,13 +6,14 @@
 * [Whitepaper](https://bean.money/docs/beanstalk.pdf)
 * [Discord](https://discord.gg/beanstalk)
 * [Farmers' Almanac](https://docs.bean.money/)
-* [WIP Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
+* [\[WIP\] Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
 * [CoinGecko](https://www.coingecko.com/en/coins/bean)
 * [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk)
 
 ### Analytics
 
 * [Beanstalk UI Analytics Page](https://app.bean.money/#/analytics)
+* [\[Beta\] Beanstalk Analytics Website](https://analytics.bean.money/)
 * [Bean Price Tracker Chrome Extension](https://chrome.google.com/webstore/detail/bean-tracker/aodkdgdikbdeeaknenojacllnnjlhodj?hl=en\&authuser=0)
 * [Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
 * [Pre-Exploit Dune Dashboard](https://dune.com/tbiq/Beanstalk)
