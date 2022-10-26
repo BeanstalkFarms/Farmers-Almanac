@@ -1,14 +1,10 @@
 # Understand My Balances
 
-[Overview](understand-my-balances.md#overview)
-
-[Total Deposited Value](understand-my-balances.md#total-deposited-value)
-
-[Quick Rinse / Quick Harvest](understand-my-balances.md#quick-rinse-quick-harvest)
-
-[Rewards](understand-my-balances.md#rewards)
-
-[Farm Balance / Circulating Balance](understand-my-balances.md#farm-balance-circulating-balance)
+* [Overview](understand-my-balances.md#overview)
+* [Total Deposited Value](understand-my-balances.md#total-deposited-value)
+* [Quick Rinse / Quick Harvest](understand-my-balances.md#quick-rinse-quick-harvest)
+* [Rewards](understand-my-balances.md#rewards)
+* [Farm Balance / Circulating Balance](understand-my-balances.md#farm-balance-circulating-balance)
 
 ### Overview
 
@@ -21,7 +17,7 @@ The top of the Balances page displays your Stalk, Seeds, Pods and Sprouts:
 * [Stalk](../../protocol-resources/glossary.md#stalk) - Your total Stalk balance. Stalk is the governance token of the Beanstalk DAO. Stalk entitles holders to passive interest in the form of a share of future Bean mints, and the right to propose and vote on [BIPs](../../protocol-resources/glossary.md#beanstalk-improvement-proposal). Your Stalk is forfeited when you Withdraw your Deposited assets from the Silo.
 * [Seeds](../../protocol-resources/glossary.md#seeds) - Your total Seed balance. Each Seed yields 1/10000 [Grown Stalk](../../protocol-resources/glossary.md#grown-stalk) each Season. Grown Stalk must be [Mown](../../protocol-resources/glossary.md#mow) to add it to your Stalk balance. Your Seeds are forfeited when you Withdraw your Deposited assets from the Silo.
 * [Pods](../../protocol-resources/glossary.md#pods) - Your total Pod Balance. Pods become [Harvestable](../../protocol-resources/glossary.md#harvestable-pods) on a [FIFO](../../protocol-resources/glossary.md#fifo) basis. For more information on your place in the [Pod Line](../../protocol-resources/glossary.md#pod-line), head over to the [Field page](https://app.bean.money/#/field).
-* [Sprouts](../../protocol-resources/glossary.md#sprouts) - Your total Sprout balance. The number of Beans left to be earned from your [Fertilizer](../../protocol-resources/glossary.md#fertilizer). Sprouts become [Rinsable](../../protocol-resources/glossary.md#rinsable-sprouts) on a pari passu basis. For more information on your Sprouts, head over to the [Barn page](https://app.bean.money/#/barn).
+* [Sprouts](../../protocol-resources/glossary.md#sprouts) - Your total Sprout balance. The number of Beans left to be earned from your [Fertilizer](../../protocol-resources/glossary.md#fertilizer). Sprouts become [Rinsable](../../protocol-resources/glossary.md#rinsable-sprouts) on a [pari passu](../../protocol-resources/glossary.md#pari-passu) basis. For more information on your Sprouts, head over to the [Barn page](https://app.bean.money/#/barn).
 
 ### Total Deposited Value
 
