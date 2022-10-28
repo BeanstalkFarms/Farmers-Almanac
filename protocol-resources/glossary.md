@@ -232,7 +232,7 @@ The [Farm](glossary.md#farm) is Oversaturated when there is a [Rainy Season](glo
 
 ### **Pause**
 
-Temporarily prevent the [sunrise()](glossary.md#sunrise) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
+Temporarily prevent the [`sunrise()`](glossary.md#sunrise) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
 
 ### **Pick**
 
@@ -384,7 +384,7 @@ Moving [Deposits](glossary.md#deposit), [Plots](glossary.md#plot) or [Fertilizer
 
 ### **Unpause**
 
-Resume the acceptance of [sunrise()](glossary.md#sunrise) function calls. When Beanstalk is Unpaused, the sunrise() function can be called at the beginning of the next hour.
+Resume the acceptance of [`sunrise()`](glossary.md#sunrise) function calls. When Beanstalk is Unpaused, the sunrise() function can be called at the beginning of the next hour.
 
 ### **Unripe Assets**
 
