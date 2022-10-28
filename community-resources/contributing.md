@@ -22,15 +22,15 @@ Each governance proposal has a channel for discussion on the [Beanstalk Discord]
 
 Beanstalk's [capital efficient model](../introduction/why-beanstalk.md) is designed to facilitate a Bean-based economy of protocols and businesses benefiting from building on Beanstalk and using Beans. Beanstalk welcomes builders and provides a competitive edge to your project.
 
-Discuss business ideas in the [#💡・business-ideas channel](https://discord.com/channels/880413392916054098/1020031212233949224) on the Beanstalk Discord.
+Discuss business ideas in the **(#💡・business-ideas)** channel on the Beanstalk Discord.
 
-[Bean Sprout](../governance/bean-sprout/) is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Join the [#🌱・bean-sprout channel](https://discord.com/channels/880413392916054098/1014191870290690079) on the Beanstalk Discord or DM [@WeAreBeanSprout](https://twitter.com/wearebeansprout) on Twitter to learn more.
+[Bean Sprout](../governance/bean-sprout/) is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Join the **(#🌱・bean-sprout)** channel on the Beanstalk Discord or DM [@WeAreBeanSprout](https://twitter.com/wearebeansprout) on Twitter to learn more.
 
 ### Submitting improvements to the Beanstalk protocol
 
 The Beanstalk protocol is open source and developed on [GitHub](https://github.com/BeanstalkFarms/Beanstalk). The [app.bean.money](https://app.bean.money/) frontend is currently [closed source](../disclosures.md#19-closed-source-ui-risk).
 
-Discuss improvements to Beanstalk in the [#💡・beanstalk-ideas channel](https://discord.com/channels/880413392916054098/1021485810366820453) or leave feedback on the Beanstalk UI in the [#🌐・ui-feedback channel](https://discord.com/channels/880413392916054098/893593939708358707) on the Beanstalk Discord.&#x20;
+Discuss improvements to Beanstalk in the **(#💡・beanstalk-ideas)** channel or leave feedback on the Beanstalk UI in the **(#🌐・ui-feedback)** channel on the Beanstalk Discord.&#x20;
 
 Protocol RFCs can be opened in the repository as [Issues](https://github.com/BeanstalkFarms/Beanstalk/issues). After development, protocol changes are submitted to [governance](../governance/beanstalk/) as [Beanstalk Improvement Proposals](../governance/proposals.md#bip) and are committed if passed by Stalkholders.&#x20;
 
@@ -40,7 +40,7 @@ Contributions may be eligible for [development grants](contributing.md#receiving
 
 The Farmers' Almanac is continually improving and assistance is welcome.&#x20;
 
-Leave feedback in the [#📜・docs-feedback channel](https://discord.com/channels/880413392916054098/997651509804273766) on the Beanstalk Discord or make a pull request directly to the [Farmers' Almanac repository](https://github.com/BeanstalkFarms/Farmers-Almanac).
+Leave feedback in the **(#📜・docs-feedback)** channel on the Beanstalk Discord or make a pull request directly to the [Farmers' Almanac repository](https://github.com/BeanstalkFarms/Farmers-Almanac).
 
 Contributions may be eligible for [community grants](contributing.md#receiving-a-grant-for-increasing-awareness-and-education).
 
