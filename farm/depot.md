@@ -16,7 +16,7 @@ The Curve Pipeline allows anyone to call functions in any pool registered in any
 
 The following functions to interact with Curve pools can be called through the Curve Pipeline:
 
-```
+```solidity
 function exchange(
     address pool, 
     address registry, 
