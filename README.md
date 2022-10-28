@@ -19,7 +19,7 @@ You can find an overview of Beanstalk here:
 
 Beanstalk is an experiment. Before interacting with Beanstalk, consider reading the [Disclosures](disclosures.md) prepared by the DAO.
 
-If you still have questions after browsing the Farmers' Almanac, [join our Discord](https://discord.gg/beanstalk)! If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [whitepaper](https://bean.money/docs/beanstalk.pdf).
+If you have questions while browsing the Farmers' Almanac, [join our Discord](https://discord.gg/beanstalk)! If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [whitepaper](https://bean.money/docs/beanstalk.pdf).
 
 Please share any feedback on the Farmers' Almanac in the **#docs-feedback** channel in Discord and stay tuned for updates in **#docs-updates**. You can submit a pull request to the Farmers' Almanac yourself [here](https://github.com/BeanstalkFarms/Farmers-Almanac).
 
