@@ -4,11 +4,11 @@ Beanstalk uses credit instead of collateral to create Bean price stability relat
 
 You can view the current Bean price in US dollars at the upper left corner of [app.bean.money](https://app.bean.money/).
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (3).png>)
 
 Selecting the Bean price displays more detail of the liquidity pools that Beans trade in.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (1).png>)
 
 Currently, the only liquidity pool is the BEAN:3CRV metapool on Curve. The detail view shows the:
 

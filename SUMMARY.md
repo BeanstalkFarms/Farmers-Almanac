@@ -112,4 +112,4 @@
 * [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
 * [Contributing](community-resources/contributing.md)
 * [Community Grant Program](community-resources/community-grant-program.md)
-* [Links](additional-resources/links.md)
+* [Links](community-resources/links.md)
