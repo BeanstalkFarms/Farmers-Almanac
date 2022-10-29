@@ -1,6 +1,6 @@
 # BIC Dashboard
 
-The **Beanstalk Immunefi Committee**, or BIC, determines the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO in [BIP-26](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-26-bug-bounty-program.md). The [Beanstalk Community Multisig](bcm-process.md) (BCM) executes the will of the BIC as determined by [BIRs](../proposals.md#bir), up to 3,000,000 Beans total. Read more [here](bic-process.md).
+The **Beanstalk Immunefi Committee**, or BIC, determines the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO in [BIP-26](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-26-bug-bounty-program.md). The [Beanstalk Community Multisig](bcm-process.md) (BCM) executes the will of the BIC as determined by [BIRs](../proposals.md#bir), up to 3,000,000 Beans total.
 
 ### **BIC Members**
 
@@ -44,3 +44,9 @@ The following addresses do not custody any funds and are not signers on any mult
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [BIR-1](https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x1da231494fe8cf85edc50bf148b8557b3de8b0354018602b92075634d0e1f409) | Whitehat | 7500           | [Etherscan](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/multisig\_0xa9bA2C40b263843C04d344727b954A545c81D043\_0x357d14462a46528b7bbf5178e37b07aa92a97dfd57cfa20b5256a03e8188e9fe) |
 | [BIR-1](https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x1da231494fe8cf85edc50bf148b8557b3de8b0354018602b92075634d0e1f409) | Immunefi | 750            | [Etherscan](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/multisig\_0xa9bA2C40b263843C04d344727b954A545c81D043\_0xc917e37969f40f80b5f162770ef6aa5e1e7d27e3b25ad55ea0848dbc0990f9fb) |
+
+### Links
+
+* More information about [the BIC's process](bic-process.md)
+* [Past BIRs](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir)
+* [Past bug reports](https://bean.money/bug-reports)&#x20;
