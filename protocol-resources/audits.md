@@ -10,6 +10,6 @@
 
 [Halborn](https://halborn.com/) completed its penetration testing of the [Beanstalk UI](https://app.bean.money/) on **October 19, 2022**, identifying 5 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/halborn-beanstalk-ui-webapp-pentest-final-report.pdf).
 
-[Halborn](https://halborn.com/) completed its audit of Pod Market V2 (BIP-28) on **October 24, 2022**, identifying 1 finding that was solved prior to the release of the report. The final report can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/halborn-beanstalk-pod-market-v2-final-report.pdf).
+[Halborn](https://halborn.com/) completed its audit of Pod Market V2 (BIP-28) on **October 28, 2022**, identifying 3 findings that were solved prior to the release of the report. The final report can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/halborn-beanstalk-pod-market-v2-final-report.pdf).
 
 All audit reports are tracked in the [Beanstalk Audits GitHub repo](https://github.com/BeanstalkFarms/Beanstalk-Audits).
