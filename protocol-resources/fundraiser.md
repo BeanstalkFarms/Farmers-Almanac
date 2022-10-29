@@ -8,6 +8,6 @@ The selected dollar-pegged asset can be exchanged for 1 Bean’s worth of [Pods]
 
 Past BIPs that created Fundraisers:
 
-* [BIP-4: Trail of Bits Audit](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-4.md)
-* [BIP-5: Omniscia Audit](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-5.md)
-* [BIP-10: Omniscia Retainer](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-10.md)
+* [BIP-4: Trail of Bits Audit](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-04-trail-of-bits-fundraiser.md)
+* [BIP-5: Omniscia Audit](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-05-omniscia-fundraiser.md)
+* [BIP-10: Omniscia Retainer](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-10-omniscia-retainer.md)
