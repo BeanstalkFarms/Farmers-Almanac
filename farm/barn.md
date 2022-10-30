@@ -4,7 +4,7 @@ On April 17, 2022, Beanstalk was exploited via a governance attack. The attacker
 
 Upon exploit, Beanstalk was Paused and the on-chain governance mechanism was removed. Stalkholders voted [via Snapshot](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b) on how Beanstalk should proceed.
 
-The Barn is the Beanstalk recapitalization facility being used to Replant Beanstalk. The Barn Raise started on June 6, 2022 while the protocol was offline.
+The Barn is the Beanstalk recapitalization facility used to Replant Beanstalk. The Barn Raise started on June 6, 2022 while the protocol was offline.
 
 For guides on interacting with the Barn through the Beanstalk UI, go [here](../guides/barn/).
 
