@@ -62,8 +62,8 @@
 ### OpenSea
 
 * [BeaNFT Genesis Collection](https://opensea.io/collection/beanft-genesis)
-* [BeaNFT Winter Collection](https://opensea.io/collection/beanft-collection)
-* [BeaNFT Barn Raise Collection](https://opensea.io/collection/beanft-barnraise-collection)
+* [BeaNFT Winter Collection](https://opensea.io/collection/beanft-winter)
+* [BeaNFT Barn Raise Collection](https://opensea.io/collection/beanft-barn-raise)
 * [Fertilizer](https://opensea.io/collection/bean-fertilizer)
 
 ### Inactive

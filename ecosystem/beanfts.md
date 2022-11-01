@@ -12,5 +12,5 @@ You can read more about them here:
 OpenSea:
 
 * [Genesis Collection](https://opensea.io/collection/beanft-genesis)
-* [Winter Collection](https://opensea.io/collection/beanft-collection)
-* [Barn Raise Collection](https://opensea.io/collection/beanft-barnraise-collection)
+* [Winter Collection](https://opensea.io/collection/beanft-winter)
+* [Barn Raise Collection](https://opensea.io/collection/beanft-barn-raise)
