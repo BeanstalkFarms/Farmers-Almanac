@@ -13,31 +13,32 @@
 | Fertilizer Admin                                                | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
 | Fertilizer Implementation                                       | [0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD](https://etherscan.io/address/0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD) |
 | Beanstalk Price Contract                                        | [0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530](https://etherscan.io/address/0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530) |
+| Minting Contract                                                | [0x077495925c17230E5e8951443d547ECdbB4925Bb](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb) |
 
 ### Diamond
 
 Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). The following are the different facets Beanstalk uses. You can explore the facets on [Louper](https://louper.dev/diamond/0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5?network=mainnet), an interface for inspecting Ethereum Diamonds.
 
-| Contract          | Address                                                                                                               |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------- |
-| DiamondCutFacet   | [0xDFeFF7592915bea8D040499E961E332BD453C249](https://etherscan.io/address/0xDFeFF7592915bea8D040499E961E332BD453C249) |
-| DiamondLoupeFacet | [0xB51D5C699B749E0382e257244610039dDB272Da0](https://etherscan.io/address/0xB51D5C699B749E0382e257244610039dDB272Da0) |
-| OwnershipFacet    | [0x5D45283Ff53aabDb93693095039b489Af8b18Cf7](https://etherscan.io/address/0x5D45283Ff53aabDb93693095039b489Af8b18Cf7) |
-| WhitelistFacet    | [0xAeA0e6e011106968ADc7943579C829E49EFddaD0](https://etherscan.io/address/0xAeA0e6e011106968ADc7943579C829E49EFddaD0) |
-| UnripeFacet       | [0x261b3ae660504537fbfe15b6c1c664976344eb0a](https://etherscan.io/address/0x261b3ae660504537fbfe15b6c1c664976344eb0a) |
-| TokenFacet        | [0x146f86c2EF039f9176bc2434D3DA5919C19B87fC](https://etherscan.io/address/0x146f86c2EF039f9176bc2434D3DA5919C19B87fC) |
-| SiloFacet         | [0xca0a5d1d2a8a15262d5081d2de9ad83995fd337c](https://etherscan.io/address/0xca0a5d1d2a8a15262d5081d2de9ad83995fd337c) |
-| SeasonFacet       | [0x83d6e6b446613c9bfaebc64260962bc4f828a3ac](https://etherscan.io/address/0x83d6e6b446613c9bfaebc64260962bc4f828a3ac) |
-| PauseFacet        | [0xeab4398f62194948cB25F45fEE4C46Fae2e91229](https://etherscan.io/address/0xeab4398f62194948cB25F45fEE4C46Fae2e91229) |
-| MarketplaceFacet  | [0xD870aAB97c2739b320a3eFAd370511452894F1b2](https://etherscan.io/address/0xD870aAB97c2739b320a3eFAd370511452894F1b2) |
-| FundraiserFacet   | [0x538C76976eF45b8cA5c12662a86034434bFC7a8E](https://etherscan.io/address/0x538C76976eF45b8cA5c12662a86034434bFC7a8E) |
-| FieldFacet        | [0x79801F5cB2592Dd2173482198385e62870a0eAe2](https://etherscan.io/address/0x79801F5cB2592Dd2173482198385e62870a0eAe2) |
-| FertilizerFacet   | [0xFC7Ed192a24FaB3093c8747c3DDBe6Cacd335B6C](https://etherscan.io/address/0xFC7Ed192a24FaB3093c8747c3DDBe6Cacd335B6C) |
-| FarmFacet         | [0x6039c602B730f44f418145454a2D954133CBD394](https://etherscan.io/address/0x6039c602B730f44f418145454a2D954133CBD394) |
-| BDVFacet          | [0xc17ED2e41242063DB6b939f5601bA01374b9D44a](https://etherscan.io/address/0xc17ED2e41242063DB6b939f5601bA01374b9D44a) |
-| CurveFacet        | [0xd231498144c5b53b65b782343CDFB366472c7bf7](https://etherscan.io/address/0xd231498144c5b53b65b782343CDFB366472c7bf7) |
-| ConvertFacet      | [0xc2e90acba1dc5ec1b852592390f479012eb304c2](https://etherscan.io/address/0xc2e90acba1dc5ec1b852592390f479012eb304c2) |
-| SiloFacet         | [0x6530a76c77f11731bf7f1c799aa97e0c15d3fb26](https://etherscan.io/address/0x6530a76c77f11731bf7f1c799aa97e0c15d3fb26) |
+| Contract          | Address                                                                                                                                                                                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DiamondCutFacet   | [0xDFeFF7592915bea8D040499E961E332BD453C249](https://etherscan.io/address/0xDFeFF7592915bea8D040499E961E332BD453C249)                                                                                                                        |
+| DiamondLoupeFacet | [0xB51D5C699B749E0382e257244610039dDB272Da0](https://etherscan.io/address/0xB51D5C699B749E0382e257244610039dDB272Da0)                                                                                                                        |
+| OwnershipFacet    | [0x5D45283Ff53aabDb93693095039b489Af8b18Cf7](https://etherscan.io/address/0x5D45283Ff53aabDb93693095039b489Af8b18Cf7)                                                                                                                        |
+| WhitelistFacet    | [0xAeA0e6e011106968ADc7943579C829E49EFddaD0](https://etherscan.io/address/0xAeA0e6e011106968ADc7943579C829E49EFddaD0)                                                                                                                        |
+| UnripeFacet       | [0x261b3ae660504537fbfe15b6c1c664976344eb0a](https://etherscan.io/address/0x261b3ae660504537fbfe15b6c1c664976344eb0a)                                                                                                                        |
+| TokenFacet        | [0x146f86c2EF039f9176bc2434D3DA5919C19B87fC](https://etherscan.io/address/0x146f86c2EF039f9176bc2434D3DA5919C19B87fC)                                                                                                                        |
+| SiloFacet         | [0xca0a5d1d2a8a15262d5081d2de9ad83995fd337c](https://etherscan.io/address/0xca0a5d1d2a8a15262d5081d2de9ad83995fd337c)                                                                                                                        |
+| SeasonFacet       | [0x83d6e6b446613c9bfaebc64260962bc4f828a3ac](https://etherscan.io/address/0x83d6e6b446613c9bfaebc64260962bc4f828a3ac)                                                                                                                        |
+| PauseFacet        | [0xeab4398f62194948cB25F45fEE4C46Fae2e91229](https://etherscan.io/address/0xeab4398f62194948cB25F45fEE4C46Fae2e91229)                                                                                                                        |
+| MarketplaceFacet  | [0xD870aAB97c2739b320a3eFAd370511452894F1b2](https://etherscan.io/address/0xD870aAB97c2739b320a3eFAd370511452894F1b2), [0x3600d953cb26c75e8f0c76fcb20e3a8f8a3245f1](https://etherscan.io/address/0x3600d953cb26c75e8f0c76fcb20e3a8f8a3245f1) |
+| FundraiserFacet   | [0x538C76976eF45b8cA5c12662a86034434bFC7a8E](https://etherscan.io/address/0x538C76976eF45b8cA5c12662a86034434bFC7a8E)                                                                                                                        |
+| FieldFacet        | [0x79801F5cB2592Dd2173482198385e62870a0eAe2](https://etherscan.io/address/0x79801F5cB2592Dd2173482198385e62870a0eAe2)                                                                                                                        |
+| FertilizerFacet   | [0xFC7Ed192a24FaB3093c8747c3DDBe6Cacd335B6C](https://etherscan.io/address/0xFC7Ed192a24FaB3093c8747c3DDBe6Cacd335B6C)                                                                                                                        |
+| FarmFacet         | [0x6039c602B730f44f418145454a2D954133CBD394](https://etherscan.io/address/0x6039c602B730f44f418145454a2D954133CBD394)                                                                                                                        |
+| BDVFacet          | [0xc17ED2e41242063DB6b939f5601bA01374b9D44a](https://etherscan.io/address/0xc17ED2e41242063DB6b939f5601bA01374b9D44a)                                                                                                                        |
+| CurveFacet        | [0xd231498144c5b53b65b782343CDFB366472c7bf7](https://etherscan.io/address/0xd231498144c5b53b65b782343CDFB366472c7bf7)                                                                                                                        |
+| ConvertFacet      | [0xc2e90acba1dc5ec1b852592390f479012eb304c2](https://etherscan.io/address/0xc2e90acba1dc5ec1b852592390f479012eb304c2)                                                                                                                        |
+| SiloFacet         | [0x6530a76c77f11731bf7f1c799aa97e0c15d3fb26](https://etherscan.io/address/0x6530a76c77f11731bf7f1c799aa97e0c15d3fb26)                                                                                                                        |
 
 ### Multisigs
 
