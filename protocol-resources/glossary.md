@@ -60,7 +60,7 @@ The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM
 
 ### **Beanstalk Farms Subgraph Multisig (BFSM)** <a href="#beanstalk-farms-multisig" id="beanstalk-farms-multisig"></a>
 
-The multisig that custodies the Beanstalk and Bean subgraphs. Abbreviated as BFSM. Read more [here](../governance/beanstalk-farms/bfm-dashboard-1.md).
+The multisig that custodies the Beanstalk and Bean subgraphs. Abbreviated as BFSM. Read more [here](../governance/beanstalk-farms/bfsm-dashboard.md).
 
 ### Beanstalk Immunefi Committee (BIC) <a href="#beanstalk-immunefi-committee" id="beanstalk-immunefi-committee"></a>
 

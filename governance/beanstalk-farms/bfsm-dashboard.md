@@ -14,6 +14,8 @@ The current BFSM signers are as follows, in no particular order:
 * Silo Chad
 * Cujo
 
+Adding, removing and rotating signers is at the discretion of the BFSM signers.
+
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
 | [0xcFceA343b623a292E458114a8BE6938C36a66044](https://etherscan.io/address/0xcFceA343b623a292E458114a8BE6938C36a66044) |

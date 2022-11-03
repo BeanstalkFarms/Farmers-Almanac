@@ -42,11 +42,12 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 
 ### Multisigs
 
-| Contract                                                                         | Address                                                                                                                      |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [Beanstalk Farms Multisig (BFM)](../governance/beanstalk-farms/bfm-dashboard.md) | [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://gnosis-safe.io/app/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/home) |
-| [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)         | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home) |
-| [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)   | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home) |
+| Contract                                                                                    | Address                                                                                                                      |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [Beanstalk Farms Multisig (BFM)](../governance/beanstalk-farms/bfm-dashboard.md)            | [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://gnosis-safe.io/app/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/home) |
+| [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)                    | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home) |
+| [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)              | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home) |
+| [Beanstalk Farms Subgraph Multisig (BFSM)](../governance/beanstalk-farms/bfsm-dashboard.md) | [0xe1c3aEf912eCBF766155100038994c3FE880dB02](https://gnosis-safe.io/app/eth:0xe1c3aEf912eCBF766155100038994c3FE880dB02/home) |
 
 ### Old token
 
