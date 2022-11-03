@@ -55,6 +55,7 @@
 
 * [Beanstalk Farms Twitter](https://twitter.com/BeanstalkFarms)
 * [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
+* [Beanstalk Bot Twitter](https://twitter.com/BeanstalkBot)
 * [Beanstalk Farms YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
 * [Telegram](https://t.me/beanstalkusd)
 * [Beanstalk Telegram Tracker](https://t.me/+TwWLsuWSEttlODZh)
