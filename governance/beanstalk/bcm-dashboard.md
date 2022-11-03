@@ -14,7 +14,9 @@ The Beanstalk contract is guarded by a 5/9 multisig. This means any changes to t
 
 **Past BIPs:**
 
-{% embed url="https://github.com/BeanstalkFarms/Beanstalk/tree/master/bips" %}
+{% embed url="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bip" %}
+update&#x20;
+{% endembed %}
 
 ### BCM Members
 
@@ -36,6 +38,6 @@ Publius currently holds 1 of the 9 keys on the BCM. The identities of the remain
 
 Signers hashes are published from [0x925753106fcdb6d2f30c3db295328a0a1c5fd1d1](https://etherscan.io/address/0x925753106fcdb6d2f30c3db295328a0a1c5fd1d1), the address that Publius used to [deploy Beanstalk](https://etherscan.io/tx/0x40b23cea3aa6e1a7dd89bbcd24c67f6fa1f6d663d7609f14046cd6cf50b6ce86) on August 6, 2021.
 
-* [09/16/2922 Signer Hash](https://etherscan.io/verifySig/10511)
+* [09/16/2022 Signer Hash](https://etherscan.io/verifySig/10511)
 * [06/13/2022 Signer Hash](https://etherscan.io/verifySig/7236)
 * [06/06/2022 Signer Hash](https://etherscan.io/verifySig/7236)
