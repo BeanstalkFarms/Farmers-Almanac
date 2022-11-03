@@ -43,6 +43,7 @@
 * [Beanstalk Farms](governance/beanstalk-farms/README.md)
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
   * [BFC Dashboard](governance/beanstalk-farms/bfc-dashboard.md)
+  * [BFSM Dashboard](governance/beanstalk-farms/bfm-dashboard-1.md)
 * [Bean Sprout](governance/bean-sprout/README.md)
   * [BSM Dashboard](governance/bean-sprout/bsm-dashboard.md)
 * [Proposals](governance/proposals.md)
