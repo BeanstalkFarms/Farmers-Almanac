@@ -34,7 +34,7 @@ The following addresses do not custody any funds and are not signers on any mult
 | [0x5029d790a4370BfD64838810aDFf5E76B931eDec](https://snapshot.org/#/profile/0x5029d790a4370BfD64838810aDFf5E76B931eDec) |
 | [0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2](https://snapshot.org/#/profile/0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2) |
 
-### **Beans minted per BIP-26**
+### **Beans Minted**
 
 **Total**: 8,250 Beans
 
