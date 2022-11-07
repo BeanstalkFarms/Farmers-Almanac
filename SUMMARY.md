@@ -102,12 +102,12 @@
 * [Bug Bounty](protocol-resources/bug-bounty.md)
 * [Fundraiser](protocol-resources/fundraiser.md)
 
-## Ecosystem
+## 🌐 Ecosystem
 
 * [BeaNFTs](ecosystem/beanfts.md)
 * [Root](ecosystem/root.md)
 
-## Community Resources
+## 🏫 Community Resources
 
 * [Discord](https://discord.gg/beanstalk)
 * [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
