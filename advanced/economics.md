@@ -23,7 +23,7 @@ Beanstalk is credit based and only fails if it can no longer attract creditors. 
 
 Beanstalk changes the [Temperature](../protocol-resources/glossary.md#temperature) to return the Pod Rate to the [optimal Pod Rate](../peg-maintenance/overview.md#debt-level) while regularly crossing the Bean price over its value peg. Beanstalk acts more aggressively when [the Pod Rate is excessively high or low](../peg-maintenance/overview.md#debt-level).&#x20;
 
-Beanstalk never defaults on debt and is willing to issue [Pods](../farm/field.md#pods) every Season.
+Beanstalk does not default on debt (although in the event of Beanstalk no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md#6-debt-maturity-risk)). Beanstalk is willing to issue Pods every Season.
 
 ### Marginal Rate of Substitution
 
