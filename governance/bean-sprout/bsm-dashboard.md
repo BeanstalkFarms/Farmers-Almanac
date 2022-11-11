@@ -11,7 +11,7 @@ Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The 
 The current BSM signers are as follows, in no particular order:
 
 * mistermanifold
-* austin
+* guy (fka austin)
 * Bean Merchant
 * Brean
 * Publius

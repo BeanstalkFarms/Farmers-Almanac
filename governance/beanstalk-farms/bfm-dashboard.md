@@ -12,7 +12,7 @@ The current BFM signers are as follows, in no particular order:
 
 * Publius
 * Silo Chad
-* austin
+* guy (fka austin)
 * sweetredbeans
 * mod323
 * aloceros

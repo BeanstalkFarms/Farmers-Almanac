@@ -17,7 +17,7 @@ The following people serve as backups for the BIC, in no particular order:
 
 * mistermanifold
 * MrMochi
-* austin
+* guy (fka austin)
 
 Adding, removing or rotating members on the BIC requires a majority vote of the BIC on Snapshot (or a [BOP](../proposals.md#bop)/[BIP](../proposals.md#bip)).
 

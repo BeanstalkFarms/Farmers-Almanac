@@ -6,12 +6,12 @@
 
 The current BFC members are as follows, in no particular order:
 
-| BFC member    | End of term    | Original BFCP-A                                                                                                                   |
-| ------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| austin        | September 2023 | [BFCP-A-1](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xbba13a2ee887f2367fdc5485b5412f7de2e41062f85acc0634d4edb428424496) |
-| mod323        | September 2023 | [BFCP-A-2](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x7983e55ec734bae90eae0f0eb8b3fb1ce8501ad33aef64d98033f7765c13c2fe) |
-| Silo Chad     | September 2023 | [BFCP-A-3](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xc4583788b51279ff85457b8650ea8fbb3b42995ac606763a453671383d351a01) |
-| sweetredbeans | September 2023 | [BFCP-A-4](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x0c2a9b20ccea9e796bae7baccbd1f699a8fbed255ab2893582b65cf54a525df5) |
+| BFC member       | End of term    | Original BFCP-A                                                                                                                   |
+| ---------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| guy (fka austin) | September 2023 | [BFCP-A-1](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xbba13a2ee887f2367fdc5485b5412f7de2e41062f85acc0634d4edb428424496) |
+| mod323           | September 2023 | [BFCP-A-2](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x7983e55ec734bae90eae0f0eb8b3fb1ce8501ad33aef64d98033f7765c13c2fe) |
+| Silo Chad        | September 2023 | [BFCP-A-3](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xc4583788b51279ff85457b8650ea8fbb3b42995ac606763a453671383d351a01) |
+| sweetredbeans    | September 2023 | [BFCP-A-4](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x0c2a9b20ccea9e796bae7baccbd1f699a8fbed255ab2893582b65cf54a525df5) |
 
 Past BFCP-Cs that have extended the terms of BFC members:
 

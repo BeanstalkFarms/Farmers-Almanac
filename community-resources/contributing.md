@@ -72,7 +72,7 @@ Marketing: @mod323#9967&#x20;
 
 Design: @sweetredbeans#2436
 
-Operations: @austin (astn#6123)
+Operations: @guy (hellofromguy#6123)
 
 Business Development / Partnerships: @mistermanifold#0548
 
