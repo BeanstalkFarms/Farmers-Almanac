@@ -4,7 +4,7 @@ Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or B
 
 **Beanstalk Farms Multisig Gnosis address:** [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://etherscan.io/address/0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7)
 
-{% embed url="https://gnosis-safe.io/app/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/home" %}
+{% embed url="https://app.safe.global/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/transactions/queue" %}
 
 ### **BFM Members**
 

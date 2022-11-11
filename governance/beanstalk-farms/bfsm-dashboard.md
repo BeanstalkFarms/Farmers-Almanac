@@ -4,7 +4,7 @@ The Beanstalk and Bean subgraphs are custodied by the Beanstalk Farms Subgraph M
 
 **Beanstalk Farms Subgraph Multisig Gnosis address:** [0xe1c3aEf912eCBF766155100038994c3FE880dB02](https://etherscan.io/address/0xe1c3aEf912eCBF766155100038994c3FE880dB02)
 
-{% embed url="https://gnosis-safe.io/app/eth:0xe1c3aEf912eCBF766155100038994c3FE880dB02/home" %}
+{% embed url="https://app.safe.global/eth:0xe1c3aEf912eCBF766155100038994c3FE880dB02/transactions/queue" %}
 
 ### **BFSM Members**
 

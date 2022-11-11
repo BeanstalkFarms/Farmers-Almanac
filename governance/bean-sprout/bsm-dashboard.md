@@ -4,7 +4,7 @@ Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The 
 
 **Bean Sprout Multisig Gnosis address:** [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://etherscan.io/address/0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235)
 
-{% embed url="https://gnosis-safe.io/app/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/home" %}
+{% embed url="https://app.safe.global/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/transactions/queue" %}
 
 ### **BSM Members**
 

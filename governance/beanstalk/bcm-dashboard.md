@@ -4,7 +4,7 @@ The Beanstalk Community Multisig (BCM) custodies ownership of the [Beanstalk con
 
 **Beanstalk Community Multisig Gnosis address:** [0xa9bA2C40b263843C04d344727b954A545c81D043](https://etherscan.io/address/0xa9bA2C40b263843C04d344727b954A545c81D043)
 
-{% embed url="https://gnosis-safe.io/app/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/home" %}
+{% embed url="https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/queue" %}
 
 The Beanstalk contract is guarded by a 5/9 multisig. This means any changes to the Beanstalk contract must be approved by at least 5 signers of the 9 signers in total.
 
