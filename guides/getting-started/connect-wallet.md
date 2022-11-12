@@ -12,7 +12,7 @@ In addition to an internet connection, interacting with Beanstalk requires:
 
 ### **Selecting and Funding a Wallet**
 
-Ethereum wallets are applications that let you manage your Ethereum account. Your wallet lets you connect to decentralized applications such as Beanstalk and authorize transactions. On Ethereum, you are responsible for the security of your own funds. If you are new to decentralized finance, we strongly recommend researching best practices in wallet security before proceeding.
+Ethereum wallets are applications that let you manage your Ethereum account. Your wallet lets you connect to decentralized applications such as Beanstalk and authorize transactions. On Ethereum, you are responsible for the security of your own funds. If you are new to decentralized finance, it strongly recommend to research best practices in wallet security before proceeding.
 
 Beanstalk officially supports MetaMask, WalletConnect and Coinbase Wallet on desktop and mobile. WalletConnect is a protocol supported by many wallet applications. Although not officially supported, you may be able to connect other wallets such as Brave, Frame or Rabby by selecting MetaMask on [app.bean.money](https://app.bean.money/).
 

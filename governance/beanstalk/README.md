@@ -31,4 +31,4 @@ When Paused, Beanstalk does not accept a `sunrise()` function call. Once Unpause
 
 ### **Commit**
 
-The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, we expect a BIP will revoke these abilities from the BCM and reimplement on-chain governance. You can read more about the BCM [here](bcm-process.md).
+The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, it is expected that a BIP will revoke these abilities from the BCM and reimplement on-chain governance. You can read more about the BCM [here](bcm-process.md).
