@@ -52,7 +52,7 @@ A Pod Listing can be entirely or partially Filled at any time by a buyer. If the
 ### **Pod Orders**
 
 {% hint style="info" %}
-Pod Orders are currently disabled as detailed in [EBIP-4](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/ebip/ebip-4-remove-v1-pod-order-functions.md).
+V1 Pod Orders are currently disabled as detailed in [EBIP-4](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/ebip/ebip-4-remove-v1-pod-order-functions.md). You will not be able to create, fill or cancel Pod Orders on app.bean.money at this time. Please check Discord for updates.
 {% endhint %}
 
 {% hint style="info" %}
