@@ -52,9 +52,8 @@ BIR voting takes place on Snapshot and lasts for 3 days. Only BIC members propos
 
 Once a BIR passes, the BCM executes it by:
 
-* Minting the corresponding number of Beans to cover the bug bounty and the 10% fee from Immunefi;
-* Transferring the Beans corresponding to the bounty to the submitting party’s address; and
-* Transferring the Beans corresponding to the 10% fee to Immunefi’s address.
+* Minting Beans corresponding to the bounty to the submitting party's address; and
+* Minting Beans corresponding to the 10% fee to Immunefi's address.
 
 The BIC may extend the bug bounty program to account for new assets that are in-scope. For example, after the Beanstalk UI is audited it is appropriate to add it as in-scope for the bug bounty program. Any other changes to the bug bounty program structure require a [BOP](../proposals.md#bop) (or [BIP](../proposals.md#bip)).
 
