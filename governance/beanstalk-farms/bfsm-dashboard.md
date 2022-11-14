@@ -18,6 +18,6 @@ Adding, removing and rotating signers is at the discretion of the BFSM signers.
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |
-| [0xcFceA343b623a292E458114a8BE6938C36a66044](https://etherscan.io/address/0xcFceA343b623a292E458114a8BE6938C36a66044) |
+| [0a8B567F3Fb8943711Af9c6AFB0622720e64A783](https://etherscan.io/address/0a8B567F3Fb8943711Af9c6AFB0622720e64A783)     |
 | [0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1](https://etherscan.io/address/0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1) |
 | [0xd216472bcc3e6080Fc28BC95D0565128ffE16De9](https://etherscan.io/address/0xd216472bcc3e6080Fc28BC95D0565128ffE16De9) |
