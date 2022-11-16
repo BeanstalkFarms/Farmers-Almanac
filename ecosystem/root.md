@@ -16,7 +16,15 @@ You can read more in their announcement: [Root Protocol: Rent-Free Markets on Be
 
 Website: [https://www.roottoken.org/](https://www.roottoken.org/)
 
+Whitepaper: [https://roottoken.org/root.pdf](https://roottoken.org/root.pdf)
+
 Twitter: [https://twitter.com/rootmarkets](https://twitter.com/rootmarkets)
+
+Twitter Bot: [https://twitter.com/rootsmoney](https://twitter.com/rootsmoney)
+
+GitHub: [https://github.com/RootToken](https://github.com/RootToken)
+
+Docs: [https://docs.roottoken.org/](https://docs.roottoken.org/)
 
 Blog: [https://medium.com/@rootmarkets](https://medium.com/@rootmarkets)
 

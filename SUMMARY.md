@@ -104,8 +104,9 @@
 
 ## 🌐 Ecosystem
 
-* [BeaNFTs](ecosystem/beanfts.md)
 * [Root](ecosystem/root.md)
+* [Pipeline](ecosystem/pipeline.md)
+* [BeaNFTs](ecosystem/beanfts.md)
 
 ## 🏫 Community Resources
 
