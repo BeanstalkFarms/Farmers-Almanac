@@ -9,6 +9,7 @@
 * [\[WIP\] Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
 * [CoinGecko](https://www.coingecko.com/en/coins/bean)
 * [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk)
+* [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
 
 ### Analytics
 
