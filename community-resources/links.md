@@ -58,7 +58,7 @@
 * ****[**Beanstalk Discord**](https://discord.gg/beanstalk)****
 * ****[**Beanstalk Protocol Twitter**](https://twitter.com/beanstalkmoney)****
 * ****[**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)****
-* [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
+* ****[**Bean Sprout Twitter**](https://twitter.com/WeAreBeanSprout)****
 * [The Bean Pod Anchor](https://anchor.fm/thebeanpodpodcast)
 * [The Bean Pod Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m)
 * [Beanstalk Farms YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
