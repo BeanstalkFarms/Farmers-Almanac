@@ -58,7 +58,7 @@ A proposal related to the Beanstalk Farms Committee. Abbreviated as BFCP. Read m
 
 The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM. Read more [here](../governance/beanstalk-farms/bfm-dashboard.md).
 
-### **Beanstalk Farms Subgraph Multisig (BFSM)** <a href="#beanstalk-farms-multisig" id="beanstalk-farms-multisig"></a>
+### **Beanstalk Farms Subgraph Multisig (BFSM)** <a href="#beanstalk-farms-subgraph-multisig" id="beanstalk-farms-subgraph-multisig"></a>
 
 The multisig that custodies the Beanstalk and Bean subgraphs. Abbreviated as BFSM. Read more [here](../governance/beanstalk-farms/bfsm-dashboard.md).
 
