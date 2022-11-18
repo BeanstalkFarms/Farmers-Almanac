@@ -1,12 +1,12 @@
 # Root
 
-Root is a generalized marketplace protocol built on Beanstalk.&#x20;
+Root is a fungible wrapper for Beanstalk Silo Deposits that implements the ERC-20 Standard.
 
-Root is designed as a rent-free, public good protocol and plans to support many types of permissionless markets. Rent comes not only in the form of non-zero platform fees, but also in the requirement to use money with negative carrying costs. Instead of rent-based markets, Root creates a new zero-fee, positive carry market structure and accounts for transactions in Bean Denominated Value (BDV).
+Root is designed as a rent-free public good and plans to support many types of permissionless markets denominated in Roots.
 
 Market types Root will support include:
 
-* **Prediction markets** like sports betting and political elections;
+* **Prediction markets** like sports betting and political elections (see [Paradox](https://betparadox.com/));
 * **Financial markets** such as Bean interest rate swaps and asset futures; and
 * **Commerce markets** via NFT-represented assets, goods, and services.
 
