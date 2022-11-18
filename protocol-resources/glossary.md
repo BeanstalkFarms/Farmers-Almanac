@@ -244,7 +244,7 @@ A one-time action that pre-exploit [Farmers](glossary.md#farmers) take to claim 
 
 ### **Pipeline**
 
-A channel from the [Depot](glossary.md#depot) to another protocol. Pipelines can be added to the Depot via Beanstalk governance. Read more [here](../farm/depot.md#pipelines).
+A sandbox contract that can execute an arbitrary number of actions within the EVM from an EOA in a single transaction (see more on the [Pipeline](glossary.md#pipeline) page). Note that this also currently refers to functionality in Beanstalk that is a channel from the [Depot](glossary.md#depot) to another protocol. Pipelines can be added to the Depot via Beanstalk governance. Read more [here](../farm/depot.md#pipelines).
 
 ### **Plant**
 

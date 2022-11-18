@@ -6,7 +6,7 @@ Pipeline enables the execution an arbitrary composition of valid actions within 
 
 ### Links
 
-Website: [https://evmpipeline.org/](https://evmpipeline.org/)
+Website: [https://evmpipeline.org](https://evmpipeline.org/)
 
 Whitepaper: [https://evmpipeline.org/pipeline.pdf](https://evmpipeline.org/pipeline.pdf)
 
