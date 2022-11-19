@@ -62,7 +62,7 @@ Chopped Unripe assets are burned. Beans and BEAN:3CRV LP received for Chopping a
 
 > For example, if 1M Sprouts have been become Rinsable and there are 10M total Sprouts, then a Farmer who Chops 100 Unripe Beans that correspond to 50 Ripe Beans will get 5 Beans in exchange.
 
-Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:3CRV LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity to Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:3CRV LP to Unripe Beans in the Silo, while the converse is true of Conversions from Unripe Beans to Unripe BEAN:3CRV LP.
+Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:3CRV LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:3CRV LP to Unripe Beans in the Silo, while the converse is true of Conversions from Unripe Beans to Unripe BEAN:3CRV LP.
 
 > For example, say there’s 50M Available Fertilizer and a Farmer Chops 2M Unripe BEAN:3CRV LP in exchange for 1M BEAN:3CRV LP. If non-Beans make up 50% of the BEAN:3CRV pool, then 500k less Fertilizer needs to be sold, resulting in 49.5M Available Fertilizer.
 
