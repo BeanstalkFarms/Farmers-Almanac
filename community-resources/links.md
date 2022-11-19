@@ -63,7 +63,7 @@
 * [The Bean Pod Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m)
 * [Beanstalk Farms YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)
-* [Beanstalk Telegram Tracker](https://t.me/+TwWLsuWSEttlODZh)
+* [Beanstalk Telegram Tracker](https://t.me/+otBNISi33j44NDRh)
 
 ### Recordings and Meeting Notes
 
