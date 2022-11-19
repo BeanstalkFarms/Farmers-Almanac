@@ -22,7 +22,7 @@ update&#x20;
 
 Publius currently holds 1 of the 9 keys on the BCM. The identities of the remaining signers are anonymous per [#anonymous-multisig-signers](bcm-process.md#anonymous-multisig-signers "mention").
 
-| Address                                                                                                               | Verification tx                                                            | Date of last tx                                                                                  |
+| Address                                                                                                               | Verification Signature                                                     | Date of Last Verification                                                                        |
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [0xe80d5B6497160A315625FE5444979B5304fA7501](https://etherscan.io/address/0xe80d5B6497160A315625FE5444979B5304fA7501) | [https://etherscan.io/verifySig/7206](https://etherscan.io/verifySig/7206) | [11/11/22](https://etherscan.io/verifiedSignatures?q=0xe80d5b6497160a315625fe5444979b5304fa7501) |
 | [0x8078974b59204fbA16Fc0186E7a2CD8AF88eD600](https://etherscan.io/address/0x8078974b59204fbA16Fc0186E7a2CD8AF88eD600) | [https://etherscan.io/verifySig/7219](https://etherscan.io/verifySig/7219) | [11/11/22](https://etherscan.io/verifiedSignatures?q=0x8078974b59204fba16fc0186e7a2cd8af88ed600) |
