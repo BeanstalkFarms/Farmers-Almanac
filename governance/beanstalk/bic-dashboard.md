@@ -36,15 +36,16 @@ The following addresses do not custody any funds and are not signers on any mult
 
 ### **Beans Minted**
 
-**Total**: 8,250 Beans
+**Total**: 20,350 Beans
 
-**Remainder**: **** 2,991,750 Beans
+**Remainder**: **** 2,979,650 Beans
 
 **Bugs found**: 1
 
-| Response                                                                                                                           | Beans to Whitehat | Beans to Immunefi | Transaction                                                                                                                                                                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [BIR-1](https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x1da231494fe8cf85edc50bf148b8557b3de8b0354018602b92075634d0e1f409) | 7500              | 750               | [Whitehat](https://etherscan.io/tx/0x1f3d3aaf1e24541400e0cc4c9f6985b21dbdccd1fa01df2b7873d62fb598d165), [Immunefi](https://etherscan.io/tx/0x5fa42d868c8df19fea6c12e49041583536fba3767b6aeaa62c3adf8415ef9ee4) |
+| Response                                                                                                                           | Beans to Whitehat | Beans to Immunefi | Transaction                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [BIR-1](https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x1da231494fe8cf85edc50bf148b8557b3de8b0354018602b92075634d0e1f409) | 7500              | 750               | Etherscan [1](https://etherscan.io/tx/0x1f3d3aaf1e24541400e0cc4c9f6985b21dbdccd1fa01df2b7873d62fb598d165), [2](https://etherscan.io/tx/0x5fa42d868c8df19fea6c12e49041583536fba3767b6aeaa62c3adf8415ef9ee4) |
+| [BIR-2](https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0xb07c3ff8112c01849681a62980b5499599990e26e01d9ca244fd6483783ece2c) | 11000             | 1100              | [Etherscan](https://etherscan.io/tx/0x89c4c574545d9243313aeab5a4e11ade0d9071766d93b9888a632e251b6dbb83)                                                                                                    |
 
 ### Links
 
