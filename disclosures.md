@@ -2,7 +2,7 @@
 
 **Before interacting with Beanstalk, consider reading the following Disclosures** [**prepared by the DAO**](https://app.bean.money/#/governance/0x0d9e422bafaee7f87744c09afe9c2c68af590fc76d8afd13b12b9dfc9328e794)**. This document can be found on Arweave** [**here**](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg)**.**&#x20;
 
-Interacting with Beanstalk involves many risks. Before interacting with Beanstalk, you should review the relevant documentation to make sure you understand how Beanstalk works, as well as information about the current state of Beanstalk. Beanstalk Farms has created this set of disclosures to assist in the educational process. These disclosures are not exhaustive. The [Beanstalk whitepaper](https://bean.money/docs/beanstalk.pdf), Farmers’ Almanac, [Dune dashboard](community-resources/links.md#analytics), and other Beanstalk resources, as well as participating in the Beanstalk community, can help to understand the protocol. Before participating in the protocol, everyone should do their own research, investigation and analysis.
+Interacting with Beanstalk involves many risks. Before interacting with Beanstalk, you should review the relevant documentation to make sure you understand how Beanstalk works, as well as information about the current state of Beanstalk. Beanstalk Farms has created this set of disclosures to assist in the educational process. These disclosures are not exhaustive. The [Beanstalk whitepaper](https://bean.money/docs/beanstalk.pdf), Farmers’ Almanac, [Dune dashboard](community/links.md#analytics), and other Beanstalk resources, as well as participating in the Beanstalk community, can help to understand the protocol. Before participating in the protocol, everyone should do their own research, investigation and analysis.
 
 Transparency is the cornerstone of DeFi. The Beanstalk decentralized autonomous organization (DAO) endeavors to be as transparent as possible, particularly as it pertains to communicating the risks of interacting with Beanstalk.
 
@@ -178,7 +178,7 @@ The Beanstalk UI hosted at [app.bean.money](https://app.bean.money/) is unaudite
 
 More information:
 
-* [Beanstalk Audit Reports](protocol-resources/audits.md)
+* [Beanstalk Audit Reports](protocol/audits.md)
 * [BIP-21, Post Audit Changes Section](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-21-replant.md#post-audit-changes)
 
 #### **19. THE APP.BEAN.MONEY FRONTEND CAN BE CENSORED AS IT IS CLOSED SOURCE AND HOSTED ON A CLOUD PROVIDER.** <a href="#19-closed-source-ui-risk" id="19-closed-source-ui-risk"></a>

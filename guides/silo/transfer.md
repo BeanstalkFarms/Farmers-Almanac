@@ -1,6 +1,6 @@
 # Transfer Deposits
 
-Deposits can be [Transferred](../../protocol-resources/glossary.md#transfer) from one address to another without the loss of Stalk and Seeds.
+Deposits can be [Transferred](../../protocol/glossary.md#transfer) from one address to another without the loss of Stalk and Seeds.
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
@@ -10,5 +10,5 @@ Deposits can be [Transferred](../../protocol-resources/glossary.md#transfer) fro
 6. Enter the Ethereum address to Transfer to under “Transfer to”.
 7. A transaction preview will appear below the inputs. Select the “Transaction Details” dropdown to review each step of the transaction.
 8. Select “Transfer”.
-9. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol-resources/contracts.md) before signing it.
+9. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 10. After the transaction has been confirmed by the network, the Transferred Deposit will appear at the recipient’s address on the “Silo” page for the asset that was Transferred.

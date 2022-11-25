@@ -93,14 +93,14 @@
   * [Pick Unripe Assets](guides/unripe-assets/pick-unripe-assets.md)
   * [Chop Unripe Assets](guides/unripe-assets/chop-unripe-assets.md)
 
-## 📖 Protocol Resources
+## 📖 Protocol
 
-* [Glossary](protocol-resources/glossary.md)
-* [Asset States](protocol-resources/asset-states.md)
-* [Contracts](protocol-resources/contracts.md)
-* [Audits](protocol-resources/audits.md)
-* [Bug Bounty](protocol-resources/bug-bounty.md)
-* [Fundraiser](protocol-resources/fundraiser.md)
+* [Glossary](protocol/glossary.md)
+* [Asset States](protocol/asset-states.md)
+* [Contracts](protocol/contracts.md)
+* [Audits](protocol/audits.md)
+* [Bug Bounty](protocol/bug-bounty.md)
+* [Fundraiser](protocol/fundraiser.md)
 
 ## 🌐 Ecosystem
 
@@ -108,10 +108,10 @@
 * [Pipeline](ecosystem/pipeline.md)
 * [BeaNFTs](ecosystem/beanfts.md)
 
-## 🏫 Community Resources
+## 🏫 Community
 
 * [Discord](https://discord.gg/beanstalk)
-* [Beanstalk Learning Center](community-resources/beanstalk-learning-center.md)
-* [Contributing](community-resources/contributing.md)
-* [Community Grant Program](community-resources/community-grant-program.md)
-* [Links](community-resources/links.md)
+* [Beanstalk Learning Center](community/beanstalk-learning-center.md)
+* [Contributing](community/contributing.md)
+* [Community Grant Program](community/community-grant-program.md)
+* [Links](community/links.md)

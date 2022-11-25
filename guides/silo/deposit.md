@@ -10,7 +10,7 @@ Assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist) can be D
 5. Enter the amount you want to Deposit. A transaction preview showing the [Stalk and Seeds](../../farm/silo.md#the-stalk-system) to be rewarded will appear below the inputs. Select the “Transaction Details” dropdown to review each step of the transaction.
 6. You may select a slippage tolerance by selecting the gear icon. The default slippage tolerance is 0.1%.
 7. If you are Depositing ETH or have previously approved the asset being spent, skip to Step 10. For all other assets, select “Approve \[Token]”. This allows the Beanstalk contract to spend the asset, but does not Deposit it yet.
-8. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol-resources/contracts.md) before signing it.
+8. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 9. Select “Deposit”.
-10. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol-resources/contracts.md) before signing it.
+10. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 11. After the transaction has been confirmed by the network, your Deposit will appear in the “Deposits” table at the bottom of the current page.

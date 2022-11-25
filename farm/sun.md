@@ -19,7 +19,7 @@ Upon acceptance of the `sunrise()` call, the Sun:
 
 ### Oracle Whitelist
 
-The following liquidity pools are whitelisted for inclusion in the calculation of [deltaB](../protocol-resources/glossary.md#deltab):
+The following liquidity pools are whitelisted for inclusion in the calculation of [deltaB](../protocol/glossary.md#deltab):
 
 | Pool name                                      | Pool address                                                                                                          |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
