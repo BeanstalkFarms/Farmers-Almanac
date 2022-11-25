@@ -6,7 +6,6 @@ A budget of 30,000 Beans per month will be allocated to creators of new Beanstal
 
 * [Community Grant Program Announcement](https://bean.money/blog/community-grant-program)
 * [Community Grant Program Q3 2022](https://bean.money/blog/community-grant-program-q3-2022)
-* [Community Resource Center: Community Grants](https://bean.money/community-grants)
 
 ### **FAQ**
 
