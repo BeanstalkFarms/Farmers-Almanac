@@ -60,18 +60,22 @@
 * ****[**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)****
 * ****[**Bean Sprout Twitter**](https://twitter.com/WeAreBeanSprout)****
 * [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
-* [RadioDeFi Podcast](https://www.radio-defi.com/)
-* [The Bean Pod Anchor](https://anchor.fm/thebeanpodpodcast)
-* [The Bean Pod Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m)
-* [Beanstalk Farms YouTube](https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng)
+* [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)
 * [Beanstalk Telegram Tracker](https://t.me/+otBNISi33j44NDRh)
+
+### AudioFarms
+
+* [RadioDeFi Website](https://www.radio-defi.com/)
+* [RadioDeFi Twitter](https://twitter.com/RadioDefiPod)
+* RadioDeFi [YouTube](https://www.youtube.com/channel/UC\_zZp7XgQ7ndgcXpTrFxGxw), [Anchor](https://anchor.fm/radiodefi), [Spotify](https://open.spotify.com/show/38EWMCQ8wipEGRFJjHhQfE), [Apple Podcasts](https://podcasts.apple.com/us/podcast/radiodefi/id1653827749)
+* [The Bean Pod Twitter](https://twitter.com/The\_Bean\_Pod)
+* The Bean Pod [YouTube Playlist](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9a6kL3vhJGM0HtRjqALfoD\_), [Anchor](https://anchor.fm/thebeanpodpodcast), [Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m), [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-bean-pod/id1615215031)
 
 ### Recordings and Meeting Notes
 
 * ****[**Beanstalk Learning Center**](https://bean.money/learning-center)****
-* [Beanstalk Farms Anchor](https://anchor.fm/beanstalk-farms)
-* [Beanstalk Farms Spotify](https://open.spotify.com/show/70lfZOSaqWjhTFujgkhVOu)
+* Beanstalk Farms [YouTube](https://www.youtube.com/@BeanstalkFarms), [Anchor](https://anchor.fm/beanstalk-farms), [Spotify](https://open.spotify.com/show/70lfZOSaqWjhTFujgkhVOu), [Apple Podcasts](https://podcasts.apple.com/gb/podcast/beanstalk-farms/id1624827919)
 
 ### OpenSea
 
