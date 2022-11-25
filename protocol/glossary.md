@@ -324,7 +324,7 @@ When [Pods](glossary.md#pods) passively turn into [Harvestable Pods](glossary.md
 
 ### **Root**
 
-A **** zero-fee, positive carry generalized marketplace protocol built on Beanstalk. Read more [here](../ecosystem/root.md).
+A **** fungible wrapper for Silo Deposits. Read more [here](../ecosystem/root.md).
 
 ### **Season**
 
