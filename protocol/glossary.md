@@ -236,7 +236,7 @@ The [Farm](glossary.md#farm) is Oversaturated when there is a [Rainy Season](glo
 
 ### **Pause**
 
-Temporarily prevent the [`sunrise()`](glossary.md#sunrise) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
+Temporarily prevent the [`sunrise`](glossary.md#sunrise) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
 
 ### **Pick**
 
@@ -324,11 +324,11 @@ When [Pods](glossary.md#pods) passively turn into [Harvestable Pods](glossary.md
 
 ### **Root**
 
-A **** zero-fee, positive carry generalized marketplace protocol built on Beanstalk. Read more [here](../ecosystem/root.md).
+A **** fungible wrapper for Silo Deposits. Read more [here](../ecosystem/root.md).
 
 ### **Season**
 
-Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the [sunrise()](glossary.md#sunrise) function is successfully called on Ethereum.
+Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the [`sunrise`](glossary.md#sunrise) function is successfully called on Ethereum.
 
 ### **Seeds**
 
@@ -368,11 +368,11 @@ Holders of the Stalk token. Stalkholders participate in governance and earn Bean
 
 ### Sun
 
-The component of the Farm that keeps time in [Seasons](glossary.md#season) and incentivizes cost-efficient and timely calling of the [sunrise()](glossary.md#sunrise) function. Read more [here](../farm/sun.md).
+The component of the Farm that keeps time in [Seasons](glossary.md#season) and incentivizes cost-efficient and timely calling of the [`sunrise`](glossary.md#sunrise) function. Read more [here](../farm/sun.md).
 
 ### **Sunrise**
 
-Beanstalk accepts one sunrise() function call every [Season](glossary.md#season). Upon the sunrise() call, Beanstalk [Ripens Pods](glossary.md#ripen), [Fertilizes Sprouts](glossary.md#fertilize), distributes Beans to [Stalkholders](glossary.md#stalkholders), adjusts the [Temperature](glossary.md#temperature), etc.
+Beanstalk accepts one `sunrise` function call every [Season](glossary.md#season). Upon the sunrise() call, Beanstalk [Ripens Pods](glossary.md#ripen), [Fertilizes Sprouts](glossary.md#fertilize), distributes Beans to [Stalkholders](glossary.md#stalkholders), adjusts the [Temperature](glossary.md#temperature), etc.
 
 ### **Temperature**
 

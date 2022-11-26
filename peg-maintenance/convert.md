@@ -15,17 +15,17 @@ In order for a given Conversion to be added to the Convert Whitelist, Beanstalk 
 1. The From token address;
 2. The To token address;
 3. Conditions under which the From token can be converted to the To token; and
-4. A function to determine the number of To tokens received for Converting a given number of From tokens (see [Section 14.4 in the whitepaper](https://bean.money/docs/beanstalk.pdf) to see formulas).
+4. A function to determine the number of To tokens received for Converting a given number of From tokens (see [Section 14.4 in the Whitepaper](https://bean.money/docs/beanstalk.pdf#subsection.14.4) to see formulas).
 
 #### Current Convert Whitelist <a href="#convert-whitelist" id="convert-whitelist"></a>
 
-| From token          | To token                     | Conditions                       |
-| ------------------- | ---------------------------- | -------------------------------- |
-| Bean                | BEAN:3CRV LP                 | deltaB in the BEAN:3CRV pool > 0 |
-| BEAN:3CRV LP        | Bean                         | deltaB in the BEAN:3CRV pool < 0 |
-| Unripe Bean         | Unripe BEAN:3CRV LP          | deltaB in the BEAN:3CRV pool > 0 |
-| Unripe BEAN:3CRV LP | Unripe Bean                  | deltaB in the BEAN:3CRV pool < 0 |
-| Any token\*         | The same token as From token | Any time                         |
+| From token                           | To token                     | Conditions                       |
+| ------------------------------------ | ---------------------------- | -------------------------------- |
+| Bean                                 | BEAN:3CRV LP                 | deltaB in the BEAN:3CRV pool > 0 |
+| BEAN:3CRV LP                         | Bean                         | deltaB in the BEAN:3CRV pool < 0 |
+| Unripe Bean                          | Unripe BEAN:3CRV LP          | deltaB in the BEAN:3CRV pool > 0 |
+| Unripe BEAN:3CRV LP                  | Unripe Bean                  | deltaB in the BEAN:3CRV pool < 0 |
+| Any token on the Deposit Whitelist\* | The same token as From token | Anytime                          |
 
 \*Any token on the [Deposit Whitelist](../farm/silo.md#deposit-whitelist) can be Converted to the same token in order to allow Silo Members to updated the BDV of their LP tokens when their BDV increases due to impermanent loss.
 
