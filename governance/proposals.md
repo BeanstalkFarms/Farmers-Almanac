@@ -115,7 +115,7 @@ BFBP-Cs are proposed by a BFC member to use the Beanstalk Farms budget outside o
 
 In practice, contributor pay has been and will likely continue to be the majority of Beanstalk Farms expenditures, but there are occasional other payments outside of that scope like paying for upgrades to the subgraph, paying an artist for art on the website, etc.&#x20;
 
-Beanstalk Farms often sends funds to reimburse contributors for various software expenses. A BFBP-C is not required for transactions valued at more than 10,000 Beans or USDC.
+Beanstalk Farms often sends funds to reimburse contributors for various software expenses. A BFBP-C is not required for transactions valued at less than 10,000 Beans or USDC.
 
 ### BSP
 
