@@ -9,12 +9,3 @@ The Beanstalk Learning Center is the repository of all Beanstalk University clas
 * [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk)
 * [Thoughts Before the Barn Raise from Publius](https://bean.money/blog/thoughts-before-the-barn-raise)
 * [Water Clocks and the Beanstalk Helmsman](https://bean.money/blog/water-clocks-and-the-beanstalk-helmsman)
-
-### Community authored content
-
-* [The anti-reflexive mechanisms of Beanstalk](https://mirror.xyz/astn.eth/-FgCVHv5fKBDTwwMPRfXG2bMLzXekW1PH0dVDbsSArI)
-* [Zero to Beanstalk: A Comprehensive Guide](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8)
-* [Beanstalk FAQ](https://beanmerchant.substack.com/p/updated-beanstalk-faq-)
-* [Beanstalk vs. Every Other Stablecoin](https://beanmerchant.substack.com/p/beanstalk-vs-every-other-stablcoin)
-* [BEAN vs. ESD Tweet thread](https://twitter.com/doctor\_parth/status/1488941756448382976)
-* [NASJAQ podcast with Publius](https://open.spotify.com/episode/4zSBdnYs56Mlw5RrStZsfk?si=cc15759b547d4ea3)
