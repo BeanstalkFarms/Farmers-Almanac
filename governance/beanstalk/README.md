@@ -23,11 +23,13 @@ If at the end of the Voting Period:
 
 If at any time before the end of the Voting Period more than two-thirds of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, the BCM can execute the BIP on-chain.
 
+Beanstalk governance is designed to move slow and steady. When trying to become an issuer of money, the potential for rapid monetary policy changes is unattractive. By requiring more than 50% of Stalk to vote in favor of a BIP for it to pass, it is quite difficult for a BIP to pass. Therefore, unless the proposed change is _significantly preferred_ by Stalkholders, it is unlikely to pass.
+
 ### **Pause**
 
 In case of a particularly dangerous vulnerability to Beanstalk, the BCM can Pause Beanstalk without a Snapshot. You can read more about which actions the BCM can take without a Snapshot proposal [here](bcm-process.md#snapshots). The Beanstalk DAO can also Pause Beanstalk via BIP.
 
-When Paused, Beanstalk does not accept a `sunrise()` function call. Once Unpaused, the `sunrise()` function can be called at the beginning of the next hour.
+When Paused, Beanstalk does not accept a `sunrise` function call. Once Unpaused, the `sunrise` function can be called at the beginning of the next hour.
 
 ### **Commit**
 
