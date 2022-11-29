@@ -12,4 +12,4 @@ Whitepaper: [https://evmpipeline.org/pipeline.pdf](https://evmpipeline.org/pipel
 
 GitHub: [https://github.com/BeanstalkFarms/evmpipeline](https://github.com/BeanstalkFarms/evmpipeline)
 
-Halborn Audit Report: [https://evmpipeline.org/pipeline-audit-halborn.pdf](https://evmpipeline.org/pipeline-audit-halborn.pdf)
+Halborn Audit Report: [https://bean.money/11-15-22-pipeline-halborn-report](https://bean.money/11-15-22-pipeline-halborn-report)

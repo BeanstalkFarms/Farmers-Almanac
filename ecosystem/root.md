@@ -16,6 +16,8 @@ You can read more in their announcement: [Root Protocol: Rent-Free Markets on Be
 
 Website: [https://www.roottoken.org/](https://www.roottoken.org/)
 
+Discord: [https://discord.gg/rootmarkets](https://discord.gg/rootmarkets)
+
 Whitepaper: [https://roottoken.org/root.pdf](https://roottoken.org/root.pdf)
 
 Twitter: [https://twitter.com/rootmarkets](https://twitter.com/rootmarkets)
@@ -28,4 +30,4 @@ Docs: [https://docs.roottoken.org/](https://docs.roottoken.org/)
 
 Blog: [https://medium.com/@rootmarkets](https://medium.com/@rootmarkets)
 
-Discord: [https://discord.gg/rootmarkets](https://discord.gg/rootmarkets)\
+Halborn Audit Report: [https://bean.money/11-16-22-root-token-halborn-report](https://bean.money/11-16-22-root-token-halborn-report)
