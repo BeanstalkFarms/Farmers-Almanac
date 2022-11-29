@@ -93,7 +93,7 @@
   * [Pick Unripe Assets](guides/unripe-assets/pick-unripe-assets.md)
   * [Chop Unripe Assets](guides/unripe-assets/chop-unripe-assets.md)
 
-## 📖 Protocol
+## 📖 Protocol Resources <a href="#protocol" id="protocol"></a>
 
 * [Glossary](protocol/glossary.md)
 * [Asset States](protocol/asset-states.md)
@@ -108,7 +108,7 @@
 * [Pipeline](ecosystem/pipeline.md)
 * [BeaNFTs](ecosystem/beanfts.md)
 
-## 🏫 Community
+## 🏫 Community Resources <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/beanstalk)
 * [Beanstalk Learning Center](community/beanstalk-learning-center.md)
