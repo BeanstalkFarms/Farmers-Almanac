@@ -13,13 +13,13 @@ Beanstalk forms the monetary basis of an Ethereum-native, rent-free economy faci
 
 A stablecoin that does not compromise on decentralization nor require collateral, has competitive carrying costs, and trends toward more stability and liquidity, will unlock the potential of DeFi. Beanstalk’s primary objective is to incentivize independent market participants to regularly cross the price of 1 Bean over its dollar peg in a sustainable fashion.
 
-You can find an overview of Beanstalk here:
+You can find an overview of why Beanstalk was created here:
 
-{% embed url="https://www.youtube.com/watch?v=Yn9cn_IZy7o" %}
+{% embed url="https://www.youtube.com/watch?v=eH1j8hu1BbQ" %}
 
 Beanstalk is an experiment. Before interacting with Beanstalk, consider reading the [Disclosures](disclosures.md) prepared by the DAO.
 
-If you have questions while browsing the Farmers' Almanac, [join the Beanstalk Discord](https://discord.gg/beanstalk) and ask in the **(#❓・questions)** channel! If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [whitepaper](https://bean.money/docs/beanstalk.pdf).
+If you have questions while browsing the Farmers' Almanac, [join the Beanstalk Discord](https://discord.gg/beanstalk) and ask in the **(#❓・questions)** channel! If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [Beanstalk Whitepaper](https://bean.money/docs/beanstalk.pdf).
 
 Please share any feedback on the Farmers' Almanac in the **(#📜・docs-feedback)** channel in Discord and stay tuned for updates in **(#📜・docs-updates)**. You can submit a pull request to the Farmers' Almanac yourself [here](https://github.com/BeanstalkFarms/Farmers-Almanac).
 
