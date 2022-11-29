@@ -66,4 +66,4 @@ Considering the current state and the debt level, Beanstalk adjusts the Temperat
 
 The [Temperature Flow Chart](https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/\[PUBLIC]-Temperature-Flow-Chart?node-id=0%3A1\&t=27N3RhfE52pum1U8-1) contains a graphical representation of each possible state and an explanation for each Temperature adjustment.
 
-{% embed url="https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/[PUBLIC]-Temperature-Flow-Chart?node-id=0%3A1&t=27N3RhfE52pum1U8-1" %}
+{% @figma/embed fileId="ri6N8czFLXcvuJKWfQtAr8" nodeId="0:1" url="https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/[PUBLIC]-Temperature-Flow-Chart?node-id=0:1&t=wNVja1Id00hD8ImA-1" %}
