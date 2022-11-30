@@ -30,9 +30,10 @@
 
 ### Documentation
 
-* ****[**Farmers' Almanac (non-technical docs)**](https://docs.bean.money)****
-* [\[WIP\] Agronomics Handbook (technical docs)](https://beanstalk.gitbook.io/agronomics-handbook/)
+* ****[**Farmers' Almanac (non-technical docs)**](https://docs.bean.money/almanac)****
+* ****[**Agronomics Handbook (technical docs)**](https://docs.bean.money/developers)****
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
+* [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
 * [Beanstalk Whitepaper Repo](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper)
 * [Beanstalk Governance Proposals Repo](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/)
 * [Beanstalk Farms Operations Repo](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations)
