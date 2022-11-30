@@ -22,7 +22,6 @@ Beanstalk is designed to incentivize all capital entering the protocol to contin
 
 Additional resources:
 
-* [Beanstalk whitepaper](https://bean.money/docs/beanstalk.pdf)
+* [Beanstalk Whitepaper](https://bean.money/beanstalk.pdf)
 * [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk)
 * [Thoughts Before the Barn Raise from Publius](https://bean.money/blog/thoughts-before-the-barn-raise)
-* [Zero to Beanstalk](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8)

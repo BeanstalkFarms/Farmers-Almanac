@@ -13,7 +13,7 @@ To be Deposited into the Silo, an ERC-20 standard token must be on the Deposit W
 Additional tokens may be added to the Deposit Whitelist via [Beanstalk governance](broken-reference). In order for a token to be added to the Deposit Whitelist, Beanstalk requires:
 
 1. The token address;
-2. A function to calculate the Bean Denominated Value (BDV) of the token (see [Section 14.2](https://bean.money/docs/beanstalk.pdf) of the whitepaper for complete formulas); and
+2. A function to calculate the Bean Denominated Value (BDV) of the token (see [Section 14.2 of the Whitepaper](https://bean.money/beanstalk.pdf#subsection.14.2) for complete formulas); and
 3. The number of Stalk and Seeds per BDV received upon Deposit.
 
 #### **Current Deposit Whitelist**

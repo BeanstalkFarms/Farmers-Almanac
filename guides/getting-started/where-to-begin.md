@@ -2,7 +2,7 @@
 
 **New to Beanstalk?** Learn the basics by reading [Why Beanstalk](../../introduction/why-beanstalk.md) and [How Beanstalk Works](../../introduction/how-beanstalk-works.md).&#x20;
 
-The [Beanstalk whitepaper](https://bean.money/docs/beanstalk.pdf) is the authoritative source of protocol documentation while the [Farmers' Almanac](../../) is more accessible.&#x20;
+The [Beanstalk Whitepaper](https://bean.money/beanstalk.pdf) is the authoritative source of protocol documentation while the [Farmers' Almanac](../../) is more accessible.&#x20;
 
 If you prefer audio content, check out the Beanstalk University recordings in the [Beanstalk Learning Center](../../community/beanstalk-learning-center.md).
 

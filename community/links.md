@@ -2,10 +2,18 @@
 
 * [**Website**](https://bean.money/)****
 * ****[**Beanstalk UI**](https://app.bean.money/)****
-* ****[**Whitepaper**](https://bean.money/docs/beanstalk.pdf)****
+* ****[**Whitepaper**](https://bean.money/beanstalk.pdf)****
 * ****[**Discord**](https://discord.gg/beanstalk)****
 * [Blog](https://bean.money/blog)
 * [Bug Bounty Program](https://immunefi.com/bounty/beanstalk/)
+
+### Development
+
+* ****[**Beanstalk Repo**](https://github.com/BeanstalkFarms/Beanstalk)****
+* ****[Beanstalk SDK Repo](https://github.com/BeanstalkFarms/Beanstalk-SDK)
+* [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
+* [Beanstalk Subgraph Repo](https://github.com/BeanstalkFarms/Beanstalk-Subgraph)
+* [Beanstalk Tooling Repo](https://github.com/BeanstalkFarms/beanstalk-py)
 
 ### Analytics
 
@@ -19,14 +27,6 @@
 * [Silo APY Calculator Dune Dashboard](https://dune.xyz/tbiq/Beanstalk-Silo-APY-Calculator)
 * [DeFi Llama Bean Dashboard](https://defillama.com/stablecoin/bean)
 * [DeFi Llama Beanstalk Dashboard](https://defillama.com/protocol/beanstalk)
-
-### Development
-
-* ****[**Beanstalk Repo**](https://github.com/BeanstalkFarms/Beanstalk)****
-* ****[Beanstalk SDK Repo](https://github.com/BeanstalkFarms/Beanstalk-SDK)
-* [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
-* [Beanstalk Subgraph Repo](https://github.com/BeanstalkFarms/Beanstalk-Subgraph)
-* [Beanstalk Tooling Repo](https://github.com/BeanstalkFarms/beanstalk-py)
 
 ### Documentation
 
