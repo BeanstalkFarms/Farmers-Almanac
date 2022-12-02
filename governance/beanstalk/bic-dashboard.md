@@ -36,9 +36,9 @@ The following addresses do not custody any funds and are not signers on any mult
 
 ### **Beans Minted**
 
-**Total**: 241,285 Beans
+**Total**: 231,385 Beans
 
-**Remainder**: **** 2,758,715 Beans
+**Remainder**: **** 2,768,615 Beans
 
 **Bugs found**: 4
 
