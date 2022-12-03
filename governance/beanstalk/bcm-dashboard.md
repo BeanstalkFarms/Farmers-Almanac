@@ -12,12 +12,6 @@ The Beanstalk contract is guarded by a 5/9 multisig. This means any changes to t
 
 **Next expected rotation:** 10/06/2022
 
-**Past BIPs:**
-
-{% embed url="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bip" %}
-update&#x20;
-{% endembed %}
-
 ### BCM Members
 
 Publius currently holds 1 of the 9 keys on the BCM. The identities of the remaining signers are anonymous per [#anonymous-multisig-signers](bcm-process.md#anonymous-multisig-signers "mention").
