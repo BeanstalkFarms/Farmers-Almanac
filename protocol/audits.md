@@ -1,6 +1,6 @@
 # Audits
 
-[Omniscia](https://omniscia.io/) completed its audit of Beanstalk on **April 2, 2022**, identifying 8 findings using statistical analysis and 68 findings during the manual review. All 76 findings were promptly alleviated prior to the release of the audit report. The final report can be found [here](https://omniscia.io/beanstalk-core-protocol/).
+[Omniscia](https://omniscia.io/) completed its audit of Beanstalk on **April 2, 2022**, identifying 8 findings using statistical analysis and 68 findings during the manual review. All 76 findings were promptly alleviated prior to the release of the audit report. The final report can be found [here](https://bean.money/04-02-22-omniscia-report).
 
 [Halborn](https://halborn.com/) completed its audit of Beanstalk on **July 13, 2022**, identifying 17 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/07-13-22-halborn-report).
 
