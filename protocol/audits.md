@@ -12,6 +12,6 @@
 
 [Halborn](https://halborn.com/) completed its audit of [BIP-29](https://bean.money/bip-29) on **November 4, 2022**, identifying 3 findings that were solved prior to the release of the report (one additional issue was reported by Beanstalk Farms). The final report can be found [here](https://bean.money/11-04-22-bip-29-halborn-report).
 
-[Halborn](https://halborn.com/) completed its audit of [BIP-30](https://bean.money/bip-30) on **November 24, 2022**, identifying 9 findings that were acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/11-24-22-bip-30-halborn-report).
+[Halborn](https://halborn.com/) completed its audit of [BIP-30](https://bean.money/bip-30) on **December 1, 2022**, identifying 9 findings that were acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/11-24-22-bip-30-halborn-report).
 
 All audit reports are tracked in the [Beanstalk Audits GitHub repo](https://github.com/BeanstalkFarms/Beanstalk-Audits).
