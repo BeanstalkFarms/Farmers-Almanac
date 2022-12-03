@@ -4,6 +4,7 @@
 * ****[**Beanstalk UI**](https://app.bean.money/)****
 * ****[**Whitepaper**](https://bean.money/beanstalk.pdf)****
 * ****[**Discord**](https://discord.gg/beanstalk)****
+* ****[**GitHub**](https://github.com/BeanstalkFarms)****
 * [Blog](https://bean.money/blog)
 * [Bug Bounty Program](https://immunefi.com/bounty/beanstalk/)
 
