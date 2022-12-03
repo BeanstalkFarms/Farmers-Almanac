@@ -43,9 +43,9 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 
 | Contract                                                                                    | Address                                                                                                                                 |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)              | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/queue) |
 | [Beanstalk Farms Multisig (BFM)](../governance/beanstalk-farms/bfm-dashboard.md)            | [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://app.safe.global/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/transactions/queue) |
 | [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)                    | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://app.safe.global/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/transactions/queue) |
-| [Beanstalk Community Multisig (BCM)](../governance/beanstalk/bcm-dashboard.md)              | [0xa9bA2C40b263843C04d344727b954A545c81D043](https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/queue) |
 | [Beanstalk Farms Subgraph Multisig (BFSM)](../governance/beanstalk-farms/bfsm-dashboard.md) | [0xe1c3aEf912eCBF766155100038994c3FE880dB02](https://app.safe.global/eth:0xe1c3aEf912eCBF766155100038994c3FE880dB02/transactions/queue) |
 
 ### Ecosystem
@@ -71,11 +71,3 @@ The addresses below refer to the exploited Bean token (0xDC59). Do not buy these
 | [Old BEAN:ETH Uniswap V2 Pair](https://v2.info.uniswap.org/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) | [0x87898263B6C5BABe34b4ec53F22d98430b91e371](https://etherscan.io/address/0x87898263B6C5BABe34b4ec53F22d98430b91e371) |
 | [Old BEAN:3CRV Metapool](https://curve.fi/factory/81)                                                        | [0x3a70DfA7d2262988064A2D051dd47521E43c9BdD](https://etherscan.io/address/0x3a70DfA7d2262988064A2D051dd47521E43c9BdD) |
 | [Old BEAN:LUSD Plain Pool](https://curve.fi/factory/103)                                                     | [0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D](https://etherscan.io/address/0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D) |
-
-### Deprecated
-
-| Contract                                                                                                                      | Address                                                                                                               |
-| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [Q4 2021 Budget Contract](https://github.com/BeanstalkFarms/Beanstalk-Budget)                                                 | [0xbE9130192E4461696288f974F9Fd66F28EC6BbA1](https://etherscan.io/address/0xbE9130192E4461696288f974F9Fd66F28EC6BbA1) |
-| [Q4 2021 Development Budget](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-1.md#budget-structural-details) | [0x83A758a6a24FE27312C1f8BDa7F3277993b64783](https://etherscan.io/address/0x83A758a6a24FE27312C1f8BDa7F3277993b64783) |
-| [Q4 2021 Marketing Budget](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-1.md#budget-structural-details)   | [0xAA420e97534aB55637957e868b658193b112A551](https://etherscan.io/address/0xAA420e97534aB55637957e868b658193b112A551) |
