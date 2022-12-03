@@ -14,7 +14,10 @@
 * ****[Beanstalk SDK Repo](https://github.com/BeanstalkFarms/Beanstalk-SDK)
 * [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
 * [Beanstalk Subgraph Repo](https://github.com/BeanstalkFarms/Beanstalk-Subgraph)
-* [Beanstalk Bot Tooling Repo](https://github.com/BeanstalkFarms/beanstalk-py)
+* [Beanstalk Py (Bot Tooling) Repo](https://github.com/BeanstalkFarms/beanstalk-py)
+* [Beanstalk Landing Page Repo](https://github.com/BeanstalkFarms/Beanstalk-Landing)
+* ****[**Pipeline Repo**](https://github.com/BeanstalkFarms/Pipeline)****
+* [Pipeline Landing Page Repo](https://github.com/BeanstalkFarms/Pipeline-Landing)
 
 ### Analytics
 
