@@ -14,7 +14,7 @@
 * ****[Beanstalk SDK Repo](https://github.com/BeanstalkFarms/Beanstalk-SDK)
 * [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
 * [Beanstalk Subgraph Repo](https://github.com/BeanstalkFarms/Beanstalk-Subgraph)
-* [Beanstalk Tooling Repo](https://github.com/BeanstalkFarms/beanstalk-py)
+* [Beanstalk Bot Tooling Repo](https://github.com/BeanstalkFarms/beanstalk-py)
 
 ### Analytics
 
@@ -36,6 +36,7 @@
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
 * [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
 * [Beanstalk Whitepaper Repo](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper)
+* [Pipeline Whitepaper Repo](https://github.com/BeanstalkFarms/Pipeline-Whitepaper)
 * [Beanstalk Governance Proposals Repo](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/)
 * [Beanstalk Farms Operations Repo](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations)
 * [Beanstalk Assets Repo](https://github.com/BeanstalkFarms/Beanstalk-Assets)
