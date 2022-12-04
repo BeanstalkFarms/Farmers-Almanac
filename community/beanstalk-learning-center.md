@@ -1,10 +1,16 @@
-# Beanstalk Learning Center
+# Community Resource Hub
 
-The Beanstalk Learning Center is the repository of all Beanstalk University classes, AMAs, Twitter Spaces, podcasts, and DAO meetings. Farmers can search through notes on various discussion topics, and skip straight to specific questions in the YouTube recordings with timestamps.
+The Beanstalk Community Resource Hub is a set of pages on Notion that aim to increase transparency for various processes that don't quite fit into formal documentation in the Farmers' Almanac or on GitHub.
 
-{% embed url="https://bean.money/learning-center" %}
+{% embed url="https://bean.money/community-resources" %}
 
-### Beanstalk Farms authored content
+* [Beanstalk Learning Center](https://bean.money/learning-center) — A repository of all class and DAO meeting recordings with notes;
+* [Community Grants](https://bean.money/community-grants) — A record of how all community grants have been distributed;
+* [Immunefi Bug Reports](https://bean.money/bug-reports) — A record of the Beanstalk Immunefi Committee's responses to each bug report;
+* [Beanstalk Farms Job Board](https://bean.money/bf-job-board) — A list of open roles at Beanstalk Farms, as well as open bounties; and
+* [Beanstalk Farms Operations Board](https://bean.money/bf-operations-board) — A set of dashboards that the BF Operations team uses to coordinate and document various projects and processes.
+
+### Beanstalk Farms Authored Content
 
 * [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk)
 * [Thoughts Before the Barn Raise from Publius](https://bean.money/blog/thoughts-before-the-barn-raise)

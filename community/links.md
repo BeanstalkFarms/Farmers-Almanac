@@ -42,7 +42,7 @@
 * [Pipeline Whitepaper Repo](https://github.com/BeanstalkFarms/Pipeline-Whitepaper)
 * [Beanstalk Governance Proposals Repo](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/)
 * [Beanstalk Farms Operations Repo](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations)
-* [Beanstalk Assets Repo](https://github.com/BeanstalkFarms/Beanstalk-Assets)
+* [Beanstalk Brand Assets Repo](https://github.com/BeanstalkFarms/Beanstalk-Brand-Assets)
 * [Fertilizer Metadata](https://fert.bean.money/)
 
 ### Security

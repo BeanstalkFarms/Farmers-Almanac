@@ -53,3 +53,4 @@ The following addresses do not custody any funds and are not signers on any mult
 
 * More information about [the BIC's process](bic-process.md)
 * [Past BIRs](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir)
+* [Past bug reports](https://bean.money/bug-reports)

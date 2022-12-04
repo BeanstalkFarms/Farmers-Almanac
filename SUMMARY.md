@@ -112,7 +112,7 @@
 ## 🏫 Community Resources <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/beanstalk)
-* [Beanstalk Learning Center](community/beanstalk-learning-center.md)
+* [Community Resource Hub](community/beanstalk-learning-center.md)
 * [Contributing](community/contributing.md)
 * [Community Grant Program](community/community-grant-program.md)
 * [Links](community/links.md)

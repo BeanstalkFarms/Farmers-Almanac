@@ -6,10 +6,11 @@ A budget of 30,000 Beans per month will be allocated to creators of new Beanstal
 
 * [Community Grant Program Announcement](https://bean.money/blog/community-grant-program)
 * [Community Grant Program Q3 2022](https://bean.money/blog/community-grant-program-q3-2022)
+* [Past community grants](https://bean.money/community-grants)
 
 ### **FAQ**
 
-**When does the grant start?**
+**When does the grant program start?**
 
 The grant is live and will continue monthly until Beanstalk Farms announces otherwise or if funding is not allocated through governance.&#x20;
 
