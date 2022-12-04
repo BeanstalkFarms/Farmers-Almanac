@@ -36,6 +36,7 @@
 
 * ****[**Farmers' Almanac (non-technical docs)**](https://docs.bean.money/almanac)****
 * ****[**Agronomics Handbook (technical docs)**](https://docs.bean.money/developers)****
+* ****[**Community Resource Hub (Notion)**](https://bean.money/community-resources)****
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
 * [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
 * [Beanstalk Whitepaper Repo](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper)
