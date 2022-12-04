@@ -60,7 +60,7 @@
 * [Bean Sprout Snapshot](https://snapshot.org/#/wearebeansprout.eth)
 * [Beanstalk Bug Bounty Snapshot](https://snapshot.org/#/beanstalkbugbounty.eth)
 
-### Marketing and Community
+### Social
 
 * ****[**Beanstalk Discord**](https://discord.gg/beanstalk)****
 * ****[**Beanstalk Protocol Twitter**](https://twitter.com/beanstalkmoney)****
