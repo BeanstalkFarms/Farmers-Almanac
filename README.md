@@ -19,11 +19,9 @@ You can find an overview of why Beanstalk was created here:
 
 Beanstalk is an experiment. Before interacting with Beanstalk, consider reading the [Disclosures](disclosures.md) prepared by the DAO.
 
-If you:
-
-* Have questions while browsing the Farmers' Almanac, join the [Beanstalk Discord](https://discord.gg/beanstalk) and ask in the **(#❓・questions)** channel;
-* Are looking for technical documentation, check out the [Agronomics Handbook](https://docs.bean.money/developers); or
-* Are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [Beanstalk Whitepaper](https://bean.money/beanstalk.pdf).
+* If you are looking for technical documentation, check out the [Agronomics Handbook](https://docs.bean.money/developers).
+* If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [Beanstalk Whitepaper](https://bean.money/beanstalk.pdf).
+* If you have any other questions while browsing the Farmers' Almanac, join the [Beanstalk Discord](https://discord.gg/beanstalk) and ask in the **(#❓・questions)** channel!
 
 Please share any feedback on the Farmers' Almanac in the **(#📜・docs-feedback)** channel in Discord and stay tuned for updates in **(#📜・docs-updates)**. You can submit a pull request to the Farmers' Almanac yourself [here](https://github.com/BeanstalkFarms/Farmers-Almanac).
 
