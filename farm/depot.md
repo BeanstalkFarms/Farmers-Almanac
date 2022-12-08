@@ -1,12 +1,10 @@
 # Depot
 
-The Depot facilitates complex, gas-efficient transactions within Beanstalk and across the Ethereum network.&#x20;
+Current complex interactions with Ethereum-native protocols are tedious, cumbersome and expensive. The Depot facilitates complex, gas-efficient interactions with other Ethereum-native protocols in a single transaction.&#x20;
 
-### Pipelines
+Any protocol with a Pipeline to the Depot can be used via Beanstalk in a single transaction. Pipelines to the Depot can be added via [Beanstalk governance](../governance/beanstalk/).
 
-Any protocol with a Pipeline to the Depot can be used via Beanstalk. Pipelines can be added to the Depot via Beanstalk governance.
-
-#### Curve Pipeline
+### Curve
 
 The Curve Pipeline allows anyone to call functions in any pool registered in any of the following Curve registries.
 
@@ -16,64 +14,19 @@ The Curve Pipeline allows anyone to call functions in any pool registered in any
 
 The following functions to interact with Curve pools can be called through the Curve Pipeline:
 
-```solidity
-function exchange(
-    address pool, 
-    address registry, 
-    address fromToken, 
-    address toToken, 
-    uint256 amountIn, 
-    uint256 minAmountOut, 
-    LibTransfer.From fromMode, 
-    LibTransfer.To toMode
-) external payable nonReentrant;
+* `exchange(...)`
+* `exchange_underlying(...)`
+* `add_liquidity(...)`
+* `remove_liquidity(...)`
+* `remove_liquidity_imbalanced(...)`
+* `remove_liquidity_one_token(...)`
 
-// only in Metapools
-function exchangeUnderlying(
-    address pool, 
-    address fromToken, 
-    address toToken, 
-    uint256 amountIn, 
-    uint256 minAmountOut, 
-    LibTransfer.From fromMode, 
-    LibTransfer.To toMode
-) external payable nonReentrant;
+### Pipeline
 
-function addLiquidity(
-    address pool,
-    address registry,
-    uint256[] memory amounts,
-    uint256 minAmountOut,
-    LibTransfer.From fromMode,
-    LibTransfer.To toMode
-) external payable nonReentrant;
+The [Pipeline](../ecosystem/pipeline.md) Pipeline allows anyone to perform an arbitrary series of actions in the EVM in a single transaction by using [0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa44](https://etherscan.io/address/0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa#readContract) as a sandbox for execution.
 
-function removeLiquidity(
-    address pool,
-    address registry,
-    uint256 amountIn,
-    uint256[] calldata minAmountsOut,
-    LibTransfer.From fromMode,
-    LibTransfer.To toMode
-) external payable nonReentrant;
+The following functions to interact with Pipeline can be called through the [Pipeline](../ecosystem/pipeline.md) Pipeline.
 
-function removeLiquidityImbalance(
-    address pool,
-    address registry,
-    uint256[] calldata amountsOut,
-    uint256 maxAmountIn,
-    LibTransfer.From fromMode,
-    LibTransfer.To toMode
-) external payable nonReentrant;
-
-function removeLiquidityOneToken(
-    address pool,
-    address registry,
-    address toToken,
-    uint256 amountIn,
-    uint256 minAmountOut,
-    LibTransfer.From fromMode,
-    LibTransfer.To toMode
-) external payable nonReentrant;
-
-```
+* `pipe(...)`
+* `multiPipe(...)`
+* `advancedPipe(...)`

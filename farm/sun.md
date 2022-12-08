@@ -6,7 +6,7 @@ Beanstalk adjusts itself to return the Bean price to its value peg at the beginn
 
 The exact beginning of each Season may vary as Seasons do not begin until the `sunrise` function has been called through an Ethereum transaction. The first transaction that successfully calls the `sunrise` function after the top of each hour UTC begins a new Season. Beanstalk only accepts one `sunrise` function call per Season.
 
-Beanstalk covers the cost of calling the `sunrise` function by awarding the sender of an accepted `sunrise` function call with newly minted Beans. To encourage regular `sunrise` function calls even during periods of congestion on Ethereum while minimizing cost, the award starts at 100 Beans and compounds 1% every additional second that elapses for 300 seconds.
+Beanstalk covers the cost of calling the `sunrise` function by awarding the sender of an accepted `sunrise` function call with newly minted Beans. To encourage regular `sunrise` function calls even during periods of congestion on Ethereum while minimizing cost, the award starts at 25 Beans and compounds 1% every additional second that elapses for 300 seconds.
 
 Upon acceptance of the `sunrise` call, the Sun:
 
@@ -19,7 +19,14 @@ Upon acceptance of the `sunrise` call, the Sun:
 
 ### Oracle Whitelist
 
-The following liquidity pools are whitelisted for inclusion in the calculation of [deltaB](../protocol/glossary.md#deltab):
+To be included in the calculation of [deltaB](../protocol/glossary.md#deltab), a liquidity pool must be on the Oracle Whitelist.
+
+Additional liquidity pools may be added to the Oracle Whitelist via [Beanstalk governance](broken-reference). In order for a liquidity pool to be added to the Oracle Whitelist, Beanstalk requires:
+
+1. The pool address; and
+2. A function to calculate the liquidity and time weighted average shortage or excess of Beans in the pool (see [Section 14.6 of the Whitepaper](https://bean.money/beanstalk.pdf#subsection.14.6) for complete formulas).
+
+#### Current Oracle Whitelist
 
 | Name                                           | Address                                                                                                               |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |

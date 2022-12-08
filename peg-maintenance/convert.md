@@ -10,14 +10,18 @@ When the Bean price is below peg (_i.e._, deltaB is negative), Deposited BEAN:3C
 
 Unripe Beans are also convertible to Unripe BEAN:3CRV LP, and vice versa, in a similar fashion. See the [Unripe Assets](../farm/barn.md#unripe-assets) section of the [Barn](../farm/barn.md) page for more info.
 
-In order for a given Conversion to be added to the Convert Whitelist, Beanstalk requires:
+### Convert Whitelist
+
+In order for a Farmer to be able to Convert a Deposited asset to another, that given Conversion must be on the Convert Whitelist.
+
+Additional Conversions may be added to the Convert Whitelist via [Beanstalk governance](broken-reference). In order for a Conversion to be added to the Convert Whitelist, Beanstalk requires:
 
 1. The From token address;
 2. The To token address;
 3. Conditions under which the From token can be converted to the To token; and
 4. A function to determine the number of To tokens received for Converting a given number of From tokens (see [Section 14.4 in the Whitepaper](https://bean.money/beanstalk.pdf#subsection.14.4) to see formulas).
 
-#### Current Convert Whitelist <a href="#convert-whitelist" id="convert-whitelist"></a>
+#### Current Convert Whitelist
 
 | From token                           | To token                     | Conditions                       |
 | ------------------------------------ | ---------------------------- | -------------------------------- |
@@ -33,4 +37,4 @@ In order for a given Conversion to be added to the Convert Whitelist, Beanstalk 
 
 Convert functionality was first added in [BIP-7](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-07-convert.md), and generalized to support a Convert Whitelist in [BIP-21](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-21-replant.md). Since BIP-7 was committed, Conversions by Silo Members has played a significant role in peg maintenance.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-09-12 at 10.39.44 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-09-12 at 10.39.44 AM.png" alt=""><figcaption><p>This screenshot of the Bean price chart is from September 12, 2022. See <a href="https://app.bean.money/">app.bean.money</a> for the latest data.</p></figcaption></figure>
