@@ -61,7 +61,7 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 | [BeaNFT Winter](https://opensea.io/collection/beanft-winter)         | [0x459895483556dad32526efa461f75e33e458d9e9](https://etherscan.io/address/0x459895483556dad32526efa461f75e33e458d9e9) |
 | [BeaNFT Barn Raise](https://opensea.io/collection/beanft-barn-raise) | [0xa969bb19b1d35582ded7ea869cecd60a3bd5d1e8](https://etherscan.io/address/0xa969bb19b1d35582ded7ea869cecd60a3bd5d1e8) |
 
-### Pre-Exploit Tokens
+### Pre-Exploit Contracts
 
 {% hint style="danger" %}
 The addresses below refer to the exploited Bean token (0xDC59). Do not buy these tokens. A new Bean token was issued at Replant—you can find it at the top of this page.
