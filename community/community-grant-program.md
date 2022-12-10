@@ -38,4 +38,4 @@ From the Beanstalk Farms budget. The community grant program has been funded thr
 
 **Who will be on the committee?**
 
-The committee has 3 members, 2 from Beanstalk Farms and 1 from the community.
+The committee has 3 members, 2 from Beanstalk Farms and 1 from the community. It is selected by the [Beanstalk Farms Committee](../protocol/glossary.md#beanstalk-farms-committee).
