@@ -54,7 +54,8 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 
 | Contract                                                             | Address                                                                                                               |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [Root Token](https://roottoken.org/)                                 | [0x77700005bea4de0a78b956517f099260c2ca9a26](https://etherscan.io/token/0x77700005bea4de0a78b956517f099260c2ca9a26)   |
+| [Root Token](https://roottoken.org/) (Mainnet)                       | [0x77700005bea4de0a78b956517f099260c2ca9a26](https://etherscan.io/token/0x77700005bea4de0a78b956517f099260c2ca9a26)   |
+| [Root Token](https://roottoken.org/) (Arbitrum)                      | [0x40A9a378204b005bD3496f8eeFCce9136071B40f](https://arbiscan.io/token/0x40a9a378204b005bd3496f8eefcce9136071b40f)    |
 | [Pipeline](https://evmpipeline.org/)                                 | [0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa](https://etherscan.io/address/0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa) |
 | [Depot](https://evmpipeline.org/)                                    | [0xDEb0f000082fD56C10f449d4f8497682494da84D](https://etherscan.io/address/0xDEb0f000082fD56C10f449d4f8497682494da84D) |
 | [BeaNFT Genesis](https://opensea.io/collection/beanft-genesis)       | [0xa755A670Aaf1FeCeF2bea56115E65e03F7722A79](https://etherscan.io/address/0xa755A670Aaf1FeCeF2bea56115E65e03F7722A79) |
