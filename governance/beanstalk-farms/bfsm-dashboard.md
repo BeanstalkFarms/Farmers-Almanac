@@ -1,8 +1,8 @@
 # BFSM Dashboard
 
-The Beanstalk and Bean subgraphs are custodied by the Beanstalk Farms Subgraph Multisig, or BFSM. The BFSM is deployed using Gnosis Safe. Its m-of-n configuration is currently 2-of-3 on Ethereum mainnet. This means any changes to the subgraphs must be approved by at least 2 signers of the 3 signers in total.
+The Beanstalk and Bean subgraphs are custodied by the Beanstalk Farms Subgraph Multisig, or BFSM. The BFSM is deployed using Safe. Its m-of-n configuration is currently 2-of-3 on Ethereum mainnet. This means any changes to the subgraphs must be approved by at least 2 signers of the 3 signers in total.
 
-**Beanstalk Farms Subgraph Multisig Gnosis address:** [0xe1c3aEf912eCBF766155100038994c3FE880dB02](https://etherscan.io/address/0xe1c3aEf912eCBF766155100038994c3FE880dB02)
+**Beanstalk Farms Subgraph Multisig Safe address:** [0xe1c3aEf912eCBF766155100038994c3FE880dB02](https://etherscan.io/address/0xe1c3aEf912eCBF766155100038994c3FE880dB02)
 
 {% embed url="https://app.safe.global/eth:0xe1c3aEf912eCBF766155100038994c3FE880dB02/transactions/queue" %}
 

@@ -2,7 +2,7 @@
 
 The Beanstalk Community Multisig (BCM) custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM is able to propose, execute and upgrade Beanstalk.
 
-**Beanstalk Community Multisig Gnosis address:** [0xa9bA2C40b263843C04d344727b954A545c81D043](https://etherscan.io/address/0xa9bA2C40b263843C04d344727b954A545c81D043)
+**Beanstalk Community Multisig Safe address:** [0xa9bA2C40b263843C04d344727b954A545c81D043](https://etherscan.io/address/0xa9bA2C40b263843C04d344727b954A545c81D043)
 
 {% embed url="https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/queue" %}
 

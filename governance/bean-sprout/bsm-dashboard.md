@@ -1,8 +1,8 @@
 # BSM Dashboard
 
-Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The BSM is deployed using Gnosis Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet. This means any use of the budget funds must be approved by at least 4 signers of the 7 signers in total.
+Bean Sprout budget funds are custodied by the Bean Sprout Multisig, or BSM. The BSM is deployed using Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet. This means any use of the budget funds must be approved by at least 4 signers of the 7 signers in total.
 
-**Bean Sprout Multisig Gnosis address:** [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://etherscan.io/address/0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235)
+**Bean Sprout Multisig Safe address:** [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://etherscan.io/address/0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235)
 
 {% embed url="https://app.safe.global/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/transactions/queue" %}
 
