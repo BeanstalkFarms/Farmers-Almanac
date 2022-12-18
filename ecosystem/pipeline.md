@@ -10,6 +10,6 @@ Website: [https://evmpipeline.org](https://evmpipeline.org/)
 
 Whitepaper: [https://evmpipeline.org/pipeline.pdf](https://evmpipeline.org/pipeline.pdf)
 
-Pipeline Repo: [https://github.com/BeanstalkFarms/Pipeline](https://github.com/BeanstalkFarms/evmpipeline)
+GitHub: [https://github.com/BeanstalkFarms/evmpipeline](https://github.com/BeanstalkFarms/evmpipeline)
 
 Halborn Audit Report: [https://bean.money/11-15-22-pipeline-halborn-report](https://bean.money/11-15-22-pipeline-halborn-report)

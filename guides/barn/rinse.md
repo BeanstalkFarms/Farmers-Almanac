@@ -1,6 +1,6 @@
 # Rinse Sprouts
 
-Active Fertilizer holders receive Sprouts. Sprouts become Rinsable on a [pari passu](../../protocol/glossary.md#pari-passu) basis. Once Sprouts become Rinsable, they are redeemable for 1 Bean each. See the [Barn](../../farm/barn.md) page for more info.
+Active Fertilizer holders receive Sprouts. Sprouts become Rinsable on a [pari passu](https://docs.bean.money/additional-resources/glossary#pari-passu) basis. Once Sprouts become Rinsable, they are redeemable for 1 Bean each. See the [Barn](../../farm/barn.md) page for more info.
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Barn” page.

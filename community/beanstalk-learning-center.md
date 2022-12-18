@@ -6,8 +6,7 @@ The Beanstalk Community Resource Hub is a set of pages on Notion that aim to inc
 
 * [Beanstalk Learning Center](https://bean.money/learning-center) — A repository of all class and DAO meeting recordings with notes;
 * [Community Grants](https://bean.money/community-grants) — A record of how all community grants have been distributed;
-* [Immunefi Bug Reports](https://bean.money/bug-reports) — A record of the Beanstalk Immunefi Committee's responses to each bug report;
-* [Beanstalk Farms Job Board](https://bean.money/bf-job-board) — A list of open roles at Beanstalk Farms, as well as open bounties; and
+* [Immunefi Bug Reports](https://bean.money/bug-reports) — A record of the Beanstalk Immunefi Committee's responses to each bug report; and
 * [Beanstalk Farms Operations Board](https://bean.money/bf-operations-board) — A set of dashboards that the BF Operations team uses to coordinate and document various projects and processes.
 
 ### Beanstalk Farms Authored Content
