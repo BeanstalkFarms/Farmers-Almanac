@@ -24,13 +24,20 @@
 * ****[**Beanstalk UI Analytics Page**](https://app.bean.money/#/analytics)****
 * ****[**Beanstalk Advanced Analytics**](https://analytics.bean.money/)****
 * [Bean Price Tracker Chrome Extension](https://chrome.google.com/webstore/detail/bean-tracker/aodkdgdikbdeeaknenojacllnnjlhodj?hl=en\&authuser=0)
-* [Bean on CoinGecko](https://www.coingecko.com/en/coins/bean)
 * [Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
+
+#### Listings
+
+* [Bean on CoinGecko](https://www.coingecko.com/en/coins/bean)
+* [Bean on stablecoins.wtf](https://stablecoins.wtf/coins/bean)
+* [Bean on DeFi Llama](https://defillama.com/stablecoin/bean)
+* [Beanstalk on DeFi Llama](https://defillama.com/protocol/beanstalk)
+
+#### Dune
+
 * [Pre-Exploit Dune Dashboard](https://dune.com/tbiq/Beanstalk)
 * [Barn Raise Dune Dashboard](https://dune.com/tbiq/beanstalk-barn-raise)
 * [Silo APY Calculator Dune Dashboard](https://dune.xyz/tbiq/Beanstalk-Silo-APY-Calculator)
-* [DeFi Llama Bean Dashboard](https://defillama.com/stablecoin/bean)
-* [DeFi Llama Beanstalk Dashboard](https://defillama.com/protocol/beanstalk)
 
 ### Documentation
 
