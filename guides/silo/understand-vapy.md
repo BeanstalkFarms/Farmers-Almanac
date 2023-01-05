@@ -15,7 +15,7 @@ Seeds grow Stalk each Season, regardless of deltaB. Estimated annual Stalk growt
 
 ### Estimating Earned Beans per Season
 
-Beanstalk uses a 14-day [exponential moving average](https://en.wikipedia.org/wiki/Moving\_average#Exponential\_moving\_average) (EMA) of Beans earned by Stalkholders to estimate future Beans earned by Stalkholders. The formula uses a weighted average in which recent Seasons are weighted more heavily.
+The Beanstalk UI and Subgraph use a 30-day [exponential moving average](https://en.wikipedia.org/wiki/Moving\_average#Exponential\_moving\_average) (EMA) of Beans earned by Stalkholders to estimate future Beans earned by Stalkholders. The formula uses a weighted average in which recent Seasons are weighted more heavily.
 
 The current EMA value can be located on the Silo page by hovering over the **Bean vAPY**.
 
@@ -39,7 +39,7 @@ $$
 $$
 
 $$
-u=14*7=210
+u=30*7=210
 $$
 
 $$
