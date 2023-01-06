@@ -2,7 +2,7 @@
 
 The Field is Beanstalk's credit facility. Beanstalk relies on a decentralized set of creditors to maintain Bean price stability.
 
-Farmers who Sow (lend) Beans to Beanstalk are known as Sowers.
+Farmers who Sow Beans (lend Beans to Beanstalk) are known as Sowers.
 
 For guides on interacting with the Field through the Beanstalk UI, go [here](../guides/field/).
 
@@ -42,6 +42,6 @@ The Temperature is constant during each Season. Beanstalk [changes the Temperatu
 
 Beanstalk is credit based and only fails if it can no longer attract creditors. A reasonable level of debt, a strong credit history and a competitive interest rate attract creditors.
 
-Beanstalk does not default on debt (although in the event of Beanstalk no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md#6-debt-maturity-risk)). Beanstalk is willing to issue Pods every Season.
+Beanstalk never defaults on debt (although in the event of Beanstalk no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md#6-debt-maturity-risk)). Beanstalk is willing to issue Pods every Season.
 
 The combination of non-expiry, the FIFO Harvest schedule and transferability encourages Farmers to Sow Beans as efficiently as possible. By maximizing the efficiency of the Soil market, Beanstalk minimizes its cost to attract creditors, the durations and magnitudes of price deviations below its value peg, and excess Bean minting.
