@@ -1,21 +1,17 @@
 # BFC Dashboard
 
-**The Beanstalk Farms Committee, or BFC, is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation.** The BFC hires at and dismisses contributors from Beanstalk Farms. Read more [here](./#beanstalk-farms-committee).
+**The** **Beanstalk Farms Committee**, **or BFC**, is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. The BFC hires contributors at and dismisses contributors from Beanstalk Farms. Read more [here](./#beanstalk-farms-committee).
 
 ### **BFC Members**
 
 The current BFC members are as follows, in no particular order:
 
-| BFC member       | End of term    | Original BFCP-A                                                                                                                   |
-| ---------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| guy (fka austin) | September 2023 | [BFCP-A-1](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xbba13a2ee887f2367fdc5485b5412f7de2e41062f85acc0634d4edb428424496) |
-| mod323           | September 2023 | [BFCP-A-2](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x7983e55ec734bae90eae0f0eb8b3fb1ce8501ad33aef64d98033f7765c13c2fe) |
-| Silo Chad        | September 2023 | [BFCP-A-3](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xc4583788b51279ff85457b8650ea8fbb3b42995ac606763a453671383d351a01) |
-| sweetredbeans    | September 2023 | [BFCP-A-4](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x0c2a9b20ccea9e796bae7baccbd1f699a8fbed255ab2893582b65cf54a525df5) |
-
-Past BFCP-Cs that have extended the terms of BFC members:
-
-* [BFCP-C-1: BFC Member Term Extension, Q3 2022](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md)
+| BFC member    | End of term    | BFCPs                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| guy           | December 2023  | [BFCP-A-1](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-a-1-austin.md), [BFCP-C-1](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md), [BFCP-C-2](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md)        |
+| mod323        | September 2023 | [BFCP-A-2](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-a-2-mod323.md), [BFCP-C-1](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md)                                                                                                                                          |
+| Silo Chad     | December 2023  | [BFCP-A-3](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-a-3-silo-chad.md), [BFCP-C-1](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md), [BFCP-C-2](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md)     |
+| sweetredbeans | December 2023  | [BFCP-A-4](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-a-4-sweetredbeans.md), [BFCP-C-1](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md), [BFCP-C-2](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md) |
 
 Adding members to the BFC requires a BFCP-A and removing BFC members requires a BFCP-B. You can read more about BFCPs [here](../proposals.md#bfcp).
 

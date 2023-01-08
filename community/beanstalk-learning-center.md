@@ -1,16 +1,13 @@
-# Community Resource Hub
+# Notion
 
-The Beanstalk Community Resource Hub is a set of pages on Notion that aim to increase transparency for various processes that don't quite fit into formal documentation in the Farmers' Almanac or on GitHub.
+The [Beanstalk Notion](https://bean.money/notion) is a set of Notion pages that aim to increase transparency for various processes that don't quite fit into formal documentation in the Farmers' Almanac or on GitHub.
 
-{% embed url="https://bean.money/community-resources" %}
+{% embed url="https://bean.money/notion" %}
 
-* [Beanstalk Learning Center](https://bean.money/learning-center) — A repository of all class and DAO meeting recordings with notes;
-* [Community Grants](https://bean.money/community-grants) — A record of how all community grants have been distributed;
-* [Immunefi Bug Reports](https://bean.money/bug-reports) — A record of the Beanstalk Immunefi Committee's responses to each bug report; and
-* [Beanstalk Farms Operations Board](https://bean.money/bf-operations-board) — A set of dashboards that the BF Operations team uses to coordinate and document various projects and processes.
-
-### Beanstalk Farms Authored Content
-
-* [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk)
-* [Thoughts Before the Barn Raise from Publius](https://bean.money/blog/thoughts-before-the-barn-raise)
-* [Water Clocks and the Beanstalk Helmsman](https://bean.money/blog/water-clocks-and-the-beanstalk-helmsman)
+* The [Learning Center](https://bean.money/learning-center) page is the repository of all Beanstalk University classes, AMAs, Twitter Spaces, podcasts, and DAO meetings. Farmers can search through notes on various discussion topics, and skip straight to specific questions in the YouTube recordings with timestamps.
+* The [Community Grants](https://bean.money/community-grants) page is a record of how grants from the [Community Grant Program](community-grant-program.md) are distributed.
+* The [Bug Reports](https://bean.money/bug-reports) page is a record of the [Beanstalk Immunefi Committee’s](../governance/beanstalk/bic-process.md) responses to each Immunefi bug report.
+* The [Jobs](https://bean.money/jobs) page is a list of open roles at [Beanstalk Farms](../governance/beanstalk-farms/).
+* The [Operations Board](https://bean.money/operations-board) page is a set of dashboards that the Beanstalk Farms Operations team uses to coordinate and document various projects and processes.
+* The [Bounties](https://bean.money/bounties) page is a list of projects that Beanstalk Farms is interested in funding.
+* The [BCM Verification](https://bean.money/bcm-verification) page is a set of documentation for the community to be able to verify BIPs like the [Beanstalk Community Multisig](../governance/beanstalk/bcm-process.md).
