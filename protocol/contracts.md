@@ -2,18 +2,18 @@
 
 ### Contracts
 
-| Contract                                                        | Address                                                                                                               |
-| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Beanstalk                                                       | [0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5](https://etherscan.io/address/0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5) |
-| Bean ERC-20 token                                               | [0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab) |
-| BEAN:3CRV LP token ([Curve pool](https://curve.fi/factory/152)) | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/token/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)   |
-| Unripe Bean ERC-20 token                                        | [0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449) |
-| Unripe BEAN:3CRV LP ERC-20 token                                | [0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D) |
-| Fertilizer ERC-1155 token                                       | [0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6](https://etherscan.io/address/0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6) |
-| Fertilizer Admin                                                | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
-| Fertilizer Implementation                                       | [0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD](https://etherscan.io/address/0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD) |
-| Beanstalk Price Contract                                        | [0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530](https://etherscan.io/address/0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530) |
-| InitMint Contract                                               | [0x077495925c17230E5e8951443d547ECdbB4925Bb](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb) |
+| Contract                                                                                     | Address                                                                                                               |
+| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Beanstalk                                                                                    | [0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5](https://etherscan.io/address/0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5) |
+| Bean ERC-20 token                                                                            | [0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab) |
+| BEAN:3CRV LP token ([Curve pool](https://curve.fi/#/ethereum/pools/factory-v2-152/deposit/)) | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) |
+| Unripe Bean ERC-20 token                                                                     | [0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449) |
+| Unripe BEAN:3CRV LP ERC-20 token                                                             | [0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D) |
+| Fertilizer ERC-1155 token                                                                    | [0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6](https://etherscan.io/address/0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6) |
+| Fertilizer Admin                                                                             | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
+| Fertilizer Implementation                                                                    | [0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD](https://etherscan.io/address/0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD) |
+| Beanstalk Price Contract                                                                     | [0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530](https://etherscan.io/address/0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530) |
+| InitMint Contract                                                                            | [0x077495925c17230E5e8951443d547ECdbB4925Bb](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb) |
 
 ### Diamond
 
