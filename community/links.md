@@ -11,14 +11,18 @@
 ### Development
 
 * ****[**Beanstalk Repo**](https://github.com/BeanstalkFarms/Beanstalk)****
-* ****[Beanstalk SDK Repo](https://github.com/BeanstalkFarms/Beanstalk-SDK)
+  * [Beanstalk Protocol](https://github.com/BeanstalkFarms/Beanstalk/tree/master/protocol)
+  * [Beanstalk UI](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/ui)
+  * [Beanstalk SDK](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/sdk)
+  * [Beanstalk Subgraph](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/subgraph-beanstalk)
+  * [Bean Subgraph](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/subgraph-bean)
 * [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
-* [Beanstalk Subgraph Repo](https://github.com/BeanstalkFarms/Beanstalk-Subgraph)
 * [Beanstalk Py (Bot Tooling) Repo](https://github.com/BeanstalkFarms/beanstalk-py)
 * [Beanstalk Analytics](https://github.com/BeanstalkFarms/Beanstalk-Analytics)
 * [Beanstalk Landing Page Repo](https://github.com/BeanstalkFarms/Beanstalk-Landing)
 * ****[**Pipeline Repo**](https://github.com/BeanstalkFarms/Pipeline)****
 * [Pipeline Landing Page Repo](https://github.com/BeanstalkFarms/Pipeline-Landing)
+* ****[**Wells Repo**](https://github.com/BeanstalkFarms/Wells)****
 
 ### Analytics
 
@@ -44,7 +48,8 @@
 
 * ****[**Farmers' Almanac (non-technical docs)**](https://docs.bean.money/almanac)****
 * ****[**Agronomics Handbook (technical docs)**](https://docs.bean.money/developers)****
-* ****[**Community Resource Hub (Notion)**](https://bean.money/community-resources)****
+* ****[**Beanstalk Notion**](https://bean.money/notion)****
+  * ****
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
 * [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
 * [Beanstalk Whitepaper Repo](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper)
@@ -77,7 +82,7 @@
 * [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)
-* [Beanstalk Telegram Tracker](https://t.me/+otBNISi33j44NDRh)
+* [Beanstalk Telegram Tracker](https://t.me/beanstalktracker)
 
 ### AudioFarms
 
