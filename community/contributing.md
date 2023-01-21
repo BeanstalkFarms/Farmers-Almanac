@@ -7,8 +7,10 @@ Beanstalk belongs to the Beanstalk DAO and is developed as an open source, permi
 * [Submitting improvements to the Beanstalk protocol](contributing.md#submitting-improvements-to-beanstalk-documentation);
 * [Submitting improvements to Beanstalk development tooling](contributing.md#submitting-improvements-to-the-beanstalk-protocol);
 * [Submitting improvements to Beanstalk documentation](contributing.md#submitting-improvements-to-beanstalk-development-tooling);
-* [Becoming a contributor at Beanstalk Farms](contributing.md#becoming-a-contributor-at-beanstalk-farms); or
-* [Receiving a grant for increasing awareness and education](contributing.md#receiving-a-grant-for-increasing-awareness-and-education).
+* [Receiving a grant for increasing awareness and education](contributing.md#receiving-a-grant-for-increasing-awareness-and-education);
+* [Becoming a contributor at Beanstalk Farms](contributing.md#becoming-a-contributor-at-beanstalk-farms);&#x20;
+* [Becoming a member of the Beanstalk Farms Committee](contributing.md#becoming-a-member-of-the-beanstalk-farms-committee); or
+* [Funding your own development organization](contributing.md#funding-your-own-organization).
 
 ### Participating in Beanstalk governance
 
@@ -47,14 +49,6 @@ Leave feedback in the **(#📜・docs-feedback)** channel on the Beanstalk Disco
 * the [Beanstalk Whitepaper repository](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper); or
 * the [Pipeline Whitepaper repository](https://github.com/BeanstalkFarms/Pipeline-Whitepaper).
 
-### Becoming a contributor at Beanstalk Farms
-
-[Beanstalk Farms](../governance/beanstalk-farms/) is a decentralized development organization of core contributors working on Beanstalk, operating across the stack on technical and non-technical problems.&#x20;
-
-If you are interested in contributing to Beanstalk Farms, check out the [Jobs](https://bean.money/jobs) page and fill out the form.&#x20;
-
-Hiring for Beanstalk Farms is performed by the [Beanstalk Farms Committee](../governance/beanstalk-farms/#beanstalk-farms-committee). You can join the Beanstalk Farms Committee yourself through a [BFCP-A proposal](../governance/proposals.md#bfcp-a).
-
 ### Receiving a grant for increasing awareness and education
 
 The community grant program aims to reward community members for creating quality content about the Beanstalk ecosystem.
@@ -62,3 +56,17 @@ The community grant program aims to reward community members for creating qualit
 A budget of 30,000 Beans per month is allocated to creators of new Beanstalk-related content that focuses on Beanstalk and its role in the broader DeFi ecosystem.
 
 For more information, see [Community Grant Program](community-grant-program.md).
+
+### Becoming a contributor at Beanstalk Farms
+
+[Beanstalk Farms](../governance/beanstalk-farms/) is a decentralized development organization of core contributors working on Beanstalk, operating across the stack on technical and non-technical problems.&#x20;
+
+If you are interested in contributing to Beanstalk Farms, check out the [Jobs](https://bean.money/jobs) page and fill out the form.&#x20;
+
+### Becoming a member of the Beanstalk Farms Committee
+
+Hiring for Beanstalk Farms is performed by the [Beanstalk Farms Committee](../governance/beanstalk-farms/#beanstalk-farms-committee) (BFC). You can join the BFC yourself through a [BFCP-A proposal](../governance/proposals.md#bfcp-a).
+
+### Funding your own development organization
+
+Decentralization of development of the Beanstalk protocol is critical to the long term success of Beanstalk. Anyone can propose a [BIP](../governance/proposals.md#bip) to the DAO in order to mint Beans to fund their own organization.
