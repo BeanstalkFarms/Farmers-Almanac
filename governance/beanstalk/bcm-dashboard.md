@@ -1,20 +1,18 @@
 # BCM Dashboard
 
-The Beanstalk Community Multisig (BCM) custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM is able to propose, execute and upgrade Beanstalk.
+The Beanstalk Community Multisig (BCM) custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM has the exclusive ability upgrade Beanstalk. In the future, it is expected that BIPs will reimplement permissionless governance and revoke these abilities from the BCM.
 
 **Beanstalk Community Multisig Safe address:** [0xa9bA2C40b263843C04d344727b954A545c81D043](https://etherscan.io/address/0xa9bA2C40b263843C04d344727b954A545c81D043)
 
-{% embed url="https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/queue" %}
+{% embed url="https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/history" %}
 
-The Beanstalk contract is guarded by a 5/9 multisig. This means any changes to the Beanstalk contract must be approved by at least 5 signers of the 9 signers in total.
+The Beanstalk contract is guarded by a 5-of-9 multisig. This means any changes to the Beanstalk contract must be approved by at least 5 of the 9 signers.
 
-**Last signer rotation:** 09/16/2022
-
-**Next expected rotation:** 10/06/2022
-
-### BCM Members
+### BCM Signers
 
 Publius currently holds 1 of the 9 keys on the BCM. The identities of the remaining signers are anonymous per [#anonymous-multisig-signers](bcm-process.md#anonymous-multisig-signers "mention").
+
+See the [BCM Verification](https://community.bean.money/bcm-verification) page for more information on how the BCM is verifying transactions.
 
 | Address                                                                                                               | Verifications                                                                                     | Date of Last Verification |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------- |

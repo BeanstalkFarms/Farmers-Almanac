@@ -1,6 +1,6 @@
 # Content
 
-For more content, check out the [Learning Center](https://bean.money/learning-center), the [blog](https://bean.money/blog) or the [Beanstalk Farms YouTube channel](https://www.youtube.com/c/BeanstalkFarms/videos).&#x20;
+For more content, check out the [Recordings](https://community.bean.money/recordings) page, the [blog](https://bean.money/blog) or the [Beanstalk Farms YouTube channel](https://www.youtube.com/c/BeanstalkFarms/videos).&#x20;
 
 ### Beanstalk Farms Authored Articles
 

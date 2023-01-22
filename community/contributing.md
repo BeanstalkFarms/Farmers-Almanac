@@ -61,7 +61,7 @@ For more information, see [Community Grant Program](community-grant-program.md).
 
 [Beanstalk Farms](../governance/beanstalk-farms/) is a decentralized development organization of core contributors working on Beanstalk, operating across the stack on technical and non-technical problems.&#x20;
 
-If you are interested in contributing to Beanstalk Farms, check out the [Jobs](https://bean.money/jobs) page and fill out the form.&#x20;
+If you are interested in contributing to Beanstalk Farms, check out the [Jobs](https://community.bean.money/jobs) page and fill out the form.&#x20;
 
 ### Becoming a member of the Beanstalk Farms Committee
 

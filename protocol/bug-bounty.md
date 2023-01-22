@@ -1,8 +1,10 @@
 # Bug Bounty
 
-A bug bounty program with Immunefi was launched on October 11, 2022. This bug bounty program is focused on the Beanstalk smart contracts and preventing the loss of user funds. The maximum bounty is 1,100,000 Beans.
+A bug bounty program with Immunefi was launched on October 11, 2022. This bug bounty program is focused on the Beanstalk smart contracts and preventing the loss of user funds. The maximum bounty is **1,100,000 Beans**.
 
-You can find the bug bounty program and submit bug reports [here](https://immunefi.com/bounty/beanstalk).
+You can find the bug bounty program and submit bug reports [here](https://immunefi.com/bounty/beanstalk):
+
+{% embed url="https://immunefi.com/bounty/beanstalk/" %}
 
 In order to be considered for the maximum potential reward, bug reports must come with (1) a Proof of Concept (PoC), and (2) code implementing the fix.
 

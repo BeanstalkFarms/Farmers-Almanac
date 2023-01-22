@@ -12,8 +12,6 @@
 | Fertilizer ERC-1155 token                                                                    | [0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6](https://etherscan.io/address/0x402c84de2ce49af88f5e2ef3710ff89bfed36cb6) |
 | Fertilizer Admin                                                                             | [0xfECB01359263C12Aa9eD838F878A596F0064aa6e](https://etherscan.io/address/0xfECB01359263C12Aa9eD838F878A596F0064aa6e) |
 | Fertilizer Implementation                                                                    | [0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD](https://etherscan.io/address/0x39cdAf9Dc6057Fd7Ae81Aaed64D7A062aAf452fD) |
-| Beanstalk Price Contract                                                                     | [0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530](https://etherscan.io/address/0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530) |
-| InitMint Contract                                                                            | [0x077495925c17230E5e8951443d547ECdbB4925Bb](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb) |
 
 ### Diamond
 
@@ -62,6 +60,14 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 | [BeaNFT Winter](https://opensea.io/collection/beanft-winter)         | [0x459895483556dad32526efa461f75e33e458d9e9](https://etherscan.io/address/0x459895483556dad32526efa461f75e33e458d9e9) |
 | [BeaNFT Barn Raise](https://opensea.io/collection/beanft-barn-raise) | [0xa969bb19b1d35582ded7ea869cecd60a3bd5d1e8](https://etherscan.io/address/0xa969bb19b1d35582ded7ea869cecd60a3bd5d1e8) |
 
+### Misc. <a href="#misc" id="misc"></a>
+
+| Contract                | Description                                                                           | Address                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Bean Price Contract     | Helper contract for getting the Bean price                                            | [0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530](https://etherscan.io/address/0xF2C2b7eabcB353bF6f2128a7f8e1e32Eeb112530) |
+| InitMint Contract       | Used for minting Beans as part of BIPs                                                | [0x077495925c17230E5e8951443d547ECdbB4925Bb](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb) |
+| Ethical Return Contract | Deployed per [BOP-2](https://arweave.net/aOAzXi2IzO5Ts1OrXYVrAjXbBavbKg07k7k56gIXtl4) | [0xf96681781cd426d25dd3ee45fe77ba5763ae24e4](https://etherscan.io/address/0xf96681781cd426d25dd3ee45fe77ba5763ae24e4) |
+
 ### Pre-Exploit Contracts
 
 {% hint style="danger" %}
@@ -72,5 +78,5 @@ The addresses below refer to the exploited Bean token (0xDC59). Do not buy these
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Bean ERC-20 Token](https://etherscan.io/address/0xDC59ac4FeFa32293A95889Dc396682858d52e5Db)             | [0xDC59ac4FeFa32293A95889Dc396682858d52e5Db](https://etherscan.io/address/0xDC59ac4FeFa32293A95889Dc396682858d52e5Db) |
 | [BEAN:ETH Uniswap V2 Pair](https://v2.info.uniswap.org/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) | [0x87898263B6C5BABe34b4ec53F22d98430b91e371](https://etherscan.io/address/0x87898263B6C5BABe34b4ec53F22d98430b91e371) |
-| [BEAN:3CRV Metapool](https://curve.fi/factory/81)                                                        | [0x3a70DfA7d2262988064A2D051dd47521E43c9BdD](https://etherscan.io/address/0x3a70DfA7d2262988064A2D051dd47521E43c9BdD) |
-| [BEAN:LUSD Plain Pool](https://curve.fi/factory/103)                                                     | [0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D](https://etherscan.io/address/0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D) |
+| [BEAN:3CRV Metapool](https://curve.fi/#/ethereum/pools/factory-v2-81/deposit/)                           | [0x3a70DfA7d2262988064A2D051dd47521E43c9BdD](https://etherscan.io/address/0x3a70DfA7d2262988064A2D051dd47521E43c9BdD) |
+| [BEAN:LUSD Plain Pool](https://curve.fi/#/ethereum/pools/factory-v2-103/deposit/)                        | [0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D](https://etherscan.io/address/0xD652c40fBb3f06d6B58Cb9aa9CFF063eE63d465D) |

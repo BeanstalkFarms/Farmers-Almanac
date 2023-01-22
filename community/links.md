@@ -48,7 +48,6 @@
 
 * ****[**Farmers' Almanac** (non-technical docs)](https://docs.bean.money/almanac)
 * ****[**Agronomics Handbook** (technical docs)](https://docs.bean.money/developers)
-* ****[**Beanstalk Notion**](https://bean.money/notion) **** (see [here](beanstalk-learning-center.md))
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
 * [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
 * [Beanstalk Whitepaper Repo](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper)
@@ -57,6 +56,18 @@
 * [Beanstalk Farms Operations Repo](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations)
 * [Beanstalk Brand Assets Repo](https://github.com/BeanstalkFarms/Beanstalk-Brand-Assets)
 * [Fertilizer Metadata](https://fert.bean.money/)
+
+### Notion
+
+* ****[**Beanstalk Notion**](https://community.bean.money/)****
+  * [Recordings](https://community.bean.money/recordings)
+  * [Roadmap](https://community.bean.money/roadmap)
+  * [Jobs](https://community.bean.money/jobs)
+  * [Bounties](https://community.bean.money/bounties)
+  * [Community Grants](https://community.bean.money/community-grants)
+  * [Bug Reports](https://community.bean.money/bug-reports)
+  * [Operations Board](https://community.bean.money/operations-board)
+  * [BCM Verification](https://community.bean.money/bcm-verification)
 
 ### Security
 
@@ -93,7 +104,7 @@
 
 ### Recordings and Meeting Notes
 
-* ****[**Beanstalk Learning Center**](https://bean.money/learning-center)****
+* ****[**Beanstalk Recordings**](https://community.bean.money/recordings)****
 * Beanstalk Farms [YouTube](https://www.youtube.com/@BeanstalkFarms), [Anchor](https://anchor.fm/beanstalk-farms), [Spotify](https://open.spotify.com/show/70lfZOSaqWjhTFujgkhVOu), [Apple Podcasts](https://podcasts.apple.com/gb/podcast/beanstalk-farms/id1624827919)
 
 ### OpenSea

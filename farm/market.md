@@ -1,24 +1,20 @@
 # Market
 
-Current DEXs are unable to attract liquidity without offering protocol-native emissions. The value of these emissions derives primarily from AMM trading fees. Beanstalk’s ability to attract liquidity without fee-based emissions allows it to offer DEXs without trading fees.
+Current DEXs are unable to attract liquidity without offering protocol-native emissions. The value of these emissions derives primarily from AMM trading fees. Beanstalk's ability to attract liquidity without fee-based emissions allows it to offer DEXs without trading fees.
 
-The Market will house various DEXs for zero fee trading. For now, there is only the Pod Market, but in the future there may be a Deposit Market, an NFT Market, an ERC-20 Market, etc.
+The Market will house various DEXs for zero fee trading. For now, only Pods can be traded on the Market, but in the future Farmers will be able to trade any representation of value on-chain (ERC-20 tokens, Deposits, NFTs, etc.
 
 For guides on interacting with the Market through the Beanstalk UI, go [here](../guides/market/).
 
-## **The Pod Market**
+## **Pods**
 
-[Pods](field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Pod Market. The Pod Market creates liquidity for Pods through an on-chain order book.
+[Pods](field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Market. The Market creates liquidity for Pods through an on-chain order book.
 
 Sellers can List Pods or Fill open Pod Orders placed by buyers.&#x20;
 
 Buyers can Order Pods or Fill open Pod Listings places by sellers.
 
 ### **Pod Listings**
-
-{% hint style="info" %}
-[BIP-29](https://arweave.net/OfWylBAxD5KyGJBWrQto2EyeYpzc-MqfaroXMQ1bk5w) implements Pod Listings with Price per Pod as a function of place in the Pod Line. Beanstalk has been [upgraded](https://etherscan.io/tx/0x5e1d4c9a4e1572fd6ba7b1c0cb105a244757d5aded40f4cc8f2f6520d9c3268f), but this functionality is not yet exposed via the app.bean.money UI.
-{% endhint %}
 
 Pods from Beans Sown in a single transaction form a Plot. Anyone with a Plot can List a whole or partial Plot for sale in exchange for Beans. This is known as a Pod Listing. Pod Listings have the following inputs:
 
@@ -50,10 +46,6 @@ A Pod Listing can be Cancelled at any time until it is entirely Filled. Plots ca
 A Pod Listing can be entirely or partially Filled at any time by a buyer. If the Pod Listing is partially Filled, the rest of the Pod Listing remains Listed.
 
 ### **Pod Orders**
-
-{% hint style="info" %}
-[BIP-29](https://arweave.net/OfWylBAxD5KyGJBWrQto2EyeYpzc-MqfaroXMQ1bk5w) implements Pod Orders with Price per Pod as a function of place in the Pod Line. Beanstalk has been [upgraded](https://etherscan.io/tx/0x5e1d4c9a4e1572fd6ba7b1c0cb105a244757d5aded40f4cc8f2f6520d9c3268f), but this functionality is not yet exposed via the app.bean.money UI.
-{% endhint %}
 
 A Pod Order is an offer to buy Pods at a given price, before a given place in the Pod Line. Any seller may Fill a Pod Order by selling Pods according to the terms of the Order.
 

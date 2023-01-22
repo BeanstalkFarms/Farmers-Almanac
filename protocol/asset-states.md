@@ -62,10 +62,6 @@ Beans that are minted as Fertilizer is sold or Ripe BEAN:3CRV LP is Converted. U
 
 Pooled Beans that make up Ripe BEAN:3CRV.
 
-**Ordered Beans**
-
-Beans stored in Pod Orders.
-
 **Earned Beans**
 
 Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds. Upon Plant, Earned Beans are Deposited in the current Season.

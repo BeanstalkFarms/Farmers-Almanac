@@ -10,7 +10,7 @@ Market types Root will support include:
 * **Financial markets** such as Bean interest rate swaps and asset futures; and
 * **Commerce markets** via NFT-represented assets, goods, and services.
 
-You can read more in their announcement: [Root Protocol: Rent-Free Markets on Beanstalk](https://medium.com/@root\_protocol/root-protocol-rent-free-markets-on-beanstalk-6a6b3f71415d)
+You can read more in their announcement: [Root: Liquid, On-Chain Markets](https://medium.com/@rootmarkets/root-protocol-rent-free-markets-on-beanstalk-6a6b3f71415d)
 
 ### Links
 

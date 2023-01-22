@@ -15,7 +15,7 @@ A design that lowers the [Gini coefficient](https://en.wikipedia.org/wiki/Gini\_
 
 Older [Deposits](../farm/silo.md) have their [Stalk from Seeds](../farm/silo.md#the-stalk-system) diluted relative to newer Deposits every [Season](../protocol/glossary.md#season). Therefore, newly minted Beans are more widely distributed over time.&#x20;
 
-Beanstalk does not require a pre-mine. The first 100 Beans are created when the init() function is called to deploy Beanstalk.
+Beanstalk does not require a pre-mine. The first 100 Beans are created when the `init` function is called to deploy Beanstalk.
 
 ### Strong Credit
 
@@ -23,7 +23,7 @@ Beanstalk is credit based and only fails if it can no longer attract creditors. 
 
 Beanstalk changes the [Temperature](../protocol/glossary.md#temperature) to return the Pod Rate to the [optimal Pod Rate](../peg-maintenance/overview.md#debt-level) while regularly crossing the Bean price over its value peg. Beanstalk acts more aggressively when [the Pod Rate is excessively high or low](../peg-maintenance/overview.md#debt-level).&#x20;
 
-Beanstalk does not default on debt (although in the event of Beanstalk no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md#6-debt-maturity-risk)). Beanstalk is willing to issue Pods every Season.
+Beanstalk never defaults on debt (although in the event of Beanstalk no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md#debt-maturity-risk)). Beanstalk is willing to issue Pods every Season.
 
 ### Marginal Rate of Substitution
 

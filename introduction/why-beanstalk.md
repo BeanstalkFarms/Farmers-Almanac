@@ -24,4 +24,4 @@ Additional resources:
 
 * [Beanstalk Whitepaper](https://bean.money/beanstalk.pdf)
 * [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk)
-* [Thoughts Before the Barn Raise from Publius](https://bean.money/blog/thoughts-before-the-barn-raise)
+* [Thoughts Before the Barn Raise from Publius](https://publius.money/blog/2022-06-05-thoughts-before-the-barn-raise)

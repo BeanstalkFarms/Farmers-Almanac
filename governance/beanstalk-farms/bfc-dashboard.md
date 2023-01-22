@@ -1,6 +1,6 @@
 # BFC Dashboard
 
-**The** **Beanstalk Farms Committee**, **or BFC**, is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. The BFC hires contributors at and dismisses contributors from Beanstalk Farms. Read more [here](./#beanstalk-farms-committee).
+The Beanstalk Farms Committee, or BFC, is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation. The BFC hires contributors at and dismisses contributors from Beanstalk Farms. Read more [here](./#beanstalk-farms-committee).
 
 ### **BFC Members**
 

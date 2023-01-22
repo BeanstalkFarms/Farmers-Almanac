@@ -1,18 +1,18 @@
 # BFM Dashboard
 
-Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or BFM. The BFM is deployed using Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet. This means any use of the budget funds must be approved by at least 4 signers of the 7 signers in total.
+Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or BFM. The BFM is deployed using Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet. This means any use of the budget funds must be approved by at least 4 of the 7 signers.
 
 **Beanstalk Farms Multisig Safe address:** [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://etherscan.io/address/0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7)
 
-{% embed url="https://app.safe.global/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/transactions/queue" %}
+{% embed url="https://app.safe.global/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/transactions/history" %}
 
-### **BFM Members**
+### **BFM Signers**
 
 The current BFM signers are as follows, in no particular order:
 
 * Publius
 * Silo Chad
-* guy (fka austin)
+* guy
 * sweetredbeans
 * mod323
 * aloceros

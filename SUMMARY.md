@@ -111,7 +111,7 @@
 ## 🏫 Community Resources <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/beanstalk)
-* [Notion](community/beanstalk-learning-center.md)
+* [Notion](https://community.bean.money/)
 * [Contributing](community/contributing.md)
 * [Community Grant Program](community/community-grant-program.md)
 * [Content](community/content.md)

@@ -22,10 +22,6 @@ A Beanstalk accelerator program to facilitate development on and around Beanstal
 
 The multisig that custodies the Bean Sprout budget funds. Abbreviated as BSM. Read more [here](../governance/bean-sprout/bsm-dashboard.md).
 
-### **Bean Sprout Proposal (BSP)** <a href="#bean-sprout-proposal" id="bean-sprout-proposal"></a>
-
-A Snapshot proposal to use funds from the Bean Sprout budget. Abbreviated as BSP. Read more [here](../governance/proposals.md#bsp).
-
 ### **Bean**
 
 The ERC-20 fiat stablecoin issued by Beanstalk.

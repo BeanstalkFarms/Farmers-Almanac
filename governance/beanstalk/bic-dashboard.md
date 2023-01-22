@@ -1,6 +1,8 @@
 # BIC Dashboard
 
-The **Beanstalk Immunefi Committee**, or BIC, determines the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO in [BIP-26](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-26-bug-bounty-program.md). The [Beanstalk Community Multisig](bcm-process.md) (BCM) executes the will of the BIC as determined by [BIRs](../proposals.md#bir), up to 3,000,000 Beans total.
+The Beanstalk Immunefi Committee Multisig (BICM) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO.
+
+See [BIC Process](bic-process.md) for more information.
 
 ### **BIC Members**
 
@@ -17,7 +19,7 @@ The following people serve as backups for the BIC, in no particular order:
 
 * mistermanifold
 * MrMochi
-* guy (fka austin)
+* guy
 
 Adding, removing or rotating members on the BIC requires a majority vote of the BIC on Snapshot (or a [BOP](../proposals.md#bop)/[BIP](../proposals.md#bip)).
 
@@ -51,6 +53,5 @@ The following addresses do not custody any funds and are not signers on any mult
 
 ### Links
 
-* More information about [the BIC's process](bic-process.md)
 * [Past BIRs](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir)
-* [Past bug reports](https://bean.money/bug-reports)
+* [Bug Reports](https://community.bean.money/bug-reports)
