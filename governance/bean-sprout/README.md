@@ -17,7 +17,7 @@ Monthly reports on how Bean Sprout spent its budget can be found [here](https://
 ### Spending
 
 {% hint style="info" %}
-Currently, Bean Sprout is not actively funded. The last Bean Sprout budget was the Q4 2022 budget.
+Currently, Bean Sprout is not actively funded. The last Bean Sprout budget was the Q4 2022 budget. Past BSPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bsp).
 {% endhint %}
 
 Bean Sprout Proposals, or BSPs, are proposals to use the Bean Sprout budget. Anyone with 0.1% of the Stalk supply or [BSM](bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders.&#x20;
