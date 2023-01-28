@@ -1,5 +1,9 @@
 # Barn
 
+{% embed url="https://drive.google.com/file/d/18q2SPCqlhcum5UNhPRDiXVmK_rbl-Nfr/view?usp=share_link" %}
+Publius explains the Barn
+{% endembed %}
+
 On April 17, 2022, Beanstalk was exploited via a governance attack. The attacker used a flash loan to exploit the protocol’s then on-chain governance mechanism and transferred all of the Deposited assets in the Silo to an address they controlled, resulting in a theft of \~$77M in non-Bean assets.
 
 Upon exploit, Beanstalk was Paused and the on-chain governance mechanism was removed. Stalkholders voted [via Snapshot](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b) on how Beanstalk should proceed.
