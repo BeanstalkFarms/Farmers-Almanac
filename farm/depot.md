@@ -1,5 +1,9 @@
 # Depot
 
+{% embed url="https://drive.google.com/file/d/1PwIY4YZeaEZfiKfw6j3vzt5LtFrCtS0_/view?usp=share_link" %}
+Publius explains the Depot
+{% endembed %}
+
 Current complex interactions with Ethereum-native protocols are tedious, cumbersome and expensive. The Depot facilitates complex, gas-efficient interactions with other Ethereum-native protocols in a single transaction.&#x20;
 
 Any protocol with a Pipeline to the Depot can be used via Beanstalk in a single transaction. Pipelines to the Depot can be added via [Beanstalk governance](../governance/beanstalk/).
