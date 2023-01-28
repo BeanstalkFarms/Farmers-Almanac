@@ -1,5 +1,9 @@
 # Silo
 
+{% embed url="https://drive.google.com/file/d/1ms0b06W19eiPe49nlE-bxYM_-EfUbog4/view?usp=share_link" %}
+Publius explains the Silo
+{% endembed %}
+
 The Silo is the Beanstalk DAO. The Silo uses the Stalk System to create protocol-native financial incentives that improve Beanstalk’s security and Bean’s liquidity and stability.
 
 Anyone can become a Silo Member by Depositing whitelisted assets in the Silo to earn Stalk and Seeds. Neither Stalk nor Seeds are liquid.
