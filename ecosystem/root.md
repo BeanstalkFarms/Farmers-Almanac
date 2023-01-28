@@ -1,5 +1,9 @@
 # Root
 
+{% embed url="https://drive.google.com/file/d/1fCWr6Cl1pz3H7GePUOyazYEJ323rys7Q/view?usp=share_link" %}
+Publius explains Root
+{% endembed %}
+
 Root is a fungible wrapper for Beanstalk Silo Deposits that implements the ERC-20 Standard.
 
 Root is designed as a rent-free public good and plans to support many types of permissionless markets denominated in Roots.
