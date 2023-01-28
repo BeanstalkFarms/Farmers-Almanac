@@ -1,5 +1,8 @@
 # Field
 
+{% embed url="https://drive.google.com/file/d/1fw4RB9gok8SjH-6IHB8q-spkApXhHuh1/view?usp=share_link" %}
+Publius explains the Field
+{% endembed %}
 The Field is Beanstalk's credit facility. Beanstalk relies on a decentralized set of creditors to maintain Bean price stability.
 
 Farmers who Sow Beans (lend Beans to Beanstalk) are known as Sowers.
