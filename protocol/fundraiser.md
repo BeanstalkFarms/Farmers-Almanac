@@ -1,5 +1,9 @@
 # Fundraiser
 
+{% embed url="https://drive.google.com/file/d/1MZFsxgFfVBmvC-AVLLm1ch42r2ZfapeD/view?usp=share_link" %}
+Publius explains Fundraisers
+{% endembed %}
+
 Fundraisers allow Beanstalk to issue Pods in exchange for dollar-pegged assets other than Beans and independent of the [Soil minting schedule](../peg-maintenance/overview.md#soil-supply) in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Doing so in a way that does not directly affect Beanstalk’s normal peg maintenance model is ideal. Fundraisers are created via [Beanstalk governance](../governance/beanstalk/).
 
 Each Fundraiser requires (1) a token address of the token to raise, (2) the number of tokens to raise, and (3) the wallet address to send the tokens to upon completion of the Fundraiser.
