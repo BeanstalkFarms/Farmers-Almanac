@@ -18,6 +18,7 @@ For more content, check out the [Recordings](https://community.bean.money/record
 
 ### Community Authored Content
 
+* [stablecoins.wtf Analysis](https://stablecoins.wtf/articles/beanstalk-protocol)
 * [RadioDeFi](https://www.radio-defi.com/)
 * [The Bean Pod](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9a6kL3vhJGM0HtRjqALfoD\_)
 * [Beanstalk Songs](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9Y9ZA7m2qip8tdNY37HBAlo)
