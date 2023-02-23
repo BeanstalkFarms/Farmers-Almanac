@@ -18,11 +18,7 @@ Members of the [Beanstalk Farms Committee](../governance/beanstalk-farms/bfc-das
 
 Contributors of [Beanstalk Farms](../governance/beanstalk-farms/).
 
-**Root**
-
-Contributors working on [Root](../ecosystem/root.md).
-
-**Friend of BF Eng**
+**Beanstalk Devs**
 
 Engineers working in Beanstalk ecosystem.
 
