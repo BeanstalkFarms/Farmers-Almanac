@@ -55,7 +55,7 @@ Beanstalk defines a handful of Pod Rate ranges that it uses as an input to deter
 
 ### **Bean Supply**
 
-At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a liquidity and time weighted average shortage of Beans across the pools in the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season. Essentially, Beanstalk will mint the number of Beans that need to be sold in the pools on the Oracle Whitelist to return the Bean price to a dollar.
+At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a liquidity and time weighted average shortage of Beans across the pools in the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season. Essentially, Beanstalk will mint the number of Beans that need to be sold in the pools on the Oracle Whitelist to return the Bean price to a dollar, subject to the cap in [EBIP-2](https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk).
 
 [Stalkholders](../farm/silo.md#the-stalk-system), Pod holders, and [Active Fertilizer](../farm/barn.md#fertilizer) holders receive 1/3 of new Bean mints each while there are [Unfertilized Sprouts](../farm/barn.md#fertilizer) outstanding. If there is no Active Fertilizer, Stalkholders and Pod holders receive 1/2 of new Bean mints each. If there are neither Pods nor Active Fertilizer, Stalkholders receive 100% of new Bean mints.
 
@@ -63,6 +63,6 @@ At the beginning of each Season, Beanstalk increases the Bean supply by deltaB i
 
 At the beginning of each Season, Beanstalk sets the Soil supply.
 
-When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the sum of the liquidity and time weighted average excess of Beans across the liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season.
+When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the sum of the liquidity and time weighted average excess of Beans across the liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season, subject to the cap in EBIP-2.
 
 When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for [Soil](../farm/field.md#soil). The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature, and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt level decrease the Soil supply. See [Section 8.11 in the Whitepaper](https://bean.money/beanstalk.pdf#subsection.8.11) for complete formulas.
