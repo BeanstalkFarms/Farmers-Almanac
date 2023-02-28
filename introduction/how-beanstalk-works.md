@@ -60,14 +60,14 @@ At the beginning of each Season, the Sun calculates deltaB (the sum of the time 
 
 When the price of Bean is too low (_i.e._, deltaB is negative), Beanstalk:
 
-* Increases the Soil supply by deltaB; and
+* Increases the Soil supply by deltaB, subject to the cap in [EBIP-2](https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk); and
 * Raises the Temperature.
 
 By increasing the Soil supply and raising the Temperature, Beanstalk can decrease the supply of Beans and therefore bring the price of Bean back up to its peg (assuming there are willing lenders at the given Temperature). In principle, a reasonable debt level and consistent credit history attracts lenders.
 
 When the Bean price is too high (_i.e._, deltaB is positive), Beanstalk:
 
-* Increases the Bean supply by deltaB; and
+* Increases the Bean supply by deltaB, subject to the cap in EBIP-2; and
 * Lowers the Temperature.
 
 By increasing the Bean supply and lowering the Temperature, Beanstalk can bring the price of Bean back down to its peg.
