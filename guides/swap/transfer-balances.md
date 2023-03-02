@@ -11,7 +11,7 @@ The [Swap](https://app.bean.money/#/swap) page can be used to transfer tokens be
 5. Enter the amount of the token to transfer, up to the amount held in your Farm, Circulating or Combined balances.
 6. Under “Transfer to”, enter the address to transfer the tokens to, or select "Me" to move your Farm Balance to Circulating Balance or vice versa.
 7. Under "Destination Balance" select either "Circulating Balance" or "Farm Balance".
-   * If "Transfer to" is set to "Me", if the source of the token was “Farm Balance”, the “Destination” will be “Circulating Balance”, and vice versa.
+   * If "Transfer to" is set to "Me", if the source of the token was “Farm Balance”, the “Destination” will be “Circulating Balance” and vice versa.
 8. A transaction preview will appear below the inputs. Select the “Transfer Details” dropdown to review each step of the transaction.
 9. If you are transferring a non-ETH token from your Circulating Balance and have not previously approved that token, select “Approve \[Token]”. This allows the Beanstalk contract to move the token, but does not execute the transfer yet. Otherwise, skip to Step 10.
 10. Confirm the approval transaction in your wallet, and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
