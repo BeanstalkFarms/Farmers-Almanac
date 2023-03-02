@@ -59,7 +59,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 ### Swap
 
 * [Trade Beans](swap/trade-beans.md)
-* [Transfer Farm Balance](swap/transfer-farm-balance.md)
+* [Transfer Balances](swap/transfer-balances.md)
 
 ### Governance
 
