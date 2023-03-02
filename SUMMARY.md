@@ -86,7 +86,7 @@
   * [Mint BeaNFTs](guides/beanfts/mint-beanfts.md)
 * [Swap](guides/swap/README.md)
   * [Trade Beans](guides/swap/trade-beans.md)
-  * [Transfer Farm Balance](guides/swap/transfer-farm-balance.md)
+  * [Transfer Balances](guides/swap/transfer-balances.md)
 * [Governance](guides/governance/README.md)
   * [Vote on Governance Proposals](guides/governance/vote-on-proposals.md)
 * [Unripe Assets](guides/unripe-assets/README.md)

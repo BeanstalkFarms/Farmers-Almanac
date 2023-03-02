@@ -1,6 +1,6 @@
 # Trade Beans
 
-Beans can be bought and sold on the [Swap](https://app.bean.money/#/swap) page. To transfer between Farm and Circulating balances, see [Transfer Farm Balance](transfer-farm-balance.md).
+Beans can be bought and sold on the [Swap](https://app.bean.money/#/swap) page. To transfer between Farm and Circulating balances, see [Transfer Farm Balance](transfer-balances.md).
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Select “More” then “Swap” to navigate to the [Swap](https://app.bean.money/#/swap) page.
