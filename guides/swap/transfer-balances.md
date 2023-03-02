@@ -1,9 +1,9 @@
 # Transfer Balances
 
-The [Swap](https://app.bean.money/#/swap) page can be used to transfer tokens between a Farmer’s [Farm Balance](../../protocol/glossary.md#farm-assets) and [Circulating Balance](../../protocol/glossary.md#circulating-beans). Farm Balance is the balance stored in Beanstalk, which can save gas fees in future transactions. Circulating Balance is the balance in your wallet, separate from Beanstalk.
+The [Swap](https://app.bean.money/#/swap) page can be used to transfer tokens between a Farmer’s [Farm Balance](../../protocol/glossary.md#farm-assets) and [Circulating Balance](../../protocol/glossary.md#circulating-beans) and between wallets. Farm Balance is the balance stored in Beanstalk, which can save gas fees in future transactions. Circulating Balance is the balance in your wallet, separate from Beanstalk.
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
-2. Select “More” then “Swap” to navigate to the [Swap](https://app.bean.money/#/swap) page.
+2. Select “More” then “Swap” to navigate to the [Swap](https://app.bean.money/#/swap) page. Select the "Transfer" tab.
 3. In the first field select the token you would like to transfer. Select the same token in the second field.
 4. Enter the amount of the token to transfer, up to the amount held in your Farm or Circulating balances.
 5. Under “Source” select either “Farm Balance” or “Circulating Balance”. In the second field, verify the amount and “Destination”.
