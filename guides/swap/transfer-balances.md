@@ -1,4 +1,4 @@
-# Transfer Farm Balance
+# Transfer Balances
 
 The [Swap](https://app.bean.money/#/swap) page can be used to transfer tokens between a Farmer’s [Farm Balance](../../protocol/glossary.md#farm-assets) and [Circulating Balance](../../protocol/glossary.md#circulating-beans). Farm Balance is the balance stored in Beanstalk, which can save gas fees in future transactions. Circulating Balance is the balance in your wallet, separate from Beanstalk.
 
