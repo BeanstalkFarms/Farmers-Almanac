@@ -63,7 +63,6 @@
   * [Recordings](https://community.bean.money/recordings)
   * [Roadmap](https://community.bean.money/roadmap)
   * [Jobs](https://community.bean.money/jobs)
-  * [Bounties](https://community.bean.money/bounties)
   * [Community Grants](https://community.bean.money/community-grants)
   * [Bug Reports](https://community.bean.money/bug-reports)
   * [Operations Board](https://community.bean.money/operations-board)
