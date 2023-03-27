@@ -88,6 +88,7 @@
 * ****[**Beanstalk Protocol Twitter**](https://twitter.com/beanstalkmoney)****
 * ****[**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)****
 * ****[**Bean Sprout Twitter**](https://twitter.com/WeAreBeanSprout)****
+* ****[**Bean Farmers Twitter**](https://twitter.com/bean\_farmers) ****&#x20;
 * [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)

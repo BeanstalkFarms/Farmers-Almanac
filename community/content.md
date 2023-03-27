@@ -13,8 +13,8 @@ For more content, check out the [Recordings](https://community.bean.money/record
 
 * September 24, 2021 — [🌱 Beanstalk 🤝 EIP-2535 💎](https://publius.money/blog/2021-09-24-beanstalk-eip-2535)
 * June 5th, 2022 — [Thoughts Before the Barn Raise](https://publius.money/blog/2022-06-05-thoughts-before-the-barn-raise)
-* January 6th, 2022 — [Beanstalk Development Update](https://publius.money/blog/2023-01-06-beanstalk-development-update)
-* January 6th, 2022 — [Worthless Tech](https://publius.money/blog/2023-01-06-worthless-tech)
+* January 6th, 2023 — [Beanstalk Development Update](https://publius.money/blog/2023-01-06-beanstalk-development-update)
+* January 6th, 2023 — [Worthless Tech](https://publius.money/blog/2023-01-06-worthless-tech)
 
 ### Community Authored Content
 
