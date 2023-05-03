@@ -64,4 +64,3 @@ View past governance proposals [here](https://github.com/BeanstalkFarms/Beanstal
 }
 ```
 
-****

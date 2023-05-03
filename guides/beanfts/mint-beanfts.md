@@ -1,6 +1,6 @@
 # Mint BeaNFTs
 
-BeaNFTs can be viewed and minted on the [BeaNFTs](https://app.bean.money/#/nft) page. See the [BeaNFT documentation](../../ecosystem/beanfts.md) for more info.
+BeaNFTs can be viewed and minted on the [BeaNFTs](https://app.bean.money/#/nft) page. See the [BeaNFT documentation](../../governance/beanfts/) for more info.
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Select “More” then “BeaNFTs” to navigate to the [BeaNFTs](https://app.bean.money/#/nft) page.

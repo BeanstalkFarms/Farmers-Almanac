@@ -12,7 +12,7 @@ The three axes in [the previous section](stablecoin-overview.md#stablecoin-featu
   * _Examples: Olympus_
 * [Non-network-native endogenous value convertible stablecoin protocols](types-of-stablecoins.md#non-network-native-endogenous-value-convertible-stablecoin-protocols)
   * _Examples: N/A_
-* __[Network-native endogenous value convertible stablecoin protocols](types-of-stablecoins.md#network-native-endogenous-value-convertible-stablecoin-protocols)
+* [Network-native endogenous value convertible stablecoin protocols](types-of-stablecoins.md#network-native-endogenous-value-convertible-stablecoin-protocols)
   * _Examples: Terra_
 * [Non-network-native endogenous value non-convertible stablecoin protocols](types-of-stablecoins.md#non-network-native-endogenous-value-non-convertible-stablecoin-protocols)
   * _Examples: US Dollars_
@@ -104,7 +104,7 @@ _Liquidity:_ Limited by available collateral
 
 #### Network-native exogenous value fractional reserve convertible stablecoin protocols
 
-_Examples:_ [_Frax_](https://frax.finance/)__
+_Examples:_ [_Frax_](https://frax.finance/)
 
 The use of fractional reserves by network-native exogenous value convertible stablecoin protocols has been used in an attempt to help remediate the negative effect on carrying costs of collateral requirements. However, the network-native nature of the system makes lowering the collateralization ratio difficult without spurring a bank run. While fractional reserve implementations of network-native exogenous value convertible stablecoins offer competitive carrying costs as compared to non-fractional reserve implementations, they do so at the cost of tail risk in volatility.
 
@@ -146,7 +146,7 @@ _Liquidity:_ Limited by the endogenous value of the issuer
 
 #### Network-native endogenous value convertible stablecoin protocols
 
-_Examples:_ [_Terra_](https://www.allcryptowhitepapers.com/terra-whitepaper/)__
+_Examples:_ [_Terra_](https://www.allcryptowhitepapers.com/terra-whitepaper/)
 
 To date, implementations of network-native endogenous value convertible stablecoin protocols have failed to regularly cross their stablecoin price over their value peg. This is primarily due to the fluctuation in value of endogenous value. The convertibility to endogenous value typically correlates with decreases in endogenous value, which creates excess reflexivity. It is unclear whether network-native endogenous value convertible stablecoin protocols can succeed.
 

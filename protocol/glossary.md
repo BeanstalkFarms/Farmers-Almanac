@@ -320,7 +320,7 @@ When [Pods](glossary.md#pods) passively turn into [Harvestable Pods](glossary.md
 
 ### **Root**
 
-A **** fungible wrapper for Silo Deposits. Read more [here](../ecosystem/root.md).
+A fungible wrapper for Silo Deposits. Read more [here](../ecosystem/root.md).
 
 ### **Season**
 

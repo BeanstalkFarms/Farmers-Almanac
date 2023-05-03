@@ -46,6 +46,8 @@
   * [BFSM Dashboard](governance/beanstalk-farms/bfsm-dashboard.md)
 * [Bean Sprout](governance/bean-sprout/README.md)
   * [BSM Dashboard](governance/bean-sprout/bsm-dashboard.md)
+* [BeaNFTs](governance/beanfts/README.md)
+  * [BDM Dashboard](governance/beanfts/bdm-dashboard.md)
 * [Proposals](governance/proposals.md)
 
 ## 🗺 Guides
@@ -106,7 +108,6 @@
 
 * [Root](ecosystem/root.md)
 * [Pipeline](ecosystem/pipeline.md)
-* [BeaNFTs](ecosystem/beanfts.md)
 
 ## 🏫 Community Resources <a href="#community" id="community"></a>
 

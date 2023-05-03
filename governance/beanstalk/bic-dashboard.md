@@ -15,7 +15,7 @@ The current BIC members are as follows, in no particular order:
 * funderberker
 * malteasy
 
-The following people serve as backups for the BIC, in no particular order:
+The following Farmers serve as backups for the BIC, in no particular order:
 
 * mistermanifold
 * MrMochi
@@ -40,7 +40,7 @@ The following addresses do not custody any funds and are not signers on any mult
 
 **Total**: 231,385 Beans
 
-**Remainder**: **** 2,768,615 Beans
+**Remainder**: 2,768,615 Beans
 
 **Bugs found**: 4
 

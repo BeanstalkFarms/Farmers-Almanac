@@ -1,207 +1,289 @@
 # BCM Process
 
-**This document can be found on Arweave** [**here**](https://arweave.net/U5P-YaIfmgQ8mpZfBfPnpIcCv82bHK1IeWNi04l4PA0)**.**
+**This document can be found on Arweave** [**here**](https://bean.money/bcm-process)**.**
 
-**The Beanstalk Community Multisig, or BCM, is not intended to have decision making power.** Its role is to (1) enact on-chain the decisions Stalkholders make via off-chain voting and (2) review and verify proposals to ensure the suggested changes are truthfully represented.
+**The Beanstalk Community Multisig**, **or BCM**, custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM has the exclusive and unilateral ability upgrade Beanstalk. In the future, it is expected that BIPs will reimplement permissionless governance and revoke these abilities from the BCM.&#x20;
 
-The BCM is deployed using [Gnosis Safe](https://gnosis-safe.io/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration will start as 5-of-9 on Ethereum mainnet. Parameters m and n are each ultimately defined by Stalkholders and may evolve in the future via Snapshot vote.
+The BCM is not intended to have decision making power. Its role is to (1) enact on-chain the decisions Stalkholders make via off-chain voting and (2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
-BCM Signers are an [anonymous](bcm-process.md#anonymous-multisig-signers) and diverse set of:
+The BCM is deployed using [Safe](https://safe.global/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration started as 5-of-9 on Ethereum mainnet. Parameters m and n are each ultimately defined by Stalkholders and may evolve in the future via Beanstalk Improvement Proposal (BIP).
 
-* Reputable community members; and
-* Beanstalk core contributors.
+BCM Signers are an [anonymous](bcm-process.md#anonymous-signers) and diverse set of reputable community members and Beanstalk core contributors.
 
-Fertilizer funds were custodied in the BCM until the Replant.
+USDC from Fertilizer sales were custodied by the BCM between the beginning of the Barn Raise on June 6, 2022 and Replant on August 4, 2022.
 
-### Multisig Powers
+* [Multisig Powers](bcm-process.md#multisig-powers)
+* [Snapshot Usage](bcm-process.md#snapshot-usage)
+* [BIP Proposal and Voting](bcm-process.md#bip-proposal-and-voting)
+* [BOP Proposal and Voting](bcm-process.md#bop-proposal-and-voting)
+* [BIR Proposal and Voting](bcm-process.md#bir-proposal-and-voting)
+* [Signer Best Practices](bcm-process.md#signer-best-practices)
+* [Signer Duties](bcm-process.md#signer-duties)
+* [Verifying and Signing Transactions](bcm-process.md#verifying-and-signing-transactions)
+* [Emergency Response Procedures](bcm-process.md#emergency-response-procedures)
+* [Rotating Signers](bcm-process.md#rotating-signers)
+* [Anonymous Signers](bcm-process.md#anonymous-signers)
 
-Beanstalk implements the [EIP-2535 Diamond Standard](https://github.com/ethereum/EIPs/issues/2535), a new standard for fully-upgradeable smart contracts.
+## Multisig Powers
 
-The mechanism for upgrading a Diamond is by calling [`diamondCut()`](https://eips.ethereum.org/EIPS/eip-2535#the-diamondcut-function) , which takes arguments of functions to replace and which functions to replace them with. The `diamondCut()` function will only be callable by the owner of Beanstalk, which will be the BCM.
+Beanstalk implements the [EIP-2535 Diamond Standard](https://eips.ethereum.org/EIPS/eip-2535), a standard for fully-upgradeable smart contracts.
 
-Upgrades should only be executed after a Snapshot has passed and Signers have manually reviewed the code changes. However, in the case of an emergency (like a serious bug or exploit), the BCM may execute transactions to protect the Beanstalk contract. The best practices for emergency response handling are outlined in the [#emergency-response-procedures](bcm-process.md#emergency-response-procedures "mention") section.
+The mechanism for upgrading a Diamond is by calling [`diamondCut`](https://eips.ethereum.org/EIPS/eip-2535#the-diamondcut-function), which takes arguments of functions to replace and which functions to replace them with. The `diamondCut` function is only callable by the owner of Beanstalk, which is the BCM.
 
-If a community member wants to propose a BIP, they can submit a pull request to the [Beanstalk Github repo](https://github.com/BeanstalkFarms/Beanstalk) and begin a formal process with the BCM outlined in the [#proposing-a-bip](bcm-process.md#proposing-a-bip "mention") section.
+Upgrades should only be executed after a proposal has passed and Signers have manually reviewed the transaction. However, in the case of an emergency (like a bug or vulnerability), the BCM may execute an Emergency BIP (EBIP) to protect the Beanstalk contract. The best practices for emergency response handling are outlined in the [#emergency-response-procedures](bcm-process.md#emergency-response-procedures "mention") section.
 
-In addition to `diamondCut()`, the following functions are also only callable from the owner address:
+If a Stalkholder wants to propose a BIP, they can create a pull request to the [Beanstalk GitHub repo](https://github.com/BeanstalkFarms/Beanstalk) and begin a formal proposal process outlined in the [#bip-proposal-process](bcm-process.md#bip-proposal-process "mention") section.
 
-* `pause()` — When executed, Beanstalk will be Paused and the [`sunrise()`](https://github.com/BeanstalkFarms/Beanstalk/blob/ee4720cdb449d5b6ff2b789083792c4395628674/protocol/contracts/farm/facets/SeasonFacet/SeasonFacet.sol) function will not be allowed to be called in the contract.
-* `unpause()` — When executed, Beanstalk will be Unpaused and the `sunrise()` function will again be allowed to be called at the top of the 2nd hour. The TWAP oracle will be reset as well.
-* `transferOwnership()` — Transfer ownership permissions of the Beanstalk contract to a new address.
-* `diamondCut()` — Add/replace/remove any function(s) and/or execute an init function with a delegatecall.
-* `createFundraiser()` — Creates a Fundraiser.
-* `whitelistToken()` — Add a token to the Deposit Whitelist.
-* `dewhitelistToken()` — Remove a token from the Deposit Whitelist.
+The BCM also executes the will of the [Beanstalk Immunefi Committee (BIC)](bic-process.md) as determined by Beanstalk Immunefi Responses (BIRs). See [#bir-proposal-and-voting](bcm-process.md#bir-proposal-and-voting "mention").
 
-### Snapshots
+The following functions are only callable from the owner address:
 
-The BCM is an extension of the Beanstalk DAO. As such, the BCM’s role is to 1) enact on-chain the decisions Stalkholders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
+* `diamondCut` — Add, replace and/or remove any function(s) and/or execute an `init` function with a `delegatecall`.
+* `whitelistToken` — Add a token to the Deposit Whitelist.
+* `dewhitelistToken` — Remove a token from the Deposit Whitelist.
+* `pause` — Pause Beanstalk, which makes it such that the `sunrise` function cannot be successfully called.
+* `unpause` — Unpause Beanstalk, which allows the `sunrise` function to be successfully called at the top of the 2nd hour. The TWAP oracle and Season timer are reset as well.
+* `createFundraiser` — Create a Fundraiser.
+* `transferOwnership` — Transfer ownership of the Beanstalk contract to a new address.
+* `addUnripeToken` — Add an Unripe token to Beanstalk.
+* `addFertilizerOwner` — Allowed the USDC from the Barn Raise prior to Replant to be added as liquidity without issuing any additional Fertilizer at Replant.
 
-BIPs are voted on at the [Beanstalk DAO Snapshot page](https://snapshot.org/#/beanstalkdao.eth).
+## Snapshot Usage
 
-The BCM shall not execute transactions until an associated Snapshot successfully passes in favor of the proposal, except in the case of emergency, cancelling a failed transaction or adding/removing/rotating BCM Signers. Below are the scenarios the BCM will adhere to when transacting:
+The BCM is an extension of the Beanstalk DAO. As such, the role of the BCM is to (1) enact on-chain the decisions Stalkholders make via off-chain voting and (2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
-| **Transaction**                              | **Snapshot?** | **Voting Period**                                                                                    |
-| -------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------- |
-| Proposing BIP                                | Yes           | Up to 7 days as outlined in the [#voting-for-bips](bcm-process.md#voting-for-bips "mention") section |
-| Adding/removing/rotating BCM Signers         | No            | N/A                                                                                                  |
-| Emergency hotfix (needs public notification) | No            | N/A                                                                                                  |
-| Emergency Pause (needs public notification)  | No            | N/A                                                                                                  |
-| Cancel transaction                           | No            | N/A                                                                                                  |
+BIPs are voted on at the [Beanstalk DAO Snapshot space](https://snapshot.org/#/beanstalkdao.eth).
 
-### Proposing a BIP
+The BCM shall not execute transactions until an associated Snapshot proposal successfully passes, apart from the exceptions outlined in the table below:
 
-Beanstalk's governance is designed to be as censorship resistant as possible. Any community member may submit BIPs. If a community member wishes to propose a BIP, they will need to complete a public proposal process on Discord and submit a Github pull request before the BCM will submit a Snapshot on their behalf.
+| Transaction                                                              | Snapshot?                                        | Voting Period                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------ |
+| Executing BIP                                                            | Yes, requires a passed BIP                       | Up to 7 days as outlined in [#bip-voting](bcm-process.md#bip-voting "mention") |
+| Non-emergency change to the m-of-n BCM configuration                     | Yes, requires a passed BIP                       | Up to 7 days as outlined in [#bip-voting](bcm-process.md#bip-voting "mention") |
+| Executing BIR                                                            | Yes, requires a passed BIR                       | 3 days                                                                         |
+| Executing EBIP (emergency hotfix, etc.)                                  | No, but requires public notification via Discord | N/A                                                                            |
+| Rotating BCM Signers                                                     | No                                               | N/A                                                                            |
+| Emergency change to the m-of-n BCM configuration to remove rogue Signers | No                                               | N/A                                                                            |
+| Cancel transaction                                                       | No                                               | N/A                                                                            |
 
-**BIP Proposal Process**
+## BIP Proposal and Voting
 
-BIPs consist of two things: a pull request on the public Beanstalk Github repo, and a written explanation of the changes that would be implemented by the pull request.
+Beanstalk's governance is designed to be as permissionless as possible. Any Stalkholder with 0.1% of total Stalk may propose BIPs. If a Stalkholder wishes to propose a BIP they must complete a public proposal process before the BCM will submit a Snapshot proposal and an on-chain transaction to the BCM on their behalf.
 
-The following are the processes in place for community members to submit a BIP and coordinate with the BCM to submit a Snapshot proposal:
+Past BIPs can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip).
 
-1. A proposer must own 0.1% of the total Stalk supply in order to propose a BIP. The proposer shall verify that they meet the Stalk ownership threshold by creating and verifying a signature on etherscan. The steps to create and verify a signature on etherscan can be found [here](https://info.etherscan.com/verify-signature-tool/). The proposer will then reach out to the Mods on Discord and from there, the BCM will verify that the address that signed the message has sufficient Stalk.
-2. The proposer will submit a pull request on the public Beanstalk Github repo and publish the written proposal in a dedicated channel in the Beanstalk Discord. For assistance creating a channel on Discord, contact the Mods on Discord.
-3. The written proposal shall be discussed in the Discord channel for a sufficient amount of time. What constitutes sufficient will be at the sole discretion of the BCM, but the BCM must formally propose the BIP on-chain within 2 weeks of the creation of the dedicated Discord channel, unless the proposer decides to withdraw their proposal.
-4. BCM key holders shall verify that they have access to their wallets.
-5. The BCM will submit a Snapshot of the written proposal and a corresponding on-chain transaction to formally begin the Voting Period.
-6. During the Voting Period (1-7 days), every BCM Signer shall verify the transaction and write an etherscan message confirming their review according to the process outlined in the [#reviewing-and-signing-off-on-transactions](bcm-process.md#reviewing-and-signing-off-on-transactions "mention") section. Each Signer is expected to verify every transaction. However, if not all Signers verify the transaction, the BCM may still continue per the process outlined in the [#rotating-holders-in-out](bcm-process.md#rotating-holders-in-out "mention") section.
-7. If the Snapshot passes, the Signers will sign m/n signatures and execute the transaction on-chain as soon as possible. If the Snapshot fails, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.
+### BIP Proposal Content
 
-### Voting for BIPs
+BIPs can propose to (1) change the Beanstalk protocol, (2) mint Beans and/or (3) change Beanstalk governance. BIPs consist of a pull request on the Beanstalk GitHub repo that includes the following:
 
-Voting for BIPs will take place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. Any Stalkholder can vote for or against any Snapshot proposal. In all instances, 1 Stalk equals 1 vote, and voting against a proposal is equivalent to abstaining.
+* Code implementing the proposed changes (or simply a change to the [`PROPOSALS.md`](https://github.com/BeanstalkFarms/Beanstalk/blob/master/PROPOSALS.md) file if there are no associated code changes);
+* A written proposal of the changes that would be implemented in the BIP, which must include:
+  * A **Proposer** section that includes an [Etherscan verified message](https://info.etherscan.com/verify-signature-tool/) (or an Arweave upload if the proposing wallet is a multisig) confirming the proposer of the BIP;
+  * A **Contract Changes** section that includes the facets and the `init` contract address in the `diamondCut` call, if applicable; and
+  * A **Beans Minted** section that describes the number of Beans minted by the BIP, if applicable.
 
-The Voting Period opens when a BIP is submitted to Snapshot and closes after 7 days or once a two-thirds supermajority is reached. In order to be counted, all votes must be signed before the Voting Period closes.
+BIPs may have multiple transactions if made explicit in the written proposal.
+
+### BIP Proposal Process
+
+The following are the processes in place for a Stalkholder to propose a BIP:
+
+1. Submit a pull request on the public Beanstalk GitHub repo with a written proposal of the changes that would be implemented in the BIP.
+2. Tag the **@BCM Liaison** user in the **(#🏛・governance)** channel in the Beanstalk Discord to create a dedicated discussion channel for the BIP.
+3. Share a link to the GitHub PR and the written proposal in the newly created dedicated discussion channel.
+4. Allow sufficient time for discussion of the proposal. What constitutes sufficient is at the sole discretion of the BCM.
+5. Tag the **@BCM Liaison** user to request that the BIP be formally proposed.
+6. Before the BCM formally proposes the BIP, they shall verify that the written proposal contains all the necessary content per [#bip-proposal-content](bcm-process.md#bip-proposal-content "mention").
+7. The BCM shall then formally propose the BIP by submitting the on-chain transaction and Snapshot proposal.
+8. During the Voting Period (1-7 days), every BCM Signer shall verify the transaction per [#verifying-and-signing-transactions](bcm-process.md#verifying-and-signing-transactions "mention"). If not all Signers verify the transaction, the BCM may still continue per the process outlined in [#rotating-signers](bcm-process.md#rotating-signers "mention").
+9. If the BIP passes, the Signers will sign m/n signatures and execute the on-chain transaction as soon as possible. If the BIP fails to pass, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.
+
+### BIP Voting
+
+Voting for BIPs takes place on Snapshot using Stalk at the beginning of the Voting Period that still exists.
+
+Any Stalkholder can vote For, Abstain or Against on any BIP. In all instances, 1 Stalk equals 1 vote, and not voting or voting Abstain is equivalent to voting Against.
+
+The Voting Period opens when the Snapshot proposal for a BIP can be voted on and ends after 7 days or once a two-thirds supermajority is reached.&#x20;
 
 If at the end of the Voting Period:
 
-* Less than or equal to half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it fails, or
-* More than half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it passes.
+* Less than or equal to half of total Stalk is voting For the BIP, it fails, or
+* More than half of total Stalk is voting For the BIP, it passes.
 
-If at any time before the end of the Voting Period more than two-thirds of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, the BCM can execute the BIP on-chain.
+If at any time 24 hours or more after the beginning and before the end of the Voting Period more than two-thirds of the Stalk supply votes in favor of the BIP, the BCM can execute the BIP on-chain.
 
-The BCM shall follow the results of the Snapshot, unless the Stalk distribution is compromised in a flash loan or other governance attack.
+## BOP Proposal and Voting
 
-### BCM Best Practices
+Any Stalkholder with 0.1% of total Stalk may propose BOPs. If a Stalkholder wishes to propose a BOP they must complete a public proposal process before the BCM will submit a Snapshot proposal on their behalf.
 
-BCM Signers shall follow the best practices outlined below. It is of paramount importance that Beanstalk limits key man risk by implementing best practices with respect to multisig custody. Signers are expected to:
+Past BOPs can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bop).
 
-1. Regularly check in with the BCM and confirm access to their wallet;
-2. Maintain active communication regarding travel plans and availability in order to ensure that there are always enough Signers on call;
-3. Regularly rotate Signer wallets every 2-3 months; and
-4. Acknowledge their Signer duties and processes for signing off on BIPs.
+### BOP Proposal Content
 
-In addition to the above expectations, Signers shall follow the BCM’s wallet security best practices:
+BOPs can propose for the DAO to agree on processes that do not involve (1) changing the Beanstalk protocol, (2) minting Beans or (3) changing Beanstalk governance. BOPs consist of a pull request on the Beanstalk GitHub repo that includes the following:
+
+* Updates to the [`PROPOSALS.md`](https://github.com/BeanstalkFarms/Beanstalk/blob/master/PROPOSALS.md) file;
+* A written proposal of the changes that would be implemented in the BOP, which must include a **Proposer** section that has an [Etherscan verified message](https://info.etherscan.com/verify-signature-tool/) (or an Arweave upload if the proposing wallet is a multisig) confirming the proposer of the BOP.
+
+### BOP Proposal Process
+
+The following are the processes in place for a Stalkholder to propose a BOP:
+
+1. Submit a pull request on the public Beanstalk GitHub repo with a written proposal of the changes that would be implemented in the BOP.
+2. Tag the **@BCM Liaison** user in the **(#🏛・governance)** channel in the Beanstalk Discord to create a dedicated discussion channel for the BOP.
+3. Share a link to the GitHub PR and the written proposal in the dedicated discussion channel.
+4. Allow sufficient time for discussion of the proposal. What constitutes sufficient is at the sole discretion of the BCM.
+5. Tag the **@BCM Liaison** user to request that the BOP be formally proposed.
+6. Before the BCM formally proposes the BOP, they shall verify that the written proposal contains all the necessary content per [#bop-proposal-content](bcm-process.md#bop-proposal-content "mention").
+7. The BCM shall then formally propose the BOP by submitting the Snapshot proposal.
+
+### BOP Voting
+
+Voting for BOPs takes place on Snapshot using Stalk at the beginning of the Voting Period that still exists.
+
+Any Stalkholder can vote For or Against on any BOP. The Voting Period opens when the Snapshot proposal for a BOP can be voted on and closes after 7 days.&#x20;
+
+If at the end of the Voting Period:&#x20;
+
+* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or&#x20;
+* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.&#x20;
+
+## BIR Proposal and Voting
+
+The BIC determines the categorization and payout of bug bounties in accordance with the [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk/) approved by the Beanstalk DAO. The BCM executes the will of the BIC as determined by BIRs.&#x20;
+
+Any BIC member may propose BIRs. Past BIRs can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir).
+
+### BIR Proposal Content
+
+BIRs can propose to mint Beans to reward valid bug reports on Immunefi. BIRs consist of a Snapshot proposal that includes information about the bug report and has a **Beans Minted** section that describes the number of Beans minted to both the whitehat and Immunefi.
+
+### BIR Proposal Process
+
+See [BIC Process](https://bean.money/bic-process).
+
+### BIR Voting
+
+The following are the processes in place for the BIC to propose and have the BCM execute a BIR:
+
+1. The BIC shares BIR info with the BCM for them to submit a corresponding on-chain transaction.
+2. The BCM shall then formally propose the BIR by submitting the on-chain transaction.
+3. The BIC shall then formally propose the BIR on the [Beanstalk Bug Bounty Snapshot space](https://snapshot.org/#/beanstalkbugbounty.eth).
+4. During the 3 day Voting Period, every BCM Signer shall verify the transaction per [#verifying-and-signing-transactions](bcm-process.md#verifying-and-signing-transactions "mention"). If not all Signers verify the transaction, the BCM may still continue per the process outlined in [#rotating-signers](bcm-process.md#rotating-signers "mention").
+5. If the BIR passes (two-thirds majority of BIC members voting For), the Signers will sign m/n signatures and execute the on-chain transaction as soon as possible. If the BIR fails to pass, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.&#x20;
+
+## Signer Best Practices
+
+BCM Signers shall follow the best practices outlined below. It is of paramount importance that Beanstalk limits key man risk by implementing best practices with respect to multisig key custody. Signers are expected to:
+
+1. Regularly check in with the rest of the BCM and confirm access to their wallet;
+2. Maintain active communication regarding travel plans and availability in order to ensure that there are always enough Signers on call; and
+3. Acknowledge their Signer duties and processes for signing off on BIPs and BIRs.
+
+In addition to the above expectations, Signers shall follow the BCM's wallet security best practices:
 
 1. Use a reputable hardware wallet like Trezor or Ledger;
-2. Use a fresh wallet that doesn't have any pre-existing transactions or balances on it;
-3. Set up a new passphrase on their hardware wallet device when selecting a new wallet to be the signing wallet; and
+2. Use a fresh address that doesn't have any pre-existing transactions or balances on it;
+3. Set up a new passphrase on their hardware wallet device when selecting a new address to be the signing address; and
 4. Follow the standard self-custody best practice guide [here](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/).
 
-### Signer Duties
+## Signer Duties
 
-Signers are expected to follow best practices and maintain active communication in order to ensure that there are always enough Signers available to execute transactions in case of an emergency. Signer duties are broken down into three stages: 1) confirming access to their wallet, 2) verifying proposed code changes, and 3) executing transactions on the BCM Gnosis wallet.
+Signers are expected to follow best practices and maintain active communication in order to ensure that there are always enough Signers available to execute transactions in case of an emergency. Signer duties are broken down into three stages: (1) confirming access to their wallet, (2) verifying proposed transactions and (3) executing transactions on the BCM.
 
-When a draft BIP is proposed, every Signer shall be notified of the timeline and shall confirm access to their wallet.
+Once the Voting Period for a proposal begins on Snapshot, all Signers are expected to promptly review and verify that the proposed transaction accurately reflects the Snapshot proposal per [#verifying-and-signing-transactions](bcm-process.md#verifying-and-signing-transactions "mention"). This limits blind signing and encourages each Signer to independently verify that a proposed transaction is accurately represented. Anyone can verify that a Signer verified a proposed transaction during the Voting Period.
 
-Once a Snapshot is proposed, all Signers are expected to promptly review and verify that the proposed code changes are accurately represented. After a Signer has followed the guide laid out in the [#reviewing-and-signing-off-on-transactions](bcm-process.md#reviewing-and-signing-off-on-transactions "mention") section, they will submit and sign an etherscan message that publicly confirms their review. This will 1) limit blind signing and 2) encourage each Signer to verify that a BIP’s code changes are accurately represented and distributed to the public. The steps to create and verify a signature on etherscan can be found [here](https://info.etherscan.com/verify-signature-tool/). Anyone can verify that the Signer reviewed and signed off on the proposed code changes during the Voting Period.
+As soon as possible after the Voting Period:
 
-Signers will sign the transaction to either execute the proposed transaction or cancel it as soon as possible following the conclusion of the Voting Period.
+* If the proposal passed, Signers who have verified the transaction will sign and execute the transaction; or
+* If the proposal failed, Signers with sign and execute a cancel transaction with the same nonce.
 
-Once sufficient signatures have been provided to execute the transaction, is it expected that one of the Signers execute the transaction. After Replant, Publius shall initially execute the transaction and pay for gas fees. After Signers are more comfortable, Publius or Beanstalk Farms shall distribute enough ETH to every Signer to execute a transaction in case of emergency. Signers are not expected to contribute capital to participate in the BCM.
+A Signer shall lose their role on the BCM (by the remaining Signers removing them) if they:
 
-A Signer shall lose their role (by action of the remaining Signers removing them) in case they:
+* Act against Stalkholders' off-chain voting (or the BIC's off-chain voting in the case of BIRs);
+* Do not follow best practices outlined in the [#signer-best-practices](bcm-process.md#signer-best-practices "mention") section; or
+* Get through 2 votes without performing any of their Signer duties.
 
-* Act against Stalkholders’ off-chain voting;
-* Do not follow best practices outlined in the [#bcm-best-practices](bcm-process.md#bcm-best-practices "mention") section; or
-* Get through 2 months or 2 votes (whichever happens first) without performing any of their Signer duties.
+## Verifying and Signing Transactions
 
-### Emergency Response Procedures
+All BCM Signers are expected to know how to verify `diamondCut` data and confirm they have verified transactions by creating an Etherscan verified message.&#x20;
 
-The BCM’s role is to 1) enact on-chain the decisions Stalkholders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented. However, if a situation arises in the future like the April 17, 2022 exploit, it is of critical importance that the BCM take swift action to protect Beanstalk.
+The following should be used as a guide for the minimum review criteria in cases where a `diamondCut` is being executed:
 
-Bugs or security vulnerabilities qualify as emergencies. Emergency action will not be taken for any reason related to the economic health of Beanstalk (like a bank run, for example).
+* Performing the `diamondCut` on a local mainnet fork and confirm that the facet addresses, function selectors and facet cut actions are correct;
+* Confirming that the `_init` address and `_calldata` are correct; and
+* Confirming that the deployed bytecode for changed facets matches the corresponding bytecode compiled from the GitHub PR branch.
 
-**Depending on the severity of a given emergency, BCM members shall swiftly decide the best course of action:**
-
-* If an emergency is severe and requires significant code changes to fix, the BCM will Pause Beanstalk and take any necessary extra action to mitigate further damage; or
-* If an emergency is minor and does not require significant code changes, an emergency hotfix may be implemented by an emergency vote of the BCM.
-
-Any changes made to Beanstalk in this manner are known as [EBIPs](../../protocol/glossary.md#emergency-beanstalk-improvement-proposal), or Emergency BIPs.
-
-**After emergency action is taken, the BCM shall swiftly issue a summarized report to the community detailing:**
-
-1. The administrative permissions that were used (e.g. Pausing Beanstalk or turning off certain functions);
-2. The context and severity of the issue; and
-3. The next steps and decisions, if any, that the community must agree on in order for Beanstalk to proceed.
-
-### Reviewing and Signing off on Transactions
-
-Everyone on the BCM shall be expected to know how to verify diamondCut data and submit an etherscan transaction confirming they have checked the submitted transaction. After Beanstalk is Replanted, Signers are required to verify each transaction.
-
-As a part of submitting BIPs, the proposer will be responsible for providing thorough documentation or supplementary video to the Beanstalk DAO and BCM for how to review/test all relevant code.
-
-The following should be used as a guide for the minimum review criteria:
-
-* Check function call is as expected
-  * If function is diamondCut, confirm Facet Cuts—check Facet address, function selectors and Facet Cut actions are correct
-* Check init address and calldata are correct
-* Test BIP on mainnet fork or testnet as necessary
-* Review conceptual changes involved in BIP
-* Review Github PR change log (naming or other small nits)
-* Review constants (contract addresses, numbers) in new contracts
-
-Once Signers have verified the transaction, they shall submit and sign a [verified etherscan message](https://info.etherscan.com/verify-signature-tool/) and distribute the public verification link to the BCM.
-
-**Problems During Verification**
-
-The BCM will not submit a transaction that was misrepresented on Snapshot.
-
-In the case that any Signer during the verification process determines that a GitHub PR does not accurately represent the BIP, that Signer will submit a verified etherscan message indicating as such with context on the issue. At that point, the BCM will not submit the transaction unless it is determined that the Signer is "rogue" and is attempting to censor the BIP. In the case the other Signers determine that one or more Signers is rogue, they will submit a verified etherscan message indicating as such. At that point all present key holders shall submit a new verified etherscan message to cancel the original transaction.
-
-The BCM will notify the community via Discord and work with the proposer to resolve the issue in the GitHub PR. Once resolved, a new BIP will be proposed on Snapshot with its associated transaction.
-
-### Rotating Holders In / Out
-
-In the event that one or more Signers are compromised or vote against the results of any Snapshot (or a Signer voluntarily chooses to be removed from the BCM), the BCM will rotate them out of the wallet and replace them with another Signer. In no instance shall more than 4 keys be held by Beanstalk Farms contributors, nor shall more than 1 key be held by Publius.
-
-Once a transaction is submitted on-chain, the BCM will adhere to the results of the Snapshot and each member shall verify the transaction on etherscan during the Voting Period.
+Once Signers have verified the transaction, they shall sign a message indicating that they have verified the transaction by creating an [Etherscan verified message](https://info.etherscan.com/verify-signature-tool/). This process must be completed for each transaction in a BIP or BIR. See the [BCM Verification](https://community.bean.money/bcm-verification) page for more information on how BCM Signers verify transactions.
 
 If a situation arises where not all Signers submit a verification, the BCM may continue with execution if the Signer:
 
-1. Was not responsive during Snapshot proposal;
-2. Failed to notify the BCM during the draft phase of the proposal that they would not be able to execute the transaction;
+1. Was not responsive during the draft phase of the proposal or Voting Period;
+2. Notified the rest of the BCM during the draft phase of the proposal that they would not be able to verify, sign or execute the transaction;
 3. Missed 2 verifications;
 4. Was not responsive in 2 months; or
-5. Votes against the result of any Snapshot vote (AWOL). In this case, the Signer would be subject to removal immediately.
+5. Votes against the outcome of any proposal, in which case the Signer would be subject to removal immediately.
 
-It is important that Signers regularly rotate multisig wallets in order to continuously ensure that all members of the BCM have access to their wallet and that their key is not compromised. Therefore, the multisig wallets will be rotated every other month, independent of whether or not a Signer is staying on the BCM.
+### **Problems During Verification**
 
-### Anonymous Multisig Signers
+The BCM will not execute a transaction that was misrepresented in the Snapshot proposal.
 
-Off-chain governance introduces significant risks related to security and censorship. The BCM is designed to mitigate as many of those risks as possible by distributing the multisig keys across reputable community members and Beanstalk core contributors, and collectively implementing and adhering to BCM best practices.
+In the case that any Signer during the verification process determines that a Snapshot proposal does not accurately represent the transaction, that Signer will sign an Etherscan verified message indicating as such with context on the issue.
 
-The most significant risk associated with off-chain governance is the potential corruption of the multisig wallet from an outside party. In order to minimize the chances of this, the Signers will be anonymous. The anonymous Signers will be selected by Publius. Signers will be anonymous to each other as well, apart from Publius.
+The BCM will respond as follows:&#x20;
 
-A maximum of 4 Signers will be members of Beanstalk Farms. Publius collectively will hold at most 1 key. The remaining keys will be held by reputable members of the Beanstalk community.
+* If the BCM determines that the Signer is "rogue" and attempting to censor the transaction, the BCM will indicate that by continuing to verify (and ultimately sign and execute, in the case that the proposal passes) the transaction; or
+* If the BCM determines that the Signer is not rogue, the BCM will indicate that by submitting, signing and executing a cancel transaction with the same nonce.
 
-**Malicious Key Holder Risk**
+In cases where the BCM cancels a transaction, the community will be notified via the Beanstalk Discord and the BCM will work with the proposer to resolve the issue. Once resolved, a new BIP will be proposed on Snapshot with its associated transaction.
 
-Under this structure, it’s important to acknowledge the risk of anonymous key holders conspiring to attack Beanstalk. Since Publius knows the identities of the anonymous Signers, Publius would be the main attack vector—if this malicious actor were to compromise Publius before conspiring to attack Beanstalk, they could be reasonably sure that their identity would never be revealed.
+## Emergency Response Procedures
 
-In order to mitigate this attack vector, the BCM will institute the following process whenever the m-of-n multisig is changed:
+Although the BCM's role is to enact on-chain the decisions Stalkholders make via off-chain voting, it is of critical importance that the BCM take swift action to protect Beanstalk in the event of a bug or vulnerability. Emergency upgrades to Beanstalk submitted by the BCM are known as EBIPs.
 
-* Publius will publish a hash of the list of Signers and their corresponding wallets on-chain. You can find these under the [Signer Hashes](bcm-dashboard.md#signer-hashes) section of the [BCM Dashboard](bcm-dashboard.md).
-* Publius will share the list of Signers and their wallets with their personal legal counsel, to be released in the event that Publius is compromised such that they cannot publish the list themselves. This makes Publius and their personal legal counsel the only parties with access to the list.
+Bugs or security vulnerabilities qualify as emergencies. Emergency action will not be taken for any reason related to the economic health of Beanstalk.
 
-In the event that counsel publishes the list, anyone could verify that it’s the correct list by hashing it and comparing it with the hash on-chain. This creates accountability for the anonymous Signers.
+Past EBIPs can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/ebip).
 
-### Effective
+Depending on the severity of a given emergency, BCM members shall swiftly decide the best course of action:
 
-This document outlines the processes for voting on and committing BIPs after the BIP that transfers ownership of Beanstalk to the BCM. Ownership of Beanstalk was transferred to the BCM per BIP-21.&#x20;
+* If a bug or vulnerability is severe and requires significant code changes to fix, the BCM may remove functions from Beanstalk and take any necessary extra action to mitigate further damage; or
+* If a bug or vulnerability is minor and does not require significant code changes to fix, a hotfix may be implemented by the BCM.&#x20;
 
-[BIP-20 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4) and proposed the series of transactions necessary to perform the migration of Bean and LP balances post-exploit.&#x20;
+In cases where functions must be removed immediately to protect Beanstalk, BCM Signers are not required to submit an Etherscan verified message as outlined in [#verifying-and-signing-transactions](bcm-process.md#verifying-and-signing-transactions "mention").
 
-[BIP-21 was approved by the Beanstalk DAO](https://snapshot.org/#/beanstalkdao.eth/proposal/0xbe30bc43d7185ef77cd6af0e5c85da7d7c06caad4c0de3a73493ed48eae32d71) and proposed the series of transactions necessary to Replant Beanstalk, execute several upgrades, transfer ownership of Beanstalk to the BCM and Unpause Beanstalk.
+After emergency action is taken, the BCM shall swiftly issue a summarized report to the community via the Beanstalk Discord detailing:
 
-These will be the sole instances where multiple BCM transactions are approved in a single BIP.
+1. The administrative permissions that were used (_e.g._, which functions were removed);
+2. The context and severity of the issue; and
+3. The next steps and decisions, if any, that the community must agree on in order to proceed.
+
+### EBIP During Voting Period
+
+In the event that an EBIP must be executed during the Voting Period of another proposal, the on-chain transaction for the outstanding proposal must be canceled.&#x20;
+
+In order avoid the need to revote on a proposal in this situation, the BCM will repropose the on-chain transaction for the outstanding proposal after the successful execution of the EBIP.
+
+## Rotating Signers
+
+In the event that one or more Signers are compromised, vote against the outcome of any proposal, voluntarily choose to be removed from the BCM, or are otherwise removed in accordance with [#signer-duties](bcm-process.md#signer-duties "mention"), the BCM will rotate them out of the multisig and replace them with another Signer. In no instance shall a majority of the BCM keys be held by Beanstalk Farms contributors, nor shall more than 1 key be held by Publius.
+
+## Anonymous Signers
+
+Off-chain governance introduces significant risks related to security and censorship. The BCM is designed to mitigate as many of those risks as possible by distributing the multisig keys across reputable community members and Beanstalk core contributors, and collectively adhering to [#signer-best-practices](bcm-process.md#signer-best-practices "mention").
+
+The most significant risk associated with off-chain governance is the potential corruption of the BCM from an outside party. In order to minimize the chances of this, the Signers are anonymous. The anonymous Signers are selected by Publius. Signers will be anonymous to each other as well, apart from Publius.
+
+In no instance shall a majority of the BCM keys be held by Beanstalk Farms contributors. Publius will collectively hold at most 1 key. The remaining keys will be held by reputable members of the Beanstalk community.
+
+### **Malicious Key Holder Risk**
+
+Under this structure, it’s important to acknowledge the risk of anonymous key holders conspiring to attack Beanstalk. Because only Publius knows the identities of the anonymous Signers, Publius would be the main attack vector. If a malicious actor were to compromise Publius before conspiring to attack Beanstalk, they could be reasonably sure that their identity would never be revealed.
+
+In order to mitigate this attack vector, the BCM institutes the following process whenever the m-of-n configuration of the BCM is changed:
+
+* Publius will publish a hash of the list of Signers and their corresponding wallets on Etherscan (you can find these under the Signer Hashes section of the [BCM Dashboard](bcm-dashboard.md)); and
+* Publius will share the list of Signers and their wallets with their personal legal counsel, to be released in the event that Publius is compromised such that they cannot publicly share the list themselves. This makes Publius and their personal legal counsel the only parties with access to the list.
+
+In the event that Publius' counsel publicly shares the list of Signers and their wallets, anyone could verify that it's the correct list by hashing it and comparing it with the hash on Etherscan. This creates accountability for the anonymous Signers.

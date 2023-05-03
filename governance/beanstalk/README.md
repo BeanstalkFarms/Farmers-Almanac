@@ -2,26 +2,28 @@
 
 A robust decentralized governance mechanism must balance the principles of decentralization with resistance to attempted protocol changes, both malicious and ignorant, and the ability to quickly adapt to changing information. In practice, Beanstalk must balance ensuring sufficient time for all ecosystem participants to consider a Beanstalk Improvement Proposal (BIP) with the ability to be quickly upgraded in cases of emergency.
 
-Prior to Beanstalk’s April 17 exploit, Beanstalk Improvement Proposals (BIPs) were entirely on-chain and autonomous. However, after the exploit, Beanstalk was Paused and the ability to propose BIPs on-chain halted. Until a robust on-chain governance system is implemented, BIPs will be voted on off-chain via Snapshot and will be executed on-chain by the [Beanstalk Community Multisig (BCM)](bcm-process.md). Stalkholders are able to vote on BIPs via Snapshot.
+Prior to Beanstalk’s April 17, 2022 exploit, Beanstalk Improvement Proposals (BIPs) were entirely on-chain and autonomous. However, after the exploit, Beanstalk was Paused and the ability to propose BIPs on-chain halted. Until a robust on-chain governance system is implemented, BIPs will be voted on off-chain via Snapshot and will be executed on-chain by the [Beanstalk Community Multisig (BCM)](bcm-process.md). Stalkholders are able to vote on BIPs via Snapshot.
 
 BIPs are proposed on the [Beanstalk DAO Snapshot page](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BIPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/).
 
 ### **Participation**
 
-Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk. A Stalkholder’s voting power is proportional to their Stalk balance relative to the total Stalk supply. Any Stalkholder can vote For or Abstain. In all instances, 1 Stalk equals 1 vote, and voting Abstain is equivalent to voting against the proposal.
+Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk.&#x20;
 
-Any Stalkholder that owns more than 0.1% of total outstanding Stalk can submit a BIP per the [#proposing-a-bip](bcm-process.md#proposing-a-bip "mention") process.
+A Stalkholder’s voting power is proportional to their Stalk balance relative to the total Stalk supply. Any Stalkholder can vote For, Abstain or Against on any BIP. In all instances, 1 Stalk equals 1 vote, and voting Abstain or Against is equivalent to not voting on the proposal. Stalkholders have the ability to delegate their vote to any other user.
+
+Any Stalkholder that owns more than 0.1% of total outstanding Stalk can submit a BIP per the [#bip-proposal-process](bcm-process.md#bip-proposal-process "mention"). The submitter of a BIP must still own more than 0.1% of Stalk at the end of the Voting Period for the BIP to be able to pass.
 
 ### **Voting Period**
 
-Voting for BIPs takes place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. The Voting Period opens when a BIP is submitted to Snapshot and closes after 7 days or when it is committed with a supermajority.
+The Voting Period opens when the Snapshot proposal for a BIP can be voted on and ends 7 days later or when it is committed with a supermajority.
 
 If at the end of the Voting Period:
 
-* Less than or equal to half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it fails, or
-* More than half of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, it passes.
+* Less than or equal to half of the total outstanding Stalk at the beginning of the Voting Period that still exists is voting in favor of the BIP, it fails, or
+* More than half of the total outstanding Stalk at the beginning of the Voting Period that still exists is voting in favor of the BIP, it passes.
 
-If at any time before the end of the Voting Period more than two-thirds of the total outstanding Stalk at the time the BIP was submitted to Snapshot that still exists votes in favor of the BIP, the BCM can execute the BIP on-chain.
+If at any time 24 hour or more after the beginning and before the end of the Voting Period more than two-thirds of the total outstanding Stalk is voting in favor of the BIP, the BCM can execute the BIP on-chain.
 
 Beanstalk governance is designed to move slow and steady. When trying to become an issuer of money, the potential for rapid monetary policy changes is unattractive. By requiring more than 50% of Stalk to vote in favor of a BIP for it to pass, it is quite difficult for a BIP to pass. Therefore, unless the proposed change is _significantly preferred_ by Stalkholders, it is unlikely to pass.
 

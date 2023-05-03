@@ -6,7 +6,7 @@ Beanstalk Farms is a decentralized development organization of core contributors
 
 ### Funding
 
-Neither Beanstalk Farms nor Beanstalk have a treasury. Beanstalk Farms has historically been funded by the Beanstalk DAO. Beanstalk Farms proposes quarterly budget BIPs that mint Beans to cover operating expenses and compensate contributors. Budget funds are custodied by the [Beanstalk Farms Multisig (BFM)](bfm-dashboard.md). Larger payments in non-Bean assets like audits have typically been paid for via [Fundraiser](../../protocol/fundraiser.md).
+Neither Beanstalk Farms nor Beanstalk have a treasury. Beanstalk Farms has historically been funded by the Beanstalk DAO. Beanstalk Farms proposes budget BIPs that mint Beans to cover operating expenses and compensate contributors. Budget funds are custodied by the [Beanstalk Farms Multisig (BFM)](bfm-dashboard.md). Larger payments in non-Bean assets like audits have historically been paid for via [Fundraiser](../../protocol/fundraiser.md).
 
 Past BIPs that funded Beanstalk Farms:
 
@@ -15,6 +15,7 @@ Past BIPs that funded Beanstalk Farms:
 * [BIP-14: Beanstalk Farms Q2 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-14-bf-budget-q2-2022.md)
 * [BIP-22: Beanstalk Farms Q3 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-22-bf-budget-q3-2022.md)
 * [BIP-25: Beanstalk Farms Q4 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-25-bf-budget-q4-2022.md)
+* [BIP-33: Beanstalk Farms H1 2023 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-33-bf-budget-h1-2023.md)
 
 Monthly reports on how Beanstalk Farms is spending its budget can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations/tree/main/beanstalk-farms).
 
@@ -26,10 +27,10 @@ Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personne
 
 Any Stalkholder with 0.1% of the Stalk supply can propose a BFCP-A or BFCP-B. There is no maximum number of BFC members, which facilitates permissionlessness.
 
-See [#bfcp](../proposals.md#bfcp "mention") for more info on each BFCP proposal type. BFCPs are proposed on the [Beanstalk Farms Snapshot page](https://snapshot.org/#/beanstalkfarms.eth). Stalkholders can vote on BFCPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=beanstalk-farms). Past BFCPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfcp).
+See [#beanstalk-farms-committee-proposal](../proposals.md#beanstalk-farms-committee-proposal "mention") for more info on each BFCP proposal type. BFCPs are proposed on the [Beanstalk Farms Snapshot page](https://snapshot.org/#/beanstalkfarms.eth). Stalkholders can vote on BFCPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=beanstalk-farms). Past BFCPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfcp).
 
 Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. Only BFC members can propose and vote on BFBPs.
 
 The BFC hires contributors via BFBP-As, dismisses contributors via BFBP-Bs, and otherwise uses the Beanstalk Farms budget via BFBP-Cs.
 
-See [#bfbp](../proposals.md#bfbp "mention") for more info on each BFBP proposal type. BFBPs are proposed on the [Beanstalk Farms Budget Snapshot page](https://snapshot.org/#/beanstalkfarmsbudget.eth), which is where BFC members vote. Past BFBPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfbp).
+See [#beanstalk-farms-budget-proposal](../proposals.md#beanstalk-farms-budget-proposal "mention") for more info on each BFBP proposal type. BFBPs are proposed on the [Beanstalk Farms Budget Snapshot page](https://snapshot.org/#/beanstalkfarmsbudget.eth), which is where BFC members vote. Past BFBPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfbp).

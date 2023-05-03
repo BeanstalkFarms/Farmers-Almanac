@@ -18,7 +18,7 @@ The current BSM signers are as follows, in no particular order:
 * ereal
 * aloceros
 
-The following people serve as backup signers for the BSM, in no particular order:
+The following Farmers serve as backup signers for the BSM, in no particular order:
 
 * mod323
 * sweetredbeans

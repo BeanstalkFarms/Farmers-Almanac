@@ -18,9 +18,9 @@ The current BFM signers are as follows, in no particular order:
 * aloceros
 * Cujo
 
-The following people serve as backup signers for the BFM, in no particular order:
+The following Farmers serve as backup signers for the BFM, in no particular order:
 
-* Cool Bean
+* pizzaman1337
 * CanadianBennett
 * MrMochi
 
