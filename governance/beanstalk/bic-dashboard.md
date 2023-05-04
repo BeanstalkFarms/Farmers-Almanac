@@ -1,6 +1,6 @@
 # BIC Dashboard
 
-The Beanstalk Immunefi Committee Multisig (BICM) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO.
+The Beanstalk Immunefi Committee (BIC) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO.
 
 See [BIC Process](bic-process.md) for more information.
 
