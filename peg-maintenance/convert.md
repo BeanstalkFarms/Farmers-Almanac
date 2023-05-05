@@ -31,7 +31,7 @@ Additional Conversions may be added to the Convert Whitelist via [Beanstalk gove
 | Unripe BEAN:3CRV LP                  | Unripe Bean                  | deltaB in the BEAN:3CRV pool < 0 |
 | Any token on the Deposit Whitelist\* | The same token as From token | Anytime                          |
 
-\*Any token on the [Deposit Whitelist](../farm/silo.md#deposit-whitelist) can be Converted to the same token in order to allow Silo Members to updated the BDV of their LP tokens when their BDV increases due to impermanent loss.
+\*Any token on the [Deposit Whitelist](../farm/silo.md#deposit-whitelist) can be Converted to the same token in order to allow Silo Members to update the BDV of their LP tokens when their BDV increases due to impermanent loss.
 
 #### Performance
 
