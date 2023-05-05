@@ -12,7 +12,7 @@ For guides on interacting with the Market through the Beanstalk UI, go [here](..
 
 Sellers can List Pods or Fill open Pod Orders placed by buyers.&#x20;
 
-Buyers can Order Pods or Fill open Pod Listings places by sellers.
+Buyers can Order Pods or Fill open Pod Listings placed by sellers.
 
 ### **Pod Listings**
 
