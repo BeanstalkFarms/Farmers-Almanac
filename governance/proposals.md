@@ -29,7 +29,7 @@ Any proposal that proposes for another party to perform work upon, or at any poi
 
 All past proposals can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals).
 
-## Beanstalk Improvement Proposal
+## Beanstalk Improvement Proposal <a href="#bip" id="bip"></a>
 
 Beanstalk Improvement Proposals, or BIPs, are proposals to:
 
