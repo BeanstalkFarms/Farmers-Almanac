@@ -23,7 +23,7 @@ If at the end of the Voting Period:
 * Less than or equal to half of the total outstanding Stalk at the beginning of the Voting Period that still exists is voting in favor of the BIP, it fails, or
 * More than half of the total outstanding Stalk at the beginning of the Voting Period that still exists is voting in favor of the BIP, it passes.
 
-If at any time 24 hour or more after the beginning and before the end of the Voting Period more than two-thirds of the total outstanding Stalk is voting in favor of the BIP, the BCM can execute the BIP on-chain.
+If at any time 24 hours or more after the beginning and before the end of the Voting Period more than two-thirds of the total outstanding Stalk is voting in favor of the BIP, the BCM can execute the BIP on-chain.
 
 Beanstalk governance is designed to move slow and steady. When trying to become an issuer of money, the potential for rapid monetary policy changes is unattractive. By requiring more than 50% of Stalk to vote in favor of a BIP for it to pass, it is quite difficult for a BIP to pass. Therefore, unless the proposed change is _significantly preferred_ by Stalkholders, it is unlikely to pass.
 
