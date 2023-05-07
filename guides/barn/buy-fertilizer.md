@@ -2,7 +2,7 @@
 
 Beanstalk is hosting the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo. The Barn Raise started on **June 6, 2022**.
 
-Active Fertilizer holders receive Sprouts Sprouts become redeemable for Beans on a [pari passu](../../protocol/glossary.md#pari-passu) basis. See the [Barn](../../farm/barn.md) page for more info.
+Active Fertilizer holders receive Sprouts. Sprouts become redeemable for Beans on a [pari passu](../../protocol/glossary.md#pari-passu) basis. See the [Barn](../../farm/barn.md) page for more info.
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Barn” page.
