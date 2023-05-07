@@ -7,7 +7,7 @@ This page is a comprehensive overview of all proposals types in Beanstalk-relate
 ## Table of Contents
 
 * [Notes](proposals.md#notes)
-* [Beanstalk Improvement Proposal](proposals.md#beanstalk-improvement-proposal) (BIP)
+* [Beanstalk Improvement Proposal](proposals.md#bip) (BIP)
 * [Emergency Beanstalk Improvement Proposal](proposals.md#emergency-beanstalk-improvement-proposal) (EBIP)
 * [Beanstalk Operations Proposal](proposals.md#beanstalk-operations-proposal) (BOP)
 * [Beanstalk Farms Committee Proposal](proposals.md#beanstalk-farms-committee-proposal) (BFCP)
