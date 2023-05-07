@@ -52,7 +52,7 @@ BIPs are proposed on the [Beanstalk DAO Snapshot space](https://snapshot.org/#/b
 
 See [BIP Proposal Process](beanstalk/bcm-process.md#bip-proposal-process) for more information on proposing a BIP.
 
-## Beanstalk Operations Proposal
+## Beanstalk Operations Proposal<a href="#bop" id="bop"></a>
 
 Beanstalk Operations Proposals, or BOPs, are proposals for the DAO to agree on processes that do not involve (1) changing the Beanstalk protocol, (2) minting Beans or (3) changing Beanstalk governance. A BIP can include any changes that would otherwise be in a BOP.&#x20;
 
@@ -69,7 +69,7 @@ BOPs are proposed on the [Beanstalk DAO Snapshot space](https://snapshot.org/#/b
 
 See [BOP Proposal Process](beanstalk/bcm-process.md#bop-proposal-process) for more information on proposing a BOP.
 
-## Emergency Beanstalk Improvement Proposal
+## Emergency Beanstalk Improvement Proposal<a href="#ebip" id="ebip"></a>
 
 Emergency Beanstalk Improvement Proposals, or EBIPs, are emergency upgrades to Beanstalk. EBIPs are submitted and executed by the BCM in order to protect Beanstalk.
 
@@ -77,7 +77,7 @@ EBIPs are shared with the Beanstalk community after commitment. Past EBIPs can b
 
 See [Emergency Response Procedures](beanstalk/bcm-process.md#emergency-response-procedures) for more information.&#x20;
 
-## Beanstalk Farms Committee Proposal
+## Beanstalk Farms Committee Proposal<a href="#bfcp" id="bfcp"></a>
 
 Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [Beanstalk Farms Committee (BFC)](beanstalk-farms/bfc-dashboard.md). The BFC is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation.&#x20;
 
@@ -130,7 +130,7 @@ BFC members whose BFCP-C passes shall have their term extended by two quarters a
 
 BFC members have the option to update their previous hiring proposal terms in a BFCP-C. There is no guarantee that payment terms in a BFCP-C can be fulfilled until the end of a BFC member's term given that the Beanstalk DAO must continually choose to fund Beanstalk Farms.
 
-## Beanstalk Farms Budget Proposal
+## Beanstalk Farms Budget Proposal<a href="#bfbp" id="bfbp"></a>
 
 Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. The Beanstalk Farms budget is custodied by the [Beanstalk Farms Multisig (BFM)](beanstalk-farms/bfm-dashboard.md). The BFM executes the will of the BFC.
 
@@ -177,7 +177,7 @@ A BFBP-C passes if at the end of the Voting Period there are at least 3 votes Fo
 
 A BFBP-C is not required for payments valued at less than or equal to 25,000 Beans or USDC.
 
-## Beanstalk Immunefi Response
+## Beanstalk Immunefi Response<a href="#bir" id="bir"></a>
 
 Beanstalk Immunefi Responses, or BIRs, are responses to bug reports on [Immunefi](https://immunefi.com/). Only BIC members can propose and vote on BIRs and each member has 1 vote. Any BIC member can vote For or Against.
 
@@ -192,7 +192,7 @@ See [BIC Process](beanstalk/bic-process.md) for more information.
 
 BIRs are proposed on the [Beanstalk Bug Bounty Snapshot page](https://snapshot.org/#/beanstalkbugbounty.eth), which is where BIC members vote. Past BIRs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir).
 
-## Bean Sprout Proposal
+## Bean Sprout Proposal<a href="#bsp" id="bsp"></a>
 
 Bean Sprout Proposals, or BSPs, are proposals to spend the [Bean Sprout](bean-sprout/) budget.
 
@@ -204,7 +204,7 @@ A BSP is not required for the BSM to send payments valued at under 4,000 Beans.
 
 BSPs are proposed on the [Bean Sprout Snapshot space](https://snapshot.org/#/wearebeansprout.eth). Stalkholders can vote on BSPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=bean-sprout). Past BSPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bsp).
 
-## BeaNFT Proposal
+## BeaNFT Proposal<a href="#bnp" id="bnp"></a>
 
 BeaNFT Proposals, or BNPs, are proposals through which the BeaNFT DAO votes on the direction of BeaNFTs (new collections, collection upgrades, etc.).
 
