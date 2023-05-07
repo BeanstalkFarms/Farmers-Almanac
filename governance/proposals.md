@@ -7,12 +7,12 @@ This page is a comprehensive overview of all proposals types in Beanstalk-relate
 ## Table of Contents
 
 * [Notes](proposals.md#notes)
-* [Beanstalk Improvement Proposal](proposals.md#bip) (BIP)
+* [Beanstalk Improvement Proposal](proposals.md#beanstalk-improvement-proposal) (BIP)
 * [Emergency Beanstalk Improvement Proposal](proposals.md#emergency-beanstalk-improvement-proposal) (EBIP)
-* [Beanstalk Operations Proposal](proposals.md#bop) (BOP)
-* [Beanstalk Farms Committee Proposal](proposals.md#bfcp) (BFCP)
-* [Beanstalk Farms Budget Proposal](proposals.md#bfbp) (BFBP)
-* [Beanstalk Immunefi Response](proposals.md#bir) (BIR)
+* [Beanstalk Operations Proposal](proposals.md#beanstalk-operations-proposal) (BOP)
+* [Beanstalk Farms Committee Proposal](proposals.md#beanstalk-farms-committee-proposal) (BFCP)
+* [Beanstalk Farms Budget Proposal](proposals.md#beanstalk-farms-budget-proposal) (BFBP)
+* [Beanstalk Immunefi Response](proposals.md#beanstalk-immunefi-response) (BIR)
 * [Bean Sprout Proposal](proposals.md#bean-sprout-proposal) (BSP)
 * [BeaNFT Proposal](proposals.md#beanft-proposal) (BNP)
 
