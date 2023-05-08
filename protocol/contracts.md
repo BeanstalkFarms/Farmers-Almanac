@@ -1,6 +1,6 @@
 # Contracts
 
-### Contracts
+### Beanstalk
 
 | Contract                                                                                     | Address                                                                                                               |
 | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). T
 | [Beanstalk Farms Multisig (BFM)](../governance/beanstalk-farms/bfm-dashboard.md)            | [0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7](https://app.safe.global/eth:0x21DE18B6A8f78eDe6D16C50A167f6B222DC08DF7/transactions/queue) |
 | [Bean Sprout Multisig (BSM)](../governance/bean-sprout/bsm-dashboard.md)                    | [0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235](https://app.safe.global/eth:0xb7ab3f0667eFF5e2299d39C23Aa0C956e8982235/transactions/queue) |
 | [Beanstalk Farms Subgraph Multisig (BFSM)](../governance/beanstalk-farms/bfsm-dashboard.md) | [0xe1c3aEf912eCBF766155100038994c3FE880dB02](https://app.safe.global/eth:0xe1c3aEf912eCBF766155100038994c3FE880dB02/transactions/queue) |
-| [BeaNFT DAO Multisig (BDM)](../governance/beanfts/bdm-dashboard.md)                         | **TODO**                                                                                                                                |
+| [BeaNFT DAO Multisig (BDM)](../governance/beanfts/bdm-dashboard.md)                         | [0x2D92a7Ba42472001111C1A1614EF6A8737bDf278](https://etherscan.io/address/0x2D92a7Ba42472001111C1A1614EF6A8737bDf278)                   |
 
 ### Ecosystem
 
