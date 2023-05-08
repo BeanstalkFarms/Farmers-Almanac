@@ -91,6 +91,7 @@
   * [Transfer Balances](guides/swap/transfer-balances.md)
 * [Governance](guides/governance/README.md)
   * [Vote on Governance Proposals](guides/governance/vote-on-proposals.md)
+  * [Delegate Votes](guides/governance/delegate-votes.md)
 * [Unripe Assets](guides/unripe-assets/README.md)
   * [Pick Unripe Assets](guides/unripe-assets/pick-unripe-assets.md)
   * [Chop Unripe Assets](guides/unripe-assets/chop-unripe-assets.md)

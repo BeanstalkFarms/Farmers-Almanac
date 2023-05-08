@@ -64,6 +64,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 ### Governance
 
 * [Vote on Governance Proposals](governance/vote-on-proposals.md)
+* [Delegate Votes](governance/delegate-votes.md)
 
 ### Unripe Assets
 
