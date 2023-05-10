@@ -18,7 +18,7 @@ The current BDM signers are as follows, in no particular order:
 * pizzaman1337
 * MrMochi
 
-The following people serve as backup signers for the BFM, in no particular order:
+The following people serve as backup signers for the BDM, in no particular order:
 
 * Silo Chad
 * Sowphocles
