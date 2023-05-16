@@ -1,5 +1,9 @@
 # Sun
 
+{% hint style="info" %}
+This page has not been updated yet for [BIP-34](https://arweave.net/R_tBcwBU09nKXdfgHXJSKO7uM4xmWdI_B8522JsVI5I).
+{% endhint %}
+
 The Beanstalk peg maintenance mechanism requires a protocol-native timekeeping mechanism and regular code execution on Ethereum. The Sun keeps time on the Farm in Seasons and incentivizes cost-efficient and timely calling of the `sunrise` function.
 
 Beanstalk adjusts itself to return the Bean price to its value peg at the beginning of every Season. Each Season is \~1 hour long. The first Season began when Beanstalk was deployed on August 6, 2021.
