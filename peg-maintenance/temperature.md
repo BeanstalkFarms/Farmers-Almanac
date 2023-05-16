@@ -1,5 +1,9 @@
 # Temperature
 
+{% hint style="info" %}
+This page has not been updated yet for [BIP-34](https://arweave.net/R_tBcwBU09nKXdfgHXJSKO7uM4xmWdI_B8522JsVI5I).
+{% endhint %}
+
 Beanstalk relies on a decentralized set of creditors to maintain Bean price stability. Anytime Beanstalk is willing to issue debt, it issues [Soil](../farm/field.md#soil). Soil represents the number of Beans that Beanstalk is currently willing to borrow. Loans to Beanstalk are issued with a fixed interest rate, known as Temperature. If the Temperature is 500%, 1 Bean can be Sown in exchange for 6 Pods. Once those Pods become Harvestable, they can be Harvested in exchange for 6 Beans.
 
 At the beginning of each [Season](../farm/sun.md), Beanstalk changes the Temperature depending on its position (price and debt level) and current state (direction and acceleration) with respect to its ideal equilibrium.
