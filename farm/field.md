@@ -1,5 +1,9 @@
 # Field
 
+{% hint style="info" %}
+This page has not been updated yet for [BIP-34](https://arweave.net/R_tBcwBU09nKXdfgHXJSKO7uM4xmWdI_B8522JsVI5I).
+{% endhint %}
+
 {% embed url="https://drive.google.com/file/d/1fw4RB9gok8SjH-6IHB8q-spkApXhHuh1/view?usp=share_link" %}
 Publius explains the Field
 {% endembed %}
