@@ -37,10 +37,10 @@ Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balanc
 
 ### Use Claimable Beans
 
-1. When you [Deposit in the Silo](../silo/deposit.md), [Sow Beans](../field/sow.md), or [Buy Fertilizer](../barn/buy-fertilizer.md), you can "Use Claimable Beans" to add to the transaction total with your [Rinsible Sprouts](../../protocol/glossary.md#rinsable-sprouts), [Harvestable Pods](../../protocol/glossary.md#harvestable-pods), and [Claimable Beans](../../protocol/glossary.md#claimable-assets).
-   * If you do not have any Rinsible Sprouts, Harvestable Pods, or Claimable Beans, you will not see this option on the UI.
+1. When you [Deposit in the Silo](../silo/deposit.md), [Sow Beans](../field/sow.md), or [Buy Fertilizer](../barn/buy-fertilizer.md), you can "Use Claimable Beans" to add to the transaction total with your [Rinsable Sprouts](../../protocol/glossary.md#rinsable-sprouts), [Harvestable Pods](../../protocol/glossary.md#harvestable-pods), and [Claimable Beans](../../protocol/glossary.md#claimable-assets).
+   * If you do not have any Rinsable Sprouts, Harvestable Pods, or Claimable Beans, you will not see this option on the UI.
 2. Open the "Use Claimable Beans" dropdown using the arrow icon.
-3. Under "Which Beans would you like to Claim?" select from Rinsible Sprouts, Harvestable Pods, or Claimable Beans. You may select more than one.
+3. Under "Which Beans would you like to Claim?" select from Rinsable Sprouts, Harvestable Pods, or Claimable Beans. You may select more than one.
 4. Enter the amount of Claimable Beans to add to the transaction.
 5. If less than the total amount of Claimable Beans is entered, choose whether to send the remaining balance to your Farm Balance or Circulating Balance. Learn more about [Asset States](../../protocol/asset-states.md).
 6. Close the "Use Claimable Beans" dropdown to proceed with the transaction. The amount of Claimable Beans added will be shown in "Transaction Details".
