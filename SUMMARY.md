@@ -54,8 +54,9 @@
 
 * [Directory](guides/directory.md)
 * [Getting Started](guides/getting-started/README.md)
-  * [Where to Begin](guides/getting-started/where-to-begin.md)
+  * [Where to Begin?](guides/getting-started/where-to-begin.md)
   * [Connect to Beanstalk](guides/getting-started/connect-wallet.md)
+  * [Where Are My Assets and How to Use Them?](guides/getting-started/where-are-my-assets-and-how-to-use-them.md)
   * [Approve Contracts](guides/getting-started/approvals.md)
   * [Add Bean to MetaMask](guides/getting-started/add-bean-to-metamask.md)
 * [Sun](guides/sun/README.md)

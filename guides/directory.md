@@ -9,8 +9,9 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Getting Started
 
-* [Where to Begin](getting-started/where-to-begin.md)
+* [Where to Begin?](getting-started/where-to-begin.md)
 * [Connect to Beanstalk](getting-started/connect-wallet.md)
+* [Where Are My Assets and How to Use Them?](getting-started/where-are-my-assets-and-how-to-use-them.md)
 * [Approve Contracts](getting-started/approvals.md)
 * [Add Bean to MetaMask](getting-started/add-bean-to-metamask.md)
 

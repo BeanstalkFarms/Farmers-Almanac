@@ -65,7 +65,6 @@
   * [Jobs](https://community.bean.money/jobs)
   * [Community Grants](https://community.bean.money/community-grants)
   * [Bug Reports](https://community.bean.money/bug-reports)
-  * [Operations Board](https://community.bean.money/operations-board)
   * [BCM Verification](https://community.bean.money/bcm-verification)
 
 ### Security

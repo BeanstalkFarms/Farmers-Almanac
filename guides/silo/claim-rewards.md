@@ -6,6 +6,7 @@ Assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist) can be D
 * [Plant Plantable Seeds](claim-rewards.md#plant)
 * [Enroot Revitalized Stalk and Seeds](claim-rewards.md#enroot)
 * [Claim all Silo Rewards](claim-rewards.md#undefined)
+* [Add Additional Transactions to Save Gas](claim-rewards.md#add-additional-transactions-to-save-gas)
 
 ### Mow
 
@@ -64,3 +65,10 @@ Claiming all Silo Rewards calls [Mow](claim-rewards.md#mow), [Plant](claim-rewar
 5. At the bottom of this modal select the green “Claim all Silo Rewards” button.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 7. After the transaction has been confirmed by the network, your Silo Rewards will be added to your Stalk and Seed balances on the top of the "Silo" page, respectively.
+
+### Add Additional Transactions to Save Gas
+
+1. An alternative way to Claim Silo Rewards is as an add-on to another Beanstalk transaction.
+2. If eligible, an "Add additional transactions to save gas" dropdown menu will appear under the primary transaction.
+3. Select "Mow", "Plant", "Enroot" or use the "Claim All" toggle.
+4. The Silo Rewards transaction will appear under "Transaction Details".
