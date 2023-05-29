@@ -1,10 +1,10 @@
 # Where Are My Assets and How to Use Them?
 
-Assets used in Beanstalk may be in various states. For example, they may be Deposited in the Silo, in your wallet, or waiting for you to Claim them. Learn more about [Asset States](../../protocol/asset-states.md).
+Assets used in Beanstalk may be in various states. For example, they may be Deposited in the [Silo](../../farm/silo.md), stored in Beanstalk (known as [Farm Balance](../../protocol/glossary.md#farm-assets) and used to save gas fees), in your wallet (known as [Circulating Balance](../../protocol/glossary.md#circulating-beans)), or waiting for you to Claim them (known as Claimable Beans). For more information, learn about [Asset States](../../protocol/asset-states.md).
 
 View a dashboard for all Beanstalk-related holdings by wallet address in [Understand My Balances](../balances/understand-my-balances.md).
 
-Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balances](../swap/transfer-balances.md) between Asset States.
+Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balances](../swap/transfer-balances.md) between your Farm Balance and Circulating Balance and between wallets.
 
 * [Silo](where-are-my-assets-and-how-to-use-them.md#silo)
 * [Field](where-are-my-assets-and-how-to-use-them.md#field)
@@ -50,4 +50,3 @@ Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balanc
 1. When you [Convert in the Silo](../silo/convert.md) from Beans, [Transfer Deposits](../silo/transfer.md), or [Withdraw from the Silo](../silo/withdraw.md), you can "Use Earned Beans" to add to the transaction total with your [Earned Beans](../../protocol/glossary.md#earned-beans).
    * If you do not have any Earned Beans, you will not see this option on the UI.
 2. Toggle "Use Earned Beans". The amount of Earned Beans added will be shown in "Transaction Details".
-
