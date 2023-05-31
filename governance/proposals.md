@@ -29,65 +29,65 @@ Any proposal that proposes for another party to perform work upon, or at any poi
 
 All past proposals can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals).
 
-## Beanstalk Improvement Proposal<a href="#bip" id="bip"></a>
+## Beanstalk Improvement Proposal <a href="#bip" id="bip"></a>
 
 Beanstalk Improvement Proposals, or BIPs, are proposals to:
 
 * Change the Beanstalk protocol;
-* Mint Beans; and/or&#x20;
-* Change Beanstalk governance.&#x20;
+* Mint Beans; and/or
+* Change Beanstalk governance.
 
 Any Stalkholder that owns at least 0.1% of total Stalk can propose a BIP. Any Stalkholder can vote For, Abstain or Against (although voting Abstain or Against has the same the effect as not voting).
 
-The Voting Period opens when the Snapshot proposal for a BIP can be voted on and closes after 7 days or when it is committed with a supermajority.&#x20;
+The Voting Period opens when the Snapshot proposal for a BIP can be voted on and closes after 7 days or when it is committed with a supermajority.
 
-If at the end of the Voting Period:&#x20;
+If at the end of the Voting Period:
 
-* Less than or equal to 50% of total Stalk is voting For the BIP, it fails, or&#x20;
-* More than 50% of total Stalk is voting For the BIP, it passes.&#x20;
+* Less than or equal to 50% of total Stalk is voting For the BIP, it fails, or
+* More than 50% of total Stalk is voting For the BIP, it passes.
 
 If at any time 24 hours or more after the beginning and before the end of the Voting Period more than two-thirds of the total Stalk is voting For the BIP, the [Beanstalk Community Multisig (BCM)](beanstalk/bcm-process.md) can execute the BIP.
 
-BIPs are proposed on the [Beanstalk DAO Snapshot space](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BIPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/).&#x20;
+BIPs are proposed on the [Beanstalk DAO Snapshot space](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BIPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/).
 
 See [BIP Proposal Process](beanstalk/bcm-process.md#bip-proposal-process) for more information on proposing a BIP.
 
-## Beanstalk Operations Proposal<a href="#bop" id="bop"></a>
+## Beanstalk Operations Proposal <a href="#bop" id="bop"></a>
 
-Beanstalk Operations Proposals, or BOPs, are proposals for the DAO to agree on processes that do not involve (1) changing the Beanstalk protocol, (2) minting Beans or (3) changing Beanstalk governance. A BIP can include any changes that would otherwise be in a BOP.&#x20;
+Beanstalk Operations Proposals, or BOPs, are proposals for the DAO to agree on processes that do not involve (1) changing the Beanstalk protocol, (2) minting Beans or (3) changing Beanstalk governance. A BIP can include any changes that would otherwise be in a BOP.
 
 Any Stalkholder that owns at least 0.1% of total Stalk can propose a BOP. Any Stalkholder can vote For or Against.
 
-The Voting Period opens when the Snapshot proposal for a BOP can be voted on and closes after 7 days.&#x20;
+The Voting Period opens when the Snapshot proposal for a BOP can be voted on and closes after 7 days.
 
-If at the end of the Voting Period:&#x20;
+If at the end of the Voting Period:
 
-* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or&#x20;
-* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.&#x20;
+* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or
+* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.
 
 BOPs are proposed on the [Beanstalk DAO Snapshot space](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BOPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BOPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bop).
 
 See [BOP Proposal Process](beanstalk/bcm-process.md#bop-proposal-process) for more information on proposing a BOP.
 
-## Emergency Beanstalk Improvement Proposal<a href="#ebip" id="ebip"></a>
+## Emergency Beanstalk Improvement Proposal <a href="#ebip" id="ebip"></a>
 
 Emergency Beanstalk Improvement Proposals, or EBIPs, are emergency upgrades to Beanstalk. EBIPs are submitted and executed by the BCM in order to protect Beanstalk.
 
 EBIPs are shared with the Beanstalk community after commitment. Past EBIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/ebip).
 
-See [Emergency Response Procedures](beanstalk/bcm-process.md#emergency-response-procedures) for more information.&#x20;
+See [Emergency Response Procedures](beanstalk/bcm-process.md#emergency-response-procedures) for more information.
 
-## Beanstalk Farms Committee Proposal<a href="#bfcp" id="bfcp"></a>
+## Beanstalk Farms Committee Proposal <a href="#bfcp" id="bfcp"></a>
 
-Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [Beanstalk Farms Committee (BFC)](beanstalk-farms/bfc-dashboard.md). The BFC is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation.&#x20;
+Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personnel on the [Beanstalk Farms Committee (BFC)](beanstalk-farms/bfc-dashboard.md). The BFC is the group of Beanstalk Farms contributors that has discretion over the Beanstalk Farms budget, including contributor compensation.
 
 Stalkholders vote to:
 
 * Add members to the BFC via [BFCP-A](proposals.md#bfcp-a);
-* Remove members from the BFC via [BFCP-B](proposals.md#bfcp-b); and&#x20;
-* Extend the terms of existing BFC members via [BFCP-C](proposals.md#bfcp-c).&#x20;
+* Remove members from the BFC via [BFCP-B](proposals.md#bfcp-b); and
+* Extend the terms of existing BFC members via [BFCP-C](proposals.md#bfcp-c).
 
-The Voting Period opens when the Snapshot proposal for a BFCP can be voted on and closes after 7 days.&#x20;
+The Voting Period opens when the Snapshot proposal for a BFCP can be voted on and closes after 7 days.
 
 BFCPs are proposed on the [Beanstalk Farms Snapshot space](https://snapshot.org/#/beanstalkfarms.eth). Stalkholders can vote on BFCPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=beanstalk-farms). Past BFCPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfcp).
 
@@ -95,10 +95,10 @@ BFCPs are proposed on the [Beanstalk Farms Snapshot space](https://snapshot.org/
 
 BFCP-As are proposals to add someone to the BFC. Any Stalkholder that owns at least 0.1% of total Stalk can propose a BFCP-A. Any Stalkholder can vote For or Against.
 
-If at the end of the Voting Period:&#x20;
+If at the end of the Voting Period:
 
-* Less than or equal to 25% of total Stalk is voting For or the majority of participating Stalk is voting Against the BFCP-A, it fails, or&#x20;
-* More than 25% of total Stalk is voting For and the majority of participating Stalk is voting For the BFCP-A, it passes.&#x20;
+* Less than or equal to 25% of total Stalk is voting For or the majority of participating Stalk is voting Against the BFCP-A, it fails, or
+* More than 25% of total Stalk is voting For and the majority of participating Stalk is voting For the BFCP-A, it passes.
 
 The term of a BFC member whose BFCP-A passes ends two quarters after the end of the current quarter (end of March, June, September or December). There is no guarantee that payment terms in a BFCP-A can be fulfilled until the end of a BFC member's term given that the Beanstalk DAO must continually choose to fund Beanstalk Farms.
 
@@ -108,10 +108,10 @@ A BFCP-A is also the proposed BFC member's hiring proposal. Therefore, a BFCP-A 
 
 BFCP-Bs are proposals to remove someone from the BFC. Any Stalkholder that owns at least 0.1% of total Stalk can propose a BFCP-B. Any Stalkholder can vote For or Against.
 
-If at the end of the Voting Period:&#x20;
+If at the end of the Voting Period:
 
-* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BFCP-B, it fails, or&#x20;
-* More than 35% of total Voting Stalk votes For and the majority of participating Stalk is voting For the BFCP-B, it passes.&#x20;
+* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BFCP-B, it fails, or
+* More than 35% of total Stalk votes For and the majority of participating Stalk is voting For the BFCP-B, it passes.
 
 A BFCP-B is not required if the BFC member voluntarily leaves Beanstalk Farms or the BFC.
 
@@ -130,11 +130,11 @@ BFC members whose BFCP-C passes shall have their term extended by two quarters a
 
 BFC members have the option to update their previous hiring proposal terms in a BFCP-C. There is no guarantee that payment terms in a BFCP-C can be fulfilled until the end of a BFC member's term given that the Beanstalk DAO must continually choose to fund Beanstalk Farms.
 
-## Beanstalk Farms Budget Proposal<a href="#bfbp" id="bfbp"></a>
+## Beanstalk Farms Budget Proposal <a href="#bfbp" id="bfbp"></a>
 
 Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. The Beanstalk Farms budget is custodied by the [Beanstalk Farms Multisig (BFM)](beanstalk-farms/bfm-dashboard.md). The BFM executes the will of the BFC.
 
-Only BFC members can propose and vote on BFBPs and each member has 1 vote. Any BFC member can vote For or Against.&#x20;
+Only BFC members can propose and vote on BFBPs and each member has 1 vote. Any BFC member can vote For or Against.
 
 BFC members vote to:
 
@@ -142,13 +142,13 @@ BFC members vote to:
 * Dismiss contributors from Beanstalk Farms via [BFBP-B](proposals.md#bfbp-b); and
 * Otherwise use the Beanstalk Farms budget via [BFBP-C](proposals.md#bfbp-c).
 
-The Voting Period opens when the Snapshot proposal for a BFBP can be voted on and closes after 2 days.&#x20;
+The Voting Period opens when the Snapshot proposal for a BFBP can be voted on and closes after 2 days.
 
 BFBPs are proposed on the [Beanstalk Farms Budget Snapshot page](https://snapshot.org/#/beanstalkfarmsbudget.eth), which is where BFC members vote. Past BFBPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfbp).
 
 ### **BFBP-A**
 
-BFBP-As are proposals to hire a contributor to Beanstalk Farms.&#x20;
+BFBP-As are proposals to hire a contributor to Beanstalk Farms.
 
 A BFBP-A passes if at the end of the Voting Period there are at least 3 votes For, but this can be vetoed by a majority of the BFC voting Against.
 
@@ -163,25 +163,25 @@ BFBP-Bs are proposals to dismiss a contributor from Beanstalk Farms.
 If at the end of the Voting Period:
 
 * Less than a majority of the BFC is voting For the BFBP-B, it fails, or
-* At least a majority of the BFC is voting For the BFBP-B, it passes.&#x20;
+* At least a majority of the BFC is voting For the BFBP-B, it passes.
 
 A BFBP-B is not required in circumstances where a contributor is leaving Beanstalk Farms voluntarily or gracefully.
 
-BFBP-Bs shall not mention the contributor's name, but instead shall include a hash, where the input of the hash indicates the contributor being dismissed. The input of the hash shall only be shared with the BFC and the contributor in question. This allows the contributor to verify the result of the vote while preserving their privacy during the Voting Period and if the vote fails.&#x20;
+BFBP-Bs shall not mention the contributor's name, but instead shall include a hash, where the input of the hash indicates the contributor being dismissed. The input of the hash shall only be shared with the BFC and the contributor in question. This allows the contributor to verify the result of the vote while preserving their privacy during the Voting Period and if the vote fails.
 
 ### **BFBP-C**
 
-BFBP-Cs are proposals to use the Beanstalk Farms budget outside of hiring contributors.&#x20;
+BFBP-Cs are proposals to use the Beanstalk Farms budget outside of hiring contributors.
 
 A BFBP-C passes if at the end of the Voting Period there are at least 3 votes For, but this can be vetoed by a majority of the BFC voting Against.
 
 A BFBP-C is not required for payments valued at less than or equal to 25,000 Beans or USDC.
 
-## Beanstalk Immunefi Response<a href="#bir" id="bir"></a>
+## Beanstalk Immunefi Response <a href="#bir" id="bir"></a>
 
 Beanstalk Immunefi Responses, or BIRs, are responses to bug reports on [Immunefi](https://immunefi.com/). Only BIC members can propose and vote on BIRs and each member has 1 vote. Any BIC member can vote For or Against.
 
-The Voting Period opens when the Snapshot proposal for a BIR can be voted on and closes after 3 days.&#x20;
+The Voting Period opens when the Snapshot proposal for a BIR can be voted on and closes after 3 days.
 
 If at the end of the Voting Period:
 
@@ -192,7 +192,7 @@ See [BIC Process](beanstalk/bic-process.md) for more information.
 
 BIRs are proposed on the [Beanstalk Bug Bounty Snapshot page](https://snapshot.org/#/beanstalkbugbounty.eth), which is where BIC members vote. Past BIRs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir).
 
-## Bean Sprout Proposal<a href="#bsp" id="bsp"></a>
+## Bean Sprout Proposal <a href="#bsp" id="bsp"></a>
 
 Bean Sprout Proposals, or BSPs, are proposals to spend the [Bean Sprout](bean-sprout/) budget.
 
@@ -204,7 +204,7 @@ A BSP is not required for the BSM to send payments valued at under 4,000 Beans.
 
 BSPs are proposed on the [Bean Sprout Snapshot space](https://snapshot.org/#/wearebeansprout.eth). Stalkholders can vote on BSPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=bean-sprout). Past BSPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bsp).
 
-## BeaNFT Proposal<a href="#bnp" id="bnp"></a>
+## BeaNFT Proposal <a href="#bnp" id="bnp"></a>
 
 BeaNFT Proposals, or BNPs, are proposals through which the BeaNFT DAO votes on the direction of BeaNFTs (new collections, collection upgrades, etc.).
 
