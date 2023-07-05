@@ -27,10 +27,10 @@ Beanstalk Farms Committee Proposals, or BFCPs, are proposals related to personne
 
 Any Stalkholder with 0.1% of the Stalk supply can propose a BFCP-A or BFCP-B. There is no maximum number of BFC members, which facilitates permissionlessness.
 
-See [#beanstalk-farms-committee-proposal](../proposals.md#beanstalk-farms-committee-proposal "mention") for more info on each BFCP proposal type. BFCPs are proposed on the [Beanstalk Farms Snapshot page](https://snapshot.org/#/beanstalkfarms.eth). Stalkholders can vote on BFCPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=beanstalk-farms). Past BFCPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfcp).
+See [#bfcp](../proposals.md#bfcp "mention") for more info on each BFCP proposal type. BFCPs are proposed on the [Beanstalk Farms Snapshot page](https://snapshot.org/#/beanstalkfarms.eth). Stalkholders can vote on BFCPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance?type=beanstalk-farms). Past BFCPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfcp).
 
 Beanstalk Farms Budget Proposals, or BFBPs, are proposals related to the use of the Beanstalk Farms budget. Only BFC members can propose and vote on BFBPs.
 
 The BFC hires contributors via BFBP-As, dismisses contributors via BFBP-Bs, and otherwise uses the Beanstalk Farms budget via BFBP-Cs.
 
-See [#beanstalk-farms-budget-proposal](../proposals.md#beanstalk-farms-budget-proposal "mention") for more info on each BFBP proposal type. BFBPs are proposed on the [Beanstalk Farms Budget Snapshot page](https://snapshot.org/#/beanstalkfarmsbudget.eth), which is where BFC members vote. Past BFBPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfbp).
+See [#bfbp](../proposals.md#bfbp "mention") for more info on each BFBP proposal type. BFBPs are proposed on the [Beanstalk Farms Budget Snapshot page](https://snapshot.org/#/beanstalkfarmsbudget.eth), which is where BFC members vote. Past BFBPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bfbp).

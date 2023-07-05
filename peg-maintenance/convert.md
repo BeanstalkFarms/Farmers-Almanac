@@ -2,7 +2,7 @@
 
 Conversions within the [Silo](../farm/silo.md) between Bean and LP Deposits serve a major role in peg maintenance.
 
-Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference).&#x20;
+Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference/).
 
 When the Bean price is above peg (_i.e._, [deltaB](../protocol/glossary.md#deltab) is positive), Deposited Beans may be converted to Deposited BEAN:3CRV LP while retaining grown Stalk from Seeds. This conversion allows the Silo Member to add Beans to liquidity pools, which has the practical effect of selling Beans above peg. In doing so, Beanstalk incentivizes Silo Members to grow liquidity for Beans at the expense of additional Bean mints, as the Bean price is decreased back towards peg.
 
@@ -14,12 +14,12 @@ Unripe Beans are also convertible to Unripe BEAN:3CRV LP, and vice versa, in a s
 
 In order for a Farmer to be able to Convert a Deposited asset to another, that given Conversion must be on the Convert Whitelist.
 
-Additional Conversions may be added to the Convert Whitelist via [Beanstalk governance](broken-reference). In order for a Conversion to be added to the Convert Whitelist, Beanstalk requires:
+Additional Conversions may be added to the Convert Whitelist via [Beanstalk governance](broken-reference/). In order for a Conversion to be added to the Convert Whitelist, Beanstalk requires:
 
 1. The From token address;
 2. The To token address;
 3. Conditions under which the From token can be converted to the To token; and
-4. A function to determine the number of To tokens received for Converting a given number of From tokens (see [Section 14.4 in the Whitepaper](https://bean.money/beanstalk.pdf#subsection.14.4) to see formulas).
+4. A function to determine the number of To tokens received for Converting a given number of From tokens (see [Section 14.4 in the whitepaper](https://bean.money/beanstalk.pdf#subsection.14.4) for complete formulas).
 
 #### Current Convert Whitelist
 

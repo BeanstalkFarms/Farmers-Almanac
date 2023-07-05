@@ -210,6 +210,14 @@ The interest rate on [Fertilizer](glossary.md#fertilizer) purchases. Read more [
 
 The component of the [Farm](glossary.md#farm) that offers zero-fee trading to anyone on the Ethereum network. Read more [here](../farm/market.md).
 
+### Maximum Temperature
+
+The maximum [Temperature](glossary.md#temperature) Beanstalk is willing to offer during a [Season](glossary.md#season). Read more [here](../peg-maintenance/temperature.md).
+
+### Morning
+
+The first 25 blocks of each [Season](glossary.md#season).
+
 ### **Mow**
 
 Mowing [Grown Stalk](glossary.md#grown-stalk) adds it to your [Stalk](glossary.md#stalk) balance. Called upon any interaction with the [Silo](glossary.md#silo).

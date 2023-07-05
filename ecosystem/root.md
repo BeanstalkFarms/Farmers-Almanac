@@ -8,12 +8,6 @@ Root is a fungible wrapper for Beanstalk Silo Deposits that implements the ERC-2
 
 Root is designed as a rent-free public good and plans to support many types of permissionless markets denominated in Roots.
 
-Market types Root will support include:
-
-* **Prediction markets** like sports betting and political elections (see [Paradox](https://betparadox.com/));
-* **Financial markets** such as Bean interest rate swaps and asset futures; and
-* **Commerce markets** via NFT-represented assets, goods, and services.
-
 You can read more in their announcement: [Root: Liquid, On-Chain Markets](https://medium.com/@rootmarkets/root-protocol-rent-free-markets-on-beanstalk-6a6b3f71415d)
 
 ### Links

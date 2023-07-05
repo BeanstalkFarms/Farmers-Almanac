@@ -154,7 +154,7 @@ More information:
 
 #### **16. BEANSTALK REQUIRES THAT THE SUNRISE FUNCTION IS CALLED AT THE TOP OF EACH HOUR ON ETHEREUM. FAILURE TO SUCCESSFULLY INCENTIVIZE THE CALLING OF THE SUNRISE FUNCTION COULD HAVE AN ADVERSE AFFECT ON BEANSTALK'S ABILITY TO OSCILLATE THE BEAN PRICE ABOVE AND BELOW ITS PEG.** <a href="#sunrise-incentivization-risk" id="sunrise-incentivization-risk"></a>
 
-Beans and/or Soil are minted upon a successful call of the `sunrise` function. Beanstalk covers the cost of `sunrise` by awarding the sender of an accepted `sunrise` function call with newly minted Beans. The failure of Beanstalk to successfully incentivize the calling of `sunrise` would effectively result in the failure of Beanstalk to influence the size of the Bean supply, and thereby the Bean price.
+Beans and/or Soil are minted upon a successful call of the `gm` function. Beanstalk covers the cost of `gm` by awarding the sender of an accepted `gm` function call with newly minted Beans. The failure of Beanstalk to successfully incentivize the calling of `gm` would effectively result in the failure of Beanstalk to influence the size of the Bean supply, and thereby the Bean price.
 
 More information:
 

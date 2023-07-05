@@ -56,15 +56,7 @@ BIPs are voted on at the [Beanstalk DAO Snapshot space](https://snapshot.org/#/b
 
 The BCM shall not execute transactions until an associated Snapshot proposal successfully passes, apart from the exceptions outlined in the table below:
 
-| Transaction                                                              | Snapshot?                                        | Voting Period                                                                  |
-| ------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------ |
-| Executing BIP                                                            | Yes, requires a passed BIP                       | Up to 7 days as outlined in [#bip-voting](bcm-process.md#bip-voting "mention") |
-| Non-emergency change to the m-of-n BCM configuration                     | Yes, requires a passed BIP                       | Up to 7 days as outlined in [#bip-voting](bcm-process.md#bip-voting "mention") |
-| Executing BIR                                                            | Yes, requires a passed BIR                       | 3 days                                                                         |
-| Executing EBIP (emergency hotfix, etc.)                                  | No, but requires public notification via Discord | N/A                                                                            |
-| Rotating BCM Signers                                                     | No                                               | N/A                                                                            |
-| Emergency change to the m-of-n BCM configuration to remove rogue Signers | No                                               | N/A                                                                            |
-| Cancel transaction                                                       | No                                               | N/A                                                                            |
+<table><thead><tr><th width="265.3333333333333">Transaction</th><th>Snapshot?</th><th>Voting Period</th></tr></thead><tbody><tr><td>Executing BIP</td><td>Yes, requires a passed BIP</td><td>Up to 7 days as outlined in <a data-mention href="bcm-process.md#bip-voting">#bip-voting</a></td></tr><tr><td>Non-emergency change to the m-of-n BCM configuration</td><td>Yes, requires a passed BIP</td><td>Up to 7 days as outlined in <a data-mention href="bcm-process.md#bip-voting">#bip-voting</a></td></tr><tr><td>Executing BIR</td><td>Yes, requires a passed BIR</td><td>3 days</td></tr><tr><td>Executing EBIP (emergency hotfix, etc.)</td><td>No, but requires public notification via Discord</td><td>N/A</td></tr><tr><td>Rotating BCM Signers</td><td>No</td><td>N/A</td></tr><tr><td>Emergency change to the m-of-n BCM configuration to remove rogue Signers</td><td>No</td><td>N/A</td></tr><tr><td>Cancel transaction</td><td>No</td><td>N/A</td></tr></tbody></table>
 
 ## BIP Proposal and Voting
 

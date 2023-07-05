@@ -20,9 +20,14 @@
 * [Beanstalk Py (Bot Tooling) Repo](https://github.com/BeanstalkFarms/beanstalk-py)
 * [Beanstalk Analytics](https://github.com/BeanstalkFarms/Beanstalk-Analytics)
 * [Beanstalk Landing Page Repo](https://github.com/BeanstalkFarms/Beanstalk-Landing)
-* [**Pipeline Repo**](https://github.com/BeanstalkFarms/Pipeline)
-* [Pipeline Landing Page Repo](https://github.com/BeanstalkFarms/Pipeline-Landing)
-* [**Wells Repo**](https://github.com/BeanstalkFarms/Wells)
+
+### Pipeline&#x20;
+
+* [Pipeline Repositories](https://github.com/BeanstalkFarms#pipeline-1)
+
+### Basin
+
+* [Basin Repositories](https://github.com/BeanstalkFarms#basin-1)
 
 ### Analytics
 
@@ -80,6 +85,7 @@
 * [Beanstalk Farms Budget Snapshot](https://snapshot.org/#/beanstalkfarmsbudget.eth)
 * [Bean Sprout Snapshot](https://snapshot.org/#/wearebeansprout.eth)
 * [Beanstalk Bug Bounty Snapshot](https://snapshot.org/#/beanstalkbugbounty.eth)
+* [BeaNFT DAO Snapshot](https://snapshot.org/#/beanft.eth)
 
 ### Social
 
@@ -87,7 +93,6 @@
 * [**Beanstalk Protocol Twitter**](https://twitter.com/beanstalkmoney)
 * [**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)
 * [**Bean Sprout Twitter**](https://twitter.com/WeAreBeanSprout)
-* [**Bean Farmers Twitter**](https://twitter.com/bean\_farmers)&#x20;
 * [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)
@@ -122,4 +127,3 @@
 * [Layer3](https://beta.layer3.xyz/communities/beanstalk)
 * [BeaNFT Twitter](https://twitter.com/beanstalknfts)
 * [BeaNFT Instagram](https://www.instagram.com/beanstalknfts/)
-* [BeaNFT Snapshot](https://snapshot.org/#/beanft.eth)

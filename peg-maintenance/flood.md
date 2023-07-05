@@ -1,6 +1,6 @@
 # Flood
 
-Beanstalk sells newly minted Beans on Curve during long run increases in demand for Beans when [increasing the Bean supply](overview.md#bean-supply) and [lowering the Temperature](temperature.md) have not crossed the Bean price over its peg.
+Beanstalk sells newly minted Beans on Curve during long run increases in demand for Beans when [increasing the Bean supply](overview.md#bean-supply) and [lowering the Maximum Temperature](temperature.md) have not crossed the Bean price over its peg.
 
 At the beginning of a [Season](../farm/sun.md), if it is currently raining (the previous Season P > 1), and the [Pod Rate](overview.md#debt-level) is less than 5%, the Farm is Oversaturated. If it is Oversaturated for a Season, each Season in which it continues to be Oversaturated, it Floods.
 

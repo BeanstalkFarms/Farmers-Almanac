@@ -20,7 +20,7 @@ Contributors of [Beanstalk Farms](../governance/beanstalk-farms/).
 
 **Beanstalk Devs**
 
-Engineers working in Beanstalk ecosystem.
+Devs working in the Beanstalk ecosystem.
 
 **Friend of BF**
 

@@ -110,13 +110,13 @@
 
 * [Root](ecosystem/root.md)
 * [Pipeline](ecosystem/pipeline.md)
+* [Basin](ecosystem/basin.md)
 
 ## 🏫 Community Resources <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/beanstalk)
 * [Notion](https://community.bean.money/)
 * [Contributing](community/contributing.md)
-* [Community Grant Program](community/community-grant-program.md)
 * [Discord Roles](community/discord-roles.md)
 * [Content](community/content.md)
 * [Links](community/links.md)
