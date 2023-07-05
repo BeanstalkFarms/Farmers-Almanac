@@ -41,8 +41,8 @@ The following functions are only callable from the owner address:
 * `diamondCut` — Add, replace and/or remove any function(s) and/or execute an `init` function with a `delegatecall`.
 * `whitelistToken` — Add a token to the Deposit Whitelist.
 * `dewhitelistToken` — Remove a token from the Deposit Whitelist.
-* `pause` — Pause Beanstalk, which makes it such that the `sunrise` function cannot be successfully called.
-* `unpause` — Unpause Beanstalk, which allows the `sunrise` function to be successfully called at the top of the 2nd hour. The TWAP oracle and Season timer are reset as well.
+* `pause` — Pause Beanstalk, which makes it such that the `gm` function cannot be successfully called.
+* `unpause` — Unpause Beanstalk, which allows the `gm` function to be successfully called at the top of the 2nd hour. The TWAP oracle and Season timer are reset as well.
 * `createFundraiser` — Create a Fundraiser.
 * `transferOwnership` — Transfer ownership of the Beanstalk contract to a new address.
 * `addUnripeToken` — Add an Unripe token to Beanstalk.
