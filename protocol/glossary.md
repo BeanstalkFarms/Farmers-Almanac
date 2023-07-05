@@ -186,6 +186,10 @@ If the [Farm](glossary.md#farm) is [Oversaturated](glossary.md#oversaturation) f
 
 A mechanism for Beanstalk to issue [Pods](glossary.md#pods) for dollar-pegged assets other than Beans independent of [Soil](glossary.md#soil) minting in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Read more [here](fundraiser.md).
 
+### **gm**
+
+Beanstalk accepts one `gm` function call every [Season](glossary.md#season). Upon the `gm` call, Beanstalk [Ripens Pods](glossary.md#ripen), [Fertilizes Sprouts](glossary.md#fertilize), distributes Beans to [Stalkholders](glossary.md#stalkholders), adjusts the [Temperature](glossary.md#temperature), etc.
+
 ### **Grown Stalk**
 
 [Stalk](glossary.md#stalk) earned from [Seeds](glossary.md#seeds). Grown Stalk does not contribute to Stalk ownership until it is [Mown](glossary.md#mow). Mow can be called on its own, and it is also called at the beginning of any [Silo](glossary.md#silo) interaction ([Depositing](glossary.md#deposit), [Withdrawing](glossary.md#withdraw), [Converting](glossary.md#convert), etc.).
@@ -240,7 +244,7 @@ The [Farm](glossary.md#farm) is Oversaturated when there is a [Rainy Season](glo
 
 ### **Pause**
 
-Temporarily prevent the [`sunrise`](glossary.md#sunrise) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
+Temporarily prevent the [`gm`](glossary.md#gm) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
 
 ### **Pick**
 
@@ -332,7 +336,7 @@ A fungible wrapper for Silo Deposits. Read more [here](../ecosystem/root.md).
 
 ### **Season**
 
-Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the [`sunrise`](glossary.md#sunrise) function is successfully called on Ethereum.
+Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the [`gm`](glossary.md#gm) function is successfully called on Ethereum.
 
 ### **Seeds**
 
@@ -372,11 +376,7 @@ Holders of the Stalk token. Stalkholders participate in governance and earn Bean
 
 ### Sun
 
-The component of the Farm that keeps time in [Seasons](glossary.md#season) and incentivizes cost-efficient and timely calling of the [`sunrise`](glossary.md#sunrise) function. Read more [here](../farm/sun.md).
-
-### **Sunrise**
-
-Beanstalk accepts one `sunrise` function call every [Season](glossary.md#season). Upon the sunrise() call, Beanstalk [Ripens Pods](glossary.md#ripen), [Fertilizes Sprouts](glossary.md#fertilize), distributes Beans to [Stalkholders](glossary.md#stalkholders), adjusts the [Temperature](glossary.md#temperature), etc.
+The component of the Farm that keeps time in [Seasons](glossary.md#season) and incentivizes cost-efficient and timely calling of the [`gm`](glossary.md#gm) function. Read more [here](../farm/sun.md).
 
 ### **Temperature**
 
@@ -392,7 +392,7 @@ Moving [Deposits](glossary.md#deposit), [Plots](glossary.md#plot) or [Fertilizer
 
 ### **Unpause**
 
-Resume the acceptance of [`sunrise()`](glossary.md#sunrise) function calls. When Beanstalk is Unpaused, the sunrise() function can be called at the beginning of the next hour.
+Resume the acceptance of [`gm`](glossary.md#gm) function calls. When Beanstalk is Unpaused, the `gm` function can be called at the beginning of the next hour.
 
 ### **Unripe Assets**
 

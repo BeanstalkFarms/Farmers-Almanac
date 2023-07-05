@@ -31,7 +31,7 @@ Beanstalk governance is designed to move slow and steady. When trying to become 
 
 In case of a particularly dangerous vulnerability to Beanstalk, the BCM can Pause Beanstalk without a Snapshot. You can read more about which actions the BCM can take without a Snapshot proposal [here](bcm-process.md#snapshots). The Beanstalk DAO can also Pause Beanstalk via BIP.
 
-When Paused, Beanstalk does not accept a `sunrise` function call. Once Unpaused, the `sunrise` function can be called at the beginning of the next hour.
+When Paused, Beanstalk does not accept a `gm` function call. Once Unpaused, the `gm` function can be called at the beginning of the next hour.
 
 ### **Commit**
 
