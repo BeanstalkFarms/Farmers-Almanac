@@ -13,7 +13,7 @@ Upon acceptance of the `gm` call, the Sun:
 1. Increments the Season number;
 2. Calculates deltaB, the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the [Oracle Whitelist](sun.md#oracle-whitelist);
 3. [Changes the Maximum Temperature](../peg-maintenance/temperature.md) if necessary and checks for [Flood](../peg-maintenance/flood.md);
-4. Sets the [new Soil supply](../peg-maintenance/overview.md#soil-supply);
+4. Sets the initial[ Soil supply](../peg-maintenance/overview.md#soil-supply);
 5. [Mints Beans](../peg-maintenance/overview.md#bean-supply) if necessary; and
 6. Awards Beans to the address that successfully called the `gm` function.
 

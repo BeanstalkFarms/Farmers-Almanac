@@ -8,14 +8,6 @@ Understanding the various states that Beanstalk assets can be in can help Farmer
 
 Assets that are Deposited in the Silo.
 
-**Withdrawn Balances**
-
-Assets being Withdrawn from the Silo. At the end of the current Season, Withdrawn assets become Claimable.
-
-**Claimable Balances**
-
-Assets that can be Claimed after a Withdrawal.
-
 **Farm Balances**
 
 Assets stored in Beanstalk. Farm assets can be used in transactions on the Farm.
@@ -33,14 +25,6 @@ Beans in all liquidity pools. The Beanstalk UI does not include Beans that make 
 **Deposited Beans**
 
 Beans Deposited in the Silo. Includes Earned Beans.
-
-**Withdrawn Beans**
-
-Beans Withdrawn from the Silo before they are unfrozen. Withdrawn Beans are Frozen until the end of the current Season.
-
-**Claimable Beans**
-
-Withdrawn Beans become Claimable Beans after the end of the current Season. Claimable Beans must be Claimed in order to use them.
 
 **Farm Beans**
 
@@ -79,8 +63,6 @@ Sprouts that are redeemable for 1 Bean each. Rinsable Sprouts must be Rinsed in 
 LP Tokens can be in the following states, which are identical to the equivalent Bean states described above:
 
 * Deposited
-* Withdrawn
-* Claimable
 * Farm
 * Circulating
 * Ripe
@@ -90,8 +72,6 @@ LP Tokens can be in the following states, which are identical to the equivalent 
 Unripe assets can be in the following states, which are identical to the equivalent Bean states described above:
 
 * Deposited
-* Withdrawn
-* Claimable
 * Farm
 * Circulating
 

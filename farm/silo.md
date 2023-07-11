@@ -6,7 +6,7 @@ Publius explains the Silo
 
 The Silo is the Beanstalk DAO. The Silo uses the Stalk System to create protocol-native financial incentives that improve Beanstalk’s security and Bean’s liquidity and stability.
 
-Anyone can become a Silo Member by Depositing whitelisted assets in the Silo to earn Stalk and Seeds. Neither Stalk nor Seeds are liquid.
+Anyone can become a Silo Member by Depositing whitelisted assets in the Silo to earn Stalk and Seeds. Neither Stalk nor Seeds are liquid. Deposits are represented as ERC-1155 standard tokens.
 
 For guides on interacting with the Silo through the Beanstalk UI, go [here](../guides/silo/).
 
@@ -14,10 +14,10 @@ For guides on interacting with the Silo through the Beanstalk UI, go [here](../g
 
 To be Deposited into the Silo, an ERC-20 standard token must be on the Deposit Whitelist.
 
-Additional tokens may be added to the Deposit Whitelist via [Beanstalk governance](broken-reference). In order for a token to be added to the Deposit Whitelist, Beanstalk requires:
+Additional tokens may be added to the Deposit Whitelist via [Beanstalk governance](broken-reference/). In order for a token to be added to the Deposit Whitelist, Beanstalk requires:
 
 1. The token address;
-2. A function to calculate the Bean Denominated Value (BDV) of the token (see [Section 14.2 of the Whitepaper](https://bean.money/beanstalk.pdf#subsection.14.2) for complete formulas); and
+2. A function to calculate the Bean Denominated Value (BDV) of the token (see [Section 14.2 of the whitepaper](https://bean.money/beanstalk.pdf#subsection.14.2) for complete formulas); and
 3. The number of Stalk and Seeds per BDV received upon Deposit.
 
 #### **Current Deposit Whitelist**
@@ -26,8 +26,8 @@ Additional tokens may be added to the Deposit Whitelist via [Beanstalk governanc
 | ------------------------------------------------------------------------------------------------ | ----------------- | ----------------- |
 | [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                  | 1                 | 2                 |
 | [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)          | 1                 | 4                 |
-| [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*         | 1                 | 2                 |
-| [Unripe BEAN:3CRV LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 4                 |
+| [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*         | 1                 | 0                 |
+| [Unripe BEAN:3CRV LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 0                 |
 
 \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
 
@@ -35,7 +35,7 @@ Additional tokens may be added to the Deposit Whitelist via [Beanstalk governanc
 
 When whitelisted assets are Deposited into the Silo, Beanstalk rewards the Depositor with Stalk and Seeds. Seeds yield 1/10000 new Stalk every [Season](sun.md).
 
-Stalkholders are entitled to participate in Beanstalk governance and earn a portion of Bean mints. Governance power and distribution of Bean mints are proportional to each Stalkholder’s Stalk balance relative to total outstanding Stalk.
+Stalkholders are entitled to participate in Beanstalk governance and earn a portion of Bean mints. Governance power and distribution of Bean mints are proportional to each Stalkholder's Stalk balance relative to total outstanding Stalk.
 
 Older Deposits have their Stalk ownership diluted by newer Deposits upon Deposit. Stalk ownership, and each Stalkholder’s share of Beanstalk governance voting power, decentralizes over time. Therefore, newly minted Beans are more widely distributed over time. A design that lowers the Gini coefficient of Beans and Stalk is essential to censorship resistance.
 
@@ -45,11 +45,7 @@ Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs). Stal
 
 The associated amount of Stalk, Seeds, and Stalk from Seeds from a given Deposit must be forfeited when the Deposit is Withdrawn from the Silo. The requirement to forfeit Stalk that has grown from Seeds over time creates an opportunity cost to leave the Silo, thereby increasing the stickiness of Deposits the longer they stay Deposited.
 
-Partial Withdrawals are placed on a Last In, First Out (LIFO) basis by the Beanstalk UI, minimizing the amount of Stalk and Seeds forfeited. Deposited assets can be Withdrawn from the Silo at any time but are Frozen until the end of the current Season before they can be Claimed.
-
-Deposits can be Transferred to another address directly without the loss of Stalk, Seeds, and Stalk from Seeds.
-
-![](../.gitbook/assets/silo.png)
+Deposits can be Withdrawn from the Silo at any time. Deposits can be Transferred to another address directly without the loss of Stalk, Seeds, and Stalk from Seeds.
 
 ### **Convert**
 
@@ -61,7 +57,7 @@ See [Governance](../governance/beanstalk/) section.
 
 ### **Silo Rewards**
 
-**Earned Beans** are Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds (defined below). Upon Plant, Earned Beans are Deposited in the current Season.
+**Earned Beans** are Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds (defined below). Upon Plant, Earned Beans are Deposited in the current Season. Earned Beans are distributed 10 blocks (2 minutes) after a successful `gm` function call. Without this vesting period, tBeanstalk would be susceptible to an attack where an account can Deposit whitelisted assets in the Silo, call `gm` and Withdraw the assets in the same transaction, gaining risk-free Bean seigniorage in the process.
 
 **Earned Stalk** are Stalk earned from Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.
 

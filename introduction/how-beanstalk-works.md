@@ -32,13 +32,12 @@ The Sun uses deltaB to determine how to change the Bean supply and [Soil](../far
 
 Beanstalk uses [the Silo](../farm/silo.md), the Beanstalk DAO, to create a robust decentralized governance mechanism. Farmers can earn yield from passive participation in Beanstalk governance by Depositing whitelisted assets in the Silo to receive Stalk and Seeds.
 
-Stalkholders can submit and vote on [Beanstalk Improvement Proposals](broken-reference) (BIPs) and collect a portion of Bean supply increases. A diverse community of Stalkholders creates decentralization.
+Stalkholders can submit and vote on [Beanstalk Improvement Proposals](broken-reference/) (BIPs) and collect a portion of Bean supply increases. A diverse community of Stalkholders creates decentralization.
 
 To encourage consistent security:
 
 * Seeds yield Stalk every Season.
 * The associated amount of Stalk and Seeds from a given Deposit must be forfeited when it is Withdrawn from the Silo.
-* Deposits can be Withdrawn from the Silo at any time but are Frozen until the end of the current Season.
 
 Deep and consistent liquidity in liquidity pools Beans trade in improves stability. Liquidity providers to liquidity pools whose LP Tokens are whitelisted can also Deposit their LP Tokens in the Silo to earn Stalk and Seeds. LP Token Deposits earn more Seeds than Bean Deposits.
 
@@ -56,21 +55,21 @@ Pods have a fixed interest rate and unknown maturity date. The number of Pods th
 
 Beanstalk requires a diverse set of participants, including Silo Members (people who Deposit assets in the Silo), Sowers (people who lend Beans to Beanstalk), and arbitrageurs. Beanstalk aligns the incentives of every individual participant to maximize price stability and create a diverse, decentralized economy. Beanstalk-native financial incentives consistently increase censorship resistance, stability and liquidity over time.
 
-At the beginning of each Season, the Sun calculates deltaB (the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the Oracle Whitelist), Beanstalk’s debt level, and the change in demand for Soil over the previous 2 Seasons, and dynamically adjusts the Bean supply, Soil supply and Temperature to bring the price back towards the peg.
+At the beginning of each Season, the Sun calculates deltaB (the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the Oracle Whitelist), Beanstalk’s debt level, and the change in demand for Soil over the previous 2 Seasons, and dynamically adjusts the Bean supply, Soil supply and Maximum Temperature to bring the price back towards the peg.
 
 When the price of Bean is too low (_i.e._, deltaB is negative), Beanstalk:
 
 * Increases the Soil supply by deltaB, subject to the cap in [EBIP-2](https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk); and
-* Raises the Temperature.
+* Raises the Maximum Temperature.
 
-By increasing the Soil supply and raising the Temperature, Beanstalk can decrease the supply of Beans and therefore bring the price of Bean back up to its peg (assuming there are willing lenders at the given Temperature). In principle, a reasonable debt level and consistent credit history attracts lenders.
+By increasing the Soil supply and raising the Maximum Temperature, Beanstalk can decrease the supply of Beans and therefore bring the price of Bean back up to its peg (assuming there are willing lenders at the given Temperature). In principle, a reasonable debt level and consistent credit history attracts lenders.
 
 When the Bean price is too high (_i.e._, deltaB is positive), Beanstalk:
 
 * Increases the Bean supply by deltaB, subject to the cap in EBIP-2; and
-* Lowers the Temperature.
+* Lowers the Maximum Temperature.
 
-By increasing the Bean supply and lowering the Temperature, Beanstalk can bring the price of Bean back down to its peg.
+By increasing the Bean supply and lowering the Maximum Temperature, Beanstalk can bring the price of Bean back down to its peg.
 
 To align the interests of Stalkholders and Sowers, 1/3 of Bean supply increases are distributed to Stalkholders and 1/3 go to Pod Harvests. The other 1/3 are distributed to Active Fertilizer holders as part of Beanstalk’s recapitalization plan after the April 2022 governance exploit (see [Barn](../farm/barn.md) section).
 

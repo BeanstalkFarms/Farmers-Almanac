@@ -1,5 +1,7 @@
 # Audits
 
+[Halborn](https://halborn.com/) completed its audit of [BIP-36](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/06-30-23-bip-36-halborn-report.pdf) on **June 30, 2023**, identifying 4 findings that were solved  or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/06-30-23-bip-36-halborn-report).
+
 [Halborn](https://halborn.com/) completed its audit of [BIP-34](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/04-18-23-bip-34-halborn-report.pdf) on **April 18, 2023**, identifying 2 findings that were solved prior to the release of the report. The final report can be found [here](https://bean.money/04-18-23-bip-34-halborn-report).
 
 [Halborn](https://halborn.com/) completed another audit of [Beanstalk](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/12-13-22-halborn-report.pdf) on **December 13, 2022**, identifying 12 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/12-13-22-halborn-report).

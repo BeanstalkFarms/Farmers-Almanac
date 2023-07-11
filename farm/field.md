@@ -18,7 +18,7 @@ Anytime Beanstalk is willing to issue debt, there is Soil in the Field. Soil rep
 
 When Beans are Sown, Beanstalk burns them, permanently removing the Sown Beans from the Bean supply. For example, if there's 10 Soil available and 10 Beans are Sown, the Soil supply becomes 0 and 10 Beans are removed from the Bean supply. If the market is in some sort of equilibrium, Beans are bought to be Sown, which drives the Bean price upward towards its value peg.
 
-When P ≥ 1 (_i.e._, [deltaB](../protocol/glossary.md#deltab) ≥ 0), Beanstalk changes the Soil supply at the beginning of each block in the Morning. When P < 1 (_i.e._, [deltaB](../protocol/glossary.md#deltab) < 0), Beanstalk sets the Soil supply to deltaB. See the [Soil Supply](../peg-maintenance/overview.md#soil-supply) section.
+When P ≥ 1 (_i.e._, [deltaB](../protocol/glossary.md#deltab) ≥ 0), the Soil supply decreases logarithmically at the beginning of each block in the Morning. When P < 1 (_i.e._, deltaB < 0), Beanstalk sets the Soil supply to deltaB. See the [Soil Supply](../peg-maintenance/overview.md#soil-supply) section.
 
 ### **Pods**
 
@@ -34,7 +34,9 @@ Pods are tradeable on the [Pod Market](market.md#the-pod-market). Pods can also 
 
 The Temperature is the interest rate for Sowing Beans in the Field. At 500% Temperature, 1 Bean can be Sown in exchange for 6 Pods. Once those Pods become Harvestable, they can be Harvested in exchange for 6 Beans.
 
-Beanstalk [changes the Maximum Temperature](../peg-maintenance/temperature.md) it is willing to offer each Season at the beginning of each Season according to the peg maintenance mechanism. [During the Morning](../peg-maintenance/temperature.md#morning) of each Season, the Temperature is the result of a Dutch auction.
+Beanstalk [changes the Maximum Temperature](../peg-maintenance/temperature.md) it is willing to offer each Season at the beginning of each Season according to the peg maintenance mechanism.&#x20;
+
+[During the Morning](../peg-maintenance/temperature.md#morning) of each Season, the Temperature is the result of a Dutch auction, where the Temperature increases logarithmically from 1% in the block of a successful `gm` function call up to the Maximum Temperature over the course of 5 minutes. During times of short-term excess demand for Soil, the Morning results in Beanstalk paying significantly less to attract creditors.
 
 ### **Field Process**
 

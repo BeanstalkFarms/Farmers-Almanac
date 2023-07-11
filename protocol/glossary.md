@@ -12,7 +12,7 @@ A fundraiser to restore $77M in non-Bean liquidity stolen from the [Silo](glossa
 
 ### **Bean Denominated Value (BDV)** <a href="#bean-denominated-value" id="bean-denominated-value"></a>
 
-The value of an asset denominated in Beans. Used to calculate how many [Stalk](glossary.md#stalk) and [Seeds](glossary.md#seeds) are rewarded to Depositors of a whitelisted asset. Abbreviated as BDV.&#x20;
+The value of an asset denominated in Beans. Used to calculate how many [Stalk](glossary.md#stalk) and [Seeds](glossary.md#seeds) are rewarded to Depositors of a whitelisted asset. Abbreviated as BDV.
 
 ### **Bean Sprout (BS)** <a href="#bean-sprout" id="bean-sprout"></a>
 
@@ -90,10 +90,6 @@ The percentage claim to future [Ripe assets](glossary.md#ripe-assets) forfeited 
 
 Beans in Farmers' wallets.
 
-### **Claimable Assets**
-
-[Withdrawn Assets](glossary.md#withdrawn-assets) become Claimable Assets after the end of the current [Season](glossary.md#season). Claimable Assets must be Claimed in order to use them.
-
 ### **Convert**
 
 Changing one [Deposited](glossary.md#deposit) asset for another within the [Silo](glossary.md#silo). Read more [here](../farm/silo.md#convert-whitelist).
@@ -132,7 +128,7 @@ A [Season](glossary.md#season) where no Beans are minted per the peg maintenance
 
 ### **Earned Beans**
 
-Beans that have been paid to a [Silo Member](glossary.md#silo-members) since the last [Season](glossary.md#season) the Silo Member [Planted](glossary.md#plant) their [Plantable Seeds](glossary.md#plantable-seeds). Upon Plant, Earned Beans are [Deposited](glossary.md#deposit) in the current Season.
+Beans that have been paid to a [Silo Member](glossary.md#silo-members) since the last [Season](glossary.md#season) the Silo Member [Planted](glossary.md#plant) their [Plantable Seeds](glossary.md#plantable-seeds). Upon Plant, Earned Beans are [Deposited](glossary.md#deposit) in the current Season. Earned Beans are distributed 10 blocks (2 minutes) after a successful `gm` function call.
 
 ### **Earned Stalk**
 
@@ -409,7 +405,3 @@ The time interval in which a [Beanstalk Improvement Proposal](glossary.md#beanst
 ### **Withdraw**
 
 [Deposited assets](glossary.md#deposited-assets) can be Withdrawn from the [Silo](glossary.md#silo) at any time. The number of [Stalk](glossary.md#stalk), [Seeds](glossary.md#seeds), and Stalk from Seeds rewarded for a Deposited asset must be forfeited upon its Withdrawal from the Silo. Read more [here](../farm/silo.md#withdraw).
-
-### **Withdrawn Assets**
-
-Assets Withdrawn from the [Silo](glossary.md#silo) before they are unfrozen. Withdrawn assets are Frozen until the end of the current [Season](glossary.md#season).

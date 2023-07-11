@@ -4,7 +4,7 @@ Beanstalk relies on a decentralized set of creditors to maintain Bean price stab
 
 At the beginning of each [Season](../farm/sun.md), Beanstalk changes the Maximum Temperature depending on its position ([price](overview.md#decentralized-price-oracle) and [debt level](overview.md#debt-level)) and current state ([direction](temperature.md#direction) and [acceleration](temperature.md#acceleration)) with respect to its [ideal equilibrium](overview.md#ideal-equilibrium).
 
-The Temperature increases each block of the [Morning](temperature.md#morning) of each Season (25 blocks) according to a Dutch auction.&#x20;
+The Temperature increases at the beginning of each block of the [Morning](temperature.md#morning) of each Season (25 blocks) according to a Dutch auction.&#x20;
 
 ### **Direction**
 
@@ -68,8 +68,8 @@ Considering the current state and the debt level, Beanstalk adjusts the Maximum 
 
 The [Maximum Temperature Flow Chart](https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/\[PUBLIC]-Temperature-Flow-Chart?node-id=0%3A1\&t=27N3RhfE52pum1U8-1) contains a graphical representation of each possible state and an explanation for each Maximum Temperature adjustment.
 
-{% @figma/embed fileId="ri6N8czFLXcvuJKWfQtAr8" nodeId="0:1" url="https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/[PUBLIC]-Temperature-Flow-Chart?node-id=0:1&t=wNVja1Id00hD8ImA-1" %}
+{% @figma/embed fileId="ri6N8czFLXcvuJKWfQtAr8" nodeId="0:1" url="https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/[PUBLIC]-Max-Temp-Flow-Chart?node-id=0:1&t=VLyPk6oCFiBfjN6W-1&type=whiteboard" %}
 
 ### Morning
 
-The Temperature increases logarithmically in each block of the Morning of each Season based on the Maximum Temperature (from 1% to 100% of the Maximum Temperature), the length in blocks of the Morning and a control variable. See [Section 8.12.2 of the whitepaper](https://bean.money/beanstalk.pdf#subsubsection.8.12.2) for complete formulas.
+During the Morning of each Season (the first 5 minutes), the Temperature increases logarithmically from 1% in the block of a successful `gm` function call up to the Maximum Temperature over the course of 5 minutes (See [Section 8.12.2 of the whitepaper](https://bean.money/beanstalk.pdf#subsubsection.8.12.2) for complete formulas). During times of short-term excess demand for Soil, the Morning results in Beanstalk paying significantly less to attract creditors.

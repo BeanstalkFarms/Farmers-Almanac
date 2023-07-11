@@ -69,7 +69,6 @@
   * [Convert in the Silo](guides/silo/convert.md)
   * [Transfer Deposits](guides/silo/transfer.md)
   * [Withdraw from the Silo](guides/silo/withdraw.md)
-  * [Claim Assets](guides/silo/claim-assets.md)
   * [Claim Silo Rewards](guides/silo/claim-rewards.md)
 * [Field](guides/field/README.md)
   * [Sow Beans](guides/field/sow.md)
