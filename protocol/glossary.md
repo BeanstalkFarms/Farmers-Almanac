@@ -176,7 +176,7 @@ Match a [Pod Listing](glossary.md#pod-listing) with an overlapping [Pod Order](g
 
 ### **Flood**
 
-If the [Farm](glossary.md#farm) is [Oversaturated](glossary.md#oversaturation) for a [Season](glossary.md#season), each Season in which it continues to be Oversaturated, it Floods. At the beginning of a Season where it Floods, Beanstalk mints additional Beans and sells them directly on Curve.
+If P > 1 over the previous [Season](glossary.md#season) and the [Pod Rate](glossary.md#pod-rate) is less than 5%, there is a Flood. At the beginning of a Season where it Floods, Beanstalk mints additional Beans and sells them directly on Curve.
 
 ### **Fundraiser**
 
@@ -229,10 +229,6 @@ The whitelist of liquidity pools whose [deltaB’s](glossary.md#deltab) are summ
 ### **Ordered Beans**
 
 Beans stored in [Pod Orders](glossary.md#pod-order).
-
-### **Oversaturation**
-
-The [Farm](glossary.md#farm) is Oversaturated when there is a [Rainy Season](glossary.md#rainy-season) and the [Pod Rate](glossary.md#pod-rate) is less than 5%.
 
 ### Pari passu
 
