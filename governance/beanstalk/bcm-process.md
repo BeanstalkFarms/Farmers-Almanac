@@ -2,9 +2,9 @@
 
 **This document can be found on Arweave** [**here**](https://bean.money/bcm-process)**.**
 
-**The Beanstalk Community Multisig**, **or BCM**, custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM has the exclusive and unilateral ability upgrade Beanstalk. In the future, it is expected that BIPs will reimplement permissionless governance and revoke these abilities from the BCM.&#x20;
+**The Beanstalk Community Multisig**, **or BCM**, custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM has the exclusive and unilateral ability upgrade Beanstalk. In the future, it is expected that BIPs will either (1) reimplement permissionless governance or (2) remove governance altogether, revoking these abilities from the BCM.
 
-The BCM is not intended to have decision making power. Its role is to (1) enact on-chain the decisions Stalkholders make via off-chain voting and (2) review and verify proposals to ensure the suggested changes are truthfully represented.
+The BCM is not intended to have decision making power. Its role is to enact on-chain the decisions Stalkholders make via off-chain voting and review and verify proposals to ensure the suggested changes are truthfully represented.
 
 The BCM is deployed using [Safe](https://safe.global/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration started as 5-of-9 on Ethereum mainnet. Parameters m and n are each ultimately defined by Stalkholders and may evolve in the future via Beanstalk Improvement Proposal (BIP).
 
@@ -96,7 +96,7 @@ Voting for BIPs takes place on Snapshot using Stalk at the beginning of the Voti
 
 Any Stalkholder can vote For, Abstain or Against on any BIP. In all instances, 1 Stalk equals 1 vote, and not voting or voting Abstain is equivalent to voting Against.
 
-The Voting Period opens when the Snapshot proposal for a BIP can be voted on and ends after 7 days or once a two-thirds supermajority is reached.&#x20;
+The Voting Period opens when the Snapshot proposal for a BIP can be voted on and ends after 7 days or once a two-thirds supermajority is reached.
 
 If at the end of the Voting Period:
 
@@ -134,16 +134,16 @@ The following are the processes in place for a Stalkholder to propose a BOP:
 
 Voting for BOPs takes place on Snapshot using Stalk at the beginning of the Voting Period that still exists.
 
-Any Stalkholder can vote For or Against on any BOP. The Voting Period opens when the Snapshot proposal for a BOP can be voted on and closes after 7 days.&#x20;
+Any Stalkholder can vote For or Against on any BOP. The Voting Period opens when the Snapshot proposal for a BOP can be voted on and closes after 7 days.
 
-If at the end of the Voting Period:&#x20;
+If at the end of the Voting Period:
 
-* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or&#x20;
-* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.&#x20;
+* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or
+* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.
 
 ## BIR Proposal and Voting
 
-The BIC determines the categorization and payout of bug bounties in accordance with the [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk/) approved by the Beanstalk DAO. The BCM executes the will of the BIC as determined by BIRs.&#x20;
+The BIC determines the categorization and payout of bug bounties in accordance with the [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk/) approved by the Beanstalk DAO. The BCM executes the will of the BIC as determined by BIRs.
 
 Any BIC member may propose BIRs. Past BIRs can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bir).
 
@@ -163,7 +163,7 @@ The following are the processes in place for the BIC to propose and have the BCM
 2. The BCM shall then formally propose the BIR by submitting the on-chain transaction.
 3. The BIC shall then formally propose the BIR on the [Beanstalk Bug Bounty Snapshot space](https://snapshot.org/#/beanstalkbugbounty.eth).
 4. During the 3 day Voting Period, every BCM Signer shall verify the transaction per [#verifying-and-signing-transactions](bcm-process.md#verifying-and-signing-transactions "mention"). If not all Signers verify the transaction, the BCM may still continue per the process outlined in [#rotating-signers](bcm-process.md#rotating-signers "mention").
-5. If the BIR passes (two-thirds majority of BIC members voting For), the Signers will sign m/n signatures and execute the on-chain transaction as soon as possible. If the BIR fails to pass, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.&#x20;
+5. If the BIR passes (two-thirds majority of BIC members voting For), the Signers will sign m/n signatures and execute the on-chain transaction as soon as possible. If the BIR fails to pass, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.
 
 ## Signer Best Practices
 
@@ -199,7 +199,7 @@ A Signer shall lose their role on the BCM (by the remaining Signers removing the
 
 ## Verifying and Signing Transactions
 
-All BCM Signers are expected to know how to verify `diamondCut` data and confirm they have verified transactions by creating an Etherscan verified message.&#x20;
+All BCM Signers are expected to know how to verify `diamondCut` data and confirm they have verified transactions by creating an Etherscan verified message.
 
 The following should be used as a guide for the minimum review criteria in cases where a `diamondCut` is being executed:
 
@@ -223,7 +223,7 @@ The BCM will not execute a transaction that was misrepresented in the Snapshot p
 
 In the case that any Signer during the verification process determines that a Snapshot proposal does not accurately represent the transaction, that Signer will sign an Etherscan verified message indicating as such with context on the issue.
 
-The BCM will respond as follows:&#x20;
+The BCM will respond as follows:
 
 * If the BCM determines that the Signer is "rogue" and attempting to censor the transaction, the BCM will indicate that by continuing to verify (and ultimately sign and execute, in the case that the proposal passes) the transaction; or
 * If the BCM determines that the Signer is not rogue, the BCM will indicate that by submitting, signing and executing a cancel transaction with the same nonce.
@@ -241,7 +241,7 @@ Past EBIPs can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Gover
 Depending on the severity of a given emergency, BCM members shall swiftly decide the best course of action:
 
 * If a bug or vulnerability is severe and requires significant code changes to fix, the BCM may remove functions from Beanstalk and take any necessary extra action to mitigate further damage; or
-* If a bug or vulnerability is minor and does not require significant code changes to fix, a hotfix may be implemented by the BCM.&#x20;
+* If a bug or vulnerability is minor and does not require significant code changes to fix, a hotfix may be implemented by the BCM.
 
 In cases where functions must be removed immediately to protect Beanstalk, BCM Signers are not required to submit an Etherscan verified message as outlined in [#verifying-and-signing-transactions](bcm-process.md#verifying-and-signing-transactions "mention").
 
@@ -253,7 +253,7 @@ After emergency action is taken, the BCM shall swiftly issue a summarized report
 
 ### EBIP During Voting Period
 
-In the event that an EBIP must be executed during the Voting Period of another proposal, the on-chain transaction for the outstanding proposal must be canceled.&#x20;
+In the event that an EBIP must be executed during the Voting Period of another proposal, the on-chain transaction for the outstanding proposal must be canceled.
 
 In order avoid the need to revote on a proposal in this situation, the BCM will repropose the on-chain transaction for the outstanding proposal after the successful execution of the EBIP.
 

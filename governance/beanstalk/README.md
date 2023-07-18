@@ -8,7 +8,7 @@ BIPs are proposed on the [Beanstalk DAO Snapshot page](https://snapshot.org/#/be
 
 ### **Participation**
 
-Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk.&#x20;
+Anyone can become a Stalkholder and participate in Beanstalk governance by Depositing whitelisted assets in the Silo to earn Stalk.
 
 A Stalkholder’s voting power is proportional to their Stalk balance relative to the total Stalk supply. Any Stalkholder can vote For, Abstain or Against on any BIP. In all instances, 1 Stalk equals 1 vote, and voting Abstain or Against is equivalent to not voting on the proposal. Stalkholders have the ability to delegate their vote to any other user.
 
@@ -35,4 +35,4 @@ When Paused, Beanstalk does not accept a `gm` function call. Once Unpaused, the 
 
 ### **Commit**
 
-The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, it is expected that a BIP will revoke these abilities from the BCM and reimplement on-chain governance. You can read more about the BCM [here](bcm-process.md).
+The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, it is expected that BIPs will either (1) reimplement permissionless governance or (2) remove governance altogether, revoking these abilities from the BCM. You can read more about the BCM [here](bcm-process.md).
