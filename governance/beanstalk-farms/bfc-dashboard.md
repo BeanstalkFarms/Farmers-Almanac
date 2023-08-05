@@ -6,7 +6,7 @@ The Beanstalk Farms Committee, or BFC, is the group of Beanstalk Farms contribut
 
 The current BFC members are as follows, in no particular order:
 
-<table><thead><tr><th width="217">BFC member</th><th width="198">End of term</th><th>Latest BFCP</th></tr></thead><tbody><tr><td>guy</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr><tr><td>mod323</td><td>September 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md">BFCP-C-1</a></td></tr><tr><td>Silo Chad</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr><tr><td>sweetredbeans</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr></tbody></table>
+<table><thead><tr><th width="217">BFC member</th><th width="198">End of term</th><th>Latest BFCP</th></tr></thead><tbody><tr><td>guy</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr><tr><td>mod323</td><td>September 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md">BFCP-C-1</a></td></tr><tr><td>sweetredbeans</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr></tbody></table>
 
 Adding members to the BFC requires a BFCP-A and removing BFC members requires a BFCP-B. You can read more about BFCPs [here](../proposals.md#bfcp).
 
@@ -18,5 +18,4 @@ The following addresses do not custody any funds and are not signers on any mult
 | ----------------------------------------------------------------------------------------------------------------------- |
 | [0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0](https://snapshot.org/#/profile/0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0) |
 | [0xBDecc08D2eD93289945b2aE7890D1652C988c054](https://snapshot.org/#/profile/0xBDecc08D2eD93289945b2aE7890D1652C988c054) |
-| [0x7fE93F9a5036153bcD2d5bA35a75DDfB0F64C3C3](https://snapshot.org/#/profile/0x7fE93F9a5036153bcD2d5bA35a75DDfB0F64C3C3) |
 | [0x1D5f0B6E2f2F857e7aD09C04570392Ff6373067A](https://snapshot.org/#/profile/0x1D5f0B6E2f2F857e7aD09C04570392Ff6373067A) |
