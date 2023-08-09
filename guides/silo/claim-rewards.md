@@ -16,11 +16,10 @@ Note: The “Mow” function is called anytime a Farmer interacts with the Silo.
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
-3. Select the green “Claim Rewards” button.
+3. Select the green “Claim” button.
    * Note: You must have Grown Stalk in order to Mow.
-4. Select “Mow” in the modal.
-   * To the right of “Mow” there will be an estimated transaction fee based on current gas prices on Ethereum.
-5. At the bottom of the modal select the green “Mow” button.
+4. Check “Mow” for the Silo assets you would like to Mow.
+5. Select the green “Claim Rewards” button. An estimated transaction fee based on current gas costs is displayed below.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 7. After the transaction has been confirmed by the network, your Grown Stalk will be added to the Stalk balance at the top of the "Silo" page.
 
@@ -30,11 +29,10 @@ Planting [Plantable Seeds](../../protocol/glossary.md#plantable-seeds) adds them
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
-3. Select the green “Claim Rewards" button.
+3. Select the green “Claim" button.
    * Note: You must have Plantable Seeds in order to “Plant”.
-4. Select “Plant” in the modal.
-   * To the right of “Plant” there will be an estimated transaction fee based on current gas prices on Ethereum.
-5. At the bottom of the modal select the green “Plant” button.
+4. Check the items you would like to Plant.
+5. Select the green “Claim Rewards” button. An estimated transaction fee based on current gas costs is displayed below.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 7. After the transaction has been confirmed by the network, your Plantable Seeds will be added to the Seed balance at the top of the "Silo" page.
 
@@ -44,11 +42,10 @@ Planting [Plantable Seeds](../../protocol/glossary.md#plantable-seeds) adds them
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
-3. Select the green “Claim Rewards” button.
+3. Select the green “Claim” button.
    * Note: You must have Revitalized Stalk and Seeds in order to Enroot.
-4. Select “Enroot” in the modal.
-   * To the right of “Enroot” there will be an estimated transaction fee based on current gas prices on Ethereum.
-5. At the bottom of the modal select the green “Enroot” button.
+4. Select to Enroot your Revitalized Stalk and/or Revitalized Seeds.
+5. Select the green “Claim Rewards” button. An estimated transaction fee based on current gas costs is displayed below.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 7. After the transaction has been confirmed by the network, your Revitalized Stalk and Seeds will be added to the Stalk and Seed balances on the top of the "Silo" page, respectively.
 
@@ -58,11 +55,10 @@ Claiming all Silo Rewards calls [Mow](claim-rewards.md#mow), [Plant](claim-rewar
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Silo” page.
-3. Select the green “Claim Rewards” button.
+3. Select the green “Claim” button.
    * Note: You must have claimable Silo Rewards.
-4. Select “Claim all Silo Rewards” in the modal to Mow, Plant and Enroot.
-   * To the right of “Claim all Silo Rewards” there will be an estimated transaction fee based on current gas prices on Ethereum.
-5. At the bottom of this modal select the green “Claim all Silo Rewards” button.
+4. All Claimable Silo Rewards are selected by default.
+5. Select the green “Claim Rewards” button. An estimated transaction fee based on current gas costs is displayed below.
 6. Confirm the transaction in your wallet and your hardware wallet, if applicable. You should verify that the transaction is interacting with the [correct contract](../../protocol/contracts.md) before signing it.
 7. After the transaction has been confirmed by the network, your Silo Rewards will be added to your Stalk and Seed balances on the top of the "Silo" page, respectively.
 

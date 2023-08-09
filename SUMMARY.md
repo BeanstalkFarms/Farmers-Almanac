@@ -70,6 +70,7 @@
   * [Transfer Deposits](guides/silo/transfer.md)
   * [Withdraw from the Silo](guides/silo/withdraw.md)
   * [Claim Silo Rewards](guides/silo/claim-rewards.md)
+  * [Migrate to Silo V3](guides/silo/migrate-to-silo-v3.md)
 * [Field](guides/field/README.md)
   * [Sow Beans](guides/field/sow.md)
   * [Transfer Pods](guides/field/transfer.md)

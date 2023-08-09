@@ -29,6 +29,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 * [Transfer Deposits](silo/transfer.md)
 * [Withdraw from the Silo](silo/withdraw.md)
 * [Claim Silo Rewards](silo/claim-rewards.md)
+* [Migrate to Silo V3](silo/migrate-to-silo-v3.md)
 
 ### Field
 
