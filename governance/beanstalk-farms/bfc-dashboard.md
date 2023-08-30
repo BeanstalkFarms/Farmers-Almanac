@@ -6,7 +6,7 @@ The Beanstalk Farms Committee, or BFC, is the group of Beanstalk Farms contribut
 
 The current BFC members are as follows, in no particular order:
 
-<table><thead><tr><th width="217">BFC member</th><th width="198">End of term</th><th>Latest BFCP</th></tr></thead><tbody><tr><td>guy</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr><tr><td>mod323</td><td>September 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-1-term-extension-q3-2022.md">BFCP-C-1</a></td></tr><tr><td>sweetredbeans</td><td>December 2023</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-2-term-extension-q4-2022.md">BFCP-C-2</a></td></tr></tbody></table>
+<table><thead><tr><th width="217">BFC member</th><th width="198">End of term</th><th>Latest BFCP</th></tr></thead><tbody><tr><td>guy</td><td>June 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-3-term-extension-h2-2023.md">BFCP-C-3</a></td></tr><tr><td>mod323</td><td>March 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-3-term-extension-h2-2023.md">BFCP-C-3</a></td></tr><tr><td>sweetredbeans</td><td>June 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-3-term-extension-h2-2023.md">BFCP-C-3</a></td></tr></tbody></table>
 
 Adding members to the BFC requires a BFCP-A and removing BFC members requires a BFCP-B. You can read more about BFCPs [here](../proposals.md#bfcp).
 

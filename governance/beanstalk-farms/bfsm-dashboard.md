@@ -10,8 +10,8 @@ The Beanstalk and Bean subgraphs are custodied by the Beanstalk Farms Subgraph M
 
 The current BFSM signers are as follows, in no particular order:
 
-* Publius
-* Silo Chad
+* Brendan Sanderson
+* guy
 * Cujo
 
 Adding, removing and rotating signers is at the discretion of the BFSM signers.
@@ -20,4 +20,4 @@ Adding, removing and rotating signers is at the discretion of the BFSM signers.
 | --------------------------------------------------------------------------------------------------------------------- |
 | [0a8B567F3Fb8943711Af9c6AFB0622720e64A783](https://etherscan.io/address/0a8B567F3Fb8943711Af9c6AFB0622720e64A783)     |
 | [0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1](https://etherscan.io/address/0x925753106FCdB6D2f30C3db295328a0A1c5fD1D1) |
-| [0xd216472bcc3e6080Fc28BC95D0565128ffE16De9](https://etherscan.io/address/0xd216472bcc3e6080Fc28BC95D0565128ffE16De9) |
+| [0x92960a1d2B98e645c3cb3EF35d42F1A35e8AF19C](https://etherscan.io/address/0x92960a1d2B98e645c3cb3EF35d42F1A35e8AF19C) |

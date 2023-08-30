@@ -4,7 +4,7 @@
 Publius explains the Depot
 {% endembed %}
 
-Current complex interactions with Ethereum-native protocols are tedious, cumbersome and expensive. The Depot facilitates complex, gas-efficient interactions with other Ethereum-native protocols in a single transaction.&#x20;
+Current complex interactions with Ethereum-native protocols are tedious, cumbersome and expensive. The Depot facilitates complex, gas-efficient interactions with other Ethereum-native protocols in a single transaction.
 
 Any protocol with a Pipeline to the Depot can be used via Beanstalk in a single transaction. Pipelines to the Depot can be added via [Beanstalk governance](../governance/beanstalk/).
 
@@ -27,7 +27,7 @@ The following functions to interact with Curve pools can be called through the C
 
 ### Pipeline
 
-The [Pipeline](../ecosystem/pipeline.md) Pipeline allows anyone to perform an arbitrary series of actions in the EVM in a single transaction by using [0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa44](https://etherscan.io/address/0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa#readContract) as a sandbox for execution.
+The [Pipeline](../ecosystem/pipeline.md) Pipeline allows anyone to perform an arbitrary series of actions in the EVM in a single transaction by using [0xb1bE0000C6B3C62749b5F0c92480146452D15423](https://etherscan.io/address/0xb1bE0000C6B3C62749b5F0c92480146452D15423) as a sandbox for execution.
 
 The following functions to interact with Pipeline can be called through the [Pipeline](../ecosystem/pipeline.md) Pipeline.
 

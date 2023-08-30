@@ -16,11 +16,11 @@ The value of an asset denominated in Beans. Used to calculate how many [Stalk](g
 
 ### **Bean Sprout (BS)** <a href="#bean-sprout" id="bean-sprout"></a>
 
-A Beanstalk accelerator program to facilitate development on and around Beanstalk in a decentralized fashion. Read more [here](../governance/bean-sprout/).
+A Beanstalk accelerator program to facilitate development on and around Beanstalk in a decentralized fashion. Read more [here](../archives/bean-sprout/).
 
 ### **Bean Sprout Multisig (BSM)** <a href="#bean-sprout-multisig" id="bean-sprout-multisig"></a>
 
-The multisig that custodies the Bean Sprout budget funds. Abbreviated as BSM. Read more [here](../governance/bean-sprout/bsm-dashboard.md).
+The multisig that custodies the Bean Sprout budget funds. Abbreviated as BSM. Read more [here](../archives/bean-sprout/bsm-dashboard.md).
 
 ### **Bean**
 

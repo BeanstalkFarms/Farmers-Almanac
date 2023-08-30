@@ -2,7 +2,7 @@
 
 **This document can be found on Arweave** [**here**](https://bean.money/bcm-process)**.**
 
-**The Beanstalk Community Multisig**, **or BCM**, custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM has the exclusive and unilateral ability upgrade Beanstalk. In the future, it is expected that BIPs will either (1) reimplement permissionless governance or (2) remove governance altogether, revoking these abilities from the BCM.
+**The Beanstalk Community Multisig**, **or BCM**, custodies ownership of the [Beanstalk contract](../../protocol/contracts.md). The BCM has the exclusive and unilateral ability upgrade Beanstalk. In the future, it is expected that BIPs remove governance entirely, revoking these abilities from the BCM.
 
 The BCM is not intended to have decision making power. Its role is to enact on-chain the decisions Stalkholders make via off-chain voting and review and verify proposals to ensure the suggested changes are truthfully represented.
 

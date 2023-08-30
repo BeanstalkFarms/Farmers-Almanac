@@ -10,8 +10,8 @@ Beanstalk Farms budget funds are custodied by the Beanstalk Farms Multisig, or B
 
 The current BFM signers are as follows, in no particular order:
 
-* Publius
-* Silo Chad
+* Michael Montoya
+* Brean
 * guy
 * sweetredbeans
 * mod323
@@ -33,5 +33,5 @@ Rotating BFM signers requires a [BOP](../proposals.md#bop) (or [BIP](../proposal
 | [0x6D1E1EC2891EdC25fdB3E3D0f7E02F469Cc1Bcbb](https://etherscan.io/address/0x6D1E1EC2891EdC25fdB3E3D0f7E02F469Cc1Bcbb) |
 | [0xABf65fD0D887235D45898B09D66a67871EC23d1a](https://etherscan.io/address/0xABf65fD0D887235D45898B09D66a67871EC23d1a) |
 | [0xcFDC487C7a347aA7B275221c2A663e1004f656b8](https://etherscan.io/address/0xcFDC487C7a347aA7B275221c2A663e1004f656b8) |
-| [0xd216472bcc3e6080Fc28BC95D0565128ffE16De9](https://etherscan.io/address/0xd216472bcc3e6080Fc28BC95D0565128ffE16De9) |
+| [0x336C5185B9f27b40fcD8E852d4B9e15A08084743](https://etherscan.io/address/0x336C5185B9f27b40fcD8E852d4B9e15A08084743) |
 | [0x2e4Ea01753f30B837813EF14CC547674AeA1fe88](https://etherscan.io/address/0x2e4Ea01753f30B837813EF14CC547674AeA1fe88) |

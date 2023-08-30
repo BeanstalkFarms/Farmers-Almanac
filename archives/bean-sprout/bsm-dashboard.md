@@ -14,8 +14,8 @@ The current BSM signers are as follows, in no particular order:
 * guy
 * Bean Merchant
 * Brean
-* Publius
-* ereal
+* Michael Montoya
+* MarcoOnMulberry (ereal)
 * aloceros
 
 The following Farmers serve as backup signers for the BSM, in no particular order:
@@ -23,7 +23,7 @@ The following Farmers serve as backup signers for the BSM, in no particular orde
 * mod323
 * sweetredbeans
 
-Rotating BSM signers requires a [BOP](../proposals.md#bop) (or [BIP](../proposals.md#bip)) unless a signer voluntarily leaves the BSM or for rotating in a backup signer.
+Rotating BSM signers requires a [BOP](../../governance/proposals.md#bop) (or [BIP](../../governance/proposals.md#bip)) unless a signer voluntarily leaves the BSM or for rotating in a backup signer.
 
 | Address                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------- |

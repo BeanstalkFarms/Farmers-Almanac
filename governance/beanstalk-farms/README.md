@@ -1,6 +1,6 @@
 # Beanstalk Farms
 
-The Beanstalk DAO is responsible for the formation of two independent, symbiotic organizations with distinct mandates: Beanstalk Farms and [Bean Sprout](../bean-sprout/) (a Beanstalk accelerator program).
+The Beanstalk DAO is responsible for the formation of two independent, symbiotic organizations with distinct mandates: Beanstalk Farms and [Bean Sprout](../../archives/bean-sprout/) (a Beanstalk accelerator program).
 
 Beanstalk Farms is a decentralized development organization of core contributors working on Beanstalk, operating across the stack on technical and non-technical problems.
 

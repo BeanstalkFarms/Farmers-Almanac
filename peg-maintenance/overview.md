@@ -33,11 +33,23 @@ In practice, maintaining ideal equilibrium is impossible. Deviations from ideal 
 
 Beanstalk’s core objective is to oscillate the price of Bean above and below its dollar peg. To do this, Beanstalk must be able to reliably measure the price of a dollar on-chain without trusting a centralized third-party to provide it. A robust, decentralized stablecoin requires a tamper-proof, manipulation-resistant and decentralized price oracle.
 
-Beanstalk leverages the 3CRV pool on Curve as its price oracle. Curve is an Ethereum-native decentralized exchange protocol specializing in efficient stablecoin trading. Curve offers continuous trading in any direction by maintaining a liquidity pool of currencies for a 0.04% trading fee.
+#### BEAN:3CRV pool
+
+Beanstalk leverages the 3CRV pool on [Curve](https://curve.fi/) as its price oracle for calculating deltaB in the BEAN:3CRV pool. Curve is an Ethereum-native decentralized exchange protocol specializing in efficient stablecoin trading. Curve offers continuous trading in any direction by maintaining a liquidity pool of currencies for a 0.04% trading fee.
 
 Owners of the currencies in a liquidity pool on Curve can add liquidity to the pool in exchange for liquidity pool tokens (LP tokens) unique to that liquidity pool. LP token owners receive a portion of trading fees. Price slippage increases when the size of a trade is large relative to the size of the liquidity pool. Pools with greater liquidity serve as more robust price sources.
 
 3CRV is one of the most liquid stablecoin pools in DeFi, consisting of USDC, USDT and DAI. The centralized organizations that control USDC and USDT cannot blacklist 3CRV without destroying the value proposition of their own stablecoins. DAI is a network-native exogenous value convertible stablecoin that is primarily backed by centralized stablecoins.
+
+#### BEAN:ETH Well
+
+Ether is the most decentralized, censorship resistant and liquid asset on the Ethereum network. Beanstalk leverages the [ETH/USD Chainlink data feed](https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd) and the ETH:USDC and ETH:USDT Uniswap V3 pools for calculating deltaB in the BEAN:ETH Well. Wells are the liquidity pools of [Basin](https://basin.exchange/), a composable EVM-native DEX protocol.
+
+The [Multi Flow Pump](https://basin.exchange/multi-flow-pump.pdf) attached to the BEAN:ETH Well is the first Ethereum-native oracle for Ethereum-native data that offers multi-block MEV manipulation resistance in a post-Merge environment. Using Multi Flow, Beanstalk can calculate a multi-block MEV manipulation resistant BEAN:ETH price.
+
+Uniswap V3 pools are not multi-block MEV manipulation resistant but are on-chain and permissionless. Chainlink data feeds are multi-block MEV manipulation resistant because they are off-chain and permissioned. The ETH/USD data feed is the only Chainlink feed secured by staking. Using the Chainlink data feed combined with a check that ETH/USD Chainlink data is within some threshold of either the ETH:USDC or ETH:USDT Uniswap V3 pools, Beanstalk can calculate a multi-block MEV manipulation resistant ETH:USD price at the cost of some centralization.
+
+***
 
 In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of each Season, Beanstalk calculates the sum of the liquidity and time weighted average shortage or excess of Beans across the liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist) over the previous Season (i.e., [deltaB](../protocol/glossary.md#deltab)).
 

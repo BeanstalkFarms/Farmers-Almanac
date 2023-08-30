@@ -10,21 +10,9 @@ The pseudonym of Beanstalk’s founders.
 
 Community members that enforce the Discord rules and update roles at their discretion. Mods are selected by Beanstalk Farms.
 
-**BFC**
+**Contributors**
 
-Members of the [Beanstalk Farms Committee](../governance/beanstalk-farms/bfc-dashboard.md).
-
-**Beanstalk Farms**
-
-Contributors of [Beanstalk Farms](../governance/beanstalk-farms/).
-
-**Beanstalk Devs**
-
-Devs working in the Beanstalk ecosystem.
-
-**Friend of BF**
-
-Friends of the Farm.
+Beanstalk contributors.
 
 **Master Farmer**
 

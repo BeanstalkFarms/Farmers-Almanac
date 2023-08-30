@@ -66,9 +66,7 @@
 
 * [**Beanstalk Notion**](https://community.bean.money/)
   * [Recordings](https://community.bean.money/recordings)
-  * [Roadmap](https://community.bean.money/roadmap)
-  * [Jobs](https://community.bean.money/jobs)
-  * [Community Grants](https://community.bean.money/community-grants)
+  * [Past Community Grants](https://community.bean.money/community-grants)
   * [Bug Reports](https://community.bean.money/bug-reports)
   * [BCM Verification](https://community.bean.money/bcm-verification)
 
@@ -92,7 +90,7 @@
 * [**Beanstalk Discord**](https://discord.gg/beanstalk)
 * [**Beanstalk Protocol Twitter**](https://twitter.com/beanstalkmoney)
 * [**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)
-* [**Bean Sprout Twitter**](https://twitter.com/WeAreBeanSprout)
+* [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
 * [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)
@@ -117,6 +115,7 @@
 * [BeaNFT Winter Collection](https://opensea.io/collection/beanft-winter)
 * [BeaNFT Barn Raise Collection](https://opensea.io/collection/beanft-barn-raise)
 * [Fertilizer](https://opensea.io/collection/bean-fertilizer)
+* [Silo Deposits](https://opensea.io/collection/beanstalk-silo-deposits)
 
 ### Inactive
 

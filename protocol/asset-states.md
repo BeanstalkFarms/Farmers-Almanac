@@ -36,7 +36,7 @@ Beans in Farmers’ wallets.
 
 **Budget Beans**
 
-Circulating Beans in the [BFM](../governance/beanstalk-farms/bfm-dashboard.md) and [BSM](../governance/bean-sprout/bsm-dashboard.md) wallets.
+Circulating Beans in the [BFM](../governance/beanstalk-farms/bfm-dashboard.md) and [BSM](../archives/bean-sprout/bsm-dashboard.md) wallets.
 
 **Ripe Beans**
 

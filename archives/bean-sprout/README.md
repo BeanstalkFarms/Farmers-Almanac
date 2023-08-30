@@ -23,3 +23,5 @@ Currently, Bean Sprout is not actively funded. The last Bean Sprout budget was t
 Bean Sprout Proposals, or BSPs, are proposals to use the Bean Sprout budget. Anyone with 0.1% of the Stalk supply or [BSM](bsm-dashboard.md) signers can propose a BSP. BSPs are voted on by Stalkholders.&#x20;
 
 BSPs that propose to spend less than or equal to 25,000 Beans are optimistically approved unless a quorum of 10% of the Stalk supply is reached, after which the majority vote determines the outcome of the vote. BSPs that propose to spend more than 25,000 Beans must reach a quorum of 10% of the Stalk supply and a majority vote For in order to pass.
+
+A BSP is not required for the BSM to send payments valued at under 4,000 Beans.

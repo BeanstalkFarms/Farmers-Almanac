@@ -24,12 +24,15 @@ Additional tokens may be added to the Deposit Whitelist via [Beanstalk governanc
 
 | **Whitelisted asset**                                                                            | **Stalk per BDV** | **Seeds per BDV** |
 | ------------------------------------------------------------------------------------------------ | ----------------- | ----------------- |
-| [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                  | 1                 | 2                 |
-| [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)          | 1                 | 4                 |
+| [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                  | 1                 | 3                 |
+| [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)          | 1                 | 3.25              |
+| [BEAN:ETH Well LP](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd)      | 1                 | 4.5               |
 | [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*         | 1                 | 0                 |
 | [Unripe BEAN:3CRV LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 0                 |
 
 \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
+
+Deposits are tradeable on [OpenSea](https://opensea.io/collection/beanstalk-silo-deposits).
 
 ### **The Stalk System**
 
@@ -37,7 +40,7 @@ When whitelisted assets are Deposited into the Silo, Beanstalk rewards the Depos
 
 Stalkholders are entitled to participate in Beanstalk governance and earn a portion of Bean mints. Governance power and distribution of Bean mints are proportional to each Stalkholder's Stalk balance relative to total outstanding Stalk.
 
-Older Deposits have their Stalk ownership diluted by newer Deposits upon Deposit. Stalk ownership, and each Stalkholder’s share of Beanstalk governance voting power, decentralizes over time. Therefore, newly minted Beans are more widely distributed over time. A design that lowers the Gini coefficient of Beans and Stalk is essential to censorship resistance.
+Older Deposits have their Stalk ownership diluted by newer Deposits upon Deposit. Stalk ownership, and each Stalkholder's share of Beanstalk governance voting power, decentralizes over time. Therefore, newly minted Beans are more widely distributed over time. A design that lowers the Gini coefficient of Beans and Stalk is essential to censorship resistance.
 
 Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs). Stalkholders receive 1/3 of new Bean mints while there are more than zero Unfertilized Sprouts (Sprouts are issued by the [Barn](barn.md)). If there are no Unfertilized Sprouts, Stalkholders receive 1/2 of new Bean mints.
 
@@ -46,6 +49,8 @@ Stalkholders can submit and vote on Beanstalk Improvement Proposals (BIPs). Stal
 The associated amount of Stalk, Seeds, and Stalk from Seeds from a given Deposit must be forfeited when the Deposit is Withdrawn from the Silo. The requirement to forfeit Stalk that has grown from Seeds over time creates an opportunity cost to leave the Silo, thereby increasing the stickiness of Deposits the longer they stay Deposited.
 
 Deposits can be Withdrawn from the Silo at any time. Deposits can be Transferred to another address directly without the loss of Stalk, Seeds, and Stalk from Seeds.
+
+<figure><img src="../.gitbook/assets/deposit.png" alt=""><figcaption></figcaption></figure>
 
 ### **Convert**
 

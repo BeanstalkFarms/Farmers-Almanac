@@ -44,8 +44,6 @@
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
   * [BFC Dashboard](governance/beanstalk-farms/bfc-dashboard.md)
   * [BFSM Dashboard](governance/beanstalk-farms/bfsm-dashboard.md)
-* [Bean Sprout](governance/bean-sprout/README.md)
-  * [BSM Dashboard](governance/bean-sprout/bsm-dashboard.md)
 * [BeaNFTs](governance/beanfts/README.md)
   * [BDM Dashboard](governance/beanfts/bdm-dashboard.md)
 * [Proposals](governance/proposals.md)
@@ -120,3 +118,9 @@
 * [Discord Roles](community/discord-roles.md)
 * [Content](community/content.md)
 * [Links](community/links.md)
+
+## 📰 Archives
+
+* [Bean Sprout](archives/bean-sprout/README.md)
+  * [BSM Dashboard](archives/bean-sprout/bsm-dashboard.md)
+* [Governance Proposals](archives/governance-proposals.md)

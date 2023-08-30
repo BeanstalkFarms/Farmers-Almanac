@@ -21,13 +21,14 @@ Upon acceptance of the `gm` call, the Sun:
 
 To be included in the calculation of [deltaB](../protocol/glossary.md#deltab), a liquidity pool must be on the Oracle Whitelist.
 
-Additional liquidity pools may be added to the Oracle Whitelist via [Beanstalk governance](broken-reference/). In order for a liquidity pool to be added to the Oracle Whitelist, Beanstalk requires:
+Additional liquidity pools may be added to the Oracle Whitelist via [Beanstalk governance](../governance/beanstalk/). In order for a liquidity pool to be added to the Oracle Whitelist, Beanstalk requires:
 
 1. The pool address; and
 2. A function to calculate the liquidity and time weighted average shortage or excess of Beans in the pool (see [Section 14.6 of the whitepaper](https://bean.money/beanstalk.pdf#subsection.14.6) for complete formulas).
 
 #### Current Oracle Whitelist
 
-| Name                                           | Address                                                                                                               |
-| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [BEAN:3CRV pool](https://curve.fi/factory/152) | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) |
+| Name                                                                                       | Address                                                                                                               |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [BEAN:3CRV Curve pool](https://curve.fi/#/ethereum/pools/factory-v2-152/deposit)           | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) |
+| [BEAN:ETH Well](https://basin.exchange/#/wells/0xbea0e11282e2bb5893bece110cf199501e872bad) | [0xBEA0e11282e2bB5893bEcE110cF199501e872bAd](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd) |

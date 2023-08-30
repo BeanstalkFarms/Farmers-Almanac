@@ -8,9 +8,9 @@ See [BIC Process](bic-process.md) for more information.
 
 The current BIC members are as follows, in no particular order:
 
-* Publius
+* Brendan Sanderson
 * mod323
-* Silo Chad
+* pizzaman1337
 * Brean
 * funderberker
 * malteasy
@@ -31,7 +31,7 @@ The following addresses do not custody any funds and are not signers on any mult
 | ----------------------------------------------------------------------------------------------------------------------- |
 | [0xDf7D34df31eFdD4a5bDA4c093109FB9391E5197e](https://snapshot.org/#/profile/0xDf7D34df31eFdD4a5bDA4c093109FB9391E5197e) |
 | [0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB](https://snapshot.org/#/profile/0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB) |
-| [0x8E316f27805Cd09EfDD04Ca60930Ee193d3998c7](https://snapshot.org/#/profile/0x8E316f27805Cd09EfDD04Ca60930Ee193d3998c7) |
+| [0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b](https://etherscan.io/address/0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b)   |
 | [0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF](https://snapshot.org/#/profile/0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF) |
 | [0x5029d790a4370BfD64838810aDFf5E76B931eDec](https://snapshot.org/#/profile/0x5029d790a4370BfD64838810aDFf5E76B931eDec) |
 | [0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2](https://snapshot.org/#/profile/0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2) |

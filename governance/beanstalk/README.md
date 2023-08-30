@@ -2,7 +2,7 @@
 
 A robust decentralized governance mechanism must balance the principles of decentralization with resistance to attempted protocol changes, both malicious and ignorant, and the ability to quickly adapt to changing information. In practice, Beanstalk must balance ensuring sufficient time for all ecosystem participants to consider a Beanstalk Improvement Proposal (BIP) with the ability to be quickly upgraded in cases of emergency.
 
-Prior to Beanstalk’s April 17, 2022 exploit, Beanstalk Improvement Proposals (BIPs) were entirely on-chain and autonomous. However, after the exploit, Beanstalk was Paused and the ability to propose BIPs on-chain halted. Until a robust on-chain governance system is implemented, BIPs will be voted on off-chain via Snapshot and will be executed on-chain by the [Beanstalk Community Multisig (BCM)](bcm-process.md). Stalkholders are able to vote on BIPs via Snapshot.
+Prior to Beanstalk’s April 17, 2022 exploit, Beanstalk Improvement Proposals (BIPs) were entirely on-chain and autonomous. However, after the exploit, Beanstalk was Paused and the ability to propose BIPs on-chain halted. Until governance is removed entirely, BIPs will be voted on off-chain via Snapshot and will be executed on-chain by the [Beanstalk Community Multisig (BCM)](bcm-process.md). Stalkholders are able to vote on BIPs via Snapshot.
 
 BIPs are proposed on the [Beanstalk DAO Snapshot page](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BIPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BIPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/).
 
@@ -35,4 +35,4 @@ When Paused, Beanstalk does not accept a `gm` function call. Once Unpaused, the 
 
 ### **Commit**
 
-The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, it is expected that BIPs will either (1) reimplement permissionless governance or (2) remove governance altogether, revoking these abilities from the BCM. You can read more about the BCM [here](bcm-process.md).
+The BCM address has the exclusive and unilateral ability to Pause or Unpause Beanstalk, and commit a BIP. In the future, it is expected that BIPs will remove governance entirely, revoking these abilities from the BCM. You can read more about the BCM [here](bcm-process.md).
