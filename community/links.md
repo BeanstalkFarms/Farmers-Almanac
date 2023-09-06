@@ -115,7 +115,7 @@
 * [BeaNFT Winter Collection](https://opensea.io/collection/beanft-winter)
 * [BeaNFT Barn Raise Collection](https://opensea.io/collection/beanft-barn-raise)
 * [Fertilizer](https://opensea.io/collection/bean-fertilizer)
-* [Silo Deposits](https://opensea.io/collection/beanstalk-silo-deposits)
+* [Silo Deposits](https://opensea.io/collection/silo-deposits)
 
 ### Inactive
 

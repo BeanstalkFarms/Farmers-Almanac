@@ -20,6 +20,8 @@ Additional tokens may be added to the Deposit Whitelist via [Beanstalk governanc
 2. A function to calculate the Bean Denominated Value (BDV) of the token (see [Section 14.2 of the whitepaper](https://bean.money/beanstalk.pdf#subsection.14.2) for complete formulas); and
 3. The number of Stalk and Seeds per BDV received upon Deposit.
 
+Deposits are tradeable on [OpenSea](https://opensea.io/collection/silo-deposits).
+
 #### **Current Deposit Whitelist**
 
 | **Whitelisted asset**                                                                            | **Stalk per BDV** | **Seeds per BDV** |
@@ -31,8 +33,6 @@ Additional tokens may be added to the Deposit Whitelist via [Beanstalk governanc
 | [Unripe BEAN:3CRV LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 0                 |
 
 \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
-
-Deposits are tradeable on [OpenSea](https://opensea.io/collection/beanstalk-silo-deposits).
 
 ### **The Stalk System**
 
