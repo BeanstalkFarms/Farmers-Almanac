@@ -20,7 +20,7 @@ At the beginning of the Barn Raise, there was 77M Available Fertilizer. Availabl
 
 Active Fertilizer comes with an associated number of Sprouts. Sprouts represent the debt left to be repaid to Active Fertilizer holders. Fertilizer becomes Used after all of its associated Sprouts are Fertilized into Rinsable Sprouts that can be Rinsed (redeemed) for 1 Bean each.
 
-When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are allocated towards Fertilizing Sprouts on a [pari passu](../protocol/glossary.md#pari-passu) basis. This is in contrast to the FIFO Harvest schedule of the Pod Line in the Field.
+When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are allocated towards Fertilizer on a [pari passu](../protocol/glossary.md#pari-passu) basis. This is in contrast to the FIFO Harvest schedule of the Pod Line in the Field.
 
 * If Fertilizer is not sold yet, it’s Available.
 * If Fertilizer still has Sprouts (is owed Bean mints), it’s Active.
@@ -28,7 +28,7 @@ When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are al
 
 Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertilizer).
 
-When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:3CRV pool at a ratio of 1:0.866616. Adding liquidity at this ratio causes the deltaB in the BEAN:3CRV pool to trend towards the pre-exploit deltaB. &#x20;
+When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:3CRV pool at a ratio of 1:0.866616. Adding liquidity at this ratio causes the deltaB in the BEAN:3CRV pool to trend towards the pre-exploit deltaB.
 
 ### **Humidity**
 
@@ -50,9 +50,9 @@ Beanstalk uses the proceeds from the Fertilizer sales to recapitalize liquidity 
 
 Upon Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
 
-> For example, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit received 1000 Unripe Beans and 2000 Unripe BEAN:3CRV LP.&#x20;
+> For example, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit received 1000 Unripe Beans and 2000 Unripe BEAN:3CRV LP.
 
-Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter.&#x20;
+Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter.
 
 #### Ripe Assets <a href="#ripe-assets" id="ripe-assets"></a>
 

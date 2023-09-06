@@ -232,7 +232,7 @@ Beans stored in [Pod Orders](glossary.md#pod-order).
 
 ### Pari passu
 
-[Sprouts](glossary.md#sprouts) become [Rinsable Sprouts](glossary.md#rinsable-sprouts) on a _pari passu_ basis. This means that when Beans are minted per the peg maintenance mechanism, Sprouts are paid back equally and without preference. This is in contrast to the _first in, first out (FIFO)_ [Harvest](glossary.md#harvest) schedule of the [Pod Line](glossary.md#pod-line) in the [Field](glossary.md#field).
+Fertilizer is paid back on a _pari passu_ basis. Active Fertilizer Fertilizes a pro-rata portion of Sprouts, by Fertilizer. This is in contrast to the _first in, first out (FIFO)_ [Harvest](glossary.md#harvest) schedule of the [Pod Line](glossary.md#pod-line) in the [Field](glossary.md#field).
 
 ### **Pause**
 
