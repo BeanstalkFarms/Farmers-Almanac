@@ -32,9 +32,8 @@
 ### Analytics
 
 * [**Beanstalk UI Analytics Page**](https://app.bean.money/#/analytics)
-* [**Beanstalk Advanced Analytics**](https://analytics.bean.money/)
+* [Beanstalk Dashboard](https://dashboard.bean.money/)
 * [Bean Price Tracker Chrome Extension](https://chrome.google.com/webstore/detail/bean-tracker/aodkdgdikbdeeaknenojacllnnjlhodj?hl=en\&authuser=0)
-* [Beanstalk Data Dashboard](https://beanstalk-dashboard.netlify.app/)
 
 #### Listings
 
