@@ -8,7 +8,7 @@ When the Bean price is above peg (_i.e._, [deltaB](../protocol/glossary.md#delta
 
 When the Bean price is below peg (_i.e._, deltaB is negative), Deposited LP tokens may be Converted to Deposited Beans without forfeiting grown Stalk from Seeds or any Stalk due to LP impermanent loss. This Conversion allows Stalkholders to remove excess Beans from liquidity pools and increase the price back towards peg without leaving the Silo, minimizing debt issuance.
 
-Unripe Beans are also convertible to Unripe BEAN:3CRV LP, and vice versa, in a similar fashion. See the [Unripe Assets](../farm/barn.md#unripe-assets) section of the [Barn](../farm/barn.md) page for more info.
+Unripe Beans are also convertible to Unripe BEAN:ETH LP, and vice versa, in a similar fashion. See the [Unripe Assets](../farm/barn.md#unripe-assets) section of the [Barn](../farm/barn.md) page for more info.
 
 ### Convert Whitelist
 
@@ -23,7 +23,7 @@ Additional Conversions may be added to the Convert Whitelist via [Beanstalk gove
 
 #### Current Convert Whitelist
 
-<table><thead><tr><th width="217.33333333333331">From token</th><th width="219">To token</th><th>Conditions</th></tr></thead><tbody><tr><td>Any token on the Deposit Whitelist*</td><td>The same token as From token</td><td>Anytime</td></tr><tr><td>Bean</td><td>BEAN:3CRV LP</td><td>deltaB in the BEAN:3CRV pool > 0</td></tr><tr><td>BEAN:3CRV LP</td><td>Bean</td><td>deltaB in the BEAN:3CRV pool &#x3C; 0</td></tr><tr><td>Unripe Bean</td><td>Unripe BEAN:3CRV LP</td><td>deltaB in the BEAN:3CRV pool > 0</td></tr><tr><td>Unripe BEAN:3CRV LP</td><td>Unripe Bean</td><td>deltaB in the BEAN:3CRV pool &#x3C; 0</td></tr><tr><td>Bean</td><td>BEAN:ETH Well LP</td><td>deltaB in the BEAN:ETH Well > 0</td></tr><tr><td>BEAN:ETH Well LP</td><td>Bean</td><td>deltaB in the BEAN:ETH Well &#x3C; 0</td></tr></tbody></table>
+<table><thead><tr><th width="217.33333333333331">From token</th><th width="219">To token</th><th>Conditions</th></tr></thead><tbody><tr><td>Any token on the Deposit Whitelist*</td><td>The same token as From token</td><td>Anytime</td></tr><tr><td>Bean</td><td>BEAN:3CRV LP</td><td>deltaB in the BEAN:3CRV pool > 0</td></tr><tr><td>BEAN:3CRV LP</td><td>Bean</td><td>deltaB in the BEAN:3CRV pool &#x3C; 0</td></tr><tr><td>Unripe Bean</td><td>Unripe BEAN:ETH LP</td><td>deltaB in the BEAN:ETH Well > 0</td></tr><tr><td>Unripe BEAN:ETH LP</td><td>Unripe Bean</td><td>deltaB in the BEAN:ETH Well &#x3C; 0</td></tr><tr><td>Bean</td><td>BEAN:ETH Well LP</td><td>deltaB in the BEAN:ETH Well > 0</td></tr><tr><td>BEAN:ETH Well LP</td><td>Bean</td><td>deltaB in the BEAN:ETH Well &#x3C; 0</td></tr></tbody></table>
 
 \*Any token on the [Deposit Whitelist](../farm/silo.md#deposit-whitelist) can be Converted to the same token in order to allow Stalkholders to update the BDV of their LP tokens when their BDV increases due to impermanent loss.
 

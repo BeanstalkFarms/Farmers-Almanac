@@ -46,7 +46,6 @@ The following functions are only callable from the owner address:
 * `createFundraiser` — Create a Fundraiser.
 * `transferOwnership` — Transfer ownership of the Beanstalk contract to a new address.
 * `addUnripeToken` — Add an Unripe token to Beanstalk.
-* `addFertilizerOwner` — Allowed the USDC from the Barn Raise prior to Replant to be added as liquidity without issuing any additional Fertilizer at Replant.
 
 ## Snapshot Usage
 

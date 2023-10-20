@@ -1,5 +1,7 @@
 # Audits
 
+[Cyfrin](https://cyfrin.io/) completed its audit of [BIP-38](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/10-13-23-bip-38-cyfrin-report.pdf) on **October 13, 2023**, identifying 16 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/10-13-23-bip-38-cyfrin-report).
+
 [Halborn](https://halborn.com/) completed its audit of [BIP-37](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/07-24-23-bip-37-halborn-report.pdf) on **July 24, 2023**, identifying 3 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/07-24-23-bip-37-halborn-report).
 
 Halborn completed its audit of [BIP-36](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/06-30-23-bip-36-halborn-report.pdf) on **June 30, 2023**, identifying 4 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/06-30-23-bip-36-halborn-report).

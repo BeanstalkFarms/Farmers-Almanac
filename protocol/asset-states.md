@@ -40,11 +40,11 @@ Circulating Beans in the [BFM](../governance/beanstalk-farms/bfm-dashboard.md) a
 
 **Ripe Beans**
 
-Beans that are minted as Fertilizer is sold or Ripe BEAN:3CRV LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:3CRV under this category.
+Beans that are minted as Fertilizer is sold or Ripe BEAN:ETH Well LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:Well LP under this category.
 
 **Ripe Pooled Beans**
 
-Pooled Beans that make up Ripe BEAN:3CRV.
+Pooled Beans that make up Ripe BEAN:Well LP.
 
 **Earned Beans**
 

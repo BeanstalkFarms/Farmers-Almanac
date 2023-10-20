@@ -24,13 +24,13 @@ Deposits are tradeable on [OpenSea](https://opensea.io/collection/silo-deposits)
 
 #### **Current Deposit Whitelist**
 
-| **Whitelisted asset**                                                                            | **Stalk per BDV** | **Seeds per BDV** |
-| ------------------------------------------------------------------------------------------------ | ----------------- | ----------------- |
-| [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                  | 1                 | 3                 |
-| [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)          | 1                 | 3.25              |
-| [BEAN:ETH Well LP](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd)      | 1                 | 4.5               |
-| [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*         | 1                 | 0                 |
-| [Unripe BEAN:3CRV LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 0                 |
+| **Whitelisted asset**                                                                           | **Stalk per BDV** | **Seeds per BDV** |
+| ----------------------------------------------------------------------------------------------- | ----------------- | ----------------- |
+| [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                 | 1                 | 3                 |
+| [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)         | 1                 | 3.25              |
+| [BEAN:ETH Well LP](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd)     | 1                 | 4.5               |
+| [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*        | 1                 | 0                 |
+| [Unripe BEAN:ETH LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 0                 |
 
 \*See the [Unripe Assets](barn.md#unripe-assets) section of the [Barn](barn.md) page for more info.
 
