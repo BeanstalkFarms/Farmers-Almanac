@@ -106,9 +106,8 @@
 
 ## 🌐 Ecosystem
 
-* [Root](ecosystem/root.md)
-* [Pipeline](ecosystem/pipeline.md)
 * [Basin](ecosystem/basin.md)
+* [Pipeline](ecosystem/pipeline.md)
 
 ## 🏫 Community Resources <a href="#community" id="community"></a>
 

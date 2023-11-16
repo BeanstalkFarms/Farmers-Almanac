@@ -10,7 +10,7 @@
 
 ### Development
 
-* [**Beanstalk Repo**](https://github.com/BeanstalkFarms/Beanstalk)
+* [**Beanstalk GitHub**](https://github.com/BeanstalkFarms/Beanstalk)
   * [Beanstalk Protocol](https://github.com/BeanstalkFarms/Beanstalk/tree/master/protocol)
   * [Beanstalk UI](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/ui)
   * [Beanstalk SDK](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/sdk)
@@ -18,7 +18,6 @@
   * [Bean Subgraph](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/subgraph-bean)
 * [Beanstalk SDK on npm](https://www.npmjs.com/package/@beanstalk/sdk)
 * [Beanstalk Py (Bot Tooling) Repo](https://github.com/BeanstalkFarms/beanstalk-py)
-* [Beanstalk Analytics](https://github.com/BeanstalkFarms/Beanstalk-Analytics)
 * [Beanstalk Landing Page Repo](https://github.com/BeanstalkFarms/Beanstalk-Landing)
 
 ### Pipeline&#x20;
@@ -33,20 +32,12 @@
 
 * [**Beanstalk UI Analytics Page**](https://app.bean.money/#/analytics)
 * [Beanstalk Dashboard](https://dashboard.bean.money/)
-* [Bean Price Tracker Chrome Extension](https://chrome.google.com/webstore/detail/bean-tracker/aodkdgdikbdeeaknenojacllnnjlhodj?hl=en\&authuser=0)
 
 #### Listings
 
 * [Bean on CoinGecko](https://www.coingecko.com/en/coins/bean)
-* [Bean on stablecoins.wtf](https://stablecoins.wtf/coins/bean)
 * [Bean on DeFi Llama](https://defillama.com/stablecoin/bean)
 * [Beanstalk on DeFi Llama](https://defillama.com/protocol/beanstalk)
-
-#### Dune
-
-* [Pre-Exploit Dune Dashboard](https://dune.com/tbiq/Beanstalk)
-* [Barn Raise Dune Dashboard](https://dune.com/tbiq/beanstalk-barn-raise)
-* [Silo APY Calculator Dune Dashboard](https://dune.xyz/tbiq/Beanstalk-Silo-APY-Calculator)
 
 ### Documentation
 
@@ -80,28 +71,17 @@
 * [**Beanstalk DAO Snapshot**](https://snapshot.org/#/beanstalkdao.eth)
 * [Beanstalk Farms Snapshot](https://snapshot.org/#/beanstalkfarms.eth)
 * [Beanstalk Farms Budget Snapshot](https://snapshot.org/#/beanstalkfarmsbudget.eth)
-* [Bean Sprout Snapshot](https://snapshot.org/#/wearebeansprout.eth)
 * [Beanstalk Bug Bounty Snapshot](https://snapshot.org/#/beanstalkbugbounty.eth)
 * [BeaNFT DAO Snapshot](https://snapshot.org/#/beanft.eth)
 
 ### Social
 
 * [**Beanstalk Discord**](https://discord.gg/beanstalk)
-* [**Beanstalk Protocol Twitter**](https://twitter.com/beanstalkmoney)
+* [**Beanstalk Twitter**](https://twitter.com/beanstalkmoney)
 * [**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)
-* [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
-* [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
 * [Beanstalk Telegram](https://t.me/beanstalkusd)
 * [Beanstalk Telegram Tracker](https://t.me/beanstalktracker)
-
-### AudioFarms
-
-* [RadioDeFi Website](https://www.radio-defi.com/)
-* [RadioDeFi Twitter](https://twitter.com/RadioDefiPod)
-* RadioDeFi [YouTube](https://www.youtube.com/channel/UC\_zZp7XgQ7ndgcXpTrFxGxw), [Anchor](https://anchor.fm/radiodefi), [Spotify](https://open.spotify.com/show/38EWMCQ8wipEGRFJjHhQfE), [Apple Podcasts](https://podcasts.apple.com/us/podcast/radiodefi/id1653827749)
-* [The Bean Pod Twitter](https://twitter.com/The\_Bean\_Pod)
-* The Bean Pod [YouTube Playlist](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9a6kL3vhJGM0HtRjqALfoD\_), [Anchor](https://anchor.fm/thebeanpodpodcast), [Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m), [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-bean-pod/id1615215031)
 
 ### Recordings and Meeting Notes
 
@@ -125,3 +105,11 @@
 * [Layer3](https://beta.layer3.xyz/communities/beanstalk)
 * [BeaNFT Twitter](https://twitter.com/beanstalknfts)
 * [BeaNFT Instagram](https://www.instagram.com/beanstalknfts/)
+* [Bean Sprout Snapshot](https://snapshot.org/#/wearebeansprout.eth)
+* [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
+* [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
+* [RadioDeFi Website](https://www.radio-defi.com/)
+* [RadioDeFi Twitter](https://twitter.com/RadioDefiPod)
+* RadioDeFi [YouTube](https://www.youtube.com/channel/UC\_zZp7XgQ7ndgcXpTrFxGxw), [Anchor](https://anchor.fm/radiodefi), [Spotify](https://open.spotify.com/show/38EWMCQ8wipEGRFJjHhQfE), [Apple Podcasts](https://podcasts.apple.com/us/podcast/radiodefi/id1653827749)
+* [The Bean Pod Twitter](https://twitter.com/The\_Bean\_Pod)
+* The Bean Pod [YouTube Playlist](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9a6kL3vhJGM0HtRjqALfoD\_), [Anchor](https://anchor.fm/thebeanpodpodcast), [Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m), [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-bean-pod/id1615215031)

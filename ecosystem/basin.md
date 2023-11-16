@@ -12,14 +12,16 @@ Basin Whitepaper: [https://basin.exchange/basin.pdf](https://basin.exchange/basi
 
 Multi Flow Pump Whitepaper: [https://basin.exchange/multi-flow-pump.pdf](https://basin.exchange/multi-flow-pump.pdf)
 
-Basin Repo: [https://github.com/BeanstalkFarms/Basin](https://github.com/BeanstalkFarms/Basin)
+Basin GitHub: [https://github.com/BeanstalkFarms/Basin](https://github.com/BeanstalkFarms/Basin)
 
 Discord: [https://basin.exchange/discord](https://basin.exchange/discord)
 
-Twitter Bot: [https://twitter.com/basinexchange](https://twitter.com/basinexchange)
+Twitter: [https://twitter.com/basinexchange](https://twitter.com/basinexchange)
 
 Docs: [https://docs.basin.exchange](https://docs.basin.exchange/)
 
 Halborn Audit Report: [https://basin.exchange/halborn-basin-audit.pdf](https://basin.exchange/halborn-basin-audit.pdf)
 
 Cyfrin Audit Report: [https://basin.exchange/cyfrin-basin-audit.pdf](https://basin.exchange/cyfrin-basin-audit.pdf)
+
+Code4rena Audit Report: [https://code4rena.com/reports/2023-07-basin](https://code4rena.com/reports/2023-07-basin)

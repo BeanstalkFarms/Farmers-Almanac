@@ -322,10 +322,6 @@ Assets that are minted as [Fertilizer](glossary.md#fertilizer) is sold. [Unripe 
 
 When [Pods](glossary.md#pods) passively turn into [Harvestable Pods](glossary.md#harvestable-pods), they Ripen.
 
-### **Root**
-
-A fungible wrapper for Silo Deposits. Read more [here](../ecosystem/root.md).
-
 ### **Season**
 
 Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the [`gm`](glossary.md#gm) function is successfully called on Ethereum.
