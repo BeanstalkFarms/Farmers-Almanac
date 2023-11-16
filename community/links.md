@@ -113,3 +113,4 @@
 * RadioDeFi [YouTube](https://www.youtube.com/channel/UC\_zZp7XgQ7ndgcXpTrFxGxw), [Anchor](https://anchor.fm/radiodefi), [Spotify](https://open.spotify.com/show/38EWMCQ8wipEGRFJjHhQfE), [Apple Podcasts](https://podcasts.apple.com/us/podcast/radiodefi/id1653827749)
 * [The Bean Pod Twitter](https://twitter.com/The\_Bean\_Pod)
 * The Bean Pod [YouTube Playlist](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9a6kL3vhJGM0HtRjqALfoD\_), [Anchor](https://anchor.fm/thebeanpodpodcast), [Spotify](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m), [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-bean-pod/id1615215031)
+* [Bean Price Tracker Chrome Extension](https://chrome.google.com/webstore/detail/bean-tracker/aodkdgdikbdeeaknenojacllnnjlhodj)
