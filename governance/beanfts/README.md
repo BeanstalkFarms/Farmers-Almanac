@@ -8,12 +8,14 @@ You can read more about them here:
 * [BeaNFT Genesis: Utility, Structure and Rarity](https://bean.money/blog/beanft-genesis-utility-structure-rarity)
 * [The BeaNFT Winter Collection](https://bean.money/blog/beanft-winter-collection)
 * [The BeaNFT Barn Raise Collection](https://bean.money/blog/beanft-barn-raise-collection)
+* [The Basin BeaNFT Collection](https://bean.money/blog/basin-beanft-collection)
 
 OpenSea:
 
 * [Genesis Collection](https://opensea.io/collection/beanft-genesis)
 * [Winter Collection](https://opensea.io/collection/beanft-winter)
 * [Barn Raise Collection](https://opensea.io/collection/beanft-barn-raise)
+* [Basin Collection](https://opensea.io/collection/beanft-basin)
 
 ## Governance
 

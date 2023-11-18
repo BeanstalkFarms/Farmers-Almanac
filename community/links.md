@@ -93,6 +93,7 @@
 * [BeaNFT Genesis Collection](https://opensea.io/collection/beanft-genesis)
 * [BeaNFT Winter Collection](https://opensea.io/collection/beanft-winter)
 * [BeaNFT Barn Raise Collection](https://opensea.io/collection/beanft-barn-raise)
+* [BeaNFT Basin Collection](https://opensea.io/collection/beanft-basin)
 * [Fertilizer](https://opensea.io/collection/bean-fertilizer)
 * [Silo Deposits](https://opensea.io/collection/silo-deposits)
 
