@@ -46,7 +46,7 @@ $$
 \beta=\frac{2}{(u+1)}
 $$
 
-The 30-day exponential moving average at Season $$t$$ ($$\bar{n}^e_t$$);: &#x20;
+The 30-day exponential moving average at Season $$t$$ ($$\bar{n}^e_t$$):
 
 $$
 \bar{n}^e_t = \beta \sum_{i=t-u+1}^{i \leq t}(1-\beta)^{t-i} n^e_{i}
