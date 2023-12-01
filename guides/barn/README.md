@@ -2,6 +2,7 @@
 
 Guides on interacting with [the Barn](../../farm/barn.md).
 
+* [Understand Fert vAPY](understand-fert-vapy.md)
 * [Buy Fertilizer](buy-fertilizer.md)
 * [Rinse Sprouts](rinse.md)
 

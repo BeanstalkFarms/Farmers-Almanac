@@ -15,7 +15,7 @@ Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balanc
 ### Silo
 
 * Learn how to [Deposit in the Silo](../silo/deposit.md).
-* Once you have Deposited in the Silo, you will begin to receive [Silo Rewards](../../farm/silo.md#silo-rewards). Learn about the performance of your Silo Deposit in [Understand vAPY](../silo/understand-vapy.md) and [Understand Silo Deposit Performance](../silo/understand-silo-deposit-performance.md) and collect your Silo Rewards in [Claim Silo Rewards](../silo/claim-rewards.md).
+* Once you have Deposited in the Silo, you will begin to receive [Silo Rewards](../../farm/silo.md#silo-rewards). Learn about the performance of your Silo Deposit in [Understand vAPY](../silo/understand-silo-vapy.md) and [Understand Silo Deposit Performance](../silo/understand-silo-deposit-performance.md) and collect your Silo Rewards in [Claim Silo Rewards](../silo/claim-rewards.md).
 * [Converting](../../peg-maintenance/convert.md) between Bean and LP Deposits can benefit both the Silo Member converting and peg maintenance. Learn how to [Convert in the Silo](../silo/convert.md).
 * If you want to send your Silo Deposit to another address, [Transfer Deposits](../silo/transfer.md).
 * If you want to Withdraw your Deposit from the Silo, [Withdraw from the Silo](../silo/withdraw.md).

@@ -22,7 +22,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Silo
 
-* [Understand vAPY](silo/understand-vapy.md)
+* [Understand Silo vAPY](silo/understand-silo-vapy.md)
 * [Deposit in the Silo](silo/deposit.md)
 * [Understand Silo Deposit Performance](silo/understand-silo-deposit-performance.md)
 * [Convert in the Silo](silo/convert.md)
@@ -39,6 +39,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 
 ### Barn
 
+* [Understand Fert vAPY](barn/understand-fert-vapy.md)
 * [Buy Fertilizer](barn/buy-fertilizer.md)
 * [Rinse Sprouts](barn/rinse.md)
 * [Transfer Fertilizer](barn/transfer-fertilizer.md)

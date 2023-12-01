@@ -28,7 +28,7 @@ The second module provides an overview of your [Silo Rewards](../../protocol/glo
 The third module provides information on Deposits categorized by asset. This module can be switched between USD and BDV by selecting your wallet address, "Settings", and choosing a "Fiat display" option.
 
 * The "Rewards" column shows the number of Stalk and Seeds per Bean denominated value (BDV) Deposited. Hover over the column to see the BDV of each asset.
-* See [Understand vAPY](understand-vapy.md) for details on the Variable APY calculation.
+* See [Understand vAPY](understand-silo-vapy.md) for details on the Variable APY calculation.
 * "TVD" is the Total Value Deposited from all Depositors.  Unripe Assets are scaled by the USD value of the underlying Beans or LP as recapitalized through the [Barn](../../farm/barn.md).
 * The "Amount Deposited" is your amount of Beans or LP Deposited. Note that one unit of LP is not expected to be equal to one Bean. See the current BDV under the "Rewards" column.
 * The "Value Deposited" is the value of your Deposits in USD or BDV. Unripe Assets are calculated after the Chop Penalty.

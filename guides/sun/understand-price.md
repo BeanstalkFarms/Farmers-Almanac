@@ -4,7 +4,7 @@ Beanstalk uses credit instead of collateral to create Bean price stability relat
 
 You can view the current Bean price in US dollars at the upper left corner of [app.bean.money](https://app.bean.money/).
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
 Selecting the Bean price displays more detail of the liquidity pools that Beans trade in.
 
