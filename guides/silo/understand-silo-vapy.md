@@ -62,7 +62,7 @@ The formulas for the Silo vAPYs ($$\text{vAPY}^{x}_{\text{Bean}}$$​ and $$\tex
 * $$x$$, the number of Seeds per BDV granted for Depositing this asset:
   * $$x = 3$$ for Deposited BEAN;
   * $$x= 3.25$$ for Deposited BEAN3CRV; and
-  * &#x20;for Deposited BEANETH.
+  * $$x= 4.5$$ for Deposited BEANETH.
 
 The formulas for the Silo vAPYs make estimations of the following variables:
 
