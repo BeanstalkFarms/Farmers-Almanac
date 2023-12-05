@@ -19,13 +19,12 @@ The current EMA value can be located on the Barn page by hovering over the **Fer
 
 ### Estimating vAPY for Fertilizer
 
-The vAPY for holding Fertilizer is determined by the value of **(TODO???)** in 8760 Seasons (1 year).
+The vAPY is determined by the estimated return of holding Fertilizer in 8760 Seasons (1 year).
 
 The vAPY calculation makes the following assumptions:
 
-* No more Available Fertilizer is purchased;
-* No Active Fertilizer becomes Used; and
-* **(TODO???)**
+* No more Available Fertilizer is purchased; and
+* No Active Fertilizer becomes Used.
 
 ### Calculations
 
@@ -43,7 +42,7 @@ $$
 \beta=\frac{2}{(u+1)}
 $$
 
-The 30-day exponential moving average at Season $$t$$ ($$\bar{n}^e_t$$);: &#x20;
+The 30-day exponential moving average at Season $$t$$ ($$\bar{n}^e_t$$): &#x20;
 
 $$
 \bar{n}^e_t = \beta \sum_{i=t-u}^{i \leq t}(1-\beta)^{t-i} n^e_{i}
@@ -59,10 +58,10 @@ The formulas for the Fert vAPY ($$\text{vAPY}^{\text{Fert}}$$​) take the follo
 
 $$\text{vAPY}^{\text{Fert}}$$​ is calculated using the estimated number of Beans owned by the Fertilizer holder a year from now (8760 Seasons from now).
 
-First, calculate the Beans earned per Fertilizer ($$\text{BPF}$$​):
+First, calculate the delta Beans earned per Fertilizer ($$\text{dBPF}$$​):
 
 $$
-\text{BPF}=\frac{\bar{n}^e_t}{F}
+\text{dBPF}=\frac{\bar{n}^e_t}{F}
 $$
 
 We define $$\text{vAPY}^{\text{Fert}}$$​ as:
