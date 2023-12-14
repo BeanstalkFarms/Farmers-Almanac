@@ -133,7 +133,7 @@ More information:
 
 * [BFP-76: Choose Replant Liquidity Pool](https://bean.money/bfp-76)
 * [Deposit Whitelist Documentation](farm/silo.md#deposit-whitelist)
-* [Oracle Whitelist Documentation](farm/sun.md#oracle-whitelist)
+* [Minting Whitelist Documentation](farm/sun.md#minting-whitelist)
 
 #### **13. A VULNERABILITY IN BASIN OR ITS COMPONENTS COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF BASIN AND ITS CORRESPONDING COMPONENTS.** <a href="#basin-risk" id="basin-risk"></a>
 
@@ -182,7 +182,7 @@ Beans are not redeemable for any other asset; they can only be traded for anothe
 
 Beanstalk's core objective is to oscillate the price of a Bean above and below its dollar peg. To do this, Beanstalk must be able to reliably measure the price of a dollar on-chain without trusting a centralized third-party to provide it. A robust, decentralized stablecoin requires a tamper-proof, manipulation resistant and decentralized price oracle.
 
-Beanstalk measures the price of a dollar in each pool on the Oracle Whitelist:
+Beanstalk measures the price of a dollar in each pool on the Minting Whitelist:
 
 * For the BEAN:3CRV Curve pool, Beanstalk assumes the average value of each USDC, USDT and DAI in the pool is equal to $1 (3CRV consists of USDC, USDT and DAI).
 * For the BEAN:ETH Well, Beanstalk assumes the price returned by the ETH/USD Chainlink data feed is accurate if it is close enough to either the ETH:USDC Uniswap V3 pool or the ETH:USDT Uniswap V3 pool.

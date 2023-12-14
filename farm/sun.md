@@ -17,16 +17,16 @@ Upon acceptance of the `gm` call, the Sun:
 5. [Mints Beans](../peg-maintenance/overview.md#bean-supply) if necessary; and
 6. Awards Beans to the address that successfully called the `gm` function.
 
-### Oracle Whitelist
+### Minting Whitelist
 
-To be included in the calculation of [deltaB](../protocol/glossary.md#deltab), a liquidity pool must be on the Oracle Whitelist.
+To be included in the calculation of [deltaB](../protocol/glossary.md#deltab), a liquidity pool must be on the Minting Whitelist.
 
-Additional liquidity pools may be added to the Oracle Whitelist via [Beanstalk governance](../governance/beanstalk/). In order for a liquidity pool to be added to the Oracle Whitelist, Beanstalk requires:
+Additional liquidity pools may be added to the Minting Whitelist via [Beanstalk governance](../governance/beanstalk/). In order for a liquidity pool to be added to the Minting Whitelist, Beanstalk requires:
 
 1. The pool address; and
 2. A function to calculate the liquidity and time weighted average shortage or excess of Beans in the pool (see [Section 14.6 of the whitepaper](https://bean.money/beanstalk.pdf#subsection.14.6) for complete formulas).
 
-#### Current Oracle Whitelist
+#### Current Minting Whitelist
 
 | Name                                                                                       | Address                                                                                                               |
 | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |

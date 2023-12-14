@@ -214,6 +214,10 @@ The component of the [Farm](glossary.md#farm) that offers zero-fee trading to an
 
 The maximum [Temperature](glossary.md#temperature) Beanstalk is willing to offer during a [Season](glossary.md#season). Read more [here](../peg-maintenance/temperature.md).
 
+### Minting Whitelist
+
+The whitelist of liquidity pools whose [deltaB’s](glossary.md#deltab) are summed to calculate a cumulative deltaB. Read more [here](../farm/sun.md#minting-whitelist).
+
 ### Morning
 
 The first 25 blocks of each [Season](glossary.md#season).
@@ -221,10 +225,6 @@ The first 25 blocks of each [Season](glossary.md#season).
 ### **Mow**
 
 Mowing [Grown Stalk](glossary.md#grown-stalk) adds it to your [Stalk](glossary.md#stalk) balance. Called upon any interaction with the [Silo](glossary.md#silo).
-
-### Oracle Whitelist
-
-The whitelist of liquidity pools whose [deltaB’s](glossary.md#deltab) are summed to calculate a cumulative deltaB. Read more [here](../farm/sun.md#oracle-whitelist).
 
 ### **Ordered Beans**
 

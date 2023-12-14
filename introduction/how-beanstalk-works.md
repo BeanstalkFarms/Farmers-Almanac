@@ -22,7 +22,7 @@ Beanstalk issues 3 tokens:
 
 Beanstalk uses [the Sun](../farm/sun.md) to create a cost-efficient and protocol-native timekeeping mechanism. The Sun keeps time on the Farm in Seasons. Each Season is \~1 hour long. Beanstalk adjusts itself to return the Bean price to its value peg at the beginning of every Season.
 
-In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates [deltaB](../protocol/glossary.md#deltab), the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the [Oracle Whitelist](../farm/sun.md#oracle-whitelist);
+In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of a Season, Beanstalk calculates [deltaB](../protocol/glossary.md#deltab), the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist);
 
 The Sun uses deltaB to determine how to change the Bean supply and [Soil](../farm/field.md#soil) supply.
 
@@ -53,7 +53,7 @@ Pods have a fixed interest rate and unknown maturity date. The number of Pods th
 
 Beanstalk requires a diverse set of participants, including Silo Members (people who Deposit assets in the Silo), Sowers (people who lend Beans to Beanstalk), and arbitrageurs. Beanstalk aligns the incentives of every individual participant to maximize price stability and create a diverse, decentralized economy. Beanstalk-native financial incentives consistently increase censorship resistance, stability and liquidity over time.
 
-At the beginning of each Season, the Sun calculates deltaB (the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the Oracle Whitelist), Beanstalk's debt level, and the change in demand for Soil over the previous 2 Seasons, and dynamically adjusts the Bean supply, Soil supply and Maximum Temperature to bring the price back towards the peg.
+At the beginning of each Season, the Sun calculates deltaB (the sum of the time and liquidity weighted average shortage or excess Beans across liquidity pools on the Minting Whitelist), Beanstalk's debt level, and the change in demand for Soil over the previous 2 Seasons, and dynamically adjusts the Bean supply, Soil supply and Maximum Temperature to bring the price back towards the peg.
 
 When the price of Bean is too low (_i.e._, deltaB is negative), Beanstalk:
 
