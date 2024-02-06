@@ -5,6 +5,7 @@
 * [**Whitepaper**](https://bean.money/beanstalk.pdf)
 * [**Discord**](https://discord.gg/beanstalk)
 * [**GitHub**](https://github.com/BeanstalkFarms)
+* [**Beanstalk State Space**](https://bean.money/beanstalk-state-space.pdf)
 * [Blog](https://bean.money/blog)
 * [Bug Bounty Program](https://immunefi.com/bounty/beanstalk/)
 
@@ -31,6 +32,7 @@
 ### Analytics
 
 * [**Beanstalk UI Analytics Page**](https://app.bean.money/#/analytics)
+* [**Beanstalk Farms Dune**](https://dune.com/beanstalkfarmsteam/beanstalk)
 * [Beanstalk Dashboard](https://dashboard.bean.money/)
 
 #### Listings
@@ -42,6 +44,7 @@
 ### Documentation
 
 * [**Farmers' Almanac** (non-technical docs)](https://docs.bean.money/almanac)
+* [**Beanstalk State Space**](https://bean.money/beanstalk-state-space.pdf)
 * [**Agronomics Handbook** (technical docs)](https://docs.bean.money/developers)
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
 * [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
