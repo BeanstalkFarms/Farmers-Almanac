@@ -33,7 +33,7 @@ The following addresses do not custody any funds and are not signers on any mult
 | [0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB](https://snapshot.org/#/profile/0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB) |
 | [0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b](https://etherscan.io/address/0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b)   |
 | [0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF](https://snapshot.org/#/profile/0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF) |
-| [0x5029d790a4370BfD64838810aDFf5E76B931eDec](https://snapshot.org/#/profile/0x5029d790a4370BfD64838810aDFf5E76B931eDec) |
+| [0x8C0AEd103709f44888476f5B5A13E9AAf2831511](https://snapshot.org/#/profile/0x8C0AEd103709f44888476f5B5A13E9AAf2831511) |
 | [0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2](https://snapshot.org/#/profile/0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2) |
 
 ### **Beans Minted**
