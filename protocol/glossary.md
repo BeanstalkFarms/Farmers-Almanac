@@ -300,11 +300,11 @@ The relaunch of Beanstalk post-exploit.
 
 ### **Revitalized Stalk**
 
-[Stalk](glossary.md#stalk) that have vested for pre-exploit [Silo Members](glossary.md#silo-members). Revitalized Stalk are minted as the percentage of [Fertilizer](glossary.md#fertilizer) sold increases. Revitalized Stalk does not contribute to [Stalk](glossary.md#stalk) ownership until [Enrooted](glossary.md#enroot). Read more [here](../farm/barn.md#revitalized-assets).
+[Stalk](glossary.md#stalk) that have vested for Unripe asset holders. Revitalized Stalk are minted as the BDV of Unripe assets increases. Revitalized Stalk does not contribute to [Stalk](glossary.md#stalk) ownership until [Enrooted](glossary.md#enroot). Read more [here](../farm/barn.md#revitalized-assets).
 
 ### **Revitalized Seeds**
 
-[Seeds](glossary.md#seeds) that have vested for pre-exploit [Silo Members](glossary.md#silo-members). Revitalized Seeds are minted as the percentage of [Fertilizer](glossary.md#fertilizer) sold increases. Revitalized Seeds do not generate [Stalk](glossary.md#stalk) until [Enrooted](glossary.md#enroot). Read more [here](../farm/barn.md#revitalized-assets).
+[Seeds](glossary.md#seeds) that have vested for Unripe asset holders. Revitalized Seeds are minted as the BDV of Unripe assets increases. Revitalized Seeds do not generate [Stalk](glossary.md#stalk) until [Enrooted](glossary.md#enroot). Read more [here](../farm/barn.md#revitalized-assets).
 
 ### **Rinsable Sprouts**
 

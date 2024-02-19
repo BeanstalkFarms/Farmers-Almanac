@@ -63,7 +63,7 @@ Unripe assets are placed on a vesting schedule in accordance with the success of
 
 #### Ripe Assets <a href="#ripe-assets" id="ripe-assets"></a>
 
-More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets. Ripe Beans are minted as Fertilizer is sold or Ripe BEAN:3CRV LP is Converted, and Ripe BEAN:3CRV LP is minted as Fertilizer is sold or Ripe Beans are Converted.
+More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets. Ripe Beans and Ripe BEAN:ETH are minted as Fertilizer is sold.
 
 On October 20th, 2023 Ripe BEAN:3CRV LP was migrated to Ripe BEAN:ETH Well LP. As a result, Unripe BEAN:3CRV LP became Unripe BEAN:ETH LP (with the same token address). See [BIP-38](https://bean.money/bip-38).
 
@@ -81,6 +81,6 @@ Because Available Fertilizer is a function of how much non-Bean liquidity still 
 
 ### **Revitalized Assets**
 
-Upon Replant, Silo Members in the block prior to the exploit received a portion of their Stalk and Seeds based on the percentage of Fertilizer sold prior to Replant. As the percentage of Fertilizer sold increases, additional Stalk and Seeds become Revitalized and can be Enrooted. Revitalized Stalk and Seeds start earning Bean seigniorage and Grown Stalk, respectively, upon being Enrooted.
+Upon Replant, Silo Members in the block prior to the exploit received a portion of their Stalk and Seeds based on the percentage of Fertilizer sold prior to Replant. As the BDV of Unripe assets increases, additional Stalk and Seeds become Revitalized and can be Enrooted. Revitalized Stalk and Seeds start earning Bean seigniorage and Grown Stalk, respectively, upon being Enrooted.
 
 > If 20% of total Fertilizer has sold before Replant, a Silo Member receives 20% of their Stalk, Seed and Plantable Seed balances at the time of the Replant. As an example, if the percentage of Fertilizer sold increases by 5%, the additional 5% is distributed to the Silo Member in the form of Revitalized Stalk and Seeds. Once Enrooted, a Silo Member brings their balances to 25% of their pre-exploit Stalk and Seed balances, independent of any Stalk or Seeds they may have earned since Replant.

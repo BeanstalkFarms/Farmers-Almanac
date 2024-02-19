@@ -20,7 +20,7 @@ Beanstalk assets in your wallet.
 
 **Pooled Beans**
 
-Beans in all liquidity pools. The Beanstalk UI does not include Beans that make up Ripe BEAN:3CRV under this category.
+Beans in all liquidity pools. The Beanstalk UI does not include Beans that make up Ripe BEAN:ETH under this category.
 
 **Deposited Beans**
 
@@ -34,17 +34,13 @@ Beans stored in Beanstalk. Farm Beans can be used in transactions on the Farm.
 
 Beans in Farmers’ wallets.
 
-**Budget Beans**
-
-Circulating Beans in the [BFM](../governance/beanstalk-farms/bfm-dashboard.md) and [BSM](../archives/bean-sprout/bsm-dashboard.md) wallets.
-
 **Ripe Beans**
 
-Beans that are minted as Fertilizer is sold or Ripe BEAN:ETH Well LP is Converted. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:Well LP under this category.
+Beans that are minted as Fertilizer is sold. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:ETH under this category.
 
 **Ripe Pooled Beans**
 
-Pooled Beans that make up Ripe BEAN:Well LP.
+Pooled Beans that make up Ripe BEAN:ETH.
 
 **Earned Beans**
 
@@ -81,10 +77,10 @@ Unripe assets can be in the following states, which are identical to the equival
 
 **Grown Stalk** is the Stalk earned from Seeds. Grown Stalk does not contribute to Stalk ownership until it is Mown. Mow can be called on its own, and it is also called at the beginning of any Silo interaction (Depositing, Withdrawing, Converting, etc.).
 
-**Revitalized Stalk** are Stalk that have vested for pre-exploit Silo Members. Revitalized Stalk are minted as the percentage of Fertilizer sold increases. Revitalized Stalk does not contribute to Stalk ownership until Enrooted. See the [Revitalized Assets](../farm/barn.md#revitalized-assets) section of the [Barn](../farm/barn.md) page for more info.
+**Revitalized Stalk** are Stalk that have vested for Unripe asset holders. Revitalized Stalk are minted as the BDV of Unripe assets increases. Revitalized Stalk does not contribute to Stalk ownership until Enrooted. See the [Revitalized Assets](../farm/barn.md#revitalized-assets) section of the [Barn](../farm/barn.md) page for more info.
 
 ### **Seed states**
 
 **Plantable Seeds** are Seeds earned in conjunction with Earned Beans. Plantable Seeds must be Planted in order to grow Stalk.
 
-**Revitalized Seeds** are Seeds that have vested for pre-exploit Silo Members. Revitalized Seeds are minted as the percentage of Fertilizer sold increases. Revitalized Seeds do not generate Stalk until Enrooted. See the [Revitalized Assets](../farm/barn.md#revitalized-assets) section of the [Barn](../farm/barn.md) page for more info.
+**Revitalized Seeds** are Seeds that have vested for Unripe asset holders. Revitalized Seeds are minted as the BDV of Unripe assets increases. Revitalized Seeds do not generate Stalk until Enrooted. See the [Revitalized Assets](../farm/barn.md#revitalized-assets) section of the [Barn](../farm/barn.md) page for more info.
