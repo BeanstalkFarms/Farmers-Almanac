@@ -20,7 +20,7 @@
 * [Market](farm/market.md)
 * [Depot](farm/depot.md)
 
-## ⚖ Peg Maintenance
+## ⚖️ Peg Maintenance
 
 * [Overview](peg-maintenance/overview.md)
 * [Temperature](peg-maintenance/temperature.md)
@@ -39,7 +39,7 @@
   * [BCM Process](governance/beanstalk/bcm-process.md)
   * [BCM Dashboard](governance/beanstalk/bcm-dashboard.md)
   * [BIC Process](governance/beanstalk/bic-process.md)
-  * [BIC Dashboard](governance/beanstalk/bic-dashboard.md)
+  * [BICM Dashboard](governance/beanstalk/bic-dashboard.md)
 * [Beanstalk Farms](governance/beanstalk-farms/README.md)
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
   * [BFC Dashboard](governance/beanstalk-farms/bfc-dashboard.md)
@@ -48,7 +48,7 @@
   * [BDM Dashboard](governance/beanfts/bdm-dashboard.md)
 * [Proposals](governance/proposals.md)
 
-## 🗺 Guides
+## 🗺️ Guides
 
 * [Directory](guides/directory.md)
 * [Getting Started](guides/getting-started/README.md)

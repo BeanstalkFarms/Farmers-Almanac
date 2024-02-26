@@ -1,40 +1,42 @@
-# BIC Dashboard
+# BICM Dashboard
 
-The Beanstalk Immunefi Committee (BIC) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO.
+The Beanstalk Immunefi Committee (BIC) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO. BIC members serve as signers on the BICM. The BICM is deployed using Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet.
 
 See [BIC Process](bic-process.md) for more information.
 
-### **BIC Members**
+**Beanstalk Community Multisig Safe address:** [0x879c8B99430F28C4d297BD479Cd43396b4aCF697](https://etherscan.io/address/0x879c8B99430F28C4d297BD479Cd43396b4aCF697)
 
-The current BIC members are as follows, in no particular order:
+{% embed url="https://app.safe.global/transactions/history?safe=eth:0x879c8B99430F28C4d297BD479Cd43396b4aCF697" %}
 
-* Brendan Sanderson
+### **BICM Signers**
+
+The current BICM signers are as follows, in no particular order:
+
+* aloceros
+* Brean
+* Chaikitty
+* deadmanwalking
+* funderberker
 * mod323
 * pizzaman1337
-* Brean
-* funderberker
-* malteasy
 
-The following Farmers serve as backups for the BIC, in no particular order:
+The following Farmers serve as backups for the BICM, in no particular order:
 
-* mistermanifold
+* uncoolzero
 * MrMochi
 * guy
 
-Adding, removing or rotating members on the BIC requires a majority vote of the BIC on Snapshot (or a [BOP](../proposals.md#bop)/[BIP](../proposals.md#bip)).
-
-{% hint style="warning" %}
-The following addresses do not custody any funds and are not signers on any multisig—they are simply used by BIC members to propose and vote on [BIRs](../proposals.md#bir) on the [Beanstalk Bug Bounty Snapshot](https://snapshot.org/#/beanstalkbugbounty.eth) page.
-{% endhint %}
+Rotating members (to a backup member listed here) on the BIC requires a majority vote of the BIC, for which a Snapshot proposal is not necessary.
 
 | Address                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------- |
-| [0xDf7D34df31eFdD4a5bDA4c093109FB9391E5197e](https://snapshot.org/#/profile/0xDf7D34df31eFdD4a5bDA4c093109FB9391E5197e) |
-| [0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB](https://snapshot.org/#/profile/0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB) |
+| [0x2CC7554bc906e52e1B39dA62D6271f95e239DF8d](https://etherscan.io/address/0x2CC7554bc906e52e1B39dA62D6271f95e239DF8d)   |
+| [0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB](https://etherscan.io/address/0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB)   |
 | [0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b](https://etherscan.io/address/0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b)   |
-| [0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF](https://snapshot.org/#/profile/0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF) |
+| [0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E](https://etherscan.io/address/0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E)   |
 | [0x8C0AEd103709f44888476f5B5A13E9AAf2831511](https://snapshot.org/#/profile/0x8C0AEd103709f44888476f5B5A13E9AAf2831511) |
-| [0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2](https://snapshot.org/#/profile/0x9e129e56C3a257364d10b8CaD84A93E52a2b6EE2) |
+| [0x5f6a6c6E242eDe2020008c4137e239A80590ddF5](https://etherscan.io/address/0x5f6a6c6E242eDe2020008c4137e239A80590ddF5)   |
+| [0x243CbEd862854262eD3d617f7d19277A787A4148](https://etherscan.io/address/0x243CbEd862854262eD3d617f7d19277A787A4148)   |
 
 ### **Beans Minted**
 

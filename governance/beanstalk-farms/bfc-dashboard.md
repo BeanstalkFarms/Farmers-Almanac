@@ -6,7 +6,7 @@ The Beanstalk Farms Committee, or BFC, is the group of Beanstalk Farms contribut
 
 The current BFC members are as follows, in no particular order:
 
-<table><thead><tr><th width="217">BFC member</th><th width="198">End of term</th><th>Latest BFCP</th></tr></thead><tbody><tr><td>guy</td><td>June 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-3-term-extension-h2-2023.md">BFCP-C-3</a></td></tr><tr><td>mod323</td><td>March 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-3-term-extension-h2-2023.md">BFCP-C-3</a></td></tr><tr><td>sweetredbeans</td><td>June 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-3-term-extension-h2-2023.md">BFCP-C-3</a></td></tr></tbody></table>
+<table><thead><tr><th width="217">BFC member</th><th width="198">End of term</th><th>Latest BFCP</th></tr></thead><tbody><tr><td>guy</td><td>December 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-04-term-extension-h1-2024.md">BFCP-C-4</a></td></tr><tr><td>mod323</td><td>September 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-04-term-extension-h1-2024.md">BFCP-C-4</a></td></tr><tr><td>Rex</td><td>September 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-a-16-rex.md">BFCP-A-16</a></td></tr><tr><td>sweetredbeans</td><td>December 2024</td><td><a href="https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bfcp/bfcp-c-04-term-extension-h1-2024.md">BFCP-C-4</a></td></tr></tbody></table>
 
 Adding members to the BFC requires a BFCP-A and removing BFC members requires a BFCP-B. You can read more about BFCPs [here](../proposals.md#bfcp).
 
@@ -19,3 +19,4 @@ The following addresses do not custody any funds and are not signers on any mult
 | [0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0](https://snapshot.org/#/profile/0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0) |
 | [0xBDecc08D2eD93289945b2aE7890D1652C988c054](https://snapshot.org/#/profile/0xBDecc08D2eD93289945b2aE7890D1652C988c054) |
 | [0x1D5f0B6E2f2F857e7aD09C04570392Ff6373067A](https://snapshot.org/#/profile/0x1D5f0B6E2f2F857e7aD09C04570392Ff6373067A) |
+| [0xfEc2248956179BF6965865440328D73bAC4eB6D2](https://etherscan.io/address/0xfEc2248956179BF6965865440328D73bAC4eB6D2)   |

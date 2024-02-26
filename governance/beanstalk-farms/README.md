@@ -16,6 +16,7 @@ Past BIPs that funded Beanstalk Farms:
 * [BIP-22: Beanstalk Farms Q3 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-22-bf-budget-q3-2022.md)
 * [BIP-25: Beanstalk Farms Q4 2022 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-25-bf-budget-q4-2022.md)
 * [BIP-33: Beanstalk Farms H1 2023 Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-33-bf-budget-h1-2023.md)
+* [BIP-40: Beanstalk Farms 2024 Development Budget](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-40-bf-budget-2024.md)
 
 Monthly reports on how Beanstalk Farms is spending its budget can be found [here](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations/tree/main/beanstalk-farms).
 
