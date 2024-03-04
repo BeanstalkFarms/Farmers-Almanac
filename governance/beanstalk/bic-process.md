@@ -6,7 +6,7 @@ The **Beanstalk Immunefi Committee**, **or BIC**, determines the categorization 
 
 The Immunefi Bug Bounty Program is primarily focused preventing loss of Farmers' Beanstalk assets in Beanstalk and other ecosystem smart contracts.
 
-You can read more about the current BIC Members and data on past Beans minted for bounties on the [BICM Dashboard](bic-dashboard.md) in the Farmers' Almanac. All Immunefi bug reports and their responses are logged [here](https://community.bean.money/bug-reports).
+You can read more about the current BIC Members and data on past Beans minted for bounties on the [BICM Dashboard](bicm-dashboard.md) in the Farmers' Almanac. All Immunefi bug reports and their responses are logged [here](https://community.bean.money/bug-reports).
 
 ## Immunefi Program
 
@@ -23,7 +23,7 @@ Security is paramount to the success of Beanstalk. Immunefi is crypto's leading 
 
 This program establishes a method for the reporting and fixing bugs in a way that minimizes the risk to Beanstalk (and other ecosystem contracts) between the report and the fix, as well as the fair and transparent compensation for the reporting of bugs. The program gives bounty hunters a clear process and structure in order to increase the likelihood they attempt to find issues with Beanstalk and its related contracts and code.
 
-The BIC structure of community-known members (see [BICM Dashboard](bic-dashboard.md)) and public Snapshot proposals (see [Beanstalk Bug Bounty Snapshot space](https://snapshot.org/#/beanstalkbugbounty.eth)) allows the Beanstalk community to scrutinize decisions, while still allowing the BIC to move swiftly in response to bug reports. The BIC consists of technical members of the Beanstalk community due to the nature of the BIC. The BIC can keep the bug information private while the bug is unfixed, and then has a clear process to disclose the bug to the public and compensate the whitehat.&#x20;
+The BIC structure of community-known members (see [BICM Dashboard](bicm-dashboard.md)) and public Snapshot proposals (see [Beanstalk Bug Bounty Snapshot space](https://snapshot.org/#/beanstalkbugbounty.eth)) allows the Beanstalk community to scrutinize decisions, while still allowing the BIC to move swiftly in response to bug reports. The BIC consists of technical members of the Beanstalk community due to the nature of the BIC. The BIC can keep the bug information private while the bug is unfixed, and then has a clear process to disclose the bug to the public and compensate the whitehat.&#x20;
 
 Having several members on the BIC and requiring a majority vote to execute bug bounty payments increases decentralization.
 

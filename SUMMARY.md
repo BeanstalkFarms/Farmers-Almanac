@@ -39,7 +39,7 @@
   * [BCM Process](governance/beanstalk/bcm-process.md)
   * [BCM Dashboard](governance/beanstalk/bcm-dashboard.md)
   * [BIC Process](governance/beanstalk/bic-process.md)
-  * [BICM Dashboard](governance/beanstalk/bic-dashboard.md)
+  * [BICM Dashboard](governance/beanstalk/bicm-dashboard.md)
 * [Beanstalk Farms](governance/beanstalk-farms/README.md)
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
   * [BFC Dashboard](governance/beanstalk-farms/bfc-dashboard.md)
