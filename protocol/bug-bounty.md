@@ -13,4 +13,4 @@ Bug reports that do not come with a PoC and code implementing a fix may qualify 
 * [BIC Process](../governance/beanstalk/bic-process.md)
 * [BIC Dashboard](../governance/beanstalk/bicm-dashboard.md)
 
-All vulnerabilities noted in [any audit reports in the Beanstalk Audits repository](https://github.com/BeanstalkFarms/Beanstalk-Audits) (or otherwise known by the BIC, [BCM](../governance/beanstalk/bcm-process.md), or [Root DAO Multisig](https://docs.roottoken.org/governance/root-token/rdm-dashboard)) are not eligible for a reward.
+All vulnerabilities noted in [any audit reports in the Beanstalk Audits repository](https://github.com/BeanstalkFarms/Beanstalk-Audits) (or otherwise known by the BIC or [BCM](../governance/beanstalk/bcm-process.md)) are not eligible for a reward.
