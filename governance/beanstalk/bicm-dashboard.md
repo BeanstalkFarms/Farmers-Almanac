@@ -42,7 +42,7 @@ Rotating members (to a backup member listed here) on the BIC requires a majority
 
 **Total to Whitehats**: 1,493,350 Beans
 
-**Total to Immunefi**: 138,335 Beans (excluding the Immunefi subscription beginning with [BIP-41](https://arweave.net/uI_aXutcoWvZajzcSoJOfJNeKCpJ8DcLuPPhR-8NOKk))
+**Total to Immunefi**: 138,335 Beans (excluding the annual Immunefi subscription fee beginning after [BIP-41](https://arweave.net/uI_aXutcoWvZajzcSoJOfJNeKCpJ8DcLuPPhR-8NOKk))
 
 **Remaining in [Immunefi Vault](https://etherscan.io/address/0x66Efac6e6d58D4058CF017E66a0039315a3eb29C)**: 2,490,000 Beans
 
