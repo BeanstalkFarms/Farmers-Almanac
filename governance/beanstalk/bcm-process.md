@@ -256,6 +256,12 @@ In the event that an EBIP must be executed during the Voting Period of another p
 
 In order avoid the need to revote on a proposal in this situation, the BCM will repropose the on-chain transaction for the outstanding proposal after the successful execution of the EBIP.
 
+### Hypernative
+
+[Hypernative](https://www.hypernative.io/) actively detects and responds to high confidence pre-exploit and exploit-in-progress detections on Beanstalk. Hypernative custodies [an EOA](https://etherscan.io/address/0xd7E13e49e467637D75C43D917d98d69049a19bFF) that has the ability to call functions on [the Hypernative module](https://etherscan.io/address/0x59c78c1c2b4b03b4530d5f46f02362e4a03efe4d) added to the BCM. This module has the ability to remove all functions from Beanstalk except for `diamondCut`, `facetAddress`, `facetAddresses`, `facetFunctionSelectors` and `facets`. Removing all other functions protects the protocol in the event of an attack.
+
+The BCM continues to be the owner of and the sole address capable of adding and updating functions on Beanstalk. Instances where Hypernative removes all non-diamond functions will be considered EBIPs, i.e., they will be documented as such and follow the DAO-approved procedures outlined above.
+
 ## Rotating Signers
 
 In the event that one or more Signers are compromised, vote against the outcome of any proposal, voluntarily choose to be removed from the BCM, or are otherwise removed in accordance with [#signer-duties](bcm-process.md#signer-duties "mention"), the BCM will rotate them out of the multisig and replace them with another Signer. In no instance shall a majority of the BCM keys be held by Beanstalk Farms contributors, nor shall more than 1 key be held by Publius.

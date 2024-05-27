@@ -4,6 +4,10 @@
 Publius explains how Beanstalk works
 {% endembed %}
 
+{% hint style="info" %}
+This page has not yet been updated to account for [BIP-45: Seed Gauge System](https://github.com/BeanstalkFarms/Beanstalk/pull/722).
+{% endhint %}
+
 Beanstalk does not have any collateral requirements. Beanstalk uses credit instead of collateral to create Bean price stability relative to its value peg of $1. The practicality of using DeFi is currently limited by the lack of decentralized low-volatility assets with competitive carrying costs. Borrowing rates on USD stablecoins have historically been higher than borrowing rates on USD, even when supply increases rapidly. Non-competitive carrying costs are due to collateral requirements.
 
 Beanstalk relies on three native assets and three interconnected facilities to regularly oscillate the price of Bean across its value peg:

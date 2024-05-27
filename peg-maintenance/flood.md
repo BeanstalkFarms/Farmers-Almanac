@@ -17,6 +17,6 @@ Additional liquidity pools may be added to the Flood Whitelist via [Beanstalk go
 
 #### Current Flood Whitelist
 
-| Name                                                                             | Address                                                                                                               |
-| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [BEAN:3CRV Curve pool](https://curve.fi/#/ethereum/pools/factory-v2-152/deposit) | [0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49) |
+| Name                                                                                       | Address                                                                                                               |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [BEAN:ETH Well](https://basin.exchange/#/wells/0xbea0e11282e2bb5893bece110cf199501e872bad) | [0xBEA0e11282e2bB5893bEcE110cF199501e872bAd](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd) |

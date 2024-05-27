@@ -4,6 +4,10 @@
 Publius explains the Silo
 {% endembed %}
 
+{% hint style="info" %}
+This page has not yet been updated to account for [BIP-45: Seed Gauge System](https://github.com/BeanstalkFarms/Beanstalk/pull/722).
+{% endhint %}
+
 The Silo is the Beanstalk DAO. The Silo uses the Stalk System to create protocol-native financial incentives that improve Beanstalk’s security and Bean’s liquidity and stability.
 
 Anyone can become a Silo Member by Depositing whitelisted assets in the Silo to earn Stalk and Seeds. Neither Stalk nor Seeds are liquid. Deposits are represented as ERC-1155 standard tokens.
@@ -27,7 +31,6 @@ Deposits are tradeable on [OpenSea](https://opensea.io/collection/silo-deposits)
 | **Whitelisted asset**                                                                           | **Stalk per BDV** | **Seeds per BDV** |
 | ----------------------------------------------------------------------------------------------- | ----------------- | ----------------- |
 | [Bean](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab)                 | 1                 | 3                 |
-| [BEAN:3CRV LP](https://etherscan.io/address/0xc9C32cd16Bf7eFB85Ff14e0c8603cc90F6F2eE49)         | 1                 | 3.25              |
 | [BEAN:ETH Well LP](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd)     | 1                 | 4.5               |
 | [Unripe Bean](https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449)\*        | 1                 | 0                 |
 | [Unripe BEAN:ETH LP](https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D)\* | 1                 | 0                 |
@@ -62,7 +65,7 @@ See [Governance](../governance/beanstalk/) section.
 
 ### **Silo Rewards**
 
-**Earned Beans** are Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds (defined below). Upon Plant, Earned Beans are Deposited in the current Season. Earned Beans are distributed 10 blocks (2 minutes) after a successful `gm` function call. Without this vesting period, tBeanstalk would be susceptible to an attack where an account can Deposit whitelisted assets in the Silo, call `gm` and Withdraw the assets in the same transaction, gaining risk-free Bean seigniorage in the process.
+**Earned Beans** are Beans that have been paid to a Silo Member since the last Season the Silo Member Planted their Plantable Seeds (defined below). Upon Plant, Earned Beans are Deposited in the current Season.
 
 **Earned Stalk** are Stalk earned from Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.
 

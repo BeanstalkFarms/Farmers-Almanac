@@ -110,30 +110,36 @@ More information:
 * [Anonymous Multisig Signers Documentation](governance/beanstalk/bcm-process.md#anonymous-signers)
 * [BCM Dashboard](governance/beanstalk/bcm-dashboard.md)
 
-#### **10. AS GOVERNANCE POWER IS DETERMINED THROUGH STALK OWNERSHIP, SUFFICIENT CAPITAL COULD PURCHASE SIGNIFICANT GOVERNANCE POWER AND TAKE OVER BEANSTALK.** <a href="#stalk-governance-power" id="stalk-governance-power"></a>
+#### **10. MOST BEANSTALK FUNCTIONS CAN BE ARBITRARILY REMOVED BY HYPERNATIVE, A PROACTIVE THREAT PREVENTION AND REAL-TIME MONITORING PLATFORM. THERE IS NO GUARANTEE THAT FUNCTIONS ARE ONLY REMOVED WHEN APPROPRIATE.** <a href="#hypernative" id="hypernative"></a>
+
+The Beanstalk DAO implemented Hypernative into Beanstalk, a proactive threat prevention and real-time monitoring platform. Hypernative has the ability to remove any Beanstalk function unrelated to the Ethereum Diamond and upgradability of Beanstalk.
+
+Hypernative introduces significant risks related to security and censorship. There is no guarantee that:
+
+* Hypernative only removes functions during high confidence pre-exploit and exploit-in-progress detections;&#x20;
+* The BCM will remove Hypernative protections when necessary for the security or censorship resistance of Beanstalk; or that&#x20;
+* The BCM only removes Hypernative protections when it beneficial to Beanstalk.
+
+More information:
+
+* [Hypernative](https://hypernative.io/)
+* [BIP-46: Hypernative](https://arweave.net/2enPPzc5mkN18bXnApmCJNRkxwYc-CiCsU71XPualj4)
+* [Emergency Response Procedures Documentation](governance/beanstalk/bcm-process.md#hypernative)
+
+#### **11. AS GOVERNANCE POWER IS DETERMINED THROUGH STALK OWNERSHIP, SUFFICIENT CAPITAL COULD PURCHASE SIGNIFICANT GOVERNANCE POWER AND TAKE OVER BEANSTALK.** <a href="#stalk-governance-power" id="stalk-governance-power"></a>
 
 Beanstalk is governed by Stalkholders, as described in [#7](disclosures.md#governance-risk). Stalk ownership, and thus governance power, decentralizes over time given the inflationary nature of Stalk. However, there is no maximum Stalk supply. Stalk is minted for Deposits based on the Bean Denominated Value (BDV) of the Deposit, up to any arbitrary BDV.
 
-Stalk ownership was previously compromised via flash loan, which enabled the on-chain governance attack on April 17, 2022 (see [#1](disclosures.md#governance-exploit)). The Beanstalk Community Multisig serves as a temporary security measure until a secure and fully-decentralized governance mechanism has been developed and sufficiently audited.
+Stalk ownership was previously compromised via flash loan, which enabled the on-chain governance attack on April 17, 2022 (see [#1](disclosures.md#governance-exploit)). The Beanstalk Community Multisig serves as a temporary security measure until either (1) a secure and fully decentralized governance mechanism has been developed and sufficiently audited, or (2) governance is removed altogether.&#x20;
 
 More information:
 
 * [Whitepaper, Section 5.1, The Stalk System](https://bean.money/beanstalk.pdf#subsection.5.1)
 * [BCM Process](governance/beanstalk/bcm-process.md)
 
-#### **11. A VULNERABILITY IN ETHEREUM COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF ETHEREUM.** <a href="#ethereum-risk" id="ethereum-risk"></a>
+#### **12. A VULNERABILITY IN ETHEREUM COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF ETHEREUM.** <a href="#ethereum-risk" id="ethereum-risk"></a>
 
 Ethereum is the largest smart contract blockchain by market capitalization, total value deposited, and dollar denominated transaction value. In general, open source networks with large amounts of value on them and long track records indicate security, but there is no guarantee. Beanstalk assumes the security of the Ethereum network.
-
-#### **12. A VULNERABILITY IN CURVE COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF CURVE.** <a href="#curve-risk" id="curve-risk"></a>
-
-Beans trade in the BEAN:3CRV pool on Curve. The LP token is whitelisted in the Silo and the pool is used by Beanstalk to determine how many Beans and/or Soil to mint. Curve is among the largest Ethereum-native decentralized exchange protocols by volume. In general, open source protocols with large amounts of value on them and long track records indicate security, but there is no guarantee. Beanstalk assumes the security of Curve.
-
-More information:
-
-* [BFP-76: Choose Replant Liquidity Pool](https://bean.money/bfp-76)
-* [Deposit Whitelist Documentation](farm/silo.md#deposit-whitelist)
-* [Minting Whitelist Documentation](farm/sun.md#minting-whitelist)
 
 #### **13. A VULNERABILITY IN BASIN OR ITS COMPONENTS COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF BASIN AND ITS CORRESPONDING COMPONENTS.** <a href="#basin-risk" id="basin-risk"></a>
 
@@ -184,7 +190,6 @@ Beanstalk's core objective is to oscillate the price of a Bean above and below i
 
 Beanstalk measures the price of a dollar in each pool on the Minting Whitelist:
 
-* For the BEAN:3CRV Curve pool, Beanstalk assumes the average value of each USDC, USDT and DAI in the pool is equal to $1 (3CRV consists of USDC, USDT and DAI).
 * For the BEAN:ETH Well, Beanstalk assumes the price returned by the ETH/USD Chainlink data feed is accurate if it is close enough to either the ETH:USDC Uniswap V3 pool or the ETH:USDT Uniswap V3 pool.
 
 A disruption in the reliability of USDC, USDT, DAI or the ETH/USD Chainlink data feed could impact Bean minting, resulting in adverse consequences for Beanstalk. The Chainlink data feed is inherently centralized.
@@ -214,7 +219,7 @@ More information:
 
 #### **21. BEANSTALK IS AUDITED BUT AUDITS CANNOT GUARANTEE SECURITY. IT IS ANTICIPATED THAT FUTURE CODE WILL NOT BE AUDITED BEFORE BEING COMMITTED BY THE DAO.** <a href="#audit-risk" id="audit-risk"></a>
 
-Security is paramount to Beanstalk's success. Prior to Replant in August 2022, the majority of Beanstalk’s code was audited by Halborn and [Trail of Bits](https://www.trailofbits.com/). Prior to August 2023, the majority of new Beanstalk code since Replant was audited by Halborn. While all are reputable audit firms, there is no guarantee Beanstalk is secure. Beanstalk was audited by [Omniscia](https://omniscia.io/) prior to the April 2022 governance exploit.
+Security is paramount to Beanstalk's success. Prior to Replant in August 2022, the majority of Beanstalk’s code was audited by Halborn and [Trail of Bits](https://www.trailofbits.com/). Up to May 2024, the majority of new Beanstalk code since Replant was audited by Halborn, Cyfrin and Codehawks. While all are reputable audit firms, there is no guarantee Beanstalk is secure. Beanstalk was audited by [Omniscia](https://omniscia.io/) prior to the April 2022 governance exploit.
 
 In the future, it is anticipated that the DAO will vote to commit unaudited code. There is always additional risk associated with implementing unaudited code.
 
@@ -239,7 +244,7 @@ More information:
 * [Beanstalk UI on GitHub](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/ui)
 * [Beanstalk Farms Documentation](governance/beanstalk-farms/)
 
-#### **23. THE APP.BEAN.MONEY FRONTEND DEPENDS ON THE SUBGRAPHS FOR DISPLAYING VARIOUS ON-CHAIN DATA. THERE IS NO GUARANTEE THAT SUBGRAPH DATA IS ACCURATE.** <a href="#subgraph-data" id="subgraph-data"></a>
+#### **23. THE APP.BEAN.MONEY FRONTEND DEPENDS ON THE SUBGRAPHS FOR DISPLAYING VARIOUS ON-CHAIN DATA. THERE IS NO GUARANTEE THAT SUBGRAPH DATA IS ACCURATE OR AVAILABLE.** <a href="#subgraph-data" id="subgraph-data"></a>
 
 The Beanstalk UI hosted at [app.bean.money](https://app.bean.money/) depends on the Beanstalk and Bean Subgraphs for displaying various data. The subgraphs are primarily maintained by Beanstalk Farms.
 
@@ -258,6 +263,6 @@ It is unclear what regulations, if any, governments will attempt to impose on De
 
 #### **25. BEANSTALK IS NOT A FINISHED PROTOCOL AND REQUIRES ONGOING DEVELOPMENT. THERE IS NO GUARANTEE OF FURTHER DEVELOPMENT.** <a href="#regulatory-risk" id="regulatory-risk"></a>
 
-Beanstalk is likely not at a point where it can sustain itself in perpetuity without additional development of itself and the surrounding ecosystem. High quality contributions are required but are not guaranteed.
+Beanstalk is likely not at a point where it can sustain itself in perpetuity without additional development of itself and the surrounding ecosystem. High quality improvements are essential but are not guaranteed.
 
 Publius, the pseudonym for the three co-founders of Beanstalk, continues to be influential within the Beanstalk DAO. The identities of Publius are public. The identities of most of the remaining Beanstalk contributors are anonymous.
