@@ -1,5 +1,9 @@
 # Overview
 
+{% hint style="info" %}
+This page has not yet been updated to account for [BIP-45: Seed Gauge System](https://github.com/BeanstalkFarms/Beanstalk/pull/722).
+{% endhint %}
+
 Beanstalk faces the fundamental limitation that it cannot fix the Bean price at its value peg, but instead must encourage widespread participation in peg maintenance through protocol-native financial incentives. Stability is a function of how regularly the price of a Bean oscillates across its peg and the magnitude of price deviations from it.
 
 Beanstalk has four direct peg maintenance tools available:
