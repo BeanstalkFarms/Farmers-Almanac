@@ -20,6 +20,7 @@ See the [BCM Verification](https://community.bean.money/bcm-verification) page f
 
 Signers hashes are published from [0x925753106fcdb6d2f30c3db295328a0a1c5fd1d1](https://etherscan.io/address/0x925753106fcdb6d2f30c3db295328a0a1c5fd1d1), the address that Publius used to [deploy Beanstalk](https://etherscan.io/tx/0x40b23cea3aa6e1a7dd89bbcd24c67f6fa1f6d663d7609f14046cd6cf50b6ce86) on August 6, 2021.
 
+* [05/24/2024 Signer Hash](https://etherscan.io/verifySig/176651)
 * [07/22/2023 Signer Hash](https://etherscan.io/verifySig/22066)
 * [09/16/2022 Signer Hash](https://etherscan.io/verifySig/10511)
 * [06/13/2022 Signer Hash](https://etherscan.io/verifySig/7236)
