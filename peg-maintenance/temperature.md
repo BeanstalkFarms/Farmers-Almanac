@@ -64,11 +64,9 @@ When the debt level is excessively high or low, an optimal state is accelerating
 
 Considering the current state and the debt level, Beanstalk adjusts the Maximum Temperature to move toward the optimal state:
 
-![](../.gitbook/assets/temperature-changes.png)
+<figure><img src="../.gitbook/assets/cases.png" alt=""><figcaption></figcaption></figure>
 
 The [Maximum Temperature Flow Chart](https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/\[PUBLIC]-Temperature-Flow-Chart?node-id=0%3A1\&t=27N3RhfE52pum1U8-1) contains a graphical representation of each possible state and an explanation for each Maximum Temperature adjustment.
-
-{% @figma/embed fileId="ri6N8czFLXcvuJKWfQtAr8" nodeId="0:1" url="https://www.figma.com/file/ri6N8czFLXcvuJKWfQtAr8/[PUBLIC]-Max-Temp-Flow-Chart?node-id=0:1&t=VLyPk6oCFiBfjN6W-1&type=whiteboard" %}
 
 ### Morning
 

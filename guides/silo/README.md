@@ -1,6 +1,6 @@
 # Silo
 
-Guides on interacting with [the Silo](../../farm/silo.md).
+Guides on interacting with [the Silo](../../farm/silo/).
 
 * [Understand Silo vAPY](understand-silo-vapy.md)
 * [Deposit in the Silo](deposit.md)

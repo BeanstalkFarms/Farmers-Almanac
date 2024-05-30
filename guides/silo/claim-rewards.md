@@ -1,6 +1,6 @@
 # Claim Silo Rewards
 
-Assets on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist) can be Deposited in [the Silo](../../farm/silo.md) to earn Stalk and Seeds. You can find more information about Silo Rewards [here](../../farm/silo.md#silo-rewards).
+Assets on the [Deposit Whitelist](../../farm/silo/#deposit-whitelist) can be Deposited in [the Silo](../../farm/silo/) to earn Stalk and Seeds. You can find more information about Silo Rewards [here](../../farm/silo/#silo-rewards).
 
 * [Mow Grown Stalk](claim-rewards.md#mow)
 * [Plant Plantable Seeds](claim-rewards.md#plant)

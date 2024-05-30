@@ -1,6 +1,6 @@
 # Convert
 
-Conversions within the [Silo](../farm/silo.md) between Bean and LP Deposits serve a major role in peg maintenance.
+Conversions within the [Silo](../farm/silo/) between Bean and LP Deposits serve a major role in peg maintenance.
 
 Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference/).
 
@@ -25,10 +25,10 @@ Additional Conversions may be added to the Convert Whitelist via [Beanstalk gove
 
 <table><thead><tr><th width="217.33333333333331">From token</th><th width="219">To token</th><th>Conditions</th></tr></thead><tbody><tr><td>Any token on the Deposit Whitelist*</td><td>The same token as From token</td><td>Anytime</td></tr><tr><td>BEAN:3CRV LP</td><td>Bean</td><td>deltaB in the BEAN:3CRV pool &#x3C; 0</td></tr><tr><td>Unripe Bean</td><td>Unripe BEAN:ETH LP</td><td>deltaB in the BEAN:ETH Well > 0</td></tr><tr><td>Unripe BEAN:ETH LP</td><td>Unripe Bean</td><td>deltaB in the BEAN:ETH Well &#x3C; 0</td></tr><tr><td>Bean</td><td>BEAN:ETH Well LP</td><td>deltaB in the BEAN:ETH Well > 0</td></tr><tr><td>BEAN:ETH Well LP</td><td>Bean</td><td>deltaB in the BEAN:ETH Well &#x3C; 0</td></tr></tbody></table>
 
-\*Any token on the [Deposit Whitelist](../farm/silo.md#deposit-whitelist) can be Converted to the same token in order to allow Stalkholders to update the BDV of their LP tokens when their BDV increases due to impermanent loss.
+\*Any token on the [Deposit Whitelist](../farm/silo/#deposit-whitelist) can be Converted to the same token in order to allow Stalkholders to update the BDV of their LP tokens when their BDV increases due to impermanent loss.
 
 #### Performance
 
 Convert functionality was first added in [BIP-7](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-07-convert.md), and generalized to support a Convert Whitelist in [BIP-21](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-21-replant.md). Since BIP-7 was committed, Conversions by Stalkholders have played a significant role in peg maintenance.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-09-12 at 10.39.44 AM.png" alt=""><figcaption><p>This screenshot of the Bean price chart is from September 12, 2022. See <a href="https://app.bean.money/#/analytics">app.bean.money</a> for the latest data.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/convert.png" alt=""><figcaption><p>This screenshot of the Bean price chart is from September 12, 2022. See <a href="https://app.bean.money/#/analytics">app.bean.money</a> for the latest data.</p></figcaption></figure>

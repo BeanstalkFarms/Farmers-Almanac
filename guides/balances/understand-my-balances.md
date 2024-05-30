@@ -46,7 +46,7 @@ These modules appear if you have [Rinsable Sprouts](../../protocol/glossary.md#r
 
 ### Rewards
 
-This module displays and allows claiming of [Silo Rewards](../../farm/silo.md#silo-rewards).
+This module displays and allows claiming of [Silo Rewards](../../farm/silo/#silo-rewards).
 
 * Earned Beans are the number of Beans earned since your last Plant. Upon Plant, Earned Beans are Deposited in the current Season.
 * Earned Stalk is the Stalk associated with Earned Beans. Earned Stalk automatically contribute to Stalk ownership and do not require any action to claim them.

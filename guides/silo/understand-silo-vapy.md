@@ -1,6 +1,6 @@
 # Understand Silo vAPY
 
-The Beanstalk UI displays vAPY (_variable_ APY_)_ statistics for each asset on the [Deposit Whitelist](../../farm/silo.md#deposit-whitelist). APYs are called _variable_ because they are not enforced by Beanstalk in any way. Rather, the APY uses historical data about Beans earned by Stalkholders to estimate future returns for Depositing in the Silo.
+The Beanstalk UI displays vAPY (_variable_ APY_)_ statistics for each asset on the [Deposit Whitelist](../../farm/silo/#deposit-whitelist). APYs are called _variable_ because they are not enforced by Beanstalk in any way. Rather, the APY uses historical data about Beans earned by Stalkholders to estimate future returns for Depositing in the Silo.
 
 The APY calculation has two parts:
 

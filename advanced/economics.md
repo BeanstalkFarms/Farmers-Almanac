@@ -13,7 +13,7 @@ Beanstalk is designed from economic first principles to create a useful trustles
 
 A design that lowers the [Gini coefficient](https://en.wikipedia.org/wiki/Gini\_coefficient) of Beans and Stalk over time is essential to censorship resistance.&#x20;
 
-Older [Deposits](../farm/silo.md) have their [Stalk from Seeds](../farm/silo.md#the-stalk-system) diluted relative to newer Deposits every [Season](../protocol/glossary.md#season). Therefore, newly minted Beans are more widely distributed over time.&#x20;
+Older [Deposits](../farm/silo/) have their [Stalk from Seeds](../farm/silo/#the-stalk-system) diluted relative to newer Deposits every [Season](../protocol/glossary.md#season). Therefore, newly minted Beans are more widely distributed over time.&#x20;
 
 Beanstalk does not require a pre-mine. The first 100 Beans are created when the `init` function is called to deploy Beanstalk.
 
@@ -49,7 +49,7 @@ In order to Sow Beans, they must be acquired (_i.e._, marginal demand for [Soil]
 
 Beanstalk-native financial incentives consistently increase trustlessness, stability and liquidity over time by coordinating independently financially motivated actors (_i.e._, Stalkholders and Sowers).&#x20;
 
-[The Stalk System](../farm/silo.md#the-stalk-system) incentivizes (1) leaving assets Deposited in the Silo continuously by creating opportunity cost to [Withdraw](../farm/silo.md#withdraw) assets from the Silo, (2) adding value to liquidity pools with Beans by [rewarding more Seeds to Deposited LP tokens](../farm/silo.md#current-deposit-whitelist) than Deposited Beans, and (3) returning the Bean price to its value peg by allowing [Conversions](../peg-maintenance/convert.md) within the Silo without forfeiting Stalk.&#x20;
+[The Stalk System](../farm/silo/#the-stalk-system) incentivizes (1) leaving assets Deposited in the Silo continuously by creating opportunity cost to [Withdraw](../farm/silo/#withdraw) assets from the Silo, (2) adding value to liquidity pools with Beans by [rewarding more Seeds to Deposited LP tokens](../farm/silo/#current-deposit-whitelist) than Deposited Beans, and (3) returning the Bean price to its value peg by allowing [Conversions](../peg-maintenance/convert.md) within the Silo without forfeiting Stalk.&#x20;
 
 Beanstalk is governed by Stalkholders. Anyone with Stalk stands to profit from future growth of Beanstalk, but are not owed anything by Beanstalk.&#x20;
 

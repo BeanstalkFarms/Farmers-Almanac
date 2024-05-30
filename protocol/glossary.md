@@ -74,6 +74,10 @@ A proposal to change Beanstalk. Abbreviated as BIP. Read more [here](../governan
 
 A proposal for having the Beanstalk DAO vote on things other than protocol changes. Abbreviated as BOP. Read more [here](../governance/proposals.md#bop).
 
+### Bean to Max LP Seed Ratio
+
+Determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time. More specifically, the ratio of Seed rewards between Beans and the LP token with the highest Gauge Points per BDV. Adjusted via the Seed Gauge System. Read more [here](../peg-maintenance/bean-to-max-lp-seed-ratio.md).
+
 ### **Cancel**
 
 Remove a [Pod Order](glossary.md#pod-order) or [Pod Listing](glossary.md#pod-listing) from the [Pod Market](glossary.md#pod-market).
@@ -92,11 +96,11 @@ Beans in Farmers' wallets.
 
 ### **Convert**
 
-Changing one [Deposited](glossary.md#deposit) asset for another within the [Silo](glossary.md#silo). Read more [here](../farm/silo.md#convert-whitelist).
+Changing one [Deposited](glossary.md#deposit) asset for another within the [Silo](glossary.md#silo). Read more [here](../farm/silo/#convert-whitelist).
 
 ### Convert Whitelist
 
-The generalized whitelist that determines which [Conversions](glossary.md#convert) within the [Silo](glossary.md#silo) are permitted under certain conditions. Read more [here](../farm/silo.md#current-convert-whitelist).
+The generalized whitelist that determines which [Conversions](glossary.md#convert) within the [Silo](glossary.md#silo) are permitted under certain conditions. Read more [here](../farm/silo/#current-convert-whitelist).
 
 ### **deltaB**
 
@@ -108,11 +112,11 @@ The ratio of the change in [Soil](glossary.md#soil) over the prior two [Seasons]
 
 ### **Deposit**
 
-Assets on the [Deposit Whitelist](glossary.md#deposit-whitelist) can be Deposited in the [Silo](glossary.md#silo) at any time to earn [Stalk](glossary.md#stalk) and [Seeds](glossary.md#seeds). Read more [here](../farm/silo.md#deposit-whitelist).
+Assets on the [Deposit Whitelist](glossary.md#deposit-whitelist) can be Deposited in the [Silo](glossary.md#silo) at any time to earn [Stalk](glossary.md#stalk) and [Seeds](glossary.md#seeds). Read more [here](../farm/silo/#deposit-whitelist).
 
 ### **Deposit Whitelist**
 
-The whitelist of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Deposit Whitelist via governance. Beans are always whitelisted. Read more [here](../farm/silo.md#current-deposit-whitelist).
+The whitelist of ERC-20 tokens that can be Deposited in the Silo. Any ERC-20 token can be added or removed from the Deposit Whitelist via governance. Beans are always whitelisted. Read more [here](../farm/silo/#current-deposit-whitelist).
 
 ### **Deposited Assets**
 
@@ -182,6 +186,14 @@ If P > 1 over the previous [Season](glossary.md#season) and the [Pod Rate](gloss
 
 A mechanism for Beanstalk to issue [Pods](glossary.md#pods) for dollar-pegged assets other than Beans independent of [Soil](glossary.md#soil) minting in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Read more [here](fundraiser.md).
 
+### Gauge Points
+
+Determine [Grown Stalk](glossary.md#grown-stalk) issuance across various LP tokens.
+
+### Germination
+
+Germinating [Deposits](glossary.md#deposit) are Deposits that are <2 `gm` calls old. Germinating Deposits can be [Withdrawn](glossary.md#withdraw) or [Transferred](glossary.md#transfer), but cannot be [Converted](glossary.md#convert). Germination exists to add flash loan and inter-block MEV manipulation resistance to the calculation of Deposited [BDV](glossary.md#bean-denominated-value). By preventing the accrual of [Earned Beans](glossary.md#earned-beans) for 1 full [Season](glossary.md#stalk), Beanstalk further disincentivizes inorganic demand.
+
 ### **gm**
 
 Beanstalk accepts one `gm` function call every [Season](glossary.md#season). Upon the `gm` call, Beanstalk [Ripens Pods](glossary.md#ripen), [Fertilizes Sprouts](glossary.md#fertilize), distributes Beans to [Stalkholders](glossary.md#stalkholders), adjusts the [Temperature](glossary.md#temperature), etc.
@@ -205,6 +217,14 @@ The interest rate on [Fertilizer](glossary.md#fertilizer) purchases. Read more [
 ### **Jack**
 
 [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4) chopped down Beanstalk on April 17, 2022.
+
+### Liquidity to Supply Ratio (L2SR)
+
+Represents the Beanstalk liquidity level relative to the Bean supply. The L2SR is a useful indicator of Beanstalk's health.
+
+### Liquidity Weight
+
+The portion of liquidity in a whitelisted liquidity pool that counts towards the [Liquidity to Supply Ratio](glossary.md#liquidity-to-supply-ratio-l2sr) calculation.
 
 ### **Market**
 
@@ -326,13 +346,17 @@ When [Pods](glossary.md#pods) passively turn into [Harvestable Pods](glossary.md
 
 Seasons are Beanstalk-native time. Every Season is approximately 1 hour. Each Season begins when the [`gm`](glossary.md#gm) function is successfully called on Ethereum.
 
+### Seed Gauge System
+
+The component of Beanstalk responsible for dynamically adjusting the [Seed](glossary.md#seeds) rewards for different assets whitelisted in the [Silo](glossary.md#silo). Read more [here](../farm/silo/seed-gauge-system.md).
+
 ### **Seeds**
 
 An internal token that yields 1/10000 [Grown Stalk](glossary.md#grown-stalk) every Season.
 
 ### **Silo**
 
-The Beanstalk DAO. Read more [here](../farm/silo.md).
+The Beanstalk DAO. Read more [here](../farm/silo/).
 
 ### **Silo Members**
 
@@ -340,7 +364,7 @@ The Beanstalk DAO. Read more [here](../farm/silo.md).
 
 ### **Silo Rewards**
 
-Rewards earned by Silo Members in the form of [Earned Beans](glossary.md#earned-beans), [Earned Stalk](glossary.md#earned-stalk), [Grown Stalk](glossary.md#grown-stalk), [Revitalized Stalk](glossary.md#revitalized-stalk), [Plantable Seeds](glossary.md#plantable-seeds), and [Revitalized Seeds](glossary.md#revitalized-seeds). Read more [here](../farm/silo.md#silo-rewards).
+Rewards earned by Silo Members in the form of [Earned Beans](glossary.md#earned-beans), [Earned Stalk](glossary.md#earned-stalk), [Grown Stalk](glossary.md#grown-stalk), [Revitalized Stalk](glossary.md#revitalized-stalk), [Plantable Seeds](glossary.md#plantable-seeds), and [Revitalized Seeds](glossary.md#revitalized-seeds). Read more [here](../farm/silo/#silo-rewards).
 
 ### **Soil**
 
@@ -356,7 +380,7 @@ Sprouts represent how many Beans there are left to be earned from [Fertilizer](g
 
 ### **Stalk**
 
-The Beanstalk governance token. Stalk entitles the holder to a pro rata share of future Bean mints and participation in Beanstalk governance. Read more [here](../farm/silo.md#the-stalk-system).
+The Beanstalk governance token. Stalk entitles the holder to a pro rata share of future Bean mints and participation in Beanstalk governance. Read more [here](../farm/silo/#the-stalk-system).
 
 ### **Stalkholders**
 
@@ -365,6 +389,10 @@ Holders of the Stalk token. Stalkholders participate in governance and earn Bean
 ### Sun
 
 The component of the Farm that keeps time in [Seasons](glossary.md#season) and incentivizes cost-efficient and timely calling of the [`gm`](glossary.md#gm) function. Read more [here](../farm/sun.md).
+
+### Target Seasons to Catchup
+
+Determines the target number of [Seasons](glossary.md#season) for a new [Deposit](glossary.md#deposit) with an average number of [Seeds](glossary.md#seeds) to catch up to the average [Grown Stalk](glossary.md#grown-stalk) per [BDV](glossary.md#bean-denominated-value) of existing Deposits at the time of Deposit.
 
 ### **Temperature**
 
@@ -396,4 +424,4 @@ The time interval in which a [Beanstalk Improvement Proposal](glossary.md#beanst
 
 ### **Withdraw**
 
-[Deposited assets](glossary.md#deposited-assets) can be Withdrawn from the [Silo](glossary.md#silo) at any time. The number of [Stalk](glossary.md#stalk), [Seeds](glossary.md#seeds), and Stalk from Seeds rewarded for a Deposited asset must be forfeited upon its Withdrawal from the Silo. Read more [here](../farm/silo.md#withdraw).
+[Deposited assets](glossary.md#deposited-assets) can be Withdrawn from the [Silo](glossary.md#silo) at any time. The number of [Stalk](glossary.md#stalk), [Seeds](glossary.md#seeds), and Stalk from Seeds rewarded for a Deposited asset must be forfeited upon its Withdrawal from the Silo. Read more [here](../farm/silo/#withdraw).

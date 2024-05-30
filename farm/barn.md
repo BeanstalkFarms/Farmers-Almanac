@@ -45,7 +45,7 @@ The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to R
 
 ### Barn Process
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-17 at 6.41.50 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fert.png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. Fertilizer is bought with ETH. Active Fertilizer comes with Sprouts.
 2. Sprouts become Rinsable on a pari passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.

@@ -14,7 +14,8 @@
 
 * [Overview](farm/overview.md)
 * [Sun](farm/sun.md)
-* [Silo](farm/silo.md)
+* [Silo](farm/silo/README.md)
+  * [Seed Gauge System](farm/silo/seed-gauge-system.md)
 * [Field](farm/field.md)
 * [Barn](farm/barn.md)
 * [Market](farm/market.md)
@@ -24,6 +25,7 @@
 
 * [Overview](peg-maintenance/overview.md)
 * [Temperature](peg-maintenance/temperature.md)
+* [Bean to Max LP Seed Ratio](peg-maintenance/bean-to-max-lp-seed-ratio.md)
 * [Convert](peg-maintenance/convert.md)
 * [Flood](peg-maintenance/flood.md)
 

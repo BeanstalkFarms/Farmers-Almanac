@@ -99,8 +99,8 @@ The Voting Period opens when the Snapshot proposal for a BIP can be voted on and
 
 If at the end of the Voting Period:
 
-* Less than or equal to half of total Stalk is voting For the BIP, it fails, or
-* More than half of total Stalk is voting For the BIP, it passes.
+* Less than or equal to one-third of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, it fails, or
+* More than one-third of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, or more than half of total outstanding Stalk is voting For, it passes.
 
 If at any time 24 hours or more after the beginning and before the end of the Voting Period more than two-thirds of the Stalk supply votes in favor of the BIP, the BCM can execute the BIP on-chain.
 
@@ -137,8 +137,8 @@ Any Stalkholder can vote For or Against on any BOP. The Voting Period opens when
 
 If at the end of the Voting Period:
 
-* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or
-* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.
+* Less than or equal to 25% of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, it fails, or
+* More than 25% of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, or more than half of total outstanding Stalk is voting For, it passes.
 
 ## BIR Proposal and Voting
 

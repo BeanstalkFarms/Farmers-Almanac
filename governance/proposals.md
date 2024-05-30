@@ -41,10 +41,10 @@ Any Stalkholder that owns at least 0.1% of total Stalk can propose a BIP. Any St
 
 The Voting Period opens when the Snapshot proposal for a BIP can be voted on and closes after 7 days or when it is committed with a supermajority.
 
-If at the end of the Voting Period:
+If at the end of the Voting Period:&#x20;
 
-* Less than or equal to 50% of total Stalk is voting For the BIP, it fails, or
-* More than 50% of total Stalk is voting For the BIP, it passes.
+* Less than or equal to one-third of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, it fails, or&#x20;
+* More than one-third of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, or more than half of total outstanding Stalk is voting For, it passes.
 
 If at any time 24 hours or more after the beginning and before the end of the Voting Period more than two-thirds of the total Stalk is voting For the BIP, the [Beanstalk Community Multisig (BCM)](beanstalk/bcm-process.md) can execute the BIP.
 
@@ -60,10 +60,10 @@ Any Stalkholder that owns at least 0.1% of total Stalk can propose a BOP. Any St
 
 The Voting Period opens when the Snapshot proposal for a BOP can be voted on and closes after 7 days.
 
-If at the end of the Voting Period:
+If at the end of the Voting Period:&#x20;
 
-* Less than or equal to 35% of total Stalk is voting For or the majority of participating Stalk is voting Against the BOP, it fails, or
-* More than 35% of total Stalk is voting For and the majority of participating Stalk is voting For the BOP, it passes.
+* Less than or equal to 25% of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, it fails, or&#x20;
+* More than 25% of the total outstanding Stalk, plus the amount of Stalk voting Against, is voting For, or more than half of total outstanding Stalk is voting For, it passes.
 
 BOPs are proposed on the [Beanstalk DAO Snapshot space](https://snapshot.org/#/beanstalkdao.eth/). Stalkholders can vote on BOPs on the [Beanstalk UI Governance page](https://app.bean.money/#/governance). Past BOPs can be read [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bop).
 

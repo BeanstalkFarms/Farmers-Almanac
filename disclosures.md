@@ -95,7 +95,7 @@ As earlier Depositors in the Silo have been accruing Stalk from Seeds for more S
 More information:
 
 * [Whitepaper, Section 5.1, The Stalk System](https://bean.money/beanstalk.pdf#subsection.5.1)
-* [The Stalk System Documentation](farm/silo.md#the-stalk-system)
+* [The Stalk System Documentation](farm/silo/#the-stalk-system)
 
 #### **9. THE BEANSTALK CONTRACT IS OWNED BY THE BEANSTALK COMMUNITY MULTISIG. THE MULTISIG CAN MAKE ARBITRARY CHANGES TO BEANSTALK WITH 5-OF-9 SIGNATURES FROM THE ANONYMOUS SIGNERS. THERE IS NO GUARANTEE THE MULTISIG ENACTS THE GOVERNANCE DECISIONS OF THE DAO.** <a href="#multisig-risk" id="multisig-risk"></a>
 

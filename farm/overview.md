@@ -11,7 +11,7 @@ The Farm has five primary components: the Sun, Silo, Field, Market and Depot.
 
 The [Sun](sun.md) offers payment for participation in timekeeping and regular code execution. Time on the Farm is kept in Seasons.
 
-The [Silo](silo.md)—the Beanstalk DAO—offers passive yield opportunities to owners of Bean and other whitelisted assets for participation in governance of Beanstalk upgrades and contribution to security, liquidity and stability.
+The [Silo](silo/)—the Beanstalk DAO—offers passive yield opportunities to owners of Bean and other whitelisted assets for participation in governance of Beanstalk upgrades and contribution to security, liquidity and stability.
 
 The [Field](field.md) offers yield opportunities to creditors for participating in peg maintenance.
 

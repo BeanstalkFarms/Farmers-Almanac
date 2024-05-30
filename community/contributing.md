@@ -12,7 +12,7 @@ Beanstalk belongs to the Beanstalk DAO and is developed as an open source, permi
 
 ### Participating in Beanstalk governance
 
-Become a [Stalkholder](../protocol/glossary.md#stalkholders) and participate in Beanstalk governance by [Depositing whitelisted assets](../farm/silo.md#deposit-whitelist) in the [Silo](../farm/silo.md) to earn [Stalk](../farm/silo.md#the-stalk-system).&#x20;
+Become a [Stalkholder](../protocol/glossary.md#stalkholders) and participate in Beanstalk governance by [Depositing whitelisted assets](../farm/silo/#deposit-whitelist) in the [Silo](../farm/silo/) to earn [Stalk](../farm/silo/#the-stalk-system).&#x20;
 
 Read more about [Beanstalk governance](../governance/beanstalk/) and the various[ proposals](../governance/proposals.md).&#x20;
 
