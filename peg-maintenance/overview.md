@@ -35,13 +35,7 @@ In practice, maintaining ideal equilibrium is impossible. Deviations from ideal 
 
 Beanstalk's core objective is to oscillate the price of Bean above and below its dollar peg. To do this, Beanstalk must be able to reliably measure the price of a dollar on-chain without trusting a centralized third-party to provide it. A robust, decentralized stablecoin requires a tamper-proof, manipulation-resistant and decentralized price oracle.
 
-#### BEAN:ETH Well
-
-Ether is the most decentralized, censorship resistant and liquid asset on the Ethereum network. Beanstalk leverages the [ETH/USD Chainlink data feed](https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd) and the ETH:USDC and ETH:USDT Uniswap V3 pools for calculating deltaB in the BEAN:ETH Well. Wells are the liquidity pools of [Basin](https://basin.exchange/), a composable EVM-native DEX protocol.
-
-The [Multi Flow Pump](https://basin.exchange/multi-flow-pump.pdf) attached to the BEAN:ETH Well is the first Ethereum-native oracle for Ethereum-native data that offers inter-block MEV manipulation resistance in a post-Merge environment. Using Multi Flow, Beanstalk can calculate an inter-block MEV manipulation resistant BEAN:ETH price.
-
-Uniswap V3 pools are not inter-block MEV manipulation resistant but are on-chain and permissionless. Chainlink data feeds are inter-block MEV manipulation resistant because they are off-chain and permissioned. The ETH/USD data feed is the only Chainlink feed secured by staking. By comparing the ETH/USD Chainlink data feed with the ETH:USDC or ETH:USDT Uniswap V3 pools, Beanstalk can calculate an inter-block MEV manipulation resistant ETH:USD price at the cost of some centralization.
+The [Multi Flow Pump](https://basin.exchange/multi-flow-pump.pdf) attached to whitelisted Wells is the first Ethereum-native oracle for Ethereum-native data that offers inter-block MEV manipulation resistance in a post-Merge environment. Using Multi Flow, Beanstalk can calculate an inter-block MEV manipulation resistant BEAN:ETH price.
 
 #### P > Q
 

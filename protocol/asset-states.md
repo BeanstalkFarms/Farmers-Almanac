@@ -20,7 +20,7 @@ Beanstalk assets in your wallet.
 
 **Pooled Beans**
 
-Beans in all liquidity pools. The Beanstalk UI does not include Beans that make up Ripe BEAN:ETH under this category.
+Beans in all liquidity pools. The Beanstalk UI does not include Beans that make up Ripe BEAN:wstETH under this category.
 
 **Deposited Beans**
 
@@ -36,11 +36,11 @@ Beans in Farmers’ wallets.
 
 **Ripe Beans**
 
-Beans that are minted as Fertilizer is sold. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:ETH under this category.
+Beans that are minted as Fertilizer is sold. Unripe Beans represent a pro rata share of underlying Ripe Beans. The Beanstalk UI does not include Beans that make up Ripe BEAN:wstETH under this category.
 
 **Ripe Pooled Beans**
 
-Pooled Beans that make up Ripe BEAN:ETH.
+Pooled Beans that make up Ripe BEAN:wstETH.
 
 **Earned Beans**
 

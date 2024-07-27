@@ -29,6 +29,7 @@ Additional liquidity pools may be added to the Minting Whitelist via [Beanstalk 
 
 #### Current Minting Whitelist
 
-| Name                                                                                       | Address                                                                                                               |
-| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| [BEAN:ETH Well](https://basin.exchange/#/wells/0xbea0e11282e2bb5893bece110cf199501e872bad) | [0xBEA0e11282e2bB5893bEcE110cF199501e872bAd](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd) |
+| Name                                                                                          | Address                                                                                                               |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [BEAN:ETH Well](https://basin.exchange/#/wells/0xbea0e11282e2bb5893bece110cf199501e872bad)    | [0xBEA0e11282e2bB5893bEcE110cF199501e872bAd](https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd) |
+| [BEAN:wstETH Well](https://basin.exchange/#/wells/0xbea0000113b0d182f4064c86b71c315389e4715d) | [0xbea0000113b0d182f4064c86b71c315389e4715d](https://etherscan.io/address/0xbea0000113b0d182f4064c86b71c315389e4715d) |

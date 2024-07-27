@@ -18,12 +18,13 @@ For guides on interacting with the Barn through the Beanstalk UI, go [here](../g
 * June 6, 2022: Barn Raise starts
 * August 6, 2022: Beanstalk Replant
 * October 20, 2023: Migration of Unripe liquidity from BEAN:3CRV to the BEAN:ETH Well
+* July 26, 2024: Migration of Unripe liquidity from BEAN:ETH to BEAN:wstETH
 
 ### **Fertilizer**
 
 Fertilizer is a semi-fungible limited debt issuance to recapitalize $77M in stolen liquidity.
 
-At the beginning of the Barn Raise, there was 77M Available Fertilizer. Available Fertilizer is the number of Fertilizer that can be bought from Beanstalk in exchange for 1 USD worth of ETH each. Fertilizer becomes Active when it is bought, at which point the ERC-1155 Fertilizer token is minted.
+At the beginning of the Barn Raise, there was 77M Available Fertilizer. Available Fertilizer is the number of Fertilizer that can be bought from Beanstalk in exchange for 1 USD worth of wstETH each. Fertilizer becomes Active when it is bought, at which point the ERC-1155 Fertilizer token is minted.
 
 Active Fertilizer comes with an associated number of Sprouts. Sprouts represent the debt left to be repaid to Active Fertilizer holders. Fertilizer becomes Used after all of its associated Sprouts are Fertilized into Rinsable Sprouts that can be Rinsed (redeemed) for 1 Bean each.
 
@@ -35,7 +36,7 @@ When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are al
 
 Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertilizer).
 
-When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:ETH Well at a ratio of 1:0.866616. Adding liquidity at this ratio causes the deltaB in the BEAN:ETH Well to trend towards the pre-exploit deltaB.
+When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:wstETH Well at a ratio of 1:0.866616. Adding liquidity at this ratio causes the deltaB in the BEAN:wstETH Well to trend towards the pre-exploit deltaB.
 
 ### **Humidity**
 
@@ -47,7 +48,7 @@ The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to R
 
 <figure><img src="../.gitbook/assets/fert.png" alt="" width="563"><figcaption></figcaption></figure>
 
-1. Fertilizer is bought with ETH. Active Fertilizer comes with Sprouts.
+1. Fertilizer is bought with wstETH. Active Fertilizer comes with Sprouts.
 2. Sprouts become Rinsable on a pari passu basis when Beanstalk [mints new Beans](../peg-maintenance/overview.md#bean-supply) according to the peg maintenance mechanism.
 3. Rinsable Sprouts can be Rinsed to be redeemed for Beans.
 
@@ -55,9 +56,9 @@ The Humidity is constant each [Season](sun.md). The Humidity was 500% prior to R
 
 Beanstalk uses the proceeds from the Fertilizer sales to recapitalize liquidity stolen from Silo Members in the April 17th, 2022 governance exploit. Beanstalk will sell enough Fertilizer to fully recapitalize all non-Bean liquidity stolen from Silo Members.
 
-Prior to Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe BEAN:3CRV LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
+Prior to Replant, Farmers who held Beans in the block prior to the exploit received 1 Unripe Bean for every pre-exploit Bean; Farmers who held whitelisted LP Tokens in the block prior to the exploit received 1 Unripe LP for every 1 Bean Denominated Value (BDV) of each pre-exploit whitelisted LP Token.
 
-> For example, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit received 1000 Unripe Beans and 2000 Unripe BEAN:3CRV LP.
+> For example, a Farmer with 1000 Beans and 2000 BDV of whitelisted LP tokens in the block prior to the exploit received 1000 Unripe Beans and 2000 Unripe LP.
 
 Unripe assets are placed on a vesting schedule in accordance with the success of the Barn Raise and growth of the Bean supply thereafter.
 
@@ -65,7 +66,9 @@ Unripe assets are placed on a vesting schedule in accordance with the success of
 
 More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets. Ripe Beans and Ripe BEAN:ETH are minted as Fertilizer is sold.
 
-On October 20th, 2023 Ripe BEAN:3CRV LP was migrated to Ripe BEAN:ETH Well LP. As a result, Unripe BEAN:3CRV LP became Unripe BEAN:ETH LP (with the same token address). See [BIP-38](https://bean.money/bip-38).
+On October 20th, 2023 Ripe BEAN:3CRV LP was migrated to Ripe BEAN:ETH LP. As a result, Unripe BEAN:3CRV LP became Unripe BEAN:ETH LP (with the same token address). See [BIP-38](https://bean.money/bip-38).
+
+On July 26, 2024 Ripe BEAN:ETH LP was migrated to Ripe BEAN:wstETH LP. As a result, Unripe BEAN:ETH LP became Unripe BEAN:wstETH LP (with the same token address). See [BIP-](https://bean.money/bip-38)[48](https://bean.money/bip-48).
 
 ### **Chopping**
 
