@@ -27,8 +27,8 @@ The vAPY calculations make the following assumptions:
 
 * No new assets are Deposited into or Withdrawn from the Silo;
 * No liquidity is added or removed from liquidity pools that Beans trade in;
-* There are $$\bar{n}^e$$ Beans earned by Stalkholders each Season; and
-* Every Stalkholder Mows their Grown Stalk each Season.&#x20;
+* There are 30-day EMA of Beans earned by Stalkholders each Season (which assumes that the Bean to Max LP Seed Ratio will approach its max value if there are any Seasons where Stalkholders earned Beans in the last 30 days); and
+* Every Stalkholder Mows their Grown Stalk and Plants their Plantable Seeds each Season.&#x20;
 
 ### Calculations
 
@@ -52,57 +52,10 @@ $$
 \bar{n}^e_t = \beta \sum_{i=t-u+1}^{i \leq t}(1-\beta)^{t-i} n^e_{i}
 $$
 
-#### Silo vAPY
+#### Strategy
 
-The formulas for the Silo vAPYs ($$\text{vAPY}^{x}_{\text{Bean}}$$​ and $$\text{vAPY}^{x}_{\text{Stalk}}$$​)  take the following variables as inputs:
+The Beanstalk UI shows the vAPYs for a Deposit with the average amount of Grown Stalk\* based on a simulation of the Farmer's increase in Bean and Stalk positions compounded over the next year.
 
-* $$\bar{n}^e_t$$, the 30-day EMA of Beans earned by Stalkholders at Season $$t$$​;
-* $$C_i$$, the total number of Seeds at Season $$i$$​;
-* $$K_i$$, the total number of Stalk at Season $$i$$; and​
-* $$x$$, the number of Seeds per BDV granted for Depositing this asset:
-  * $$x = 3$$ for Deposited BEAN;
-  * $$x= 3.25$$ for Deposited BEAN3CRV; and
-  * $$x= 4.5$$ for Deposited BEANETH.
+The complete formulas for the vAPYs can be read in the code [here](https://github.com/BeanstalkFarms/Beanstalk-API/blob/main/src/utils/apy/gauge.js).
 
-The formulas for the Silo vAPYs make estimations of the following variables:
-
-* $$\hat{C_i}$$, the estimated total number of Seeds at Season $$i$$;​
-* $$\hat{K_i}$$, the estimated total number of Stalk at Season $$i$$;
-* $$\hat{b_i}$$, the estimated number of a Farmer's Deposited Beans at Season $$i$$​; and
-* $$\hat{k_i}$$​, the estimated number of a Farmer's Stalk at Season $$i$$.​
-
-$$\text{vAPY}^{x}_{\text{Bean}}$$ is calculated using the estimated number of Beans owned by the Farmer a year from now ($$\hat{b}_{t+8760}$$) by using a sequence from the current Season ($$t$$​) to Season $$t+8760$$​.
-
-First, initialize the sequence with:
-
-$$
-\begin{aligned}
-\hat{C}_{t} =& \ C_t \\
-\hat{K}_{t} =& \ K_t \\
-\hat{b}_{t} =& \ \frac{x}{3} \\
-\hat{k}_{t} =& \ 1
-\end{aligned}
-$$
-
-Then iterate through the following sequence for $$i \in\{{u | u \in \mathbb{N}, t < u \leq t+8760}\}$$​:
-
-$$
-\begin{aligned}
-\hat{C_{i}} =& \ \hat{C}_{i-1} + 3\bar{n}^e_t \\
-\hat{K}_{i} =& \ \hat{K}_{i-1} + \bar{n}^e_t + \frac{1}{10000}\hat{C}_{i-1} \\
-\hat{b_{i}} =& \ \hat{b}_{i-1} + \bar{n}^e_t\frac{\hat{k}_{i-1}}{\hat{K}_{i-1}} \\
-\hat{k}_{i} =& \ \hat{k}_{i-1} + \bar{n}^e_t\frac{\hat{k}_{i-1}}{\hat{K}_{i-1}} + \frac{3}{10000} \hat{b}_{i-1}
-\end{aligned}
-$$
-
-We define $$\text{vAPY}^{x}_{\text{Bean}}$$​ for a given $$x$$​ as:
-
-$$
-\text{vAPY}^{x}_{\text{Bean}}=(\hat{b}_{t+8760}-\hat{b_t}) \times 100
-$$
-
-We define $$\text{vAPY}^{x}_{\text{Stalk}}$$​ for a given $$x$$​ as:
-
-$$
-\text{vAPY}^{x}_{\text{Stalk}}=(\hat{k}_{t+8760}-\hat{k_t}) \times 100
-$$
+\*The [APYs on DeFiLlama](https://defillama.com/yields?token=BEAN) are based on a new Deposit with no Grown Stalk.

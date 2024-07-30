@@ -7,7 +7,7 @@ The APY calculation has two parts:
 1. Estimating the number of Beans that will be minted per Season using recent historical data.
 2. Estimating the number of Beans that a Farmer will receive over time for holding Fertilizer. This takes some [assumptions](understand-fert-vapy.md#estimating-vapy-for-silo-deposits) about Fertilizer holder behavior.
 
-### Fert vAPY vs Stalk vAPY
+### Fert vAPY
 
 Fertilizer holder earn Bean seignorage when [deltaB](../../protocol/glossary.md#deltab) is greater than 0 over the previous Season. Estimated annual Beans earned by a Fertilizer holder is called the **Fert vAPY**.
 
