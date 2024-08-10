@@ -22,7 +22,7 @@ More information:
 
 #### **2. THERE IS NO MAXIMUM BEAN SUPPLY. THE BEAN SUPPLY CAN GROW INFINITELY THROUGH DEMAND-BASED MINTING AND GOVERNANCE.** <a href="#infinite-supply" id="infinite-supply"></a>
 
-Beanstalk increases the Bean supply every Season where the liquidity and time weighted average price of 1 Bean is greater than $1 over the previous Season. Enough Beans are minted such that if all the newly minted Beans were sold, the Bean price would return to $1. Those Beans are distributed to Stalkholders, Pod holders and Active Fertilizer holders.
+Beanstalk increases the Bean supply every Season where the time weighted average price of 1 Bean is greater than $1 over the previous Season. Enough Beans are minted such that if all the newly minted Beans were sold, the Bean price would return to $1. Those Beans are distributed to Stalkholders, Pod holders and Active Fertilizer holders.
 
 The Bean supply is uncapped and grows as demand for Beans increases. Beans can also be minted arbitrarily through governance (see [#7](disclosures.md#governance-risk)).
 
@@ -68,7 +68,7 @@ More information:
 
 Beanstalk borrows Beans from lenders in exchange for Pods and Sprouts. Bean loans have fixed interest rates but do not have fixed maturity dates.
 
-Pods and Sprouts are repaid when the liquidity and time weighted average price of 1 Bean is greater than $1 over the previous Season, but there is no guarantee this will continue until all Pods and Sprouts become redeemable (see [#4](disclosures.md#credit-risk)). Governance may also arbitrarily modify the redeemability of Beanstalk debt (see [#7](disclosures.md#governance-risk)).
+Pods and Sprouts are repaid when the time weighted average price of 1 Bean is greater than $1 over the previous Season, but there is no guarantee this will continue until all Pods and Sprouts become redeemable (see [#4](disclosures.md#credit-risk)). Governance may also arbitrarily modify the redeemability of Beanstalk debt (see [#7](disclosures.md#governance-risk)).
 
 More information:
 

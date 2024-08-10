@@ -43,7 +43,7 @@ Price spikes makes Beans less attractive to borrow and price other assets agains
 
 ***
 
-In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of each Season, Beanstalk calculates the sum of the liquidity and time weighted average shortage or excess of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season (i.e., [deltaB](../protocol/glossary.md#deltab)).
+In practice, Beanstalk does not calculate the price of 1 Bean. Instead, at the beginning of each Season, Beanstalk calculates the sum of the time weighted average shortages or excesses of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season (i.e., [deltaB](../protocol/glossary.md#deltab)).
 
 ### **Debt Level**
 
@@ -79,12 +79,12 @@ By excluding Locked Beans from the Bean supply in the L2SR calculation, Beanstal
 
 ### **Bean Supply**
 
-At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a liquidity and time weighted average shortage of Beans across the pools in the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in [EBIP-2](https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk). Essentially, Beanstalk will mint the number of Beans that need to be sold in the pools on the Minting Whitelist to return the Bean price to a dollar.
+At the beginning of each Season, Beanstalk increases the Bean supply by deltaB if there was a time weighted average shortages of Beans across the pools in the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in [EBIP-2](https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk). Essentially, Beanstalk will mint the number of Beans that need to be sold in the pools on the Minting Whitelist to return the Bean price to a dollar.
 
 [Stalkholders](../farm/silo/#the-stalk-system), Pod holders, and [Active Fertilizer](../farm/barn.md#fertilizer) holders receive 1/3 of new Bean mints each while there are [Unfertilized Sprouts](../farm/barn.md#fertilizer) outstanding. If there is no Active Fertilizer, Stalkholders and Pod holders receive 1/2 of new Bean mints each. If there are neither Pods nor Active Fertilizer, Stalkholders receive 100% of new Bean mints.
 
 ### **Soil Supply**
 
-When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the sum of the liquidity and time weighted average excess of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in EBIP-2.
+When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the sum of the time weighted average excesses of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in EBIP-2.
 
 When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for [Soil](../farm/field.md#soil). The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature (see [Morning](temperature.md#morning) section), and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt level decrease the Soil supply. See [Section 8.11 in the whitepaper](https://bean.money/beanstalk.pdf#subsection.8.11) for complete formulas.
