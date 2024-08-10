@@ -104,11 +104,9 @@
 
 * [Commonwealth](https://commonwealth.im/beanstalk/)
 * [Reddit](https://www.reddit.com/r/BeanstalkProtocol/)
-* [Instagram](https://www.instagram.com/beanstalkprotocol/)
 * [TikTok](https://www.tiktok.com/@beanstalkprotocol)
 * [Layer3](https://beta.layer3.xyz/communities/beanstalk)
 * [BeaNFT Twitter](https://twitter.com/beanstalknfts)
-* [BeaNFT Instagram](https://www.instagram.com/beanstalknfts/)
 * [Bean Sprout Snapshot](https://snapshot.org/#/wearebeansprout.eth)
 * [Bean Sprout Twitter](https://twitter.com/WeAreBeanSprout)
 * [Bi-Weekly Bean Newsletter](https://beanstalkfarms.substack.com/)
