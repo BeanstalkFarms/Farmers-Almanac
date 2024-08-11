@@ -390,7 +390,7 @@ Holders of the Stalk token. Stalkholders participate in governance and earn Bean
 
 The component of the Farm that keeps time in [Seasons](glossary.md#season) and incentivizes cost-efficient and timely calling of the [`gm`](glossary.md#gm) function. Read more [here](../farm/sun.md).
 
-### Target Seasons to Catchup
+### Target Seasons to Catch Up
 
 Determines the target number of [Seasons](glossary.md#season) for a new [Deposit](glossary.md#deposit) with an average number of [Seeds](glossary.md#seeds) to catch up to the average [Grown Stalk](glossary.md#grown-stalk) per [BDV](glossary.md#bean-denominated-value) of existing Deposits at the time of Deposit.
 

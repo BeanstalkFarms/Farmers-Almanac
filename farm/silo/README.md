@@ -54,7 +54,7 @@ Seeds generate opportunity cost for Withdrawing assets that have been Deposited 
 
 There are 3 new primary tools that Beanstalk has at its disposal as a result of the Seed Gauge System:
 
-1. The Target Seasons to Catchup, which determines the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per BDV of existing Deposits at the time of Deposit;
+1. The Target Seasons to Catch Up, which determines the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per BDV of existing Deposits at the time of Deposit;
 2. Bean vs LP Seed distribution, or more specifically, the [Bean to Max LP Seed Ratio](../../peg-maintenance/bean-to-max-lp-seed-ratio.md), which determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time; and
 3. LP vs LP Seed distribution, which determines relative benefits of holding a given non-Bean asset in the Silo over time.
 

@@ -12,7 +12,7 @@ There are 3 new primary tools that Beanstalk has at its disposal as a result of 
 
 The Grown Stalk per BDV for a Deposit can be thought of as the age of that Deposit—the longer the Deposit has been in the Silo, the higher its Grown Stalk is relative to its BDV. Thus, the average Grown Stalk per BDV is a measure for how old Deposits are across the entire Silo relative to the total BDV in the Silo.
 
-The Seed Gauge System enables Beanstalk to target an amount of Grown Stalk per BDV that should be issued each Season. In particular, Beanstalk sets the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per BDV of existing Deposits at the time of Deposit, or in other words, the Target Seasons to Catchup. The Target Seasons to Catchup is currently set to 4320 Seasons, or \~6 months.
+The Seed Gauge System enables Beanstalk to target an amount of Grown Stalk per BDV that should be issued each Season. In particular, Beanstalk sets the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per BDV of existing Deposits at the time of Deposit, or in other words, the Target Seasons to Catch Up. The Target Seasons to Catchup is currently set to 4320 Seasons, or \~6 months.
 
 ### **Gauge Points**
 
