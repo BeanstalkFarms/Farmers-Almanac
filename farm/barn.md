@@ -64,7 +64,7 @@ Unripe assets are placed on a vesting schedule in accordance with the success of
 
 #### Ripe Assets <a href="#ripe-assets" id="ripe-assets"></a>
 
-More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets. Ripe Beans and Ripe BEAN:ETH are minted as Fertilizer is sold.
+More specifically, Unripe assets entitle holders to an associated number of underlying Ripe assets. Ripe Beans and Ripe BEAN:wstETH are minted as Fertilizer is sold.
 
 On October 20th, 2023 Ripe BEAN:3CRV LP was migrated to Ripe BEAN:ETH LP. As a result, Unripe BEAN:3CRV LP became Unripe BEAN:ETH LP (with the same token address). See [BIP-38](https://bean.money/bip-38).
 
@@ -72,15 +72,15 @@ On July 26, 2024 Ripe BEAN:ETH LP was migrated to Ripe BEAN:wstETH LP. As a resu
 
 ### **Chopping**
 
-The percentage of Ripe assets that can be claimed by Chopping a pro rata portion of Unripe assets is a function of the percentage of Sprouts that have become Rinsable.
+The percentage of Ripe assets that can be claimed by Chopping a pro rata portion of Unripe assets is a the \[% recapitalization]^2, where the % recapitalization represents the amount of Ripe assets per Unripe.
 
-Chopped Unripe assets are burned. Beans and BEAN:ETH Well LP received for Chopping are distributed from the set of Ripe Beans and Ripe BEAN:ETH Well LP, respectively.
+Chopped Unripe assets are burned. Beans and BEAN:wstETH LP received for Chopping are distributed from the set of Ripe Beans and Ripe BEAN:wstETH LP, respectively.
 
-> For example, if 1M Sprouts have been become Rinsable and there are 10M total Sprouts, then a Farmer who Chops 100 Unripe Beans that correspond to 50 Ripe Beans will get 5 Beans in exchange.
+> For example, if there are 0.22 Ripe Beans for every Unripe Bean, an Unripe Bean can be Chopped in exchange for 0.0484 Ripe Beans.
 
-Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:ETH LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:ETH LP to Unripe Beans in the Silo, while the converse is true of Conversions from Unripe Beans to Unripe BEAN:ETH LP.
+Because Available Fertilizer is a function of how much non-Bean liquidity still needs to be recapitalized, if Available Fertilizer is non-zero and Unripe BEAN:wstETH LP is Chopped, the amount of Available Fertilizer (and thus how much non-Bean liquidity Beanstalk needs to recapitalize) decreases. The same is true of Conversions from Unripe BEAN:wstETH LP to Unripe Beans in the Silo, while the converse is true of Conversions from Unripe Beans to Unripe BEAN:wstETH LP.
 
-> For example, say there’s 50M Available Fertilizer and a Farmer Chops 2M Unripe BEAN:ETH LP in exchange for 1M BEAN:ETH Well LP. If non-Beans make up 50% of the BEAN:ETH Well by dollar value, then 500k less Fertilizer needs to be sold, resulting in 49.5M Available Fertilizer.
+> For example, say there’s 50M Available Fertilizer and a Farmer Chops 2M Unripe BEAN:wstETH LP in exchange for 1M BEAN:wstETH Well LP. If non-Beans make up 50% of the BEAN:wstETH Well by dollar value, then 500k less Fertilizer needs to be sold, resulting in 49.5M Available Fertilizer.
 
 ### **Revitalized Assets**
 

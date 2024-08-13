@@ -18,7 +18,7 @@ Anytime Beanstalk is willing to issue debt, there is Soil in the Field. Soil rep
 
 When Beans are Sown, Beanstalk burns them, permanently removing the Sown Beans from the Bean supply. For example, if there's 10 Soil available and 10 Beans are Sown, the Soil supply becomes 0 and 10 Beans are removed from the Bean supply. If the market is in some sort of equilibrium, Beans are bought to be Sown, which drives the Bean price upward towards its value peg.
 
-When P ≥ 1 (_i.e._, [deltaB](../protocol/glossary.md#deltab) ≥ 0), the Soil supply decreases logarithmically at the beginning of each block in the Morning. When P < 1 (_i.e._, deltaB < 0), Beanstalk sets the Soil supply to deltaB. See the [Soil Supply](../peg-maintenance/overview.md#soil-supply) section.
+When P ≥ 1 (_i.e._, [deltaB](../protocol/glossary.md#deltab) ≥ 0), the Soil supply decreases logarithmically at the beginning of each block in the Morning. When P < 1 (_i.e._, deltaB < 0), Beanstalk sets the Soil supply to the minimum of (1) the deltaB calculated using the instantaneous reserves from [Multi Flow](../peg-maintenance/overview.md#decentralized-price-oracle) and (2) the time-weighted deltaB over the previous Season. See the [Soil Supply](../peg-maintenance/overview.md#soil-supply) section.
 
 ### **Pods**
 
