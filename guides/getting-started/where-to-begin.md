@@ -4,7 +4,7 @@
 
 The [Beanstalk Whitepaper](https://bean.money/beanstalk.pdf) is the authoritative source of protocol documentation while the [Farmers' Almanac](../../) is more accessible.&#x20;
 
-If you prefer audio content, check out the Beanstalk University recordings in the [Beanstalk Learning Center](broken-reference).
+If you prefer audio content, check out the Beanstalk University recordings [here](https://community.bean.money/recordings).
 
 **Ready to use Beans?** Participate in Beanstalk and earn yield through different components of [the Farm](../../farm/overview.md):
 
