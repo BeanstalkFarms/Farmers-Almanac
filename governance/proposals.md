@@ -21,8 +21,7 @@ This page is a comprehensive overview of all proposals types in Beanstalk-relate
 In all proposals where Stalkholders vote:
 
 * A Stalkholder's vote for a given proposal is counted as their Stalk at the beginning of the Voting Period that still exists;
-* 1 Stalk equals 1 vote;
-* Voting Abstain (if applicable) is equivalent to voting Against; and
+* 1 Stalk equals 1 vote; and
 * The proposer must have at least 0.1% of total Stalk at the beginning and end of the Voting Period (including delegated Stalk) in order for the proposal to pass.
 
 Any proposal that proposes for another party to perform work upon, or at any point after, the passage of the proposal must have that party's explicit approval.
@@ -37,7 +36,7 @@ Beanstalk Improvement Proposals, or BIPs, are proposals to:
 * Mint Beans; and/or
 * Change Beanstalk governance.
 
-Any Stalkholder that owns at least 0.1% of total Stalk can propose a BIP. Any Stalkholder can vote For, Abstain or Against (although voting Abstain or Against has the same the effect as not voting).
+Any Stalkholder that owns at least 0.1% of total Stalk can propose a BIP. Any Stalkholder can vote For or Against a BIP.
 
 The Voting Period opens when the Snapshot proposal for a BIP can be voted on and closes after 7 days or when it is committed with a supermajority.
 
