@@ -34,8 +34,6 @@ When there are more than zero Unfertilized Sprouts, 1/3 of new Bean mints are al
 * If Fertilizer still has Sprouts (is owed Bean mints), it’s Active.
 * If Fertilizer has no more Sprouts (is done earning Bean mints), it’s Used.
 
-Fertilizer is tradeable on [OpenSea](https://opensea.io/collection/bean-fertilizer).
-
 When Fertilizer is sold, Beanstalk adds liquidity to the BEAN:wstETH Well at a ratio of 1:0.866616. Adding liquidity at this ratio causes the deltaB in the BEAN:wstETH Well to trend towards the pre-exploit deltaB.
 
 ### **Humidity**

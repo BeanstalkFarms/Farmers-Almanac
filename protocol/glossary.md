@@ -56,7 +56,7 @@ The multisig that custodies the Beanstalk Farms budget funds. Abbreviated as BFM
 
 ### **Beanstalk Farms Subgraph Multisig (BFSM)** <a href="#beanstalk-farms-subgraph-multisig" id="beanstalk-farms-subgraph-multisig"></a>
 
-The multisig that custodies the Beanstalk and Bean subgraphs. Abbreviated as BFSM. Read more [here](../governance/beanstalk-farms/bfsm-dashboard.md).
+The multisig that custodies the Beanstalk and Bean subgraphs. Abbreviated as BFSM. Read more [here](../archives/bfsm-dashboard.md).
 
 ### Beanstalk Immunefi Committee (BIC) <a href="#beanstalk-immunefi-committee" id="beanstalk-immunefi-committee"></a>
 
@@ -73,10 +73,6 @@ A proposal to change Beanstalk. Abbreviated as BIP. Read more [here](../governan
 ### **Beanstalk Operations Proposal (BOP)** <a href="#beanstalk-operations-proposal" id="beanstalk-operations-proposal"></a>
 
 A proposal for having the Beanstalk DAO vote on things other than protocol changes. Abbreviated as BOP. Read more [here](../governance/proposals.md#bop).
-
-### Bean to Max LP Seed Ratio
-
-Determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time. More specifically, the ratio of Seed rewards between Beans and the LP token with the highest Gauge Points per BDV. Adjusted via the Seed Gauge System. Read more [here](../peg-maintenance/bean-to-max-lp-seed-ratio.md).
 
 ### **Cancel**
 
@@ -102,6 +98,10 @@ Changing one [Deposited](glossary.md#deposit) asset for another within the [Silo
 
 The generalized whitelist that determines which [Conversions](glossary.md#convert) within the [Silo](glossary.md#silo) are permitted under certain conditions. Read more [here](../farm/silo/#current-convert-whitelist).
 
+### Crop Ratio
+
+Determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time. More specifically, the ratio of Seed rewards between Beans and the LP token with the highest Gauge Points per BDV. Adjusted via the Seed Gauge System. Read more [here](../peg-maintenance/crop-ratio.md).
+
 ### **deltaB**
 
 The shortage or excess of Beans in a liquidity pool Beans trade in.
@@ -124,11 +124,7 @@ Assets Deposited in the [Silo](glossary.md#silo).
 
 ### **Depot**
 
-The component of the [Farm](glossary.md#farm) that facilitates interactions with other protocols through Beanstalk in a single transaction. Read more [here](../farm/depot.md).
-
-### **Dry Season**
-
-A [Season](glossary.md#season) where no Beans are minted per the peg maintenance mechanism.
+The component of the [Farm](glossary.md#farm) that facilitates interactions with other protocols through Beanstalk in a single transaction. Read more [here](../farm/toolshed/depot.md).
 
 ### **Earned Beans**
 
@@ -184,7 +180,7 @@ If P > 1 over the previous [Season](glossary.md#season) and the [Pod Rate](gloss
 
 ### **Fundraiser**
 
-A mechanism for Beanstalk to issue [Pods](glossary.md#pods) for dollar-pegged assets other than Beans independent of [Soil](glossary.md#soil) minting in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Read more [here](fundraiser.md).
+A mechanism for Beanstalk to issue [Pods](glossary.md#pods) for dollar-pegged assets other than Beans independent of [Soil](glossary.md#soil) minting in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Read more [here](../archives/fundraiser.md).
 
 ### Gauge Points
 
@@ -226,10 +222,6 @@ Represents the Beanstalk liquidity level relative to the Bean supply. The L2SR i
 
 The portion of liquidity in a whitelisted liquidity pool that counts towards the [Liquidity to Supply Ratio](glossary.md#liquidity-to-supply-ratio-l2sr) calculation.
 
-### **Market**
-
-The component of the [Farm](glossary.md#farm) that offers zero-fee trading to anyone on the Ethereum network. Read more [here](../farm/market.md).
-
 ### Maximum Temperature
 
 The maximum [Temperature](glossary.md#temperature) Beanstalk is willing to offer during a [Season](glossary.md#season). Read more [here](../peg-maintenance/temperature.md).
@@ -258,13 +250,9 @@ Fertilizer is paid back on a _pari passu_ basis. Active Fertilizer Fertilizes a 
 
 Temporarily prevent the [`gm`](glossary.md#gm) function call from being accepted. Read more [here](../governance/beanstalk/#pause).
 
-### **Pick**
-
-A one-time action that pre-exploit [Farmers](glossary.md#farmers) take to claim their [non-Deposited](glossary.md#deposited-assets) [Unripe assets](glossary.md#unripe-assets).
-
 ### **Pipeline**
 
-A sandbox contract that can execute an arbitrary number of actions within the EVM from an EOA in a single transaction (see more on the [Pipeline](glossary.md#pipeline) page). Note that this also currently refers to functionality in Beanstalk that is a channel from the [Depot](glossary.md#depot) to another protocol. Pipelines can be added to the Depot via Beanstalk governance. Read more [here](../farm/depot.md).
+A sandbox contract that can execute an arbitrary number of actions within the EVM from an EOA in a single transaction (see more on the [Pipeline](glossary.md#pipeline) page). Note that this also currently refers to functionality in Beanstalk that is a channel from the [Depot](glossary.md#depot) to another protocol. Pipelines can be added to the Depot via Beanstalk governance. Read more [here](../farm/toolshed/depot.md).
 
 ### **Plant**
 
@@ -284,15 +272,15 @@ The order [Pods](glossary.md#pods) will become [Harvestable](glossary.md#harvest
 
 ### **Pod Listing**
 
-An offer to sell [Pods](glossary.md#pods) on the [Pod Market](glossary.md#pod-market). Read more [here](../farm/market.md#pod-listings).
+An offer to sell [Pods](glossary.md#pods) on the [Pod Market](glossary.md#pod-market). Read more [here](../farm/toolshed/market.md#pod-listings).
 
 ### **Pod Market**
 
-The decentralized, trustless market that [Pods](glossary.md#pods) can be bought and sold on. Read more [here](../farm/market.md#the-pod-market).
+The decentralized, trustless market that [Pods](glossary.md#pods) can be bought and sold on. Read more [here](../farm/toolshed/market.md#the-pod-market).
 
 ### **Pod Order**
 
-An order to buy [Pods](glossary.md#pods) on the [Pod Market](glossary.md#pod-market). Read more [here](../farm/market.md#pod-orders).
+An order to buy [Pods](glossary.md#pods) on the [Pod Market](glossary.md#pod-market). Read more [here](../farm/toolshed/market.md#pod-orders).
 
 ### **Pod Rate**
 
@@ -305,10 +293,6 @@ The Beanstalk-native debt asset, redeemable for 1 Bean each once [Ripened](gloss
 ### **Publius**
 
 The pseudonym of Beanstalk’s founders.
-
-### **Rainy Season**
-
-A [Season](glossary.md#season) where Beans are minted per the peg maintenance mechanism.
 
 ### Real Rate of Return (RRoR) <a href="#real-rate-of-return" id="real-rate-of-return"></a>
 
@@ -398,9 +382,17 @@ Determines the target number of [Seasons](glossary.md#season) for a new [Deposit
 
 The interest rate for [Sowing](glossary.md#sow) Beans. Read more [here](../farm/field.md#temperature).
 
+### Toolshed
+
+The Toolshed offers a suite of tools for efficient use of Beanstalk and other Arbitrum-native protocols. Read more [here](../farm/toolshed/).
+
 ### Total Value Deposited (TVD) <a href="#total-value-deposited" id="total-value-deposited"></a>
 
 The value of assets Deposited in the [Silo](glossary.md#silo). Abbreviated as TVD.
+
+### Tractor
+
+A peer-to-peer transaction marketplace that allows third party operators to perform Beanstalk actions on behalf of a Farmer. Read more [here](../farm/toolshed/tractor.md).
 
 ### Transfer
 

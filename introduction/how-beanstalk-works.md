@@ -39,7 +39,7 @@ To encourage consistent security:
 
 Deep and consistent liquidity in liquidity pools that Beans trade in improves stability. Liquidity providers to liquidity pools whose LP tokens are whitelisted can also Deposit their LP tokens in the Silo to earn Stalk and Seeds. At least 1 LP token Deposit type earns at least as many Seeds as Bean Deposits.
 
-The Bean vs LP Seed distribution, or more specifically, the [Bean to Max LP Seed Ratio](../peg-maintenance/bean-to-max-lp-seed-ratio.md), determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time.
+The Bean vs LP Seed distribution, or more specifically, the [Crop Ratio](../peg-maintenance/crop-ratio.md), determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time.
 
 Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance (see [Convert Whitelist](../peg-maintenance/convert.md#convert-whitelist)).
 
@@ -55,13 +55,13 @@ Pods have a fixed interest rate and unknown maturity date. The number of Pods th
 
 Beanstalk requires a diverse set of participants, including Silo Members (people who Deposit assets in the Silo), Sowers (people who lend Beans to Beanstalk), and arbitrageurs. Beanstalk aligns the incentives of every individual participant to maximize price stability and create a diverse, decentralized economy. Beanstalk-native financial incentives consistently increase censorship resistance, stability and liquidity over time.
 
-At the beginning of each Season, the Sun calculates deltaB (the cumulative time-weighted average shortages or excesses of Beans across liquidity pools on the Minting Whitelist), Beanstalk's debt level, the change in demand for Soil over the previous 2 Seasons, and Beanstalk's liquidity level, and dynamically adjusts the Bean supply, Soil supply, Maximum Temperature and the Bean to Max LP Ratio to bring the price back towards the peg.
+At the beginning of each Season, the Sun calculates deltaB (the cumulative time-weighted average shortages or excesses of Beans across liquidity pools on the Minting Whitelist), Beanstalk's debt level, the change in demand for Soil over the previous 2 Seasons, and Beanstalk's liquidity level, and dynamically adjusts the Bean supply, Soil supply, Maximum Temperature and the Crop Ratio to bring the price back towards the peg.
 
 When the price of Bean is too low (_i.e._, deltaB is negative), Beanstalk:
 
 * Increases the Soil supply by deltaB, subject to the cap in [EBIP-2](https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk);
 * Raises the Maximum Temperature; and
-* Adjusts the Bean to Max LP Seed Ratio based on Beanstalk's debt and liquidity levels.
+* Adjusts the Crop Ratio based on Beanstalk's debt and liquidity levels.
 
 By increasing the Soil supply and raising the Maximum Temperature, Beanstalk can decrease the supply of Beans and therefore bring the price of Bean back up to its peg (assuming there are willing lenders at the given Temperature). In principle, a reasonable debt level and consistent credit history attracts lenders.
 
@@ -69,10 +69,10 @@ When the Bean price is too high (_i.e._, deltaB is positive), Beanstalk:
 
 * Increases the Bean supply by deltaB, subject to the cap in EBIP-2;
 * Lowers the Maximum Temperature; and
-* Lowers the Bean to Max LP Seed Ratio.
+* Lowers the Crop Ratio.
 
-By increasing the Bean supply, lowering the Maximum Temperature and lowering the Bean to Max LP Seed Ratio, Beanstalk can bring the price of Bean back down to its peg.
+By increasing the Bean supply, lowering the Maximum Temperature and lowering the Crop Ratio, Beanstalk can bring the price of Bean back down to its peg.
 
 To align the interests of Stalkholders and Sowers, 1/3 of Bean supply increases are distributed to Stalkholders and 1/3 go to Pod Harvests. The other 1/3 are distributed to Active Fertilizer holders as part of Beanstalk’s recapitalization plan after the April 2022 governance exploit (see [Barn](../farm/barn.md) section).
 
-In order to prevent inorganic growth, if the Bean price is too high and the debt level is excessively low for a Season, Beanstalk sells Beans directly each liquidity pool on the [Flood Whitelist](../peg-maintenance/flood.md#flood-whitelist) to return the price in the BEAN:ETH Well to $1.
+In order to prevent inorganic growth, if the Bean price is too high and the debt level is excessively low for a Season, Beanstalk sells Beans directly in the liquidity pools on the [Flood Whitelist](../peg-maintenance/flood.md#flood-whitelist) with the highest deltaB until the cumulative deltaB across all pools is 0.

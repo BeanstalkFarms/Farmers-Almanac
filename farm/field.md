@@ -8,7 +8,7 @@ The Field is Beanstalk's credit facility. Beanstalk relies on a decentralized se
 
 Farmers who Sow Beans (lend Beans to Beanstalk) in exchange for Pods are known as Sowers. The Temperature is the interest rate on Bean loans.
 
-The Morning is the first 25 blocks (5 minutes) of each Season. Beanstalk changes the Soil and Temperature at the beginning of each block of the Morning according to the peg maintenance mechanism.
+The Morning is the first 5 minutes of each Season. Beanstalk changes the Soil and Temperature at the beginning of each block of the Morning according to the peg maintenance mechanism.
 
 For guides on interacting with the Field through the Beanstalk UI, go [here](../guides/field/).
 
@@ -28,7 +28,7 @@ The number of Pods received from 1 Sown Bean is determined by the Temperature at
 
 Pods Ripen into Harvestable Pods that can be Harvested (redeemed) for 1 Bean each on a First In, First Out ([FIFO](../protocol/glossary.md#fifo)) basis. There is no penalty for waiting to Harvest Pods.
 
-Pods are tradeable on the [Pod Market](market.md#the-pod-market). Pods can also be Transferred to another address directly.
+Pods are tradeable on the [Pod Market](toolshed/market.md#the-pod-market). Pods can also be Transferred to another address directly.
 
 ### **Temperature**
 

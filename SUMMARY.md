@@ -3,7 +3,6 @@
 * [Farmers' Almanac](README.md)
 * [Disclosures](disclosures.md)
 * [Whitepaper](https://bean.money/beanstalk.pdf)
-* [Developers](https://docs.bean.money/developers)
 
 ## 🌱 Introduction
 
@@ -18,14 +17,16 @@
   * [Seed Gauge System](farm/silo/seed-gauge-system.md)
 * [Field](farm/field.md)
 * [Barn](farm/barn.md)
-* [Market](farm/market.md)
-* [Depot](farm/depot.md)
+* [Toolshed](farm/toolshed/README.md)
+  * [Depot](farm/toolshed/depot.md)
+  * [Pod Market](farm/toolshed/market.md)
+  * [Tractor](farm/toolshed/tractor.md)
 
 ## ⚖️ Peg Maintenance
 
 * [Overview](peg-maintenance/overview.md)
 * [Temperature](peg-maintenance/temperature.md)
-* [Bean to Max LP Seed Ratio](peg-maintenance/bean-to-max-lp-seed-ratio.md)
+* [Crop Ratio](peg-maintenance/crop-ratio.md)
 * [Convert](peg-maintenance/convert.md)
 * [Flood](peg-maintenance/flood.md)
 
@@ -45,7 +46,6 @@
 * [Beanstalk Farms](governance/beanstalk-farms/README.md)
   * [BFM Dashboard](governance/beanstalk-farms/bfm-dashboard.md)
   * [BFC Dashboard](governance/beanstalk-farms/bfc-dashboard.md)
-  * [BFSM Dashboard](governance/beanstalk-farms/bfsm-dashboard.md)
 * [BeaNFTs](governance/beanfts/README.md)
   * [BDM Dashboard](governance/beanfts/bdm-dashboard.md)
 * [Proposals](governance/proposals.md)
@@ -70,7 +70,6 @@
   * [Transfer Deposits](guides/silo/transfer.md)
   * [Withdraw from the Silo](guides/silo/withdraw.md)
   * [Claim Silo Rewards](guides/silo/claim-rewards.md)
-  * [Migrate to Silo V3](guides/silo/migrate-to-silo-v3.md)
 * [Field](guides/field/README.md)
   * [Sow Beans](guides/field/sow.md)
   * [Transfer Pods](guides/field/transfer.md)
@@ -95,7 +94,6 @@
   * [Vote on Governance Proposals](guides/governance/vote-on-proposals.md)
   * [Delegate Votes](guides/governance/delegate-votes.md)
 * [Unripe Assets](guides/unripe-assets/README.md)
-  * [Pick Unripe Assets](guides/unripe-assets/pick-unripe-assets.md)
   * [Chop Unripe Assets](guides/unripe-assets/chop-unripe-assets.md)
 
 ## 📖 Protocol Resources <a href="#protocol" id="protocol"></a>
@@ -105,7 +103,18 @@
 * [Contracts](protocol/contracts.md)
 * [Audits](protocol/audits.md)
 * [Bug Bounty](protocol/bug-bounty.md)
-* [Fundraiser](protocol/fundraiser.md)
+
+## 🛠️ Developers
+
+* [Introduction](developers/introduction/README.md)
+  * [Development Ethos](developers/introduction/development-ethos.md)
+  * [EIP-2535 Diamond](developers/introduction/eip-2535-diamond.md)
+  * [App Storage](developers/introduction/app-storage.md)
+  * [Internal Balances](developers/introduction/internal-balances.md)
+* [Beanstalk](developers/beanstalk.md)
+* [Upgrade History](developers/upgrade-history.md)
+* [Terminology Discrepancies](developers/terminology-discrepancies.md)
+* [FAQ](developers/faq.md)
 
 ## 🌐 Ecosystem
 
@@ -125,4 +134,6 @@
 
 * [Bean Sprout](archives/bean-sprout/README.md)
   * [BSM Dashboard](archives/bean-sprout/bsm-dashboard.md)
+* [BFSM Dashboard](archives/bfsm-dashboard.md)
 * [Governance Proposals](archives/governance-proposals.md)
+* [Fundraiser](archives/fundraiser.md)

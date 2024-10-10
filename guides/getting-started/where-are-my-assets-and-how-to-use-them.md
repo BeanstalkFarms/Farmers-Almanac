@@ -25,7 +25,7 @@ Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balanc
 * Learn how to [Sow Beans](../field/sow.md) for Pods.
 * If you want to send your Pods to another address, [Transfer Pods](../field/transfer.md).
 * Once your Pods advance in the [Pod Line](../../protocol/glossary.md#pod-line) and become [Harvestable](../../protocol/glossary.md#harvestable-pods), [Harvest Pods](../field/harvest.md).
-* [Buy Pods](../market/buy-pods.md) or [Sell Pods](../market/sell-pods.md) in the [Market](../../farm/market.md).
+* [Buy Pods](../market/buy-pods.md) or [Sell Pods](../market/sell-pods.md) in the [Market](../../farm/toolshed/market.md).
 
 ### Barn
 
@@ -33,7 +33,7 @@ Buy and sell Beans in [Trade Beans](../swap/trade-beans.md) and [Transfer Balanc
 * Once your Sprouts become [Rinsable](../../protocol/glossary.md#rinsable-sprouts), [Rinse Sprouts](../barn/rinse.md).
 * If you want to transfer your Fertilizer to another address, [Transfer Fertilizer](../barn/transfer-fertilizer.md).
 * Learn how to sell Fertilizer on OpenSea in [Trade Fertilizer](../barn/trade-fertilizer.md).
-* Pre-exploit Farmers can [Pick Unripe Assets](../unripe-assets/pick-unripe-assets.md) or [Chop Unripe Assets](../unripe-assets/chop-unripe-assets.md).
+* Pre-exploit Farmers can [Chop Unripe Assets](../unripe-assets/chop-unripe-assets.md).
 
 ### Use Claimable Beans
 

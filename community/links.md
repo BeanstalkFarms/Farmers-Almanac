@@ -45,15 +45,12 @@
 
 * [**Farmers' Almanac** (non-technical docs)](https://docs.bean.money/almanac)
 * [**Beanstalk State Space**](https://bean.money/beanstalk-state-space.pdf)
-* [**Agronomics Handbook** (technical docs)](https://docs.bean.money/developers)
 * [Farmers' Almanac Repo](https://github.com/BeanstalkFarms/Farmers-Almanac)
-* [Agronomics Handbook Repo](https://github.com/BeanstalkFarms/Agronomics-Handbook)
 * [Beanstalk Whitepaper Repo](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper)
 * [Pipeline Whitepaper Repo](https://github.com/BeanstalkFarms/Pipeline-Whitepaper)
 * [Beanstalk Governance Proposals Repo](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/)
 * [Beanstalk Farms Operations Repo](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations)
 * [Beanstalk Brand Assets Repo](https://github.com/BeanstalkFarms/Beanstalk-Brand-Assets)
-* [Fertilizer Metadata](https://fert.bean.money/)
 
 ### Notion
 

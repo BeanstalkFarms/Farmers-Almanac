@@ -1,6 +1,6 @@
 # Transfer Pods
 
-Pods can be [Transferred](../../protocol/glossary.md#transfer) from one address to another directly. Note that Pods can be exchanged in a trustless fashion on [the Pod Market](../../farm/market.md#the-pod-market).
+Pods can be [Transferred](../../protocol/glossary.md#transfer) from one address to another directly. Note that Pods can be exchanged in a trustless fashion on [the Pod Market](../../farm/toolshed/market.md#the-pod-market).
 
 1. Make sure you are on [app.bean.money](https://app.bean.money/) and [connect your wallet](../getting-started/connect-wallet.md).
 2. Navigate to the “Field” page.

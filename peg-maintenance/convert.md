@@ -1,5 +1,9 @@
 # Convert
 
+{% hint style="info" %}
+This page is currently being updated to reflect BIP-50. Coming soon 🌱
+{% endhint %}
+
 Conversions within the [Silo](../farm/silo/) between Bean and LP Deposits serve a major role in peg maintenance.
 
 Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference/).

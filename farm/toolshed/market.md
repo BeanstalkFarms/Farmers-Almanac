@@ -1,14 +1,10 @@
-# Market
+# Pod Market
 
-Current DEXs are unable to attract liquidity without offering protocol-native emissions. The value of these emissions derives primarily from AMM trading fees. Beanstalk's ability to attract liquidity without fee-based emissions allows it to offer DEXs without trading fees.
-
-The Market houses DEXs for zero fee trading. Currently only Pods can be traded on the Market.
-
-For guides on interacting with the Market through the Beanstalk UI, go [here](../guides/market/).
+For guides on interacting with the Market through the Beanstalk UI, go [here](../../guides/market/).
 
 ## **Pods**
 
-[Pods](field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Market. The Market creates liquidity for Pods through an on-chain order book.
+[Pods](../field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Market. The Market creates liquidity for Pods through an on-chain order book.
 
 Sellers can List Pods or Fill open Pod Orders placed by buyers.
 

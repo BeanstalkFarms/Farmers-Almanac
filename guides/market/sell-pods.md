@@ -1,6 +1,6 @@
 # Sell Pods
 
-Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Market](../../farm/market.md#the-pod-market) docs first for an introduction to Pod Market mechanics, [Pod Listings](../../protocol/glossary.md#pod-listing) and [Pod Orders](../../protocol/glossary.md#pod-order).
+Pods can be exchanged in a trustless fashion on the Pod Market. Read the [Pod Market](../../farm/toolshed/market.md#the-pod-market) docs first for an introduction to Pod Market mechanics, [Pod Listings](../../protocol/glossary.md#pod-listing) and [Pod Orders](../../protocol/glossary.md#pod-order).
 
 * [List Pods](sell-pods.md#\_f0v6b16fz4gt)
 * [Fill Pod Order](sell-pods.md#\_ypbvhjlyyqna)

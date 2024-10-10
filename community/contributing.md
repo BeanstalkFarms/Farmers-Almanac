@@ -43,7 +43,6 @@ Documentation around Beanstalk is continually improving and help is more than we
 Leave feedback in the **(#📜・docs-feedback)** channel on the Beanstalk Discord or make a pull request directly to:&#x20;
 
 * the [Farmers' Almanac repository](https://github.com/BeanstalkFarms/Farmers-Almanac);
-* the [Agronomics Handbook repository](https://github.com/BeanstalkFarms/Agronomics-Handbook);
 * the [Beanstalk Whitepaper repository](https://github.com/BeanstalkFarms/Beanstalk-Whitepaper); or
 * the [Pipeline Whitepaper repository](https://github.com/BeanstalkFarms/Pipeline-Whitepaper).
 

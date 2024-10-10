@@ -17,18 +17,17 @@ To be Deposited into the Silo, an ERC-20 standard token must be on the Deposit W
 Additional tokens may be added to the Deposit Whitelist via [Beanstalk governance](../broken-reference/). In order for a token to be added to the Deposit Whitelist, Beanstalk requires:
 
 1. The token address;
-2. A function to calculate the Bean Denominated Value (BDV) of the token (see [Section 14.2 of the whitepaper](https://bean.money/beanstalk.pdf#subsection.14.2) for complete formulas); and
+2. A function to calculate the Bean Denominated Value (BDV) of the token; and
 3. The number of Stalk issued per BDV;
 4. The number of initial Gauge Points (which determine Grown Stalk issuance across various LP tokens);
-5. A function to calculate how the Gauge Points change each Season;
-6. A function to calculate what portion of liquidity counts towards the [Liquidity to Supply Ratio](../../peg-maintenance/overview.md#liquidity-level) calculation (_i.e._, liquidity weight); and
-7. The optimal percentage of Deposited LP BDV.
-
-Deposits are tradeable on [OpenSea](https://opensea.io/collection/silo-deposits).
+5. An oracle for calculating the price on the non-Bean asset in the Well;
+6. A function to calculate how the Gauge Points change each Season;
+7. A function to calculate what portion of liquidity counts towards the [Liquidity to Supply Ratio](../../peg-maintenance/overview.md#liquidity-level) calculation (_i.e._, Liquidity Weight); and
+8. The optimal percentage of Deposited LP BDV.
 
 #### **Current Deposit Whitelist**
 
-<table data-header-hidden><thead><tr><th></th><th width="188.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td>Whitelisted asset</td><td>Stalk per BDV</td><td>Optimal % Deposited LP BDV</td><td>Liquidity weight</td></tr><tr><td><a href="https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab">Bean</a></td><td>1</td><td>N/A</td><td>N/A</td></tr><tr><td><a href="https://etherscan.io/address/0xBEA0e11282e2bB5893bEcE110cF199501e872bAd">BEAN:ETH Well LP</a></td><td>1</td><td>20%</td><td>100%</td></tr><tr><td><a href="https://etherscan.io/address/0xbea0000113b0d182f4064c86b71c315389e4715d">BEAN:wstETH Well</a></td><td>1</td><td>80%</td><td>100%</td></tr><tr><td><a href="https://etherscan.io/address/0x1BEA0050E63e05FBb5D8BA2f10cf5800B6224449">Unripe Bean</a>*</td><td>1</td><td>N/A</td><td>N/A</td></tr><tr><td><a href="https://etherscan.io/address/0x1BEA3CcD22F4EBd3d37d731BA31Eeca95713716D">Unripe BEAN:wstETH LP</a>*</td><td>1</td><td>N/A</td><td>N/A</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="188.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td>Whitelisted asset</td><td>Stalk per BDV</td><td>Optimal % Deposited LP BDV</td><td>Liquidity weight</td></tr><tr><td><a href="https://arbiscan.io/address/0xBEA0005B8599265D41256905A9B3073D397812E4">Bean</a></td><td>1</td><td>N/A</td><td>N/A</td></tr><tr><td><a href="https://arbiscan.io/address/0xBeA00Aa8130aCaD047E137ec68693C005f8736Ce">BEAN:WETH Well</a></td><td>1</td><td>16%</td><td>100%</td></tr><tr><td><a href="https://arbiscan.io/address/0xBEa00BbE8b5da39a3F57824a1a13Ec2a8848D74F">BEAN:wstETH Well</a></td><td>1</td><td>26%</td><td>100%</td></tr><tr><td><a href="https://arbiscan.io/address/0xBeA00Cc9F93E9a8aC0DFdfF2D64Ba38eb9C2e48c">BEAN:weETH Well</a></td><td>1</td><td>14%</td><td>100%</td></tr><tr><td><a href="https://arbiscan.io/address/0xBea00DDe4b34ACDcB1a30442bD2B39CA8Be1b09c">BEAN:WBTC Well</a></td><td>1</td><td>20%</td><td>100%</td></tr><tr><td><a href="https://arbiscan.io/address/0xBea00ee04D8289aEd04f92EA122a96dC76A91bd7">BEAN:USDC Well</a></td><td>1</td><td>12%</td><td>100%</td></tr><tr><td><a href="https://arbiscan.io/address/0xbEA00fF437ca7E8354B174339643B4d1814bED33">BEAN:USDT Well</a></td><td>1</td><td>12%</td><td>100%\</td></tr><tr><td><a href="https://arbiscan.io/address/0x1BEA054dddBca12889e07B3E076f511Bf1d27543">Unripe Bean</a>*</td><td>1</td><td>N/A</td><td>N/A</td></tr><tr><td><a href="https://arbiscan.io/address/0x1BEA059c3Ea15F6C10be1c53d70C75fD1266D788">Unripe LP</a>*</td><td>1</td><td>N/A</td><td>N/A</td></tr></tbody></table>
 
 \*See the [Unripe Assets](../barn.md#unripe-assets) section of the [Barn](../barn.md) page for more info.
 
@@ -55,7 +54,7 @@ Seeds generate opportunity cost for Withdrawing assets that have been Deposited 
 There are 3 new primary tools that Beanstalk has at its disposal as a result of the Seed Gauge System:
 
 1. The Target Seasons to Catch Up, which determines the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per BDV of existing Deposits at the time of Deposit;
-2. Bean vs LP Seed distribution, or more specifically, the [Bean to Max LP Seed Ratio](../../peg-maintenance/bean-to-max-lp-seed-ratio.md), which determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time; and
+2. Bean vs LP Seed distribution, or more specifically, the [Crop Ratio](../../peg-maintenance/crop-ratio.md), which determines the relative benefits of holding Bean exposure vs exposure to at least 1 particular LP token in the Silo over time; and
 3. LP vs LP Seed distribution, which determines relative benefits of holding a given non-Bean asset in the Silo over time.
 
 See [Seed Gauge System](seed-gauge-system.md) section for more information.
@@ -70,7 +69,7 @@ Deposits can be Withdrawn from the Silo at any time. Deposits can be Transferred
 
 ### **Convert**
 
-Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance. Conversions from one Deposited asset to another are permissioned by a Convert Whitelist.&#x20;
+Conversions within the Silo between Bean and LP Deposits serve a major role in peg maintenance. LP Deposits can also be Converted to other LP Deposit types for a potential gain in Stalk and/or Seeds. Conversions from one Deposited asset to another are permissioned by a Convert Whitelist.&#x20;
 
 See [Convert](../../peg-maintenance/convert.md) section for more information.
 

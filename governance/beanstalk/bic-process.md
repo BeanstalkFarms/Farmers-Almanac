@@ -10,7 +10,7 @@ You can read more about the current BIC Members and data on past Beans minted fo
 
 ## Immunefi Program
 
-You can read the full program and submit bug reports on the [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk) page. The latest version of the program approved by the DAO can be found on Arweave [here](https://arweave.net/ddA6z28UiKLkxfAv-VcNPP\_fEcjAZs7jII7iZfgMdu0).
+You can read the full program and submit bug reports on the [Immunefi Bug Bounty Program](https://immunefi.com/bounty/beanstalk) page. The latest version of the program approved by the DAO can be found on Arweave [here](https://arweave.net/IHajdEOSH3UcCy4gEUaSiEqI17-pCHCl\_no3zbC8LPU).
 
 In summary:
 

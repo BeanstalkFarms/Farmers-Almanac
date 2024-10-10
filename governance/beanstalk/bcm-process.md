@@ -6,7 +6,7 @@
 
 The BCM is not intended to have decision making power. Its role is to enact on-chain the decisions Stalkholders make via off-chain voting and review and verify proposals to ensure the suggested changes are truthfully represented.
 
-The BCM is deployed using [Safe](https://safe.global/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration started as 5-of-9 on Ethereum mainnet. Parameters m and n are each ultimately defined by Stalkholders and may evolve in the future via Beanstalk Improvement Proposal (BIP).
+The BCM is deployed using [Safe](https://safe.global/), the most battle-tested multisig contract on Arbitrum. Its m-of-n configuration is 5-of-9. Parameters m and n are each ultimately defined by Stalkholders and may evolve in the future via Beanstalk Improvement Proposal (BIP).
 
 BCM Signers are an [anonymous](bcm-process.md#anonymous-signers) and diverse set of reputable community members and Beanstalk core contributors.
 

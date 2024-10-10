@@ -4,6 +4,6 @@ If you have Beans in your wallet but they do not appear under “Assets” in Me
 
 1. At the bottom of the “Assets” tab in MetaMask, select “import tokens”.
 2. Select the “Custom Token” tab.
-3. Under “Token Contract Address”, enter “0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab”. “Token Symbol” will automatically be filled with “BEAN”.
+3. Under “Token Contract Address”, enter “0xBEA0005B8599265D41256905A9B3073D397812E4”. “Token Symbol” will automatically be filled with “BEAN”.
 4. Select “Add Custom Token”.
 5. Select “Import Tokens”.

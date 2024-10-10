@@ -4,7 +4,7 @@ Active Fertilizer is an ERC-1155 token. ERC-1155 tokens can be traded on OpenSea
 
 ### Buy
 
-1. Go to the [Bean Fertilizer](https://opensea.io/collection/bean-fertilizer) collection on OpenSea and connect your wallet.
+1. Go to the Bean Fertilizer collection on OpenSea and connect your wallet.
 2. Under "Status", check the "Buy Now" checkbox to filter for listed Fertilizer that can be cleared immediately.
    * Fertilizer in this view is grouped by Humidity (i.e. the Season in which it was minted).
 3. Select a given Fertilizer card to view details and buy Fertilizer from the listings.

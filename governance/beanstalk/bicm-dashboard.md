@@ -1,12 +1,14 @@
 # BICM Dashboard
 
-The Beanstalk Immunefi Committee (BIC) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO. BIC members serve as signers on the BICM. The BICM is deployed using Safe. Its m-of-n configuration is currently 4-of-7 on Ethereum mainnet.
+The Beanstalk Immunefi Committee (BIC) has the exclusive ability to determine the categorization and payout of bug bounties in accordance with the bug bounty program structure approved by the DAO. BIC members serve as signers on the BICM. The BICM is deployed using Safe. Its m-of-n configuration is currently 4-of-7 on Arbitrum.
 
 See [BIC Process](bic-process.md) for more information.
 
-**Beanstalk Community Multisig Safe address:** [0x879c8B99430F28C4d297BD479Cd43396b4aCF697](https://etherscan.io/address/0x879c8B99430F28C4d297BD479Cd43396b4aCF697)
+**Beanstalk Community Multisig Safe address:** [0x390b023d316c2e92dd96A9bcC7fAe8dB12A2fBC1](https://arbiscan.io/address/0x390b023d316c2e92dd96A9bcC7fAe8dB12A2fBC1)
 
-{% embed url="https://app.safe.global/transactions/history?safe=eth:0x879c8B99430F28C4d297BD479Cd43396b4aCF697" %}
+{% embed url="https://app.safe.global/transactions/queue?safe=arb1:0x390b023d316c2e92dd96A9bcC7fAe8dB12A2fBC1" %}
+
+
 
 ### **BICM Signers**
 
@@ -28,23 +30,23 @@ The following Farmers serve as backups for the BICM, in no particular order:
 
 Rotating members (to a backup member listed here) on the BIC requires a majority vote of the BIC, for which a Snapshot proposal is not necessary.
 
-| Address                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------- |
-| [0x2CC7554bc906e52e1B39dA62D6271f95e239DF8d](https://etherscan.io/address/0x2CC7554bc906e52e1B39dA62D6271f95e239DF8d)   |
-| [0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB](https://etherscan.io/address/0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB)   |
-| [0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b](https://etherscan.io/address/0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b)   |
-| [0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E](https://etherscan.io/address/0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E)   |
-| [0x8C0AEd103709f44888476f5B5A13E9AAf2831511](https://snapshot.org/#/profile/0x8C0AEd103709f44888476f5B5A13E9AAf2831511) |
-| [0x5f6a6c6E242eDe2020008c4137e239A80590ddF5](https://etherscan.io/address/0x5f6a6c6E242eDe2020008c4137e239A80590ddF5)   |
-| [0x243CbEd862854262eD3d617f7d19277A787A4148](https://etherscan.io/address/0x243CbEd862854262eD3d617f7d19277A787A4148)   |
+| Address                                                                                                              |
+| -------------------------------------------------------------------------------------------------------------------- |
+| [0x2CC7554bc906e52e1B39dA62D6271f95e239DF8d](https://arbiscan.io/address/0x2CC7554bc906e52e1B39dA62D6271f95e239DF8d) |
+| [0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB](https://arbiscan.io/address/0xAbdD39129af9DEAeE7c1Ca3268D69F4850292cAB) |
+| [0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b](https://arbiscan.io/address/0x6e7308fd175b51c4eee8a422a4219d8b9c380a0b) |
+| [0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E](https://arbiscan.io/address/0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E) |
+| [0x8C0AEd103709f44888476f5B5A13E9AAf2831511](https://arbiscan.io/address/0x8C0AEd103709f44888476f5B5A13E9AAf2831511) |
+| [0x5f6a6c6E242eDe2020008c4137e239A80590ddF5](https://arbiscan.io/address/0x5f6a6c6E242eDe2020008c4137e239A80590ddF5) |
+| [0x243CbEd862854262eD3d617f7d19277A787A4148](https://arbiscan.io/address/0x243CbEd862854262eD3d617f7d19277A787A4148) |
 
 ### **Beans Paid**
 
 **Total to Whitehats**: 1,530,350 Beans
 
-**Total to Immunefi**: 138,335 Beans (excluding the annual Immunefi subscription fee beginning after [BIP-41](https://arweave.net/uI_aXutcoWvZajzcSoJOfJNeKCpJ8DcLuPPhR-8NOKk))
+**Total to Immunefi**: 138,335 Beans (excluding the annual Immunefi subscription fee beginning after [BIP-41](https://arweave.net/uI\_aXutcoWvZajzcSoJOfJNeKCpJ8DcLuPPhR-8NOKk))
 
-**Remaining in [Immunefi Vault](https://etherscan.io/address/0x66Efac6e6d58D4058CF017E66a0039315a3eb29C)**: 2,453,000 Beans
+**Remaining in Immunefi Vault**: 2,453,000 Beans
 
 **Bugs found**: 19
 

@@ -10,7 +10,7 @@ Selecting the Bean price displays more detail of the liquidity pools that Beans 
 
 ![](<../../.gitbook/assets/image (1).png>)
 
-Currently, the only liquidity pool is the BEAN:3CRV metapool on Curve. The detail view shows the:
+The detail view shows the:
 
 * USD denominated price of Bean in the liquidity pool;
 * USD denominated total liquidity in the liquidity pool, including non-Bean assets; and

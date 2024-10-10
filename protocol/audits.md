@@ -1,6 +1,12 @@
 # Audits
 
-Codehawks completed its audit of [BIP-45](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/04-06-24-bip-45-codehawks-report.md) on **April 6, 2024**, identifying 8 findings. The final report can be found [here](https://www.codehawks.com/report/clsxlpte900074r5et7x6kh96).
+Codehawks completed its audit of [BIP-50](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/08-09-24-bip-50-codehawks-report.md) on **August 9, 2024**, identifying 8 findings. The final report can be found [here](https://bean.money/08-09-24-bip-50-codehawks-report).
+
+Codehawks completed its audit of [BIP-49](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/05-30-24-bip-49-codehawks-report.md) on **May 30, 2024**, identifying 4 findings. The final report can be found [here](https://bean.money/05-30-24-bip-49-codehawks-report).
+
+Codehawks completed its audit of [BIP-48](https://bean.money/05-04-24-bip-48-codehawks-report) on **May 4, 2024**, identifying 8 findings. The final report can be found [here](https://www.codehawks.com/report/clsxlpte900074r5et7x6kh96).
+
+Codehawks completed its audit of [BIP-45](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/04-06-24-bip-45-codehawks-report.md) on **April 6, 2024**, identifying 8 findings. The final report can be found [here](https://bean.money/04-06-24-bip-45-codehawks-report).
 
 [Cyfrin](https://cyfrin.io/) completed its audit of [BIP-38](https://github.com/BeanstalkFarms/Beanstalk-Audits/blob/main/beanstalk/10-13-23-bip-38-cyfrin-report.pdf) on **October 13, 2023**, identifying 16 findings that were solved or acknowledged prior to the release of the report. The final report can be found [here](https://bean.money/10-13-23-bip-38-cyfrin-report).
 

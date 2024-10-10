@@ -31,9 +31,9 @@ There are a wide variety of opportunities Beanstalk has to compete with for cred
 
 ### Low Friction
 
-Minimizing the cost of using Beans and barriers to the [Farm](broken-reference) maximizes utility for users and appeal to creditors. The [Depot](../farm/depot.md) realizes the full benefits of composability on Ethereum.&#x20;
+Minimizing the cost of using Beans and barriers to the [Farm](broken-reference) maximizes utility for users and appeal to creditors. The [Depot](../farm/toolshed/depot.md) realizes the full benefits of composability on Arbitrum.&#x20;
 
-The [FIFO](../protocol/glossary.md#fifo) Pod Harvest schedule allows smaller [Sowers](../farm/field.md) to participate in peg maintenance and decreases the benefit of large scale price manipulation. The combination of non-expiry, the FIFO Harvest schedule, transferability and a [liquid secondary market](../farm/market.md) enables Sowers to Sow Beans as efficiently as possible.&#x20;
+The [FIFO](../protocol/glossary.md#fifo) Pod Harvest schedule allows smaller [Sowers](../farm/field.md) to participate in peg maintenance and decreases the benefit of large scale price manipulation. The combination of non-expiry, the FIFO Harvest schedule, transferability and a [liquid secondary market](../farm/toolshed/market.md) enables Sowers to Sow Beans as efficiently as possible.&#x20;
 
 By maximizing the efficiency of the Soil market, Beanstalk minimizes its cost to attract creditors, the durations and magnitudes of price deviations below its value peg, and excess Pod issuance.
 

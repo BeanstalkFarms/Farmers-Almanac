@@ -54,8 +54,8 @@ View past governance proposals [here](https://github.com/BeanstalkFarms/Beanstal
  },
  "primaryType": "Vote",
  "message": {
-  "from": "[Ethereum address]",
-  "space": "wearebeansprout.eth",
+  "from": "[Arbitrum address]",
+  "space": "beanstalkdao.eth",
   "timestamp": "1661055899",
   "proposal": "0x7b2d54f3691fa65fc784e3398425d518eab93d233f3ad0abd3d87b572cf5ab2f",
   "choice": "2",

@@ -7,7 +7,7 @@ Beanstalk has four direct peg maintenance tools available:
 1. Increase the [Bean supply](overview.md#bean-supply);
 2. Change the [Soil supply](overview.md#soil-supply);
 3. Change the [Temperature](temperature.md);&#x20;
-4. Change the [Bean to Max LP Seed Ratio](bean-to-max-lp-seed-ratio.md); and
+4. Change the [Crop Ratio](crop-ratio.md); and
 5. Sell Beans ([Flood](flood.md)).
 
 At the beginning of every [Season](../farm/sun.md), Beanstalk evaluates its position (i.e., price, debt level and liquidity level) and current state (i.e., direction and acceleration) with respect to ideal equilibrium, and dynamically adjusts the Bean supply, Soil supply, Temperature and Bean to Max LP Seed Ratio to move closer to ideal equilibrium.
@@ -35,7 +35,7 @@ In practice, maintaining ideal equilibrium is impossible. Deviations from ideal 
 
 Beanstalk's core objective is to oscillate the price of Bean above and below its dollar peg. To do this, Beanstalk must be able to reliably measure the price of a dollar on-chain without trusting a centralized third-party to provide it. A robust, decentralized stablecoin requires a tamper-proof, manipulation-resistant and decentralized price oracle.
 
-The [Multi Flow Pump](https://basin.exchange/multi-flow-pump.pdf) attached to whitelisted Wells is the first Ethereum-native oracle for Ethereum-native data that offers inter-block MEV manipulation resistance in a post-Merge environment. Using Multi Flow, Beanstalk can calculate an inter-block MEV manipulation resistant BEAN:ETH price.
+Using [Multi Flow](https://basin.exchange/multi-flow-pump.pdf), Beanstalk can calculate an inter-block MEV manipulation resistant price in Wells.
 
 #### P > Q
 
@@ -85,8 +85,6 @@ At the beginning of each Season, Beanstalk increases the Bean supply by deltaB i
 
 ### **Soil Supply**
 
-When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to deltaB, the sum of the time weighted average excesses of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in EBIP-2.
-
-When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to the minimum of (1) cumulative deltaB calculated using the instantaneous reserves from Multi Flow and (2) the cumulative TWA deltaB, the sum of the liquidity and time weighted average excess of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in EBIP-2.
+When P < 1 over the previous Season (_i.e._, deltaB < 0), the Soil supply is equal to the minimum of (1) cumulative deltaB calculated using the instantaneous reserves from Multi Flow and (2) the cumulative TWA deltaB, the sum of the time-weighted average excess of Beans across the liquidity pools on the [Minting Whitelist](../farm/sun.md#minting-whitelist) over the previous Season, subject to the cap in EBIP-2.
 
 When P ≥ 1 over the previous Season (_i.e._, deltaB ≥ 0), Beanstalk is still willing to issue debt in order to measure changing demand for [Soil](../farm/field.md#soil). The Soil supply is based on the number of Pods that Ripen and become Harvestable at the beginning of the Season, the Temperature (see [Morning](temperature.md#morning) section), and the Beanstalk debt level. A greater number of Pods Ripening increases the Soil supply. Higher Temperature and debt level decrease the Soil supply. See [Section 8.11 in the whitepaper](https://bean.money/beanstalk.pdf#subsection.8.11) for complete formulas.

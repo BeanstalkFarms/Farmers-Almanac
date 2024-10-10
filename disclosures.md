@@ -1,6 +1,6 @@
 # Disclosures
 
-**Before interacting with Beanstalk, consider reading the following disclosures** **prepared by the Beanstalk DAO. This document can be found on Arweave** [**here**](https://bean.money/disclosures)**.**
+**Before interacting with Beanstalk, consider reading the following disclosures** **prepared by the Beanstalk DAO. This document can be found on Arweave** [**here**](https://arweave.net/T1oQYQu8YSJjRCSwVDatIMIgnaJLKmQrAff70fazPn0)**.**
 
 Interacting with Beanstalk involves many risks. Before interacting with Beanstalk, you should review the relevant documentation to make sure you understand how Beanstalk works, as well as information about the current state of Beanstalk. The Beanstalk DAO has created this set of disclosures to assist in the educational process. These disclosures are not exhaustive. The [Beanstalk whitepaper](https://bean.money/beanstalk.pdf), the [Farmers' Almanac](./), and other Beanstalk resources, as well as participating in the Beanstalk community, can help to understand the protocol. Before participating in the protocol, everyone should do their own research, investigation and analysis.
 
@@ -36,7 +36,7 @@ More information:
 
 Beanstalk did not have a pre-mine, pre-sale or team allocation of any kind. The first 100 Beans were minted when the `init` function was called to deploy Beanstalk.
 
-Beanstalk launched without the need to raise capital. However, after an on-chain governance attack on April 17, 2022 (see [#1](disclosures.md#governance-exploit)), a fundraiser known as the Barn Raise is being used to recapitalize the non-Bean funds stolen in the exploit. The terms offered in the fundraiser are available to any Ethereum address.
+Beanstalk launched without the need to raise capital. However, after an on-chain governance attack on April 17, 2022 (see [#1](disclosures.md#governance-exploit)), a fundraiser known as the Barn Raise is being used to recapitalize the non-Bean funds stolen in the exploit. The terms offered in the fundraiser are available to any Arbitrum address.
 
 More information:
 
@@ -112,7 +112,7 @@ More information:
 
 #### **10. MOST BEANSTALK FUNCTIONS CAN BE ARBITRARILY REMOVED BY HYPERNATIVE, A PROACTIVE THREAT PREVENTION AND REAL-TIME MONITORING PLATFORM. THERE IS NO GUARANTEE THAT FUNCTIONS ARE ONLY REMOVED WHEN APPROPRIATE.** <a href="#hypernative" id="hypernative"></a>
 
-The Beanstalk DAO implemented Hypernative into Beanstalk, a proactive threat prevention and real-time monitoring platform. Hypernative has the ability to remove any Beanstalk function unrelated to the Ethereum Diamond and upgradability of Beanstalk.
+The Beanstalk DAO implemented Hypernative into Beanstalk, a proactive threat prevention and real-time monitoring platform. Hypernative has the ability to remove any Beanstalk function unrelated to the Arbitrum Diamond and upgradability of Beanstalk.
 
 Hypernative introduces significant risks related to security and censorship. There is no guarantee that:
 
@@ -137,13 +137,13 @@ More information:
 * [Whitepaper, Section 5.1, The Stalk System](https://bean.money/beanstalk.pdf#subsection.5.1)
 * [BCM Process](governance/beanstalk/bcm-process.md)
 
-#### **12. A VULNERABILITY IN ETHEREUM COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF ETHEREUM.** <a href="#ethereum-risk" id="ethereum-risk"></a>
+#### **12. A VULNERABILITY IN ETHEREUM OR ARBITRUM COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF ETHEREUM AND ARBITRUM.** <a href="#ethereum-risk" id="ethereum-risk"></a>
 
-Ethereum is the largest smart contract blockchain by market capitalization, total value deposited, and dollar denominated transaction value. In general, open source networks with large amounts of value on them and long track records indicate security, but there is no guarantee. Beanstalk assumes the security of the Ethereum network.
+Ethereum is the largest smart contract blockchain by market capitalization, total value deposited, and dollar denominated transaction value. Arbitrum is the largest L2 on Ethereum by TVL. In general, open source networks with large amounts of value on them and long track records indicate security, but there is no guarantee. Beanstalk assumes the security of Ethereum and Arbitrum.
 
 #### **13. A VULNERABILITY IN BASIN OR ITS COMPONENTS COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF BASIN AND ITS CORRESPONDING COMPONENTS.** <a href="#basin-risk" id="basin-risk"></a>
 
-Beans trade in the BEAN:ETH Well on Basin. The LP token is whitelisted in the Silo and the Well is used by Beanstalk to determine how many Beans and/or Soil to mint. Basin and the corresponding components that Beanstalk uses (the Constant Product Well Function, the Well Implementation, Multi Flow, etc.) were audited by [Halborn](https://halborn.com/), [Cyfrin](https://www.cyfrin.io/) and [Code4rena](https://code4rena.com/). While all are reputable auditors, there is no guarantee that Basin or its components are secure. Beanstalk assumes the security of Basin and its corresponding components.
+Beans trade in Wells on Basin. Well LP tokens are whitelisted in the Silo and used by Beanstalk to determine how many Beans and/or Soil to mint. Basin and the corresponding components that Beanstalk uses (the Constant Product Well Function, the Stable Well Function, the Well Implementation, Multi Flow, etc.) were audited by [Halborn](https://halborn.com/), [Cyfrin](https://www.cyfrin.io/) and [Code4rena](https://code4rena.com/). While all are reputable auditors, there is no guarantee that Basin or its components are secure. Beanstalk assumes the security of Basin and its corresponding components.
 
 More information:
 
@@ -152,19 +152,9 @@ More information:
 * [Basin Whitepaper](https://basin.exchange/basin.pdf)
 * [Multi Flow Pump Whitepaper](https://basin.exchange/multi-flow-pump.pdf)
 
-#### **14. A VULNERABILITY IN UNISWAP V3 COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF UNISWAP V3.** <a href="#uniswap-v3-risk" id="uniswap-v3-risk"></a>
+#### **14. A VULNERABILITY IN PIPELINE COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF PIPELINE.** <a href="#pipeline-risk" id="pipeline-risk"></a>
 
-Beanstalk uses the ETH:USDC and ETH:USDT Uniswap V3 pools to derive the price of a dollar on-chain (see [#18](disclosures.md#oracle-risk)). Uniswap V3 is among the largest Ethereum-native decentralized exchange protocols by volume. In general, open source protocols with large amounts of value on them and long track records indicate security, but there is no guarantee. Beanstalk assumes the security of Uniswap V3.
-
-More information:
-
-* [BIP-37: Basin Integration](https://bean.money/bip-37)
-* [Whitepaper, Section 8.2, Decentralized Price Oracle](https://bean.money/beanstalk.pdf#subsection.8.2)
-* [Decentralized Price Oracle Documentation](peg-maintenance/overview.md#decentralized-price-oracle)
-
-#### **15. A VULNERABILITY IN PIPELINE COULD RESULT IN A LOSS OF FUNDS. BEANSTALK ASSUMES THE SECURITY OF PIPELINE.** <a href="#pipeline-risk" id="pipeline-risk"></a>
-
-Through Beanstalk, users can perform complex, gas-efficient interactions with other Ethereum-native protocols, like Pipeline. Pipeline is a sandbox contract allows anyone to perform an arbitrary series of actions in the EVM in a single transaction.
+Through Beanstalk, users can perform complex, gas-efficient interactions with other Arbitrum-native protocols, like Pipeline. Pipeline is a sandbox contract allows anyone to perform an arbitrary series of actions in the EVM in a single transaction.
 
 Pipeline was audited by Halborn, but there is no guarantee that Pipeline is secure. Beanstalk assumes the security of Pipeline.
 
@@ -174,33 +164,27 @@ More information:
 * [Pipeline Audit Report](https://evmpipeline.org/pipeline-audit-halborn.pdf)
 * [Pipeline Whitepaper](https://evmpipeline.org/pipeline.pdf)
 * [Whitepaper, Section 10, Depot](https://bean.money/beanstalk.pdf#section.10)
-* [Depot Documentation](farm/depot.md)
 
-#### **16. THE BEAN PRICE IS DERIVED FROM THE VALUE OF ASSETS IT TRADES AGAINST IN DECENTRALIZED AMMS. THERE IS NO GUARANTEE ANY OF THESE ASSETS RETAIN VALUE.** <a href="#non-bean-liquidity-risk" id="non-bean-liquidity-risk"></a>
+#### **15. THE BEAN PRICE IS DERIVED FROM THE VALUE OF ASSETS IT TRADES AGAINST IN DECENTRALIZED AMMS. THERE IS NO GUARANTEE ANY OF THESE ASSETS RETAIN VALUE.** <a href="#non-bean-liquidity-risk" id="non-bean-liquidity-risk"></a>
 
 The value of Beans is derived from the non-Bean assets trading against it in decentralized liquidity pools. Each of these assets have their own set of associated risks, unique to the asset. Beanstalk implicitly assumes risk associated with these assets.
 
-#### **17. BECAUSE BEANS DERIVE THEIR VALUE FROM THE ASSETS THEY TRADE AGAINST, AND NOT COLLATERAL, IT IS NOT POSSIBLE FOR ALL BEAN HOLDERS TO EXIT AT A DOLLAR OF VALUE FOR EVERY BEAN.** <a href="#not-all-bean-holders-can-exit-at-a-dollar-of-value" id="not-all-bean-holders-can-exit-at-a-dollar-of-value"></a>
+#### **16. BECAUSE BEANS DERIVE THEIR VALUE FROM THE ASSETS THEY TRADE AGAINST, AND NOT COLLATERAL, IT IS NOT POSSIBLE FOR ALL BEAN HOLDERS TO EXIT AT A DOLLAR OF VALUE FOR EVERY BEAN.** <a href="#not-all-bean-holders-can-exit-at-a-dollar-of-value" id="not-all-bean-holders-can-exit-at-a-dollar-of-value"></a>
 
 Beans are not redeemable for any other asset; they can only be traded for another asset that Beans are trading against. As Bean holders sell their Beans, there is less and less value trading against Beans. Thus, unlike collateralized stablecoins, it is not possible for the Bean supply to scale down to zero with every Bean holder getting a dollar of value for every Bean sold.
 
-#### **18. BEANSTALK REQUIRES TRUSTLESS AND RELIABLE ACCESS TO A MANIPULATION RESISTANT PRICE ORACLE FOR A DOLLAR. BEANSTALK USES A CHAINLINK DATA FEED AND THE ON-CHAIN PRICES OF OTHER STABLECOINS TO DETERMINE THE PRICE OF A DOLLAR. THERE IS RISK ASSOCIATED WITH BOTH OF THESE METHODS THAT CAN COMPROMISE THEIR INTEGRITY AS ACCURATE PRICE ORACLES.** <a href="#oracle-risk" id="oracle-risk"></a>
+#### **17. BEANSTALK REQUIRES TRUSTLESS AND RELIABLE ACCESS TO A MANIPULATION RESISTANT PRICE ORACLE FOR A DOLLAR. BEANSTALK USES A CHAINLINK DATA FEED AND THE ON-CHAIN PRICES OF OTHER STABLECOINS TO DETERMINE THE PRICE OF A DOLLAR. THERE IS RISK ASSOCIATED WITH BOTH OF THESE METHODS THAT CAN COMPROMISE THEIR INTEGRITY AS ACCURATE PRICE ORACLES.** <a href="#oracle-risk" id="oracle-risk"></a>
 
 Beanstalk's core objective is to oscillate the price of a Bean above and below its dollar peg. To do this, Beanstalk must be able to reliably measure the price of a dollar on-chain without trusting a centralized third-party to provide it. A robust, decentralized stablecoin requires a tamper-proof, manipulation resistant and decentralized price oracle.
 
-Beanstalk measures the price of a dollar in each pool on the Minting Whitelist:
-
-* For the BEAN:ETH Well, Beanstalk assumes the price returned by the ETH/USD Chainlink data feed is accurate if it is close enough to either the ETH:USDC Uniswap V3 pool or the ETH:USDT Uniswap V3 pool.
-
-A disruption in the reliability of USDC, USDT, DAI or the ETH/USD Chainlink data feed could impact Bean minting, resulting in adverse consequences for Beanstalk. The Chainlink data feed is inherently centralized.
+A disruption in the reliability of various Chainlink data feeds could impact Bean minting, resulting in adverse consequences for Beanstalk. The Chainlink data feeds are inherently centralized.
 
 More information:
 
 * [Whitepaper, Section 8.2, Decentralized Price Oracle](https://bean.money/beanstalk.pdf#subsection.8.2)
 * [Decentralized Price Oracle Documentation](peg-maintenance/overview.md#decentralized-price-oracle)
-* [ETH/USD Chainlink Data Feed](https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd)
 
-#### **19. BEANSTALK REQUIRES THAT THE GM FUNCTION IS CALLED AT THE TOP OF EACH HOUR ON ETHEREUM. FAILURE TO SUCCESSFULLY INCENTIVIZE THE CALLING OF THE GM FUNCTION COULD HAVE AN ADVERSE AFFECT ON BEANSTALK'S ABILITY TO OSCILLATE THE BEAN PRICE ABOVE AND BELOW ITS PEG.** <a href="#sunrise-incentivization-risk" id="sunrise-incentivization-risk"></a>
+#### **18. BEANSTALK REQUIRES THAT THE GM FUNCTION IS CALLED AT THE TOP OF EACH HOUR ON ARBITRUM. FAILURE TO SUCCESSFULLY INCENTIVIZE THE CALLING OF THE GM FUNCTION COULD HAVE AN ADVERSE AFFECT ON BEANSTALK'S ABILITY TO OSCILLATE THE BEAN PRICE ABOVE AND BELOW ITS PEG.** <a href="#sunrise-incentivization-risk" id="sunrise-incentivization-risk"></a>
 
 Beans and/or Soil are minted upon a successful call of the `gm` function. Beanstalk covers the cost of `gm` by awarding the sender of an accepted `gm` function call with newly minted Beans. The failure of Beanstalk to successfully incentivize the calling of `gm` would effectively result in the failure of Beanstalk to influence the size of the Bean supply, and thereby the Bean price.
 
@@ -209,31 +193,27 @@ More information:
 * [Whitepaper, Section 4, Sun](https://bean.money/beanstalk.pdf#section.4)
 * [Sun Documentation](farm/sun.md)
 
-#### **20. THE BEANSTALK CONTRACTS ARE OPEN SOURCE. ANYONE CAN VIEW THE SOURCE CODE AND ATTEMPT TO FIND VULNERABILITIES.** <a href="#open-source-risk" id="open-source-risk"></a>
+#### **19. THE BEANSTALK CONTRACTS ARE OPEN SOURCE. ANYONE CAN VIEW THE SOURCE CODE AND ATTEMPT TO FIND VULNERABILITIES.** <a href="#open-source-risk" id="open-source-risk"></a>
 
-The Beanstalk contracts are open source and deployed on the Ethereum blockchain. There may be bugs, flaws, or other unintended consequences from using open source code to govern irreversible financial transactions on a decentralized network. These issues may lead to a loss of funds if present and discovered by malicious actors, and has in the past (see [#1](disclosures.md#governance-exploit)).
+The Beanstalk contracts are open source and deployed on Arbitrum. There may be bugs, flaws, or other unintended consequences from using open source code to govern irreversible financial transactions on a decentralized network. These issues may lead to a loss of funds if present and discovered by malicious actors, and has in the past (see [#1](disclosures.md#governance-exploit)).
 
 More information:
 
 * [Beanstalk on GitHub](https://github.com/BeanstalkFarms/Beanstalk)
 
-#### **21. BEANSTALK IS AUDITED BUT AUDITS CANNOT GUARANTEE SECURITY. IT IS ANTICIPATED THAT FUTURE CODE WILL NOT BE AUDITED BEFORE BEING COMMITTED BY THE DAO.** <a href="#audit-risk" id="audit-risk"></a>
+#### **20. BEANSTALK IS AUDITED BUT AUDITS CANNOT GUARANTEE SECURITY. IT IS ANTICIPATED THAT FUTURE CODE WILL NOT BE AUDITED BEFORE BEING COMMITTED BY THE DAO.** <a href="#audit-risk" id="audit-risk"></a>
 
 Security is paramount to Beanstalk's success. Prior to Replant in August 2022, the majority of Beanstalk’s code was audited by Halborn and [Trail of Bits](https://www.trailofbits.com/). Up to May 2024, the majority of new Beanstalk code since Replant was audited by Halborn, Cyfrin and Codehawks. While all are reputable audit firms, there is no guarantee Beanstalk is secure. Beanstalk was audited by [Omniscia](https://omniscia.io/) prior to the April 2022 governance exploit.
 
 In the future, it is anticipated that the DAO will vote to commit unaudited code. There is always additional risk associated with implementing unaudited code.
 
-Halborn has performed a pentest of the Beanstalk UI hosted at [app.bean.money,](https://app.bean.money/) but there is no guarantee that interacting with Beanstalk through the Beanstalk UI is secure. Any issues could lead to a loss of funds.
-
-The Beanstalk SDK is unaudited. There is no guarantee that interacting with Beanstalk through the Beanstalk SDK is secure. Any issues could lead to a loss of funds.
+There is no guarantee that interacting with Beanstalk through the Beanstalk UI and SDK is secure. Any issues could lead to a loss of funds.
 
 More information:
 
 * [Beanstalk Audits](https://github.com/BeanstalkFarms/Beanstalk-Audits)
-* [Beanstalk UI Halborn Report](https://bean.money/10-19-22-beanstalk-ui-halborn-report)
-* [Beanstalk SDK on GitHub](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/sdk)
 
-#### **22. THE APP.BEAN.MONEY FRONTEND CAN BE CENSORED AS IT IS HOSTED ON A CLOUD PROVIDER.** <a href="#closed-source-ui-risk" id="closed-source-ui-risk"></a>
+#### **21. THE APP.BEAN.MONEY FRONTEND CAN BE CENSORED AS IT IS HOSTED ON A CLOUD PROVIDER.** <a href="#closed-source-ui-risk" id="closed-source-ui-risk"></a>
 
 The Beanstalk UI hosted at [app.bean.money](https://app.bean.money/) is hosted on Netlify, a privately held, United States based cloud provider. Netlify could censor the frontend at will, or a technical disruption could prevent access. In either scenario, Beanstalk would not be accessible from a web browser until (1) Beanstalk Farms, the decentralized development organization that manages the site, could deploy the frontend elsewhere, or (2) other parties could use the open source code to deploy their own frontends to interact with the Beanstalk contracts.
 
@@ -244,24 +224,23 @@ More information:
 * [Beanstalk UI on GitHub](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/ui)
 * [Beanstalk Farms Documentation](governance/beanstalk-farms/)
 
-#### **23. THE APP.BEAN.MONEY FRONTEND DEPENDS ON THE SUBGRAPHS FOR DISPLAYING VARIOUS ON-CHAIN DATA. THERE IS NO GUARANTEE THAT SUBGRAPH DATA IS ACCURATE OR AVAILABLE.** <a href="#subgraph-data" id="subgraph-data"></a>
+#### **22. THE APP.BEAN.MONEY FRONTEND DEPENDS ON THE SUBGRAPHS FOR DISPLAYING VARIOUS ON-CHAIN DATA. THERE IS NO GUARANTEE THAT SUBGRAPH DATA IS ACCURATE OR AVAILABLE.** <a href="#subgraph-data" id="subgraph-data"></a>
 
-The Beanstalk UI hosted at [app.bean.money](https://app.bean.money/) depends on the Beanstalk and Bean Subgraphs for displaying various data. The subgraphs are primarily maintained by Beanstalk Farms.
+The Beanstalk UI hosted at [app.bean.money](https://app.bean.money/) depends on the Beanstalk and Bean Subgraphs for displaying various data.
 
-By default the Beanstalk UI uses a version of the subgraph hosted by Beanstalk Farms, which can be censored. The subgraph that the Beanstalk UI uses can be adjusted in the settings.
+By default the Beanstalk UI uses a version of the subgraph hosted on Hetzner, a privately held, Germany based cloud provider. Hetzner could censor the subgraph or a technical disruption could prevent access.
 
 More information:
 
 * [Beanstalk Subgraph on GitHub](https://github.com/BeanstalkFarms/Beanstalk/tree/master/projects/subgraph-beanstalk)
-* [BFSM Dashboard](governance/beanstalk-farms/bfsm-dashboard.md)
 
-#### **24. REGULATORY INTEREST IN STABLECOINS AND DECENTRALIZED FINANCE WILL RESULT IN NEW INDUSTRY REGULATIONS. THE IMPACT OF FUTURE REGULATIONS ON BEANSTALK IS UNCERTAIN.** <a href="#regulatory-risk" id="regulatory-risk"></a>
+#### **23. REGULATORY INTEREST IN STABLECOINS AND DECENTRALIZED FINANCE WILL RESULT IN NEW INDUSTRY REGULATIONS. THE IMPACT OF FUTURE REGULATIONS ON BEANSTALK IS UNCERTAIN.** <a href="#regulatory-risk" id="regulatory-risk"></a>
 
 In alignment with the ethos of DeFi, Beanstalk has been designed to be permissionless and censorship resistant, without the requirement for any trust-providing intermediary.
 
 It is unclear what regulations, if any, governments will attempt to impose on DeFi. Therefore, it is impossible to predict how any new government regulations of DeFi will affect Beanstalk, or any of the protocols or networks Beanstalk relies on as part of its ecosystem.
 
-#### **25. BEANSTALK IS NOT A FINISHED PROTOCOL AND REQUIRES ONGOING DEVELOPMENT. THERE IS NO GUARANTEE OF FURTHER DEVELOPMENT.** <a href="#regulatory-risk" id="regulatory-risk"></a>
+#### **24. BEANSTALK IS NOT A FINISHED PROTOCOL AND REQUIRES ONGOING DEVELOPMENT. THERE IS NO GUARANTEE OF FURTHER DEVELOPMENT.** <a href="#regulatory-risk" id="regulatory-risk"></a>
 
 Beanstalk is likely not at a point where it can sustain itself in perpetuity without additional development of itself and the surrounding ecosystem. High quality improvements are essential but are not guaranteed.
 
