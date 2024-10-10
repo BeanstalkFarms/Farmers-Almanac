@@ -30,7 +30,7 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). Y
 
 ### Hypernative
 
-<table><thead><tr><th width="214">Contract</th><th>Address</th></tr></thead><tbody><tr><td><a href="https://arweave.net/2enPPzc5mkN18bXnApmCJNRkxwYc-CiCsU71XPualj4">Hypernative Module</a></td><td>TBD</td></tr><tr><td><a href="https://arweave.net/2enPPzc5mkN18bXnApmCJNRkxwYc-CiCsU71XPualj4">Hypernative Response Wallet</a></td><td><a href="https://arbiscan.io/address/0x5F0F0860DF2714f708B4a3C221C36658E3627203">0x5F0F0860DF2714f708B4a3C221C36658E3627203</a></td></tr></tbody></table>
+<table><thead><tr><th width="214">Contract</th><th>Address</th></tr></thead><tbody><tr><td><a href="https://arweave.net/2enPPzc5mkN18bXnApmCJNRkxwYc-CiCsU71XPualj4">Hypernative Module</a></td><td><a href="https://arbiscan.io/address/0xbBAd3c5D8B87Fd485c48d6Da7599FBBE33A079fe">0xbBAd3c5D8B87Fd485c48d6Da7599FBBE33A079fe</a></td></tr><tr><td><a href="https://arweave.net/2enPPzc5mkN18bXnApmCJNRkxwYc-CiCsU71XPualj4">Hypernative Response Wallet</a></td><td><a href="https://arbiscan.io/address/0x5F0F0860DF2714f708B4a3C221C36658E3627203">0x5F0F0860DF2714f708B4a3C221C36658E3627203</a></td></tr></tbody></table>
 
 ### Ecosystem
 
