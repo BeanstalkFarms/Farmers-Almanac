@@ -1,6 +1,8 @@
-# Governance Proposals
+# Governance Proposals (June 2023)
 
+{% hint style="info" %}
 This page is a comprehensive overview of all proposals types in Beanstalk-related governance as of June 2023.
+{% endhint %}
 
 ## Table of Contents
 

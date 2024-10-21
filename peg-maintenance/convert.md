@@ -1,9 +1,5 @@
 # Convert
 
-{% hint style="info" %}
-This page is currently being updated to reflect BIP-50. Coming soon 🌱
-{% endhint %}
-
 Conversions within the [Silo](../farm/silo/) between Bean and LP Deposits serve a major role in peg maintenance.
 
 Conversions from one Deposited asset to another are permissioned by a Convert Whitelist. Conversions can be added or removed from the Convert Whitelist via [Beanstalk governance](broken-reference/).
@@ -27,7 +23,7 @@ Additional Conversions may be added to the Convert Whitelist via [Beanstalk gove
 
 #### Current Convert Whitelist
 
-<table><thead><tr><th width="217.33333333333331">From token</th><th width="219">To token</th><th>Conditions</th></tr></thead><tbody><tr><td>Any token on the Deposit Whitelist*</td><td>The same token as From token</td><td>Anytime</td></tr><tr><td>Unripe token</td><td>Underlying token</td><td>Anytime</td></tr><tr><td>BEAN:3CRV LP</td><td>Bean</td><td>deltaB in the BEAN:3CRV pool &#x3C; 0</td></tr><tr><td>Unripe Bean</td><td>Unripe BEAN:wstETH LP</td><td>deltaB in the BEAN:wstETH Well > 0</td></tr><tr><td>Unripe BEAN:wstETH LP</td><td>Unripe Bean</td><td>deltaB in the BEAN:wstETH Well &#x3C; 0</td></tr><tr><td>Bean</td><td>BEAN:ETH LP</td><td>deltaB in the BEAN:ETH Well > 0</td></tr><tr><td>BEAN:ETH LP</td><td>Bean</td><td>deltaB in the BEAN:ETH Well &#x3C; 0</td></tr><tr><td>Bean</td><td>BEAN:wstETH LP</td><td>deltaB in the BEAN:wstETH Well > 0</td></tr><tr><td>BEAN:wstETH LP</td><td>Bean</td><td>deltaB in the BEAN:wstETH Well &#x3C; 0</td></tr></tbody></table>
+<table><thead><tr><th width="217.33333333333331">From token</th><th width="219">To token</th><th>Conditions</th></tr></thead><tbody><tr><td>Any token on the Deposit Whitelist*</td><td>The same token as From token</td><td>Anytime</td></tr><tr><td>Unripe token</td><td>Underlying token</td><td>Anytime</td></tr><tr><td>Unripe Bean</td><td>Unripe BEAN:wstETH LP</td><td>deltaB in the BEAN:wstETH Well > 0</td></tr><tr><td>Unripe BEAN:wstETH LP</td><td>Unripe Bean</td><td>deltaB in the BEAN:wstETH Well &#x3C; 0</td></tr><tr><td>Bean</td><td>Whitelisted Well LP token</td><td>deltaB in the given Well > 0</td></tr><tr><td>Whitelisted Well LP token</td><td>Bean</td><td>deltaB in the given Well &#x3C; 0</td></tr></tbody></table>
 
 \*Any token on the [Deposit Whitelist](../farm/silo/#deposit-whitelist) can be Converted to the same token in order to allow Stalkholders to update the BDV of their LP tokens when their BDV increases due to impermanent loss.
 
@@ -36,3 +32,19 @@ Additional Conversions may be added to the Convert Whitelist via [Beanstalk gove
 Convert functionality was first added in [BIP-7](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-07-convert.md), and generalized to support a Convert Whitelist in [BIP-21](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-21-replant.md). Since BIP-7 was committed, Conversions by Stalkholders have played a significant role in peg maintenance.
 
 <figure><img src="../.gitbook/assets/convert.png" alt=""><figcaption><p>This screenshot of the Bean price chart is from September 12, 2022. See <a href="https://app.bean.money/#/analytics">app.bean.money</a> for the latest data.</p></figcaption></figure>
+
+### Generalized Convert
+
+With the introduction of Generalized Convert in [BIP-50](https://bean.money/bip-50), which supports LP token -> LP token Converts as well as Converts against peg (with an associated Stalk penalty). A per-block Convert cap mechanism protects against flash loan attacks.
+
+#### Stalk Penalty
+
+Generalized Convert introduced the ability to Convert against peg and a Stalk penalty for doing so. The penalty applies a 100% reduction in Grown Stalk of the Converted Deposit based on the amount that was Converted against peg.
+
+> For example, if 20 BDV is Converted, and only 10 of the BDV Converted is against peg, then 50% of the Grown Stalk associated with Deposit will be burned. No penalty is applied if the Convert brings the cumulative deltaB closer to 0.
+
+#### Convert Capacity
+
+To prevent flash loan attacks that allow Converting against peg without incurring the Stalk penalty, a Convert capacity mechanism was introduced.
+
+Every Convert updates the amount of BDV Converted per block on a per Well and overall basis. The total capacity available before a penalty applies is based on deltaB for each corresponding Well and the overall deltaB.

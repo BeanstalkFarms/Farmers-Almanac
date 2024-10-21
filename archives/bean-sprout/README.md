@@ -1,5 +1,9 @@
 # Bean Sprout
 
+{% hint style="info" %}
+Bean Sprout is currently inactive.
+{% endhint %}
+
 Bean Sprout is a Beanstalk accelerator program to facilitate rapid development on and around Beanstalk in a decentralized fashion. Bean Sprout is responsible for the incubation of [Root](https://roottoken.org/).
 
 ### Funding

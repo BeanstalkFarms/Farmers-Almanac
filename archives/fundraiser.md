@@ -1,10 +1,8 @@
 # Fundraiser
 
-{% embed url="https://drive.google.com/file/d/1MZFsxgFfVBmvC-AVLLm1ch42r2ZfapeD/view?usp=share_link" %}
-Publius explains Fundraisers
-{% endembed %}
-
-\[ARCHIVED. Fundraisers were removed in BIP-50.]
+{% hint style="info" %}
+Fundraisers were removed in [BIP-50](https://bean.money/bip-50).
+{% endhint %}
 
 Fundraisers allow Beanstalk to issue Pods in exchange for dollar-pegged assets other than Beans and independent of the [Soil minting schedule](../peg-maintenance/overview.md#soil-supply) in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Doing so in a way that does not directly affect Beanstalk’s normal peg maintenance model is ideal. Fundraisers are created via [Beanstalk governance](../governance/beanstalk/).
 

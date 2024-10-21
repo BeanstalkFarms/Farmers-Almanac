@@ -123,6 +123,5 @@
 
 * [Bean Sprout](archives/bean-sprout/README.md)
   * [BSM Dashboard](archives/bean-sprout/bsm-dashboard.md)
-* [BFSM Dashboard](archives/bfsm-dashboard.md)
-* [Governance Proposals](archives/governance-proposals.md)
+* [Governance Proposals (June 2023)](archives/governance-proposals.md)
 * [Fundraiser](archives/fundraiser.md)

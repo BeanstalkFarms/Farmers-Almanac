@@ -12,7 +12,7 @@ On April 17, 2022, Beanstalk was attacked via on-chain governance resulting in a
 
 Shortly after the attack, Beanstalk was Paused and on-chain governance was removed. Since the attack, governance votes have taken place on Snapshot. Beanstalk is now owned by a community-run multisig wallet (the Beanstalk Community Multisig, or BCM) responsible for executing the will of the DAO as indicated via Snapshot vote. The keys to the BCM are custodied by a group of nine anonymous Beanstalk community members and contributors. All contract changes under the BCM structure require the signature of 5-of-9 BCM signers. This serves as a temporary security measure until either (1) a secure and fully decentralized governance mechanism has been developed and sufficiently audited, or (2) governance is removed altogether.&#x20;
 
-The [old Bean token](https://etherscan.io/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) was replaced with another token on Ethereum, which was then replaced with the latest Bean token on Arbitrum. The obsolete tokens have no value according to Beanstalk.
+The [old Bean token](https://etherscan.io/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) was replaced with [another token on Ethereum](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab), which was then replaced with [the latest Bean token on Arbitrum](https://arbiscan.io/address/0xBEA0005B8599265D41256905A9B3073D397812E4). The obsolete tokens have no value according to Beanstalk.
 
 More information:
 
@@ -203,7 +203,7 @@ More information:
 
 #### **20. BEANSTALK IS AUDITED BUT AUDITS CANNOT GUARANTEE SECURITY. IT IS ANTICIPATED THAT FUTURE CODE WILL NOT BE AUDITED BEFORE BEING COMMITTED BY THE DAO.** <a href="#audit-risk" id="audit-risk"></a>
 
-Security is paramount to Beanstalk's success. Prior to Replant in August 2022, the majority of Beanstalk’s code was audited by Halborn and [Trail of Bits](https://www.trailofbits.com/). Up to May 2024, the majority of new Beanstalk code since Replant was audited by Halborn, Cyfrin and Codehawks. While all are reputable audit firms, there is no guarantee Beanstalk is secure. Beanstalk was audited by [Omniscia](https://omniscia.io/) prior to the April 2022 governance exploit.
+Security is paramount to Beanstalk's success. Prior to Replant in August 2022, the majority of Beanstalk’s code was audited by Halborn and [Trail of Bits](https://www.trailofbits.com/). Up to October 2024, the majority of new Beanstalk code since Replant has been audited by Halborn, Cyfrin and Codehawks. While all are reputable audit firms, there is no guarantee Beanstalk is secure. Beanstalk was audited by [Omniscia](https://omniscia.io/) prior to the April 2022 governance exploit.
 
 In the future, it is anticipated that the DAO will vote to commit unaudited code. There is always additional risk associated with implementing unaudited code.
 
