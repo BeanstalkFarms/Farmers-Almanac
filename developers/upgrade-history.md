@@ -1,3 +1,0 @@
-# Upgrade History
-
-Coming soon 🌱

@@ -34,7 +34,7 @@ Beanstalk is a [ERC-2535 Diamond](https://bean.money/blog/beanstalk-eip-2535). Y
 
 ### Ecosystem
 
-<table><thead><tr><th width="229">Contract</th><th>Address</th></tr></thead><tbody><tr><td><a href="https://basin.exchange/">Basin</a></td><td>See <a href="https://docs.basin.exchange/resources/contracts">Basin Docs</a></td></tr><tr><td><a href="https://evmpipeline.org/">Pipeline</a></td><td><a href="https://arbiscan.io/address/0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0">0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0</a></td></tr><tr><td><a href="https://evmpipeline.org/">Depot</a></td><td><a href="https://arbiscan.io/address/0xDEb0f0dEEc1A29ab97ABf65E537452D1B00A619c">0xDEb0f0dEEc1A29ab97ABf65E537452D1B00A619c</a></td></tr></tbody></table>
+<table><thead><tr><th width="229">Contract</th><th>Address</th></tr></thead><tbody><tr><td><a href="https://basin.exchange/">Basin</a></td><td>See <a href="https://docs.basin.exchange/resources/contracts">Basin Docs</a></td></tr><tr><td><a href="https://evmpipeline.org/">Pipeline</a></td><td><a href="https://arbiscan.io/address/0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0">0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0</a></td></tr><tr><td><a href="https://evmpipeline.org/">Depot</a></td><td><a href="https://arbiscan.io/address/0xdeb0f082ed3b0efe9257aea9f2e6e974aa4120c3">0xdeb0f082ed3b0efe9257aea9f2e6e974aa4120c3</a></td></tr></tbody></table>
 
 ### Misc. <a href="#misc" id="misc"></a>
 

@@ -12,7 +12,7 @@ On April 17, 2022, Beanstalk was attacked via on-chain governance resulting in a
 
 Shortly after the attack, Beanstalk was Paused and on-chain governance was removed. Since the attack, governance votes have taken place on Snapshot. Beanstalk is now owned by a community-run multisig wallet (the Beanstalk Community Multisig, or BCM) responsible for executing the will of the DAO as indicated via Snapshot vote. The keys to the BCM are custodied by a group of nine anonymous Beanstalk community members and contributors. All contract changes under the BCM structure require the signature of 5-of-9 BCM signers. This serves as a temporary security measure until either (1) a secure and fully decentralized governance mechanism has been developed and sufficiently audited, or (2) governance is removed altogether.&#x20;
 
-The [old Bean token](https://etherscan.io/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) was replaced with a [new one](https://etherscan.io/address/0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab). The obsolete token has no value according to Beanstalk.
+The [old Bean token](https://etherscan.io/token/0xdc59ac4fefa32293a95889dc396682858d52e5db) was replaced with another token on Ethereum, which was then replaced with the latest Bean token on Arbitrum. The obsolete tokens have no value according to Beanstalk.
 
 More information:
 

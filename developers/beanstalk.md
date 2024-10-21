@@ -1,3 +1,0 @@
-# Beanstalk
-
-Coming soon 🌱

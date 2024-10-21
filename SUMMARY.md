@@ -2,6 +2,7 @@
 
 * [Farmers' Almanac](README.md)
 * [Disclosures](disclosures.md)
+* [Developers](https://docs.bean.money/developers)
 * [Whitepaper](https://bean.money/beanstalk.pdf)
 
 ## 🌱 Introduction
@@ -103,18 +104,6 @@
 * [Contracts](protocol/contracts.md)
 * [Audits](protocol/audits.md)
 * [Bug Bounty](protocol/bug-bounty.md)
-
-## 🛠️ Developers
-
-* [Introduction](developers/introduction/README.md)
-  * [Development Ethos](developers/introduction/development-ethos.md)
-  * [EIP-2535 Diamond](developers/introduction/eip-2535-diamond.md)
-  * [App Storage](developers/introduction/app-storage.md)
-  * [Internal Balances](developers/introduction/internal-balances.md)
-* [Beanstalk](developers/beanstalk.md)
-* [Upgrade History](developers/upgrade-history.md)
-* [Terminology Discrepancies](developers/terminology-discrepancies.md)
-* [FAQ](developers/faq.md)
 
 ## 🌐 Ecosystem
 

@@ -19,8 +19,7 @@ You can find an overview of why Beanstalk was created here:
 
 Beanstalk is an experiment. Before interacting with Beanstalk, consider reading the [Disclosures](disclosures.md) prepared by the DAO.
 
-* If you are looking for technical documentation, go [here](broken-reference).
-* If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [Beanstalk whitepaper](https://bean.money/beanstalk.pdf) (currently being updated to reflect the migration to Arbitrum).
+* If you are looking for complete formulas behind the different mechanisms of Beanstalk, check out the [Beanstalk whitepaper](https://bean.money/beanstalk.pdf) (being updated to reflect [BIP-50](https://bean.money/bip-50) and the migration to Arbitrum).
 * If you have any other questions while browsing the Farmers' Almanac, join the [Beanstalk Discord](https://discord.gg/beanstalk) and ask in the **(#❓・questions)** channel!
 
 Please share any feedback on the Farmers' Almanac in the **(#📜・docs-feedback)** channel in Discord. You can submit a pull request to the Farmers' Almanac yourself [here](https://github.com/BeanstalkFarms/Farmers-Almanac).
@@ -34,5 +33,4 @@ Please share any feedback on the Farmers' Almanac in the **(#📜・docs-feedbac
 * [Governance](governance/beanstalk/)
 * [Glossary](protocol/glossary.md)
 * [Contracts](protocol/contracts.md)
-* [Technical Documentation](broken-reference)
 * [Other Links](community/links.md)

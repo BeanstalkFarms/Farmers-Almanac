@@ -8,7 +8,7 @@ The Field is Beanstalk's credit facility. Beanstalk relies on a decentralized se
 
 Farmers who Sow Beans (lend Beans to Beanstalk) in exchange for Pods are known as Sowers. The Temperature is the interest rate on Bean loans.
 
-The Morning is the first 5 minutes of each Season. Beanstalk changes the Soil and Temperature at the beginning of each block of the Morning according to the peg maintenance mechanism.
+The Morning is the first 5 minutes of each Season. Beanstalk changes the Soil and Temperature throughout the Morning according to the peg maintenance mechanism.
 
 For guides on interacting with the Field through the Beanstalk UI, go [here](../guides/field/).
 
