@@ -32,7 +32,7 @@
 ### Analytics
 
 * [**Beanstalk UI Analytics Page**](https://app.bean.money/#/analytics)
-* [**Beanstalk Farms Dune**](https://dune.com/beanstalkfarmsteam/beanstalk)
+* [**Beanstalk Farms Dune**](https://dune.com/beanstalkfarms/beanstalk)
 * [Beanstalk Dashboard](https://dashboard.bean.money/)
 
 #### Listings
