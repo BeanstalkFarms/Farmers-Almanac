@@ -124,7 +124,7 @@ The component of the [Farm](glossary.md#farm) that facilitates interactions with
 
 ### **Earned Beans**
 
-Beans that have been paid to a [Silo Member](glossary.md#silo-members) since the last [Season](glossary.md#season) the Silo Member [Planted](glossary.md#plant) their [Plantable Seeds](glossary.md#plantable-seeds). Upon Plant, Earned Beans are [Deposited](glossary.md#deposit) in the current Season. Earned Beans are distributed 10 blocks (2 minutes) after a successful `gm` function call.
+Beans that have been paid to a [Silo Member](glossary.md#silo-members) since the last [Season](glossary.md#season) the Silo Member [Planted](glossary.md#plant) their [Plantable Seeds](glossary.md#plantable-seeds). Upon Plant, Earned Beans are [Deposited](glossary.md#deposit).
 
 ### **Earned Stalk**
 
@@ -172,11 +172,7 @@ Match a [Pod Listing](glossary.md#pod-listing) with an overlapping [Pod Order](g
 
 ### **Flood**
 
-If P > 1 over the previous [Season](glossary.md#season) and the [Pod Rate](glossary.md#pod-rate) is less than 5%, there is a Flood. At the beginning of a Season where it Floods, Beanstalk mints additional Beans and sells them directly on Curve.
-
-### **Fundraiser**
-
-A mechanism for Beanstalk to issue [Pods](glossary.md#pods) for dollar-pegged assets other than Beans independent of [Soil](glossary.md#soil) minting in order to raise funds to facilitate payments in other currencies (e.g., to cover the cost of an audit). Read more [here](../archives/fundraiser.md).
+If P > 1 over the previous [Season](glossary.md#season) and the [Pod Rate](glossary.md#pod-rate) is less than 5%, there is a Flood. At the beginning of a Season where it Floods, Beanstalk mints additional Beans and sells them in Wells on the [Flood Whitelist](../peg-maintenance/flood.md).
 
 ### Gauge Points
 
