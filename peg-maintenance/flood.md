@@ -4,7 +4,7 @@ Beanstalk sells newly minted Beans on the open market during long run increases 
 
 At the beginning of a [Season](../farm/sun.md), if it is currently Raining (the previous Season P > 1), and the [Pod Rate](overview.md#debt-level) is less than 5%, it Floods at the beginning of the next Season.
 
-At the beginning of a Season during a Flood, Beanstalk Beanstalk mints additional Beans and sells them directly in pools on the Flood Whitelist with the highest shortage of Beans at the end of the previous Season. Liquidity pools can be added to and removed from the Flood Whitelist via [Beanstalk governance](../governance/beanstalk/). Proceeds from the sale are distributed to Stalkholders at the beginning of Season in proportion to their Stalk holdings when it began to Rain. At the beginning of each Season in which it Floods, up to 0.1% of the Bean supply worth of Pods that grew from Beans Sown before it began to Rain Ripen and become Harvestable.
+At the beginning of a Season during a Flood, Beanstalk mints additional Beans and sells them directly in pools on the Flood Whitelist with the highest shortage of Beans at the end of the previous Season. Liquidity pools can be added to and removed from the Flood Whitelist via [Beanstalk governance](../governance/beanstalk/). Proceeds from the sale are distributed to Stalkholders at the beginning of Season in proportion to their Stalk holdings when it began to Rain. At the beginning of each Season in which it Floods, up to 0.1% of the Bean supply worth of Pods that grew from Beans Sown before it began to Rain Ripen and become Harvestable.
 
 #### Current Flood Whitelist
 
