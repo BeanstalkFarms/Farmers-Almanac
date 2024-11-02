@@ -86,6 +86,7 @@
   * [Sell Pods](guides/market/sell-pods.md)
 * [Balances](guides/balances/README.md)
   * [Understand My Balances](guides/balances/understand-my-balances.md)
+  * [Migrate to Arbitrum](guides/balances/migrate-to-arbitrum.md)
 * [BeaNFTs](guides/beanfts/README.md)
   * [Mint BeaNFTs](guides/beanfts/mint-beanfts.md)
 * [Swap](guides/swap/README.md)

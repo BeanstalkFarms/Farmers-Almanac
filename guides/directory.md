@@ -52,6 +52,7 @@ The Beanstalk UI facilitates easy, fee efficient use of Beanstalk. The following
 ### Balances
 
 * [Understand My Balances](balances/understand-my-balances.md)
+* [Migrate to Arbitrum](balances/migrate-to-arbitrum.md)
 
 ### BeaNFTs
 
