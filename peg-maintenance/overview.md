@@ -10,7 +10,7 @@ Beanstalk has five direct peg maintenance tools available:
 4. Change the [Crop Ratio](crop-ratio.md); and
 5. Sell Beans ([Flood](flood.md)).
 
-At the beginning of every [Season](../farm/sun.md), Beanstalk evaluates its position (i.e., price, debt level and liquidity level) and current state (i.e., direction and acceleration) with respect to ideal equilibrium, and dynamically adjusts the Bean supply, Soil supply, Temperature and Bean to Max LP Seed Ratio to move closer to ideal equilibrium.
+At the beginning of every [Season](../farm/sun.md), Beanstalk evaluates its position (i.e., price, debt level and liquidity level) and current state (i.e., direction and acceleration) with respect to ideal equilibrium, and dynamically adjusts the Bean supply, Soil supply, Temperature and Crop Ratio to move closer to ideal equilibrium.
 
 [Conversions](convert.md) within the [Silo](../farm/silo/) between Bean and LP Deposits serve a major role in peg maintenance.
 
@@ -23,9 +23,9 @@ Beanstalk is in ideal equilibrium when the Bean price, the debt level and liquid
 3. The Beanstalk liquidity level is optimal; and
 4. Demand for Soil is steady.
 
-In order to return to ideal equilibrium, Beanstalk affects the supply of and demand for Beans in response to the Bean price, the Beanstalk debt level, the Beanstalk liquidity level and changing demand for Soil. It does so by adjusting the Bean supply, Soil supply, Temperature and Bean to Max LP Seed Ratio.
+In order to return to ideal equilibrium, Beanstalk affects the supply of and demand for Beans in response to the Bean price, the Beanstalk debt level, the Beanstalk liquidity level and changing demand for Soil. It does so by adjusting the Bean supply, Soil supply, Temperature and Crop Ratio.
 
-Bean supply increases primarily affect the Bean price. Soil supply impacts the Bean supply and the debt level. Temperature changes primarily affect demand for Soil. Bean to Max LP Seed Ratio changes primarily affect demand for Conversions.
+Bean supply increases primarily affect the Bean price. Soil supply impacts the Bean supply and the debt level. Temperature changes primarily affect demand for Soil. Crop Ratio changes primarily affect demand for Conversions.
 
 In order to make the proper adjustments, Beanstalk reassesses the states of both the Bean and Soil markets at the beginning of each Season.
 
