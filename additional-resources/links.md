@@ -4,7 +4,6 @@
 * [Beanstalk UI](https://app.bean.money/)
 * [Blog](https://bean.money/blog)
 * [Whitepaper](https://bean.money/docs/beanstalk.pdf)
-* [Discord](https://discord.gg/beanstalk)
 * [Farmers' Almanac](https://docs.bean.money/)
 * [\[WIP\] Technical Documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk)
 * [CoinGecko](https://www.coingecko.com/en/coins/bean)
