@@ -3,7 +3,6 @@
 * [**Website**](https://bean.money/)
 * [**Beanstalk UI**](https://app.bean.money/)
 * [**Whitepaper**](https://bean.money/beanstalk.pdf)
-* [**Discord**](https://discord.gg/beanstalk)
 * [**GitHub**](https://github.com/BeanstalkFarms)
 * [**Beanstalk State Space**](https://bean.money/beanstalk-state-space.pdf)
 * [Blog](https://bean.money/blog)
