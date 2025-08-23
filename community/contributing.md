@@ -16,7 +16,7 @@ Become a [Stalkholder](../protocol/glossary.md#stalkholders) and participate in 
 
 Read more about [Beanstalk governance](../governance/beanstalk/) and the various[ proposals](../governance/proposals.md).&#x20;
 
-Each governance proposal has a channel for discussion on the [Beanstalk Discord](https://discord.gg/beanstalk).
+Each governance proposal has a channel for discussion on the Beanstalk Discord.
 
 ### Building with Beanstalk and Beans
 
