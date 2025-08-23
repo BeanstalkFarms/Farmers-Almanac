@@ -75,7 +75,6 @@
 
 ### Social
 
-* [**Beanstalk Discord**](https://discord.gg/beanstalk)
 * [**Beanstalk Twitter**](https://twitter.com/beanstalkmoney)
 * [**Beanstalk Farms Twitter**](https://twitter.com/BeanstalkFarms)
 * [Beanstalk Farms YouTube](https://www.youtube.com/@BeanstalkFarms)
