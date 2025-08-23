@@ -15,4 +15,4 @@ If you prefer audio content, check out the Beanstalk University recordings [here
 
 **Returning to Beanstalk as a pre-exploit Farmer?** Your pre-exploit assets regain value in accordance with the success of the [Barn Raise](../../protocol/glossary.md#barn-raise) and growth of the Bean supply thereafter. Learn more [about the Barn](../../farm/barn.md) and how to [Enroot your Revitalized Stalk and Seeds](../silo/claim-rewards.md#enroot).
 
-**Have questions?** [Join our Discord](https://discord.gg/beanstalk) for anything not covered in the Farmers' Almanac!
+**Have questions?** Join our Discord for anything not covered in the Farmers' Almanac!
