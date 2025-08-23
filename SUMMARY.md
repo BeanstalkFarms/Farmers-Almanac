@@ -113,7 +113,6 @@
 
 ## 🏫 Community Resources <a href="#community" id="community"></a>
 
-* [Discord](https://discord.gg/beanstalk)
 * [Notion](https://community.bean.money/)
 * [Contributing](community/contributing.md)
 * [Discord Roles](community/discord-roles.md)
